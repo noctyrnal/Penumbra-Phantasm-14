@@ -1,0 +1,4 @@
+﻿- type: tile
+  parent: Plating
+  id: PenumbraPlating
+  sprite: /Textures/_Penumbra/Tiles/plating.png
