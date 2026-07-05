@@ -1,9 +1,22 @@
 ﻿- type: entity
   parent: Airlock
   id: PenumbraAirlock
+  suffix: Penumbra
   components:
   - type: Sprite
     sprite: _Penumbra/Structures/Doors/Airlocks/Standard/basic.rsi
+    snapCardinals: false
+  - type: IconSmooth
+    key: doors
+    mode: NoSprite
+
+- type: entity
+  parent: AirlockGlass
+  id: PenumbraAirlockGlass
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Glass/basic.rsi
     snapCardinals: false
   - type: IconSmooth
     key: doors
