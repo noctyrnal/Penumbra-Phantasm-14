@@ -1,0 +1,37 @@
+- type: entity
+  parent: PenumbraBaseWindow
+  id: PenumbraWindowMetal
+  name: window
+  description: Don't smudge up the glass down there.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Windows/metal.rsi
+    state: window0
+  - type: Icon
+    sprite: _Penumbra/Structures/Windows/metal.rsi
+    state: window0
+  - type: IconSmooth
+    key: windows
+    additionalKeys:
+    - doors
+    base: window
+    mode: CardinalFlags
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WindowShatter
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlass:
+            min: 1
+            max: 2
+      - !type:ChangeConstructionNodeBehavior
+        node: penumbraWindowFrameMetal
+  - type: Construction
+    graph: PenumbraWindowMetal
+    node: penumbraWindowMetal

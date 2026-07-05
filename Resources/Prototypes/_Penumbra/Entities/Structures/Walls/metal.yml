@@ -1,0 +1,17 @@
+- type: entity
+  parent: WallSolid
+  id: PenumbraWallMetal
+  name: solid wall
+  desc: test
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Walls/metal.rsi
+  - type: Icon
+    sprite: _Penumbra/Structures/Walls/metal.rsi
+  - type: IconSmooth
+    key: walls
+    additionalKeys:
+    - windows
+    - doors
+    base: metal
