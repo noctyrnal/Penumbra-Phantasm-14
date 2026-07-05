@@ -1,0 +1,10 @@
+﻿- type: entity
+  parent: Airlock
+  id: PenumbraAirlock
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Standard/basic.rsi
+    snapCardinals: false
+  - type: IconSmooth
+    key: doors
+    mode: NoSprite
