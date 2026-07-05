@@ -1,0 +1,53 @@
+- type: entity
+  parent: [BaseDeltaPressureGlass, BaseStructure]
+  id: PenumbraBaseWindow
+  name: window
+  description: Don't smudge up the glass down there.
+  suffix: Penumbra
+  abstract: true
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wall
+  components:
+  - type: Transform
+    anchored: true
+  - type: MeleeSound
+    soundGroups:
+      Brute:
+        collection: GlassSmack
+  - type: Tag
+    tags:
+      - Window
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Damageable
+    damageModifierSet: Glass
+  - type: Injurable
+    damageContainer: StructuralInorganic
+  - type: ExaminableDamage
+    messages: WindowMessages
+  - type: Repairable
+  - type: Airtight
+  - type: InteractionPopup
+    interactDelay: 10
+    interactSuccessString: comp-window-knock
+    messagePerceivedByOthers: comp-window-knock
+    interactSuccessSound:
+      path: /Audio/Effects/glass_knock.ogg
+      params:
+        variation: 0.125
+  - type: Appearance
+  - type: StaticPrice
+    price: 100
+  - type: BlockWeather

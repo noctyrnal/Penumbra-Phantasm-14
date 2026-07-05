@@ -1,0 +1,49 @@
+- type: constructionGraph
+  id: PenumbraWindowMetal
+  start: start
+  graph:
+  - node: start # not currently buildable
+
+  - node: penumbraWindowFrameMetal
+    entity: PenumbraWindowFrameMetal
+    edges:
+    - to: start
+      completed:
+      - !type:SpawnPrototype
+        prototype: SheetSteel1
+        amount: 2
+      - !type:DeleteEntity
+      conditions:
+      - !type:EntityAnchored {}
+      steps:
+      - tool: Anchoring
+        doAfter: 2
+        duplicateConditions: All
+
+    - to: penumbraWindowMetal
+      completed:
+      - !type:SnapToGrid
+        southRotation: true
+      conditions:
+      - !type:EntityAnchored {}
+      steps:
+      - material: Glass
+        amount: 2
+        doAfter: 2
+
+  - node: penumbraWindowMetal
+    entity: PenumbraWindowMetal
+    edges:
+    - to: penumbraWindowFrameMetal
+      completed:
+      - !type:SnapToGrid
+        southRotation: true
+      - !type:SpawnPrototype
+        prototype: SheetGlass1
+        amount: 2
+      conditions:
+      - !type:EntityAnchored {}
+      steps:
+      - tool: Screwing
+      - tool: Prying
+      - tool: Screwing
