@@ -25,12 +25,58 @@
   - PlatingRCD
   - FloorHullReinforced
 
+# Metal
+
 - type: tile
   parent: PenumbraBaseShipTile
   id: PenumbraFloorMetal
   name: penumbra-tiles-metal-floor
   sprite: /Textures/_Penumbra/Tiles/Metal/metal.png
   itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraFloorMetal
+  id: PenumbraFloorMetalMono
+  sprite: /Textures/_Penumbra/Tiles/Metal/metal_mono.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraFloorMetal
+  id: PenumbraFloorMetalLines
+  sprite: /Textures/_Penumbra/Tiles/Metal/metal_lines.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraFloorMetal
+  id: PenumbraFloorMetalMini
+  sprite: /Textures/_Penumbra/Tiles/Metal/metal_mini.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraFloorMetal
+  id: PenumbraFloorMetalBricks
+  sprite: /Textures/_Penumbra/Tiles/Metal/metal_bricks.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraFloorMetal
+  id: PenumbraFloorMetalTech
+  sprite: /Textures/_Penumbra/Tiles/Metal/metal_tech.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraFloorMetal
+  id: PenumbraFloorMetalTechAlt
+  sprite: /Textures/_Penumbra/Tiles/Metal/metal_tech_alt.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraFloorMetal
+  id: PenumbraFloorMetalSurrogate
+  sprite: /Textures/_Penumbra/Tiles/Metal/metal_surrogate.png
+  itemDrop: FloorTileItemSteel
+
+# Dark
 
 - type: tile
   parent: PenumbraBaseShipTile
@@ -40,8 +86,58 @@
   itemDrop: FloorTileItemSteel
 
 - type: tile
+  parent: PenumbraFloorDarkMetal
+  id: PenumbraFloorDarkMetalMono
+  sprite: /Textures/_Penumbra/Tiles/Metal/dark_mono.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraFloorDarkMetal
+  id: PenumbraFloorDarkMetalLines
+  sprite: /Textures/_Penumbra/Tiles/Metal/dark_lines.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraFloorDarkMetal
+  id: PenumbraFloorDarkMetalMini
+  sprite: /Textures/_Penumbra/Tiles/Metal/dark_mini.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraFloorDarkMetal
+  id: PenumbraFloorDarkMetalBricks
+  sprite: /Textures/_Penumbra/Tiles/Metal/dark_bricks.png
+  itemDrop: FloorTileItemSteel
+
+# White
+
+- type: tile
   parent: PenumbraBaseShipTile
-  id: PenumbraFloorWhiterMetal
+  id: PenumbraFloorWhiteMetal
   name: penumbra-tiles-white-metal-floor
   sprite: /Textures/_Penumbra/Tiles/Metal/white.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraFloorWhiteMetal
+  id: PenumbraFloorWhiteMetalMono
+  sprite: /Textures/_Penumbra/Tiles/Metal/white_mono.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraFloorWhiteMetal
+  id: PenumbraFloorWhiteMetalLines
+  sprite: /Textures/_Penumbra/Tiles/Metal/white_lines.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraFloorWhiteMetal
+  id: PenumbraFloorWhiteMetalMini
+  sprite: /Textures/_Penumbra/Tiles/Metal/white_mini.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraFloorWhiteMetal
+  id: PenumbraFloorWhiteMetalBricks
+  sprite: /Textures/_Penumbra/Tiles/Metal/white_bricks.png
   itemDrop: FloorTileItemSteel

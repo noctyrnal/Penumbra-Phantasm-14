@@ -2,3 +2,7 @@
   parent: Plating
   id: PenumbraPlating
   sprite: /Textures/_Penumbra/Tiles/plating.png
+
+- type: tile
+  parent: Lattice
+  id: PenumbraLattice
