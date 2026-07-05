@@ -28,6 +28,20 @@
 - type: tile
   parent: PenumbraBaseShipTile
   id: PenumbraFloorMetal
-  name: tiles-steel-floor
+  name: penumbra-tiles-metal-floor
   sprite: /Textures/_Penumbra/Tiles/Metal/metal.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraBaseShipTile
+  id: PenumbraFloorDarkMetal
+  name: penumbra-tiles-dark-metal-floor
+  sprite: /Textures/_Penumbra/Tiles/Metal/dark.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraBaseShipTile
+  id: PenumbraFloorWhiterMetal
+  name: penumbra-tiles-white-metal-floor
+  sprite: /Textures/_Penumbra/Tiles/Metal/white.png
   itemDrop: FloorTileItemSteel

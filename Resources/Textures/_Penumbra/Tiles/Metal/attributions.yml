@@ -2,3 +2,13 @@
   license: "CC-BY-SA-4.0"
   copyright: "Sprites by github noctyrnal"
   source: "https://github.com/Penumbra-Phantasm/Penumbra-Phantasm-14"
+
+- files: ["dark.png"]
+  license: "CC-BY-SA-4.0"
+  copyright: "Sprites by github noctyrnal"
+  source: "https://github.com/Penumbra-Phantasm/Penumbra-Phantasm-14"
+
+- files: ["white.png"]
+  license: "CC-BY-SA-4.0"
+  copyright: "Sprites by github noctyrnal"
+  source: "https://github.com/Penumbra-Phantasm/Penumbra-Phantasm-14"
