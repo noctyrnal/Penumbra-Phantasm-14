@@ -1,7 +1,9 @@
-﻿- type: entity
+﻿# Basic
+
+- type: entity
   parent: Airlock
   id: PenumbraAirlock
-  suffix: Penumbra
+  suffix: Penumbra, Solid
   components:
   - type: Sprite
     sprite: _Penumbra/Structures/Doors/Airlocks/Standard/basic.rsi
@@ -13,7 +15,7 @@
 - type: entity
   parent: AirlockGlass
   id: PenumbraAirlockGlass
-  suffix: Penumbra
+  suffix: Penumbra, Glass
   components:
   - type: Sprite
     sprite: _Penumbra/Structures/Doors/Airlocks/Glass/basic.rsi
@@ -21,3 +23,46 @@
   - type: IconSmooth
     key: doors
     mode: NoSprite
+
+- type: entity
+  parent: PenumbraAirlockGlass
+  id: PenumbraAirlockGlassFull
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Glass/glass.rsi
+
+# Maintenance
+
+- type: entity
+  parent: PenumbraAirlock
+  id: PenumbraAirlockMaint
+  suffix: Penumbra, Solid, Maint, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Standard/maintenance.rsi
+
+- type: entity
+  parent: PenumbraAirlockMaint
+  id: PenumbraAirlockMaintLocked
+  suffix: Penumbra, Solid, Maint, Maintenance Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMaintenance ]
+
+- type: entity
+  parent: PenumbraAirlockGlass
+  id: PenumbraAirlockGlassMaint
+  suffix: Penumbra, Glass, Maint, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Glass/maintenance.rsi
+
+- type: entity
+  parent: PenumbraAirlockGlassMaint
+  id: PenumbraAirlockGlassMaintLocked
+  suffix: Penumbra, Glass, Maint, Maintenance Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMaintenance ]
