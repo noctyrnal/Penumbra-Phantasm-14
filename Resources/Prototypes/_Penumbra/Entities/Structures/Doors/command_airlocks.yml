@@ -1,1 +1,43 @@
-﻿
+﻿# Command
+
+- type: entity
+  parent: PenumbraAirlock
+  id: PenumbraAirlockCommand
+  suffix: Penumbra, Solid, Command, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Standard/command.rsi
+  - type: WiresPanelSecurity
+    securityLevel: medSecurity
+  - type: Wires
+    layoutId: AirlockCommand
+
+- type: entity
+  parent: PenumbraAirlockCommand
+  id: PenumbraAirlockCommandLocked
+  suffix: Penumbra, Solid, Command, Command Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCommand ]
+
+- type: entity
+  parent: PenumbraAirlockGlass
+  id: PenumbraAirlockGlassCommand
+  suffix: Penumbra, Glass, Command, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Glass/command.rsi
+  - type: WiresPanelSecurity
+    securityLevel: medSecurity
+  - type: Wires
+    layoutId: AirlockCommand
+
+- type: entity
+  parent: PenumbraAirlockGlassCommand
+  id: PenumbraAirlockGlassCommandLocked
+  suffix: Penumbra, Glass, Command, Command Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCommand ]
