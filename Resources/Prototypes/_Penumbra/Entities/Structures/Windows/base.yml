@@ -31,6 +31,8 @@
         - FullTileMask
         layer:
         - GlassLayer
+  - type: PlacementReplacement
+    key: walls
   - type: Damageable
     damageModifierSet: Glass
   - type: Injurable

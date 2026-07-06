@@ -1,0 +1,85 @@
+# Base
+
+- type: entity
+  parent: BaseWall
+  id: PenumbraWallAsteroidBase
+  name: rock
+  description: A large chunk of dense rock.
+  suffix: Penumbra
+  abstract: true
+  components:
+  - type: MiningScannerViewable
+  - type: Damageable
+    damageModifierSet: Rock
+  - type: Injurable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 120
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Effects/break_stone.ogg
+          params:
+            volume: -6
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+        density: 2000
+
+- type: entity
+  parent: PenumbraWallAsteroidBase
+  id: PenumbraWallAsteroid
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Walls/asteroid.rsi
+    color: "#a2a4ab"
+  - type: Icon
+    sprite: _Penumbra/Structures/Walls/asteroid.rsi
+    color: "#a2a4ab"
+  - type: IconSmooth
+    key: walls
+    additionalKeys:
+    - windows
+    - doors
+    base: rock
+
+- type: entity
+  parent: PenumbraWallAsteroid
+  id: PenumbraWallAsteroidMining
+  suffix: Penumbra, higher ore yield .33
+  components:
+  - type: OreVein
+    oreChance: 0.33
+    oreRarityPrototypeId: RandomOreDistributionStandard
+
+# Desert
+
+- type: entity
+  parent: PenumbraWallAsteroid
+  id: PenumbraWallAsteroidDesert
+  components:
+  - type: Sprite
+    color: "#b48f68"
+  - type: Icon
+    color: "#b48f68"
+
+- type: entity
+  parent: PenumbraWallAsteroidDesert
+  id: PenumbraWallAsteroidDesertMining
+  suffix: Penumbra, higher ore yield .33
+  components:
+  - type: OreVein
+    oreChance: 0.33
+    oreRarityPrototypeId: RandomOreDistributionStandard

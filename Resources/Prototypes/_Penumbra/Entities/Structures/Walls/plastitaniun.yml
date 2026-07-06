@@ -1,0 +1,36 @@
+- type: entity
+  parent: WallPlastitaniumIndestructible
+  id: PenumbraWallPlastitaniumIndestructible
+  suffix: Penumbra, Indestructible
+  description: A huge chunk of plastitanium used to separate rooms. This one seems impossible to break.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Walls/plastitanium.rsi
+  - type: Icon
+    sprite: _Penumbra/Structures/Walls/plastitanium.rsi
+  - type: IconSmooth
+    key: walls
+    additionalKeys:
+    - windows
+    - doors
+    base: metal
+
+- type: entity
+  parent: PenumbraWallPlastitaniumIndestructible
+  id: PenumbraWallPlastitanium
+  suffix: Penumbra
+  description: A huge chunk of plastitanium used to separate rooms.
+  components:
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          Girder:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
