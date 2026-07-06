@@ -25,6 +25,8 @@
   - PlatingRCD
   - FloorHullReinforced
 
+# TODO PENUMBRA - itemDrops
+
 # Metal
 
 - type: tile
@@ -74,6 +76,12 @@
   parent: PenumbraFloorMetal
   id: PenumbraFloorMetalSurrogate
   sprite: /Textures/_Penumbra/Tiles/Metal/metal_surrogate.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraFloorMetal
+  id: PenumbraFloorMetalDirty
+  sprite: /Textures/_Penumbra/Tiles/Metal/metal_dirty.png
   itemDrop: FloorTileItemSteel
 
 # Dark

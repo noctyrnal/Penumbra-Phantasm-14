@@ -4,5 +4,11 @@
   sprite: /Textures/_Penumbra/Tiles/plating.png
 
 - type: tile
+  parent: PenumbraPlating
+  id: PenumbraAsteroidPlating
+  name: penumbra-asteroid-plating
+  sprite: /Textures/_Penumbra/Tiles/asteroid_plating.png
+
+- type: tile
   parent: Lattice
   id: PenumbraLattice

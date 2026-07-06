@@ -1,0 +1,4 @@
+- files: ["grass.png, grass_double_edge_n.png, grass_double_edge_e.png, grass_double_edge_w.png, grass_double_edge_s.png, grass_single_edge_ne.png, grass_single_edge_nw.png, grass_single_edge_se.png, grass_single_edge_sw.png"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Sprites taken from cm-ss13"
+  source: "https://github.com/cmss13-devs/cmss13/blob/master/icons/turf/floors/auto_strata_grass.dmi"

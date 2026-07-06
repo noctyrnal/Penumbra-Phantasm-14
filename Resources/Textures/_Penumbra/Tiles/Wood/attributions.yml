@@ -1,0 +1,9 @@
+- files: ["wood_template.png, wood_damaged_template.png, wood.png, wood_maple.png, wood_damaged.png, wood_damaged_maple.png"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Sprites taken from shiptest-ss13, Modified by github noctyrnal"
+  source: "https://github.com/shiptest-ss13/Shiptest/blob/0e6f7fa64649dfbf52b8e4b71756e6625e50fdd0/icons/turf/wood.dmi"
+
+- files: ["wood_hatch_template.png, wood_hatch.png, wood_hatch_maple.png"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Sprites taken from shiptest-ss13, Modified by github noctyrnal"
+  source: "https://github.com/shiptest-ss13/Shiptest/blob/58a7ef0973f27ce5cba31eb80beb8217a524672c/icons/turf/floors/suns.dmi"
