@@ -1,0 +1,71 @@
+# TODO PENUMBRA - itemDrops
+
+# Metal
+
+- type: tile
+  parent: PenumbraBaseShipTile
+  id: PenumbraFloorMetalBar
+  name: penumbra-tiles-bar-floor
+  sprite: /Textures/_Penumbra/Tiles/Styled/bar.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraBaseShipTile
+  id: PenumbraFloorMetalKitchen
+  name: penumbra-tiles-kitchen-floor
+  sprite: /Textures/_Penumbra/Tiles/Styled/kitchen.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraBaseShipTile
+  id: PenumbraFloorFreezer
+  name: penumbra-tiles-freezer-floor
+  sprite: /Textures/_Penumbra/Tiles/Styled/freezer.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraBaseShipTile
+  id: PenumbraFloorShowroom
+  name: penumbra-tiles-showroom-floor
+  sprite: /Textures/_Penumbra/Tiles/Styled/showroomfloor.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraBaseShipTile
+  id: PenumbraFloorMetalLaundry
+  name: penumbra-tiles-laundry-floor
+  sprite: /Textures/_Penumbra/Tiles/Styled/laundry.png
+  itemDrop: FloorTileItemSteel
+
+# Astro-turf
+
+- type: tile
+  parent: PenumbraBaseShipTile
+  id: PenumbraFloorAstroGrass
+  name: penumbra-tiles-astro-grass
+  sprite: /Textures/_Penumbra/Tiles/planet/Grass/grass.png
+  variants: 8
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  edgeSpritePriority: 1
+  edgeSprites:
+    SouthEast: /Textures/_Penumbra/Tiles/planet/Grass//grass_single_edge_se.png
+    NorthEast: /Textures/_Penumbra/Tiles/planet/Grass//grass_single_edge_ne.png
+    NorthWest: /Textures/_Penumbra/Tiles/planet/Grass//grass_single_edge_nw.png
+    SouthWest: /Textures/_Penumbra/Tiles/planet/Grass//grass_single_edge_sw.png
+    South: /Textures/_Penumbra/Tiles/planet/Grass//grass_double_edge_s.png
+    East: /Textures/_Penumbra/Tiles/planet/Grass//grass_double_edge_e.png
+    North: /Textures/_Penumbra/Tiles/planet/Grass//grass_double_edge_n.png
+    West: /Textures/_Penumbra/Tiles/planet/Grass//grass_double_edge_w.png
+  isSubfloor: false
+  deconstructTools: [ Cutting ]
+  footstepSounds:
+    collection: FootstepGrass
+  itemDrop: FloorTileItemAstroGrass

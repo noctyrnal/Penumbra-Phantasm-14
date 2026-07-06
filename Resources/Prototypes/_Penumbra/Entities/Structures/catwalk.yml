@@ -1,0 +1,9 @@
+- type: entity
+  parent: Catwalk
+  id: PenumbraCatwalk
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/catwalk.rsi
+  - type: Icon
+    sprite: _Penumbra/Structures/catwalk.rsi

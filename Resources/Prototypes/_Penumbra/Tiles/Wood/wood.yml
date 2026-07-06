@@ -1,0 +1,53 @@
+# TODO PENUMBRA - itemDrops
+
+# Wood
+
+- type: tile
+  parent: PenumbraBaseShipTile
+  id: PenumbraFloorWood
+  name: penumbra-tiles-wood-floor
+  sprite: /Textures/_Penumbra/Tiles/Wood/wood.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraFloorWood
+  id: PenumbraFloorWoodDamaged
+  name: penumbra-tiles-wood-damage-floor
+  sprite: /Textures/_Penumbra/Tiles/Wood/wood_damaged.png
+  itemDrop: FloorTileItemSteel
+  variants: 7
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+
+- type: tile
+  parent: PenumbraFloorWood
+  id: PenumbraFloorWoodHatch
+  name: penumbra-tiles-wood-hatch-floor
+  sprite: /Textures/_Penumbra/Tiles/Wood/wood_hatch.png
+  itemDrop: FloorTileItemSteel
+
+# Maple
+
+- type: tile
+  parent: PenumbraFloorWood
+  id: PenumbraFloorWoodMaple
+  sprite: /Textures/_Penumbra/Tiles/Wood/wood_maple.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraFloorWoodDamaged
+  id: PenumbraFloorWoodMapleDamaged
+  sprite: /Textures/_Penumbra/Tiles/Wood/wood_damaged_maple.png
+  itemDrop: FloorTileItemSteel
+
+- type: tile
+  parent: PenumbraFloorWoodHatch
+  id: PenumbraFloorWoodMapleHatch
+  sprite: /Textures/_Penumbra/Tiles/Wood/wood_hatch_maple.png
+  itemDrop: FloorTileItemSteel

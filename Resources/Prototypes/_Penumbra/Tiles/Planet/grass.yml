@@ -1,0 +1,16 @@
+- type: tile
+  parent: PenumbraPlanetBase
+  id: PenumbraPlanetGrass
+  name: penumbra-grass-floor
+  sprite: /Textures/_Penumbra/Tiles/planet/Grass/grass.png
+  variants: 8
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  isSubfloor: false

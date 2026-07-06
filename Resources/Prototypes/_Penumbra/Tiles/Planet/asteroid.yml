@@ -1,0 +1,12 @@
+- type: tile
+  parent: PenumbraPlanetBase
+  id: PenumbraPlanetAsteroid
+  name: penumbra-asteroid-floor
+  sprite: /Textures/_Penumbra/Tiles/planet/Asteroid/asteroid.png
+  isSubfloor: false
+
+- type: tile
+  parent: PenumbraPlanetAsteroid
+  id: PenumbraPlanetAsteroidDried
+  name: penumbra-dried-asteroid-floor
+  sprite: /Textures/_Penumbra/Tiles/planet/Asteroid/dried_asteroid.png
