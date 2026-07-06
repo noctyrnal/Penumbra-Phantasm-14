@@ -1,8 +1,8 @@
 - type: entity
   parent: WallSolid
   id: PenumbraWallMetal
-  name: solid wall
-  desc: test
+  name: metal wall
+  description: A huge chunk of metal used to separate rooms.
   suffix: Penumbra
   components:
   - type: Sprite
@@ -15,3 +15,81 @@
     - windows
     - doors
     base: metal
+  - type: Construction
+    graph: PenumbraGirder
+    node: penumbraWall
+
+- type: entity
+  parent: PenumbraWallMetal
+  id: PenumbraWallMetalRusted
+  name: rusted solid wall
+  description: A huge chunk of metal used to separate rooms. This one has seen better days.
+  suffix: Penumbra, Rusted
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Walls/metal_rusted.rsi
+  - type: Icon
+    sprite: _Penumbra/Structures/Walls/metal_rusted.rsi
+  - type: Construction
+    graph: PenumbraGirder
+    node: penumbraWallRust
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 150
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
+      - !type:ChangeConstructionNodeBehavior
+        node: penumbraGirder
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+
+- type: entity
+  parent: PenumbraWallMetal
+  id: PenumbraWallMetalReinforced
+  name: reinforced metal wall
+  description: A huge chunk of reinforced metal used to separate rooms. This'll take a lot more hits to break.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Walls/metal_reinforced.rsi
+  - type: Icon
+    sprite: _Penumbra/Structures/Walls/metal_reinforced.rsi
+  - type: Construction
+    graph: PenumbraGirder
+    node: penumbraReinforcedWall
+  - type: Damageable
+    damageModifierSet: StructuralMetallicStrong
+  - type: Injurable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 400
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
+      - !type:ChangeConstructionNodeBehavior
+        node: penumbraGirder
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: ReinforcedWallReplacementMarker
+  - type: StaticPrice
+    price: 250
+  - type: RadiationBlocker
+    resistance: 5
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+        density: 2000

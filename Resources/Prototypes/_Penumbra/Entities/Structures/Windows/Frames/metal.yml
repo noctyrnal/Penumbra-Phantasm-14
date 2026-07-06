@@ -17,3 +17,15 @@
   - type: Construction
     graph: PenumbraWindowMetal
     node: penumbraWindowFrameMetal
+
+- type: entity
+  parent: PenumbraWindowFrameMetal
+  id: PenumbraWindowFrameMetalReinforced
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Windows/Frames/metal_reinforced.rsi
+  - type: Icon
+    sprite: _Penumbra/Structures/Windows/Frames/metal_reinforced.rsi
+  - type: Construction
+    graph: PenumbraWindowMetalReinforced
+    node: penumbraWindowFrameMetalReinforced

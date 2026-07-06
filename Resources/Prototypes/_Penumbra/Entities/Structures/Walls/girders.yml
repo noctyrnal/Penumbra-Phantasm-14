@@ -1,0 +1,23 @@
+- type: entity
+  parent: Girder
+  id: PenumbraGirder
+  suffix: Penumbra
+  components:
+  - type: Construction
+    graph: PenumbraGirder
+    node: penumbraGirder
+  - type: Sprite
+    sprite: _Penumbra/Structures/Walls/girders.rsi
+    state: girder
+
+- type: entity
+  parent: ReinforcedGirder
+  id: PenumbraReinforcedGirder
+  suffix: Penumbra
+  components:
+  - type: Construction
+    graph: PenumbraGirder
+    node: penumbraReinforcedGirder
+  - type: Sprite
+    sprite: _Penumbra/Structures/Walls/girders.rsi
+    state: reinforced_girder
