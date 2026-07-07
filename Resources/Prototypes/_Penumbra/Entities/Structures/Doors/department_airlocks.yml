@@ -1,1 +1,115 @@
-﻿
+﻿# Security
+
+- type: entity
+  parent: PenumbraAirlock
+  id: PenumbraAirlockSecurity
+  suffix: Penumbra, Solid, Security, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Standard/security.rsi
+  - type: Wires
+    layoutId: AirlockSecurity
+
+- type: entity
+  parent: PenumbraAirlockSecurity
+  id: PenumbraAirlockSecurityLocked
+  suffix: Penumbra, Solid, Security, Security Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSecurity ]
+
+- type: entity
+  parent: PenumbraAirlockGlass
+  id: PenumbraAirlockGlassSecurity
+  suffix: Penumbra, Glass, Security, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Glass/security.rsi
+  - type: Wires
+    layoutId: AirlockSecurity
+
+- type: entity
+  parent: PenumbraAirlockGlassSecurity
+  id: PenumbraAirlockGlassSecurityLocked
+  suffix: Penumbra, Glass, Security, Security Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSecurity ]
+
+- type: entity
+  parent: PenumbraAirlockSecurity
+  id: PenumbraAirlockSecurityLawyerLocked
+  suffix: Penumbra, Solid, Security, Security/Lawyer Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSecurityLawyer ]
+
+- type: entity
+  parent: PenumbraAirlockGlassSecurity
+  id: PenumbraAirlockGlassSecurityLawyerLocked
+  suffix: Penumbra, Glass, Security, Security/Lawyer Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSecurityLawyer ]
+
+- type: entity
+  parent: PenumbraAirlockSecurity
+  id: PenumbraAirlockDetectiveLocked
+  suffix: Penumbra, Solid, Security, Detective Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsDetective ]
+
+- type: entity
+  parent: PenumbraAirlockGlassSecurity
+  id: PenumbraAirlockGlassDetectiveLocked
+  suffix: Penumbra, Glass, Security, Detective Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsDetective ]
+
+- type: entity
+  parent: PenumbraAirlockSecurity
+  id: PenumbraAirlockBrigLocked
+  suffix: Penumbra, Solid, Security, Brig Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBrig ]
+
+- type: entity
+  parent: PenumbraAirlockGlassSecurity
+  id: PenumbraAirlockGlassBrigLocked
+  suffix: Penumbra, Glass, Security, Brig Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsBrig ]
+
+- type: entity
+  parent: PenumbraAirlockSecurity
+  id: PenumbraAirlockArmoryLocked
+  suffix: Penumbra, Solid, Security, Armory Access
+  components:
+  - type: Wires
+    layoutId: AirlockArmory
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsArmory ]
+
+- type: entity
+  parent: PenumbraAirlockGlassSecurity
+  id: PenumbraAirlockGlassArmoryLocked
+  suffix: Penumbra, Glass, Security, Armory Access
+  components:
+  - type: Wires
+    layoutId: AirlockArmory
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsArmory ]
