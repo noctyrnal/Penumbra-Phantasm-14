@@ -239,3 +239,159 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsKitchenHydroponics ]
+
+# Medical
+
+- type: entity
+  parent: PenumbraAirlock
+  id: PenumbraAirlockMedical
+  suffix: Penumbra, Solid, Medical, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Standard/medical.rsi
+  - type: Wires
+    layoutId: AirlockMedical
+
+- type: entity
+  parent: PenumbraAirlockMedical
+  id: PenumbraAirlockMedicalLocked
+  suffix: Penumbra, Solid, Medical, Medical Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMedical ]
+
+- type: entity
+  parent: PenumbraAirlockGlass
+  id: PenumbraAirlockGlassMedical
+  suffix: Penumbra, Glass, Medical, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Glass/medical.rsi
+  - type: Wires
+    layoutId: AirlockMedical
+
+- type: entity
+  parent: PenumbraAirlockGlassMedical
+  id: PenumbraAirlockGlassMedicalLocked
+  suffix: Penumbra, Glass, Medical, Medical Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMedical ]
+
+- type: entity
+  parent: PenumbraAirlock
+  id: PenumbraAirlockChemistry
+  suffix: Penumbra, Solid, Chemistry, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Standard/chemistry.rsi
+  - type: Wires
+    layoutId: AirlockMedical
+
+- type: entity
+  parent: PenumbraAirlockChemistry
+  id: PenumbraAirlockChemistryLocked
+  suffix: Penumbra, Solid, Chemistry, Chemistry Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsChemistry ]
+
+- type: entity
+  parent: PenumbraAirlockGlass
+  id: PenumbraAirlockGlassChemistry
+  suffix: Penumbra, Glass, Chemistry, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Glass/chemistry.rsi
+  - type: Wires
+    layoutId: AirlockMedical
+
+- type: entity
+  parent: PenumbraAirlockGlassChemistry
+  id: PenumbraAirlockGlassChemistryLocked
+  suffix: Penumbra, Glass, Chemistry, Chemistry Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsChemistry ]
+
+- type: entity
+  parent: PenumbraAirlock
+  id: PenumbraAirlockVirology
+  suffix: Penumbra, Solid, Virology, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Standard/virology.rsi
+  - type: Wires
+    layoutId: AirlockMedical
+
+- type: entity
+  parent: PenumbraAirlockVirology
+  id: PenumbraAirlockVirologyLocked
+  suffix: Penumbra, Solid, Virology, Medical Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsMedical ]
+
+- type: entity
+  parent: PenumbraAirlockGlass
+  id: PenumbraAirlockGlassVirology
+  suffix: Penumbra, Glass, Virology, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Glass/virology.rsi
+  - type: Wires
+    layoutId: AirlockMedical
+
+- type: entity
+  parent: PenumbraAirlockGlassVirology
+  id: PenumbraAirlockGlassVirologyLocked
+  suffix: Penumbra, Glass, Virology, Medical Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsChemistry ]
+
+# Research
+
+- type: entity
+  parent: PenumbraAirlock
+  id: PenumbraAirlockResearch
+  suffix: Penumbra, Solid, Research, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Standard/research.rsi
+  - type: Wires
+    layoutId: AirlockScience
+
+- type: entity
+  parent: PenumbraAirlockResearch
+  id: PenumbraAirlockResearchLocked
+  suffix: Penumbra, Solid, Research, Research Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsResearch ]
+
+- type: entity
+  parent: PenumbraAirlockGlass
+  id: PenumbraAirlockGlassResearch
+  suffix: Penumbra, Glass, Research, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Glass/research.rsi
+  - type: Wires
+    layoutId: AirlockScience
+
+- type: entity
+  parent: PenumbraAirlockGlassResearch
+  id: PenumbraAirlockGlassResearchLocked
+  suffix: Penumbra, Glass, Research, Research Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsResearch ]
