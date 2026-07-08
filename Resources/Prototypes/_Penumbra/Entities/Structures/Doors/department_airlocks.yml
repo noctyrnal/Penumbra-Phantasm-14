@@ -1,4 +1,4 @@
-﻿# Security
+# Security
 
 - type: entity
   parent: PenumbraAirlock
@@ -113,3 +113,43 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsArmory ]
+
+# Engineering
+
+- type: entity
+  parent: PenumbraAirlock
+  id: PenumbraAirlockEngineering
+  suffix: Penumbra, Solid, Engineering, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Standard/engineering.rsi
+  - type: Wires
+    layoutId: AirlockEngineering
+
+- type: entity
+  parent: PenumbraAirlockEngineering
+  id: PenumbraAirlockEngineeringLocked
+  suffix: Penumbra, Solid, Engineering, Engineering Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsEngineering ]
+
+- type: entity
+  parent: PenumbraAirlockGlass
+  id: PenumbraAirlockGlassEngineering
+  suffix: Penumbra, Glass, Engineering, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Glass/engineering.rsi
+  - type: Wires
+    layoutId: AirlockEngineering
+
+- type: entity
+  parent: PenumbraAirlockGlassEngineering
+  id: PenumbraAirlockGlassEngineeringLocked
+  suffix: Penumbra, Glass, Engineering, Engineering Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsEngineering ]
