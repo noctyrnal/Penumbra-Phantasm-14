@@ -1774,7 +1774,7 @@ entities:
     - type: Transform
       pos: 40.5,64.5
       parent: 1
-- proto: AirlockFreezer
+- proto: PenumbraAirlockFreezer
   entities:
   - uid: 964
     components:
