@@ -395,3 +395,81 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsResearch ]
+
+# Logistics
+
+- type: entity
+  parent: PenumbraAirlock
+  id: PenumbraAirlockLogistics
+  suffix: Penumbra, Solid, Logistics, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Standard/logistics.rsi
+  - type: Wires
+    layoutId: AirlockCargo
+
+- type: entity
+  parent: PenumbraAirlockLogistics
+  id: PenumbraAirlockLogisticsLocked
+  suffix: Penumbra, Solid, Logistics, Logistics Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCargo ]
+
+- type: entity
+  parent: PenumbraAirlockGlass
+  id: PenumbraAirlockGlassLogistics
+  suffix: Penumbra, Glass, Logistics, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Glass/logistics.rsi
+  - type: Wires
+    layoutId: AirlockCargo
+
+- type: entity
+  parent: PenumbraAirlockGlassLogistics
+  id: PenumbraAirlockGlassLogisticsLocked
+  suffix: Penumbra, Glass, Logistics, Logistics Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCargo ]
+
+- type: entity
+  parent: PenumbraAirlock
+  id: PenumbraAirlockSalvage
+  suffix: Penumbra, Solid, Salvage, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Standard/salvage.rsi
+  - type: Wires
+    layoutId: AirlockCargo
+
+- type: entity
+  parent: PenumbraAirlockSalvage
+  id: PenumbraAirlockSalvageLocked
+  suffix: Penumbra, Solid, Salvage, Salvage Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSalvage ]
+
+- type: entity
+  parent: PenumbraAirlockGlass
+  id: PenumbraAirlockGlassSalvage
+  suffix: Penumbra, Glass, Salvage, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Glass/salvage.rsi
+  - type: Wires
+    layoutId: AirlockCargo
+
+- type: entity
+  parent: PenumbraAirlockGlassSalvage
+  id: PenumbraAirlockGlassSalvageLocked
+  suffix: Penumbra, Glass, Salvage, Salvage Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsSalvage ]
