@@ -154,6 +154,44 @@
     containers:
       board: [ DoorElectronicsEngineering ]
 
+- type: entity
+  parent: PenumbraAirlock
+  id: PenumbraAirlockAtmos
+  suffix: Penumbra, Solid, Atmospherics, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Standard/atmospherics.rsi
+  - type: Wires
+    layoutId: AirlockEngineering
+
+- type: entity
+  parent: PenumbraAirlockAtmos
+  id: PenumbraAirlockAtmosLocked
+  suffix: Penumbra, Solid, Atmospherics, Atmospherics Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAtmospherics ]
+
+- type: entity
+  parent: PenumbraAirlockGlass
+  id: PenumbraAirlockGlassAtmos
+  suffix: Penumbra, Glass, Atmospherics, No Access
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Glass/atmospherics.rsi
+  - type: Wires
+    layoutId: AirlockEngineering
+
+- type: entity
+  parent: PenumbraAirlockGlassAtmos
+  id: PenumbraAirlockGlassAtmosLocked
+  suffix: Penumbra, Glass, Atmospherics, Atmospherics Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAtmospherics ]
+
 # Service
 
 - type: entity
