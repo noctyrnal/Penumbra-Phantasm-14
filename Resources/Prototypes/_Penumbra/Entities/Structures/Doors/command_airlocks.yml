@@ -41,3 +41,19 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsCommand ]
+
+# High Security
+
+- type: entity
+  parent: HighSecDoor
+  id: PenumbraHighSecDoor
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Standard/high_sec.rsi
+    snapCardinals: false
+  - type: IconSmooth
+    key: doors
+    mode: NoSprite
+  - type: PlacementReplacement
+    key: walls
