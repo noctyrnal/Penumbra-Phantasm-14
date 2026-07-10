@@ -13,6 +13,14 @@
     mode: NoSprite
 
 - type: entity
+  parent: PenumbraAirlock
+  id: PenumbraAirlockRCDResistant
+  abstract: true
+  components:
+  - type: RCDDeconstructable
+    deconstructable: false
+
+- type: entity
   parent: AirlockGlass
   id: PenumbraAirlockGlass
   name: glass airlock
