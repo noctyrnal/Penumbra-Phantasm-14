@@ -166,6 +166,9 @@
     mode: NoSprite
   - type: PlacementReplacement
     key: walls
+  - type: Construction
+    graph: PenumbraAirlock
+    node: highSecDoor
 
 - type: entity
   parent: PenumbraHighSecDoor

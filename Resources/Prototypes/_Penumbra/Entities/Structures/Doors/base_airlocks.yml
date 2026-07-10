@@ -11,6 +11,11 @@
   - type: IconSmooth
     key: doors
     mode: NoSprite
+  - type: Construction
+    graph: PenumbraAirlock
+    node: airlock
+    containers:
+    - board
 
 - type: entity
   parent: PenumbraAirlock
@@ -19,6 +24,22 @@
   components:
   - type: RCDDeconstructable
     deconstructable: false
+
+- type: entity
+  parent: AirlockAssembly
+  id: PenumbraAirlockAssembly
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Airlocks/Standard/basic.rsi
+    snapCardinals: false
+    state: "assembly"
+  - type: IconSmooth
+    key: doors
+    mode: NoSprite
+  - type: Construction
+    graph: PenumbraAirlock
+    node: assembly
 
 - type: entity
   parent: AirlockGlass
