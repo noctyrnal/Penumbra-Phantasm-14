@@ -8,11 +8,7 @@
   },
   "states": [
     {
-      "name": "assembly",
-      "directions": 4
-    },
-    {
-      "name": "bolted_unlit",
+      "name": "frame",
       "directions": 4
     },
     {
