@@ -90,6 +90,18 @@
             - tool: Cutting
               doAfter: 2
 
+    - node: penumbraWallrust
+      entity: PenumbraWallMetalRusted
+      edges:
+        - to: penumbraWall
+          steps:
+            - tool: Welding
+              doAfter: 2
+        - to: wall
+          steps:
+            - tool: Brushing
+              doAfter: 4
+
     - node: penumbraReinforcedWall
       entity: PenumbraReinforcedWall
       edges:
