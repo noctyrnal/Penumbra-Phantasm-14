@@ -22,6 +22,60 @@
       board: [ DoorElectronicsCommand ]
 
 - type: entity
+  parent: PenumbraAirlockCommand
+  id: PenumbraAirlockCommandCaptainLocked
+  suffix: Penumbra, Solid, Command, Captain Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCaptain ]
+
+- type: entity
+  parent: PenumbraAirlockCommand
+  id: PenumbraAirlockCommandCMOLocked
+  suffix: Penumbra, Solid, Command, Chief Medical Officer Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsChiefMedicalOfficer ]
+
+- type: entity
+  parent: PenumbraAirlockCommand
+  id: PenumbraAirlockCommandCELocked
+  suffix: Penumbra, Solid, Command, Chief Engineer Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsChiefEngineer ]
+
+- type: entity
+  parent: PenumbraAirlockCommand
+  id: PenumbraAirlockCommandHOSLocked
+  suffix: Penumbra, Solid, Command, Head of Security Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsHeadOfSecurity ]
+
+- type: entity
+  parent: PenumbraAirlockCommand
+  id: PenumbraAirlockCommandRDLocked
+  suffix: Penumbra, Solid, Command, Research Director Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsResearchDirector ]
+
+- type: entity
+  parent: PenumbraAirlockCommand
+  id: PenumbraAirlockCommandLOLocked
+  suffix: Penumbra, Solid, Command, Logistics Officer Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsQuartermaster ]
+
+- type: entity
   parent: PenumbraAirlockGlass
   id: PenumbraAirlockGlassCommand
   suffix: Penumbra, Glass, Command, No Access
@@ -42,6 +96,61 @@
     containers:
       board: [ DoorElectronicsCommand ]
 
+- type: entity
+  parent: PenumbraAirlockGlassCommand
+  id: PenumbraAirlockGlassCommandCaptainLocked
+  suffix: Penumbra, Glass, Command, Captain Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCaptain ]
+
+- type: entity
+  parent: PenumbraAirlockGlassCommand
+  id: PenumbraAirlockGlassCommandCMOLocked
+  suffix: Penumbra, Glass, Command, Chief Medical Officer Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsChiefMedicalOfficer ]
+
+- type: entity
+  parent: PenumbraAirlockGlassCommand
+  id: PenumbraAirlockGlassCommandCELocked
+  suffix: Penumbra, Glass, Command, Chief Engineer Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsChiefEngineer ]
+
+- type: entity
+  parent: PenumbraAirlockGlassCommand
+  id: PenumbraAirlockGlassCommandHOSLocked
+  suffix: Penumbra, Glass, Command, Head of Security Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsHeadOfSecurity ]
+
+- type: entity
+  parent: PenumbraAirlockGlassCommand
+  id: PenumbraAirlockGlassCommandRDLocked
+  suffix: Penumbra, Glass, Command, Research Director Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsResearchDirector ]
+
+- type: entity
+  parent: PenumbraAirlockGlassCommand
+  id: PenumbraAirlockGlassCommandLOLocked
+  suffix: Penumbra, Glass, Command, Logistics Officer Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsQuartermaster ]
+
+
 # High Security
 
 - type: entity
@@ -57,3 +166,30 @@
     mode: NoSprite
   - type: PlacementReplacement
     key: walls
+
+- type: entity
+  parent: PenumbraHighSecDoor
+  id: PenumbraHighSecDoorLocked
+  suffix: Penumbra, Command Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCommand ]
+
+- type: entity
+  parent: PenumbraHighSecDoor
+  id: PenumbraHighSecDoorCaptainLocked
+  suffix: Penumbra, Captain Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCaptain ]
+
+- type: entity
+  parent: PenumbraHighSecDoor
+  id: PenumbraHighSecDoorArmoryLocked
+  suffix: Penumbra, Armory Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsArmory ]

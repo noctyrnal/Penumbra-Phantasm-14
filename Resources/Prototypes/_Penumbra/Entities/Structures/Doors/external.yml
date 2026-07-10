@@ -1,19 +1,12 @@
-﻿- type: entity
+﻿# Base
+
+- type: entity
   parent: PenumbraAirlockRCDResistant
   id: PenumbraAirlockExternal
   suffix: Penumbra, Solid, External, No Access
   components:
   - type: Sprite
     sprite: _Penumbra/Structures/Doors/Airlocks/Standard/external.rsi
-
-- type: entity
-  parent: PenumbraAirlockExternal
-  id: PenumbraAirlockExternalLocked
-  suffix: Penumbra, Solid, External, Locked
-  components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsExternal ]
 
 - type: entity
   parent: PenumbraAirlockExternal
@@ -38,6 +31,63 @@
         layer:     #removed opaque from the layer, allowing lasers to pass through glass airlocks
         - GlassAirlockLayer
 
+# Solid Access
+
+- type: entity
+  parent: PenumbraAirlockExternal
+  id: PenumbraAirlockExternalLocked
+  suffix: Penumbra, Solid, External, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsExternal ]
+
+- type: entity
+  parent: PenumbraAirlockExternalLocked
+  id: PenumbraAirlockExternalCargoLocked
+  suffix: Penumbra, Solid, External, Logistics Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCargo ]
+  - type: Wires
+    layoutId: AirlockCargo
+
+- type: entity
+  parent: PenumbraAirlockExternalLocked
+  id: PenumbraAirlockExternalEngiLocked
+  suffix: Penumbra, Solid, External, Engineering Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsEngineering ]
+  - type: Wires
+    layoutId: AirlockEngineering
+
+- type: entity
+  parent: PenumbraAirlockExternalLocked
+  id: PenumbraAirlockExternalCommandLocked
+  suffix: Penumbra, Solid, External, Command Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCommand ]
+  - type: Wires
+    layoutId: AirlockCommand
+
+- type: entity
+  parent: PenumbraAirlockExternalLocked
+  id: PenumbraAirlockExternalAtmosLocked
+  suffix: Penumbra, Solid, External, Atmospherics Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsAtmospherics ]
+  - type: Wires
+    layoutId: AirlockEngineering
+
+# Glass Access
+
 - type: entity
   parent: PenumbraAirlockExternalGlass
   id: PenumbraAirlockExternalGlassLocked
@@ -46,3 +96,14 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsExternal ]
+
+- type: entity
+  parent: PenumbraAirlockExternalGlassLocked
+  id: PenumbraAirlockExternalGlassCommandLocked
+  suffix: Penumbra, Glass, External, Command Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCommand ]
+  - type: Wires
+    layoutId: AirlockCommand

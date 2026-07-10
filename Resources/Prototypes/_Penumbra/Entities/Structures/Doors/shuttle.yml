@@ -1,7 +1,9 @@
-﻿- type: entity
+﻿# Base
+
+- type: entity
   parent: PenumbraAirlockRCDResistant
   id: PenumbraAirlockShuttle
-  suffix: Penumbra, Solid, Docking
+  suffix: Penumbra, Solid, Docking, No Access
   name: external airlock
   description: Necessary for connecting two space craft together.
   components:
@@ -84,7 +86,7 @@
 - type: entity
   parent: PenumbraAirlockShuttle
   id: PenumbraAirlockGlassShuttle
-  suffix: Penumbra, Glass, Docking
+  suffix: Penumbra, Glass, Docking, No Access
   components:
   - type: Sprite
     sprite: _Penumbra/Structures/Doors/Airlocks/Glass/shuttle.rsi
@@ -97,3 +99,26 @@
       fix1:
         layer:     #removed opaque from the layer, allowing lasers to pass through glass airlocks
         - GlassAirlockLayer
+
+# Solid Access
+
+- type: entity
+  parent: PenumbraAirlockShuttle
+  id: PenumbraAirlockShuttleLocked
+  suffix: Penumbra, Solid, Docking, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsExternal ]
+
+# Glass Access
+
+- type: entity
+  parent: PenumbraAirlockGlassShuttle
+  id: PenumbraAirlockGlassShuttleLocked
+  suffix: Penumbra, Glass, Docking, Locked
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsExternal ]
+
