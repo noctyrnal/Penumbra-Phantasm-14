@@ -1,0 +1,40 @@
+- type: entity
+  parent: ClosetBase
+  id: PenumbraClosetBase
+  description: A standard-issue storage unit.
+  abstract: true
+  suffix: Penumbra
+  components:
+  - type: Animateable
+  - type: ResistLocker
+  - type: Transform
+    noRot: true
+  - type: Sprite
+    noRot: true
+    sprite: _Penumbra/Structures/Storage/Closets/closet.rsi
+    layers:
+    - state: base
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: door
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: welded
+      visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
+    - state: paper
+      visible: false
+      sprite: Structures/Storage/closet_labels.rsi
+      map: ["enum.PaperLabelVisuals.Layer"]
+  - type: EntityStorageVisuals
+    stateBaseClosed: base
+    stateDoorOpen: door_open
+    stateDoorClosed: door
+
+- type: entity
+  parent: PenumbraClosetBase
+  id: PenumbraClosetMetal
+  # components: TODO PENUMBRA - Construction
+  # - type: Construction
+  #   graph: ClosetSteel
+  #   node: done
+  #   containers:
+  #   - entity_storage
