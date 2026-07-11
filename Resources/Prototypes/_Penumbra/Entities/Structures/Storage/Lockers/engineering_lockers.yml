@@ -37,3 +37,13 @@
     sprite: _Penumbra/Structures/Storage/Closets/atmospherics.rsi
   - type: AccessReader
     access: [ [ "Atmospherics" ] ]
+
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerChiefEngineer
+  name: chief engineer's locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/chief_engineering.rsi
+  - type: AccessReader
+    access: [ [ "ChiefEngineer" ] ]

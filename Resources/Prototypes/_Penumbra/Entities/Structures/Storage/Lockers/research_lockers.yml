@@ -1,0 +1,19 @@
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerResearch
+  name: researcher's locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/research.rsi
+  - type: AccessReader
+    access: [ [ "Research" ] ]
+
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerResearchDirector
+  name: researcher director's locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/research_director.rsi
+  - type: AccessReader
+    access: [ [ "ResearchDirector" ] ]
