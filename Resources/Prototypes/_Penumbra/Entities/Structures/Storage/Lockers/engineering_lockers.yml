@@ -44,6 +44,6 @@
   name: chief engineer's locker
   components:
   - type: Sprite
-    sprite: _Penumbra/Structures/Storage/Closets/chief_engineering.rsi
+    sprite: _Penumbra/Structures/Storage/Closets/chief_engineer.rsi
   - type: AccessReader
     access: [ [ "ChiefEngineer" ] ]

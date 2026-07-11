@@ -76,3 +76,28 @@
         restitution: 0
         friction: 0.4
   - type: EntityStorage
+
+- type: entity
+  parent: PenumbraLockerBaseSecure
+  id: PenumbraGunSafe
+  name: secure gun safe
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/gun.rsi
+  - type: AccessReader
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: GunSafe
+  #   node: done
+  #   containers:
+  #   - entity_storage
+  - type: StaticPrice
+    price: 660
+
+- type: entity
+  parent: PenumbraGunSafe
+  id: PenumbraGunSafeArmory
+  name: secure gun safe
+  suffix: Penumbra, Armory Access
+  components:
+  - type: AccessReader
+    access: [["Armory"]]
