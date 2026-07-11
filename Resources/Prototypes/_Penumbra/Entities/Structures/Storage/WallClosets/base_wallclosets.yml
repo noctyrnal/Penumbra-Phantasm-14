@@ -1,0 +1,41 @@
+- type: entity
+  parent: BaseWallCloset
+  id: PenumbraBaseWallCloset
+  abstract: true
+  description: A standard-issue storage unit, now on walls.
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/WallClosets/closet.rsi
+    noRot: false
+    layers:
+    - state: base
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: door
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: welded
+      visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
+  - type: EntityStorageVisuals
+    stateBaseClosed: base
+    stateDoorOpen: door_open
+    stateDoorClosed: door
+
+- type: entity
+  parent: PenumbraBaseWallCloset
+  id: PenumbraWallClosetMetal
+  # components: TODO PENUMBRA - Construction
+  # - type: Construction
+  #   graph: ClosetWall
+  #   node: done
+  #   containers:
+  #   - entity_storage
+
+- type: entity
+  parent: PenumbraWallClosetMetal
+  id: PenumbraWallClosetFire
+  name: fire-safety wall closet
+  description: It's a storage unit for fire-fighting supplies.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/WallClosets/fire.rsi
