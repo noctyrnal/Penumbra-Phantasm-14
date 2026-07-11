@@ -1,0 +1,39 @@
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerEngineer
+  name: engineer's locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/engineering.rsi
+  - type: AccessReader
+    access: [ [ "Engineering" ] ]
+
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerWelding
+  name: welding supplies locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/engineering_weld.rsi
+  - type: AccessReader
+    access: [ [ "Engineering" ] ]
+
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerElectricalSupplies
+  name: electrical supplies locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/engineering_elec.rsi
+  - type: AccessReader
+    access: [ [ "Engineering" ] ]
+
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerAtmosTech
+  name: atmospheric technician's locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/atmospherics.rsi
+  - type: AccessReader
+    access: [ [ "Atmospherics" ] ]

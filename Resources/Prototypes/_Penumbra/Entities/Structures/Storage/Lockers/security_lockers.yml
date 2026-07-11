@@ -26,6 +26,26 @@
     access: [["Detective"]]
 
 - type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerWarden
+  name: warden's locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/warden.rsi
+  - type: AccessReader
+    access: [["Armory"]]
+
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerHeadOfSecurity
+  name: head of security's locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/head_of_security.rsi
+  - type: AccessReader
+    access: [["HeadOfSecurity"]]
+
+- type: entity
   parent: [ PenumbraGenpopBase , PenumbraLockerBaseSecure ]
   id: PenumbraLockerPrisoner
   name: prisoner locker

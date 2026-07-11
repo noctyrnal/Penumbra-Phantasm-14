@@ -1,0 +1,45 @@
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerMedical
+  name: medical doctor's locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/medical.rsi
+  - type: AccessReader
+    access: [ [ "Medical" ] ]
+
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerMedicalSupplies
+  name: medical supply locker
+  description: Filled to the brim with medical supplies for treating patients.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/medical.rsi
+  - type: AccessReader
+    access: [ [ "Medical" ] ]
+
+- type: entity
+  parent: PenumbraLockerMedical
+  id: PenumbraLockerParamedic
+  name: paramedic's locker
+
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerChemistry
+  name: chemical locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/chemistry.rsi
+  - type: AccessReader
+    access: [ [ "Chemistry" ] ]
+
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerChiefMedicalOfficer
+  name: chief medical officer's locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/chief_medical_officer.rsi
+  - type: AccessReader
+    access: [["ChiefMedicalOfficer"]]

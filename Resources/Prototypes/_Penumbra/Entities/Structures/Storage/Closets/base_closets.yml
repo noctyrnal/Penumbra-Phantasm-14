@@ -38,3 +38,21 @@
   #   node: done
   #   containers:
   #   - entity_storage
+
+- type: entity
+  parent: PenumbraClosetBase
+  id: PenumbraClosetEmergency
+  name: emergency closet
+  description: It's a storage unit for emergency breath masks and O2 tanks.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/emergency.rsi
+
+- type: entity
+  parent: PenumbraClosetBase
+  id: PenumbraClosetFire
+  name: fire-safety closet
+  description: It's a storage unit for fire-fighting supplies.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/fire.rsi
