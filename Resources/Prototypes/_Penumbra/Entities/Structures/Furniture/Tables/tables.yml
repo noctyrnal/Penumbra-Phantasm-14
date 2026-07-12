@@ -1,0 +1,25 @@
+- type: entity
+  parent: Table
+  id: PenumbraTable
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Furniture/Tables/generic.rsi
+  - type: Icon
+    sprite: _Penumbra/Structures/Furniture/Tables/generic.rsi
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Table
+  #   node: Table
+
+- type: entity
+  parent: TableReinforced
+  id: PenumbraTableReinforced
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Furniture/Tables/reinforced.rsi
+  - type: Icon
+    sprite: _Penumbra/Structures/Furniture/Tables/reinforced.rsi
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Table
+  #   node: TableReinforced

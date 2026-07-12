@@ -19042,7 +19042,7 @@ entities:
     - type: Transform
       pos: 29.5,38.5
       parent: 1
-- proto: Table
+- proto: PenumbraTable
   entities:
   - uid: 430
     components:
@@ -19154,7 +19154,7 @@ entities:
     - type: Transform
       pos: 57.5,40.5
       parent: 1
-- proto: TableReinforced
+- proto: PenumbraTableReinforced
   entities:
   - uid: 1133
     components:
