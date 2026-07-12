@@ -19132,7 +19132,7 @@ entities:
     - type: Transform
       pos: 30.5,43.5
       parent: 1
-- proto: TableGlass
+- proto: PenumbraTableGlass
   entities:
   - uid: 1190
     components:
@@ -19305,7 +19305,7 @@ entities:
     - type: Transform
       pos: 52.5,43.5
       parent: 1
-- proto: TableWood
+- proto: PenumbraTableWood
   entities:
   - uid: 910
     components:

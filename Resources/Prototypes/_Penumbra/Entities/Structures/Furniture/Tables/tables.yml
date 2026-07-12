@@ -23,3 +23,42 @@
   # - type: Construction TODO PENUMBRA - Construction
   #   graph: Table
   #   node: TableReinforced
+
+- type: entity
+  parent: TableWood
+  id: PenumbraTableWood
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Furniture/Tables/wood.rsi
+  - type: Icon
+    sprite: _Penumbra/Structures/Furniture/Tables/wood.rsi
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Table
+  #   node: TableWood
+
+- type: entity
+  parent: TableGlass
+  id: PenumbraTableGlass
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Furniture/Tables/glass.rsi
+  - type: Icon
+    sprite: _Penumbra/Structures/Furniture/Tables/glass.rsi
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Table
+  #   node: TableGlass
+
+- type: entity
+  parent: TableReinforcedGlass
+  id: PenumbraTableReinforcedGlass
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Furniture/Tables/reinforced_glass.rsi
+  - type: Icon
+    sprite: _Penumbra/Structures/Furniture/Tables/reinforced_glass.rsi
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Table
+  #   node: TableReinforcedGlass
