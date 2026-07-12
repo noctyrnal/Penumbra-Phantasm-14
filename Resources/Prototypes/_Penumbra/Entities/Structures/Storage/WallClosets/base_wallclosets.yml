@@ -39,3 +39,12 @@
   components:
   - type: Sprite
     sprite: _Penumbra/Structures/Storage/WallClosets/fire.rsi
+
+- type: entity
+  parent: PenumbraWallClosetMetal
+  id: PenumbraWallClosetEmergency
+  name: emergency wall closet
+  description: It's a storage unit for emergency breath masks and O2 tanks.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/WallClosets/emergency.rsi
