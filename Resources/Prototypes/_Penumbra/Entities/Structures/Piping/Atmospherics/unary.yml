@@ -1,0 +1,23 @@
+- type: entity
+  parent: GasVentPump
+  id: PenumbraGasVentPump
+  suffix: Penumbra
+  components:
+    - type: Sprite
+      sprite: _Penumbra/Structures/Piping/Atmospherics/vent.rsi
+
+- type: entity
+  parent: GasVentScrubber
+  id: PenumbraGasVentScrubber
+  suffix: Penumbra
+  components:
+    - type: Sprite
+      sprite: _Penumbra/Structures/Piping/Atmospherics/scrubber.rsi
+
+- type: entity
+  parent: GasPassiveVent
+  id: PenumbraGasPassiveVent
+  suffix: Penumbra
+  components:
+    - type: Sprite
+      sprite: _Penumbra/Structures/Piping/Atmospherics/vent.rsi
