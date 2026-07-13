@@ -1,0 +1,19 @@
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerCaptain
+  name: captain's locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/captain.rsi
+  - type: AccessReader
+    access: [["Captain"]]
+
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerBridgeOfficer
+  name: bridge officer's locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/bridge_officer.rsi
+  - type: AccessReader
+    access: [["Command"]] # TODO PENUMBRA - Access
