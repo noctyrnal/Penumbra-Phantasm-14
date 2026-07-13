@@ -1,0 +1,17 @@
+- type: entity
+  parent: PenumbraClosetBase
+  id: PenumbraClosetTools
+  name: tool closet
+  description: It's a storage unit for tools.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/engineering_tools.rsi
+
+- type: entity
+  parent: PenumbraClosetBase
+  id: PenumbraClosetRadiation
+  name: radiation suit closet
+  description: More comfortable than radiation poisioning.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/engineering_rads.rsi

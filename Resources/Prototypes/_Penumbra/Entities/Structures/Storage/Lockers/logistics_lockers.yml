@@ -1,0 +1,29 @@
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerLogistics
+  name: logistics technician's locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/logistics.rsi
+  - type: AccessReader
+    access: [ [ "Cargo" ] ]
+
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerSalvage
+  name: salvager's locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/salvage.rsi
+  - type: AccessReader
+    access: [ [ "Salvage" ] ]
+
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerLogisticsOfficer
+  name: logistics officer's locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/logistics_officer.rsi
+  - type: AccessReader
+    access: [ [ "Quartermaster" ] ]

@@ -1,0 +1,103 @@
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerSecurity
+  name: security officer's locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/security.rsi
+  - type: AccessReader
+    access: [["Security"]]
+
+- type: entity
+  parent: PenumbraLockerSecurity
+  id: PenumbraLockerEvidence
+  name: evidence locker
+  description: To store bags of bullet casings and detainee belongings.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/detective.rsi
+
+- type: entity
+  parent: PenumbraLockerEvidence
+  id: PenumbraLockerDetective
+  name: detective's locker
+  components:
+  - type: AccessReader
+    access: [["Detective"]]
+
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerWarden
+  name: warden's locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/warden.rsi
+  - type: AccessReader
+    access: [["Armory"]]
+
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerHeadOfSecurity
+  name: head of security's locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/head_of_security.rsi
+  - type: AccessReader
+    access: [["HeadOfSecurity"]]
+
+- type: entity
+  parent: [ PenumbraGenpopBase , PenumbraLockerBaseSecure ]
+  id: PenumbraLockerPrisoner
+  name: prisoner locker
+  description: It's a secure locker for an inmate's personal belongings during their time in prison.
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/prisoner.rsi
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape: !type:PolygonShape
+          radius: 0.01
+          vertices:
+          - -0.25,-0.48
+          - 0.25,-0.48
+          - 0.25,0.48
+          - -0.25,0.48
+        mask:
+        - Impassable
+        - TableLayer
+        - LowImpassable
+        layer:
+        - BulletImpassable
+        - Opaque
+        density: 75
+        hard: True
+        restitution: 0
+        friction: 0.4
+  - type: EntityStorage
+
+- type: entity
+  parent: PenumbraLockerBaseSecure
+  id: PenumbraGunSafe
+  name: secure gun safe
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/gun.rsi
+  - type: AccessReader
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: GunSafe
+  #   node: done
+  #   containers:
+  #   - entity_storage
+  - type: StaticPrice
+    price: 660
+
+- type: entity
+  parent: PenumbraGunSafe
+  id: PenumbraGunSafeArmory
+  name: secure gun safe
+  suffix: Penumbra, Armory Access
+  components:
+  - type: AccessReader
+    access: [["Armory"]]

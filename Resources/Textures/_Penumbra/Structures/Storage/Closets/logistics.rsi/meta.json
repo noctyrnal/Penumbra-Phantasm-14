@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/67085d6a24e0b2d04069ed85bc836bba87d17869/icons/obj/closet.dmi, modified by github noctyrnal",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "base"
+    },
+    {
+      "name": "door"
+    },
+    {
+      "name": "icon"
+    },
+    {
+      "name": "door_open"
+    },
+    {
+      "name": "welded"
+    },
+    {
+      "name": "locked"
+    },
+    {
+      "name": "unlocked"
+    }
+  ]
+}

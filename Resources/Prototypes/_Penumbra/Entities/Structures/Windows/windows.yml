@@ -1,0 +1,65 @@
+# Window
+
+- type: entity
+  parent: Window
+  id: PenumbraWindow
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Windows/regular.rsi
+  - type: Icon
+    sprite: _Penumbra/Structures/Windows/regular.rsi
+  - type: IconSmooth
+    key: windows
+    additionalKeys:
+    - doors
+    - walls
+    base: window
+
+- type: entity
+  parent: ReinforcedWindow
+  id: PenumbraWindowReinforced
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Windows/reinforced.rsi
+  - type: Icon
+    sprite: _Penumbra/Structures/Windows/reinforced.rsi
+  - type: IconSmooth
+    key: windows
+    additionalKeys:
+    - doors
+    - walls
+    base: window
+
+- type: entity
+  parent: PlasmaWindow
+  id: PenumbraWindowPlasma
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Windows/plasma.rsi
+  - type: Icon
+    sprite: _Penumbra/Structures/Windows/plasma.rsi
+  - type: IconSmooth
+    key: windows
+    additionalKeys:
+    - doors
+    - walls
+    base: window
+
+- type: entity
+  parent: ReinforcedPlasmaWindow
+  id: PenumbraWindowReinforcedPlasma
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Windows/reinforced_plasma.rsi
+  - type: Icon
+    sprite: _Penumbra/Structures/Windows/reinforced_plasma.rsi
+  - type: IconSmooth
+    key: windows
+    additionalKeys:
+    - doors
+    - walls
+    base: window

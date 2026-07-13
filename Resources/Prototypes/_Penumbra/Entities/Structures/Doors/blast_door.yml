@@ -1,0 +1,30 @@
+- type: entity
+  parent: BlastDoor
+  id: PenumbraBlastDoor
+  description: A massive slab of metal that keeps the things out you never want to see in.
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Doors/Shutters/blast_door.rsi
+    snapCardinals: false
+  - type: IconSmooth
+    key: doors
+    mode: NoSprite
+  - type: PlacementReplacement
+    key: shutters
+
+- type: entity
+  parent: PenumbraBlastDoor
+  id: PenumbraBlastDoorOpen
+  suffix: Penumbra, Open
+  components:
+  - type: Door
+    state: Open
+  - type: Physics
+    canCollide: false
+  - type: Occluder
+    enabled: false
+  - type: Airtight
+    airBlocked: false
+  - type: RadiationBlocker
+    enabled: false

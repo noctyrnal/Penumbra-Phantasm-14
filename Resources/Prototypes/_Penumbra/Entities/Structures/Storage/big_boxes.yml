@@ -1,0 +1,15 @@
+﻿- type: entity
+  parent: StealthBox
+  id: PenumbraStealthBox
+  suffix: Penumbra, Stealth
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/syndicate_stealth_box.rsi
+
+- type: entity
+  parent: BigBox
+  id: PenumbraBigBox
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/stealth_box.rsi

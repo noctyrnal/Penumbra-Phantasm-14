@@ -1,0 +1,8 @@
+- type: entity
+  parent: PenumbraClosetBase
+  id: PenumbraClosetEOD
+  name: EOD closet
+  description: It's a storage unit for explosion-protective suits.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/eod.rsi

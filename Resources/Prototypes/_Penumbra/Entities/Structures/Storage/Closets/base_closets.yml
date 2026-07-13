@@ -1,0 +1,187 @@
+- type: entity
+  parent: ClosetBase
+  id: PenumbraClosetBase
+  description: A standard-issue storage unit.
+  abstract: true
+  suffix: Penumbra
+  components:
+  - type: Animateable
+  - type: ResistLocker
+  - type: Transform
+    noRot: true
+  - type: Sprite
+    noRot: true
+    sprite: _Penumbra/Structures/Storage/Closets/closet.rsi
+    layers:
+    - state: base
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: door
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: welded
+      visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
+    - state: paper
+      visible: false
+      sprite: Structures/Storage/closet_labels.rsi
+      map: ["enum.PaperLabelVisuals.Layer"]
+  - type: EntityStorageVisuals
+    stateBaseClosed: base
+    stateDoorOpen: door_open
+    stateDoorClosed: door
+
+- type: entity
+  parent: PenumbraClosetBase
+  id: PenumbraClosetMetal
+  # components: TODO PENUMBRA - Construction
+  # - type: Construction
+  #   graph: ClosetSteel
+  #   node: done
+  #   containers:
+  #   - entity_storage
+
+# Emergency
+
+- type: entity
+  parent: PenumbraClosetBase
+  id: PenumbraClosetEmergency
+  name: emergency closet
+  description: It's a storage unit for emergency breath masks and O2 tanks.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/emergency.rsi
+
+- type: entity
+  parent: PenumbraClosetBase
+  id: PenumbraClosetFire
+  name: fire-safety closet
+  description: It's a storage unit for fire-fighting supplies.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/fire.rsi
+
+# Biohazard
+
+- type: entity
+  parent: PenumbraClosetBase
+  id: PenumbraClosetBiosuit
+  name: level 3 biohazard gear closet
+  description: It's a storage unit for level 3 biohazard gear.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/bio.rsi
+
+- type: entity
+  parent: PenumbraClosetBiosuit
+  id: PenumbraClosetBiosuitVirology
+  suffix: Penumbra, Virology
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/bio_viro.rsi
+
+- type: entity
+  parent: PenumbraClosetBiosuit
+  id: PenumbraClosetBiosuitJanitor
+  suffix: Penumbra, Janitor
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/bio_janitor.rsi
+
+- type: entity
+  parent: PenumbraClosetBiosuit
+  id: PenumbraClosetBiosuitSecurity
+  suffix: Penumbra, Security
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/bio_sec.rsi
+
+# Booze
+
+- type: entity
+  parent: PenumbraClosetBiosuit
+  id: PenumbraClosetBooze
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/cabinet.rsi
+
+# Wardrobe
+
+- type: entity
+  parent: PenumbraClosetBase
+  id: PenumbraClosetWardrobeWhite
+  name: white warbrobe
+  description: It's a storage unit for clothing.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/white_wardrobe.rsi
+
+- type: entity
+  parent: PenumbraClosetWardrobeWhite
+  id: PenumbraClosetWardrobeBlue
+  name: blue warbrobe
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/blue_wardrobe.rsi
+
+- type: entity
+  parent: PenumbraClosetWardrobeWhite
+  id: PenumbraClosetWardrobeMixed
+  name: mixed warbrobe
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/mixed_wardrobe.rsi
+
+- type: entity
+  parent: PenumbraClosetWardrobeWhite
+  id: PenumbraClosetWardrobeGrey
+  name: grey warbrobe
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/grey_wardrobe.rsi
+
+- type: entity
+  parent: PenumbraClosetWardrobeWhite
+  id: PenumbraClosetWardrobeGreen
+  name: green warbrobe
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/green_wardrobe.rsi
+
+- type: entity
+  parent: PenumbraClosetWardrobeWhite
+  id: PenumbraClosetWardrobeOrange
+  name: orange warbrobe
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/orange_wardrobe.rsi
+
+- type: entity
+  parent: PenumbraClosetWardrobeWhite
+  id: PenumbraClosetWardrobePink
+  name: pink warbrobe
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/pink_wardrobe.rsi
+
+- type: entity
+  parent: PenumbraClosetWardrobeWhite
+  id: PenumbraClosetWardrobeRed
+  name: red warbrobe
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/red_wardrobe.rsi
+
+- type: entity
+  parent: PenumbraClosetWardrobeWhite
+  id: PenumbraClosetWardrobeYellow
+  name: yellow warbrobe
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/yellow_wardrobe.rsi
+
+- type: entity
+  parent: PenumbraClosetWardrobeWhite
+  id: PenumbraClosetWardrobeBlack
+  name: black warbrobe
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/black_wardrobe.rsi

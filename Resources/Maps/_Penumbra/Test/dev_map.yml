@@ -4,8 +4,8 @@ meta:
   engineVersion: 280.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/08/2026 07:46:06
-  entityCount: 3132
+  time: 07/12/2026 15:47:53
+  entityCount: 3147
 maps:
 - 23
 grids:
@@ -9106,6 +9106,12 @@ entities:
     - type: Transform
       pos: 49.5,24.5
       parent: 1
+    - type: TechnologyDatabase
+      supportedDisciplines:
+      - Industrial
+      - Arsenal
+      - Experimental
+      - CivilianServices
 - proto: ExtinguisherCabinetFilled
   entities:
   - uid: 805
@@ -10411,6 +10417,83 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
+- proto: PenumbraGrille
+  entities:
+  - uid: 3004
+    components:
+    - type: Transform
+      pos: 76.5,19.5
+      parent: 1
+  - uid: 3007
+    components:
+    - type: Transform
+      pos: 31.5,20.5
+      parent: 1
+  - uid: 3014
+    components:
+    - type: Transform
+      pos: 35.5,20.5
+      parent: 1
+  - uid: 3049
+    components:
+    - type: Transform
+      pos: 31.5,42.5
+      parent: 1
+  - uid: 3073
+    components:
+    - type: Transform
+      pos: 32.5,42.5
+      parent: 1
+  - uid: 3075
+    components:
+    - type: Transform
+      pos: 34.5,42.5
+      parent: 1
+  - uid: 3094
+    components:
+    - type: Transform
+      pos: 35.5,42.5
+      parent: 1
+  - uid: 3098
+    components:
+    - type: Transform
+      pos: 58.5,23.5
+      parent: 1
+  - uid: 3099
+    components:
+    - type: Transform
+      pos: 59.5,25.5
+      parent: 1
+  - uid: 3100
+    components:
+    - type: Transform
+      pos: 59.5,27.5
+      parent: 1
+  - uid: 3101
+    components:
+    - type: Transform
+      pos: 50.5,23.5
+      parent: 1
+  - uid: 3102
+    components:
+    - type: Transform
+      pos: 78.5,19.5
+      parent: 1
+  - uid: 3103
+    components:
+    - type: Transform
+      pos: 83.5,38.5
+      parent: 1
+  - uid: 3104
+    components:
+    - type: Transform
+      pos: 83.5,37.5
+      parent: 1
+  - uid: 3105
+    components:
+    - type: Transform
+      pos: 83.5,36.5
+      parent: 1
 - proto: GrilleDiagonal
   entities:
   - uid: 2764
@@ -10551,7 +10634,7 @@ entities:
   - uid: 750
     components:
     - type: Transform
-      pos: 52.375,25.5
+      pos: 52.49578,25.63396
       parent: 1
   - uid: 1371
     components:
@@ -12389,6 +12472,301 @@ entities:
     - type: Transform
       pos: 23.5,23.5
       parent: 2869
+- proto: PenumbraTable
+  entities:
+  - uid: 430
+    components:
+    - type: Transform
+      pos: 35.5,14.5
+      parent: 1
+    - type: Physics
+      canCollide: False
+  - uid: 431
+    components:
+    - type: Transform
+      pos: 36.5,14.5
+      parent: 1
+    - type: Physics
+      canCollide: False
+  - uid: 434
+    components:
+    - type: Transform
+      pos: 33.5,15.5
+      parent: 1
+    - type: Physics
+      canCollide: False
+  - uid: 435
+    components:
+    - type: Transform
+      pos: 33.5,16.5
+      parent: 1
+    - type: Physics
+      canCollide: False
+  - uid: 443
+    components:
+    - type: Transform
+      pos: 30.5,19.5
+      parent: 1
+  - uid: 743
+    components:
+    - type: Transform
+      pos: 58.5,24.5
+      parent: 1
+  - uid: 790
+    components:
+    - type: Transform
+      pos: 52.5,26.5
+      parent: 1
+  - uid: 816
+    components:
+    - type: Transform
+      pos: 52.5,25.5
+      parent: 1
+  - uid: 904
+    components:
+    - type: Transform
+      pos: 31.5,41.5
+      parent: 1
+  - uid: 930
+    components:
+    - type: Transform
+      pos: 30.5,41.5
+      parent: 1
+  - uid: 931
+    components:
+    - type: Transform
+      pos: 31.5,38.5
+      parent: 1
+  - uid: 932
+    components:
+    - type: Transform
+      pos: 28.5,41.5
+      parent: 1
+  - uid: 933
+    components:
+    - type: Transform
+      pos: 28.5,40.5
+      parent: 1
+  - uid: 950
+    components:
+    - type: Transform
+      pos: 29.5,38.5
+      parent: 1
+  - uid: 1040
+    components:
+    - type: Transform
+      pos: 30.5,44.5
+      parent: 1
+  - uid: 1041
+    components:
+    - type: Transform
+      pos: 30.5,43.5
+      parent: 1
+- proto: PenumbraTableGlass
+  entities:
+  - uid: 1190
+    components:
+    - type: Transform
+      pos: 50.5,40.5
+      parent: 1
+  - uid: 1191
+    components:
+    - type: Transform
+      pos: 51.5,40.5
+      parent: 1
+  - uid: 1208
+    components:
+    - type: Transform
+      pos: 59.5,41.5
+      parent: 1
+  - uid: 1254
+    components:
+    - type: Transform
+      pos: 57.5,40.5
+      parent: 1
+- proto: PenumbraTableReinforced
+  entities:
+  - uid: 1133
+    components:
+    - type: Transform
+      pos: 56.5,42.5
+      parent: 1
+  - uid: 1146
+    components:
+    - type: Transform
+      pos: 52.5,41.5
+      parent: 1
+  - uid: 1147
+    components:
+    - type: Transform
+      pos: 56.5,41.5
+      parent: 1
+  - uid: 1148
+    components:
+    - type: Transform
+      pos: 52.5,42.5
+      parent: 1
+  - uid: 1151
+    components:
+    - type: Transform
+      pos: 54.5,44.5
+      parent: 1
+  - uid: 1296
+    components:
+    - type: Transform
+      pos: 72.5,19.5
+      parent: 1
+  - uid: 1320
+    components:
+    - type: Transform
+      pos: 71.5,19.5
+      parent: 1
+  - uid: 1372
+    components:
+    - type: Transform
+      pos: 70.5,19.5
+      parent: 1
+  - uid: 2024
+    components:
+    - type: Transform
+      pos: 67.5,40.5
+      parent: 1
+  - uid: 2025
+    components:
+    - type: Transform
+      pos: 67.5,39.5
+      parent: 1
+  - uid: 2026
+    components:
+    - type: Transform
+      pos: 67.5,38.5
+      parent: 1
+  - uid: 2027
+    components:
+    - type: Transform
+      pos: 67.5,37.5
+      parent: 1
+  - uid: 2028
+    components:
+    - type: Transform
+      pos: 73.5,37.5
+      parent: 1
+  - uid: 2029
+    components:
+    - type: Transform
+      pos: 73.5,38.5
+      parent: 1
+  - uid: 2030
+    components:
+    - type: Transform
+      pos: 73.5,39.5
+      parent: 1
+  - uid: 2031
+    components:
+    - type: Transform
+      pos: 73.5,40.5
+      parent: 1
+  - uid: 2032
+    components:
+    - type: Transform
+      pos: 73.5,41.5
+      parent: 1
+  - uid: 2033
+    components:
+    - type: Transform
+      pos: 67.5,41.5
+      parent: 1
+  - uid: 2060
+    components:
+    - type: Transform
+      pos: 66.5,39.5
+      parent: 1
+  - uid: 2162
+    components:
+    - type: Transform
+      pos: 74.5,39.5
+      parent: 1
+  - uid: 2636
+    components:
+    - type: Transform
+      pos: 56.5,43.5
+      parent: 1
+  - uid: 2639
+    components:
+    - type: Transform
+      pos: 37.5,14.5
+      parent: 1
+  - uid: 2640
+    components:
+    - type: Transform
+      pos: 37.5,15.5
+      parent: 1
+  - uid: 2657
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 70.5,37.5
+      parent: 1
+  - uid: 2679
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 70.5,38.5
+      parent: 1
+  - uid: 2680
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 70.5,40.5
+      parent: 1
+  - uid: 2681
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 70.5,41.5
+      parent: 1
+  - uid: 2801
+    components:
+    - type: Transform
+      pos: -1.5,-1.5
+      parent: 2709
+  - uid: 2855
+    components:
+    - type: Transform
+      pos: 52.5,43.5
+      parent: 1
+- proto: PenumbraTableWood
+  entities:
+  - uid: 910
+    components:
+    - type: Transform
+      pos: 36.5,38.5
+      parent: 1
+  - uid: 911
+    components:
+    - type: Transform
+      pos: 37.5,38.5
+      parent: 1
+  - uid: 912
+    components:
+    - type: Transform
+      pos: 36.5,41.5
+      parent: 1
+  - uid: 913
+    components:
+    - type: Transform
+      pos: 37.5,41.5
+      parent: 1
+  - uid: 929
+    components:
+    - type: Transform
+      pos: 35.5,38.5
+      parent: 1
+  - uid: 3151
+    components:
+    - type: Transform
+      pos: 81.5,6.5
+      parent: 1
 - proto: PenumbraWallAsteroid
   entities:
   - uid: 36
@@ -15875,7 +16253,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 42.5,48.5
       parent: 1
-- proto: PenumbraWindowMetal
+- proto: PenumbraWindow
   entities:
   - uid: 19
     components:
@@ -15887,7 +16265,7 @@ entities:
     - type: Transform
       pos: 31.5,20.5
       parent: 1
-- proto: PenumbraWindowMetalReinforced
+- proto: PenumbraWindowReinforced
   entities:
   - uid: 10
     components:
@@ -15944,7 +16322,7 @@ entities:
     - type: Transform
       pos: 50.5,23.5
       parent: 1
-- proto: PenumbraWindowMetalReinforcedPlasma
+- proto: PenumbraWindowReinforcedPlasma
   entities:
   - uid: 34
     components:
@@ -19041,301 +19419,6 @@ entities:
     components:
     - type: Transform
       pos: 29.5,38.5
-      parent: 1
-- proto: Table
-  entities:
-  - uid: 430
-    components:
-    - type: Transform
-      pos: 35.5,14.5
-      parent: 1
-    - type: Physics
-      canCollide: False
-  - uid: 431
-    components:
-    - type: Transform
-      pos: 36.5,14.5
-      parent: 1
-    - type: Physics
-      canCollide: False
-  - uid: 434
-    components:
-    - type: Transform
-      pos: 33.5,15.5
-      parent: 1
-    - type: Physics
-      canCollide: False
-  - uid: 435
-    components:
-    - type: Transform
-      pos: 33.5,16.5
-      parent: 1
-    - type: Physics
-      canCollide: False
-  - uid: 443
-    components:
-    - type: Transform
-      pos: 30.5,19.5
-      parent: 1
-  - uid: 743
-    components:
-    - type: Transform
-      pos: 58.5,24.5
-      parent: 1
-  - uid: 790
-    components:
-    - type: Transform
-      pos: 52.5,26.5
-      parent: 1
-  - uid: 816
-    components:
-    - type: Transform
-      pos: 52.5,25.5
-      parent: 1
-  - uid: 904
-    components:
-    - type: Transform
-      pos: 31.5,41.5
-      parent: 1
-  - uid: 930
-    components:
-    - type: Transform
-      pos: 30.5,41.5
-      parent: 1
-  - uid: 931
-    components:
-    - type: Transform
-      pos: 31.5,38.5
-      parent: 1
-  - uid: 932
-    components:
-    - type: Transform
-      pos: 28.5,41.5
-      parent: 1
-  - uid: 933
-    components:
-    - type: Transform
-      pos: 28.5,40.5
-      parent: 1
-  - uid: 950
-    components:
-    - type: Transform
-      pos: 29.5,38.5
-      parent: 1
-  - uid: 1040
-    components:
-    - type: Transform
-      pos: 30.5,44.5
-      parent: 1
-  - uid: 1041
-    components:
-    - type: Transform
-      pos: 30.5,43.5
-      parent: 1
-- proto: TableGlass
-  entities:
-  - uid: 1190
-    components:
-    - type: Transform
-      pos: 50.5,40.5
-      parent: 1
-  - uid: 1191
-    components:
-    - type: Transform
-      pos: 51.5,40.5
-      parent: 1
-  - uid: 1208
-    components:
-    - type: Transform
-      pos: 59.5,41.5
-      parent: 1
-  - uid: 1254
-    components:
-    - type: Transform
-      pos: 57.5,40.5
-      parent: 1
-- proto: TableReinforced
-  entities:
-  - uid: 1133
-    components:
-    - type: Transform
-      pos: 56.5,42.5
-      parent: 1
-  - uid: 1146
-    components:
-    - type: Transform
-      pos: 52.5,41.5
-      parent: 1
-  - uid: 1147
-    components:
-    - type: Transform
-      pos: 56.5,41.5
-      parent: 1
-  - uid: 1148
-    components:
-    - type: Transform
-      pos: 52.5,42.5
-      parent: 1
-  - uid: 1151
-    components:
-    - type: Transform
-      pos: 54.5,44.5
-      parent: 1
-  - uid: 1296
-    components:
-    - type: Transform
-      pos: 72.5,19.5
-      parent: 1
-  - uid: 1320
-    components:
-    - type: Transform
-      pos: 71.5,19.5
-      parent: 1
-  - uid: 1372
-    components:
-    - type: Transform
-      pos: 70.5,19.5
-      parent: 1
-  - uid: 2024
-    components:
-    - type: Transform
-      pos: 67.5,40.5
-      parent: 1
-  - uid: 2025
-    components:
-    - type: Transform
-      pos: 67.5,39.5
-      parent: 1
-  - uid: 2026
-    components:
-    - type: Transform
-      pos: 67.5,38.5
-      parent: 1
-  - uid: 2027
-    components:
-    - type: Transform
-      pos: 67.5,37.5
-      parent: 1
-  - uid: 2028
-    components:
-    - type: Transform
-      pos: 73.5,37.5
-      parent: 1
-  - uid: 2029
-    components:
-    - type: Transform
-      pos: 73.5,38.5
-      parent: 1
-  - uid: 2030
-    components:
-    - type: Transform
-      pos: 73.5,39.5
-      parent: 1
-  - uid: 2031
-    components:
-    - type: Transform
-      pos: 73.5,40.5
-      parent: 1
-  - uid: 2032
-    components:
-    - type: Transform
-      pos: 73.5,41.5
-      parent: 1
-  - uid: 2033
-    components:
-    - type: Transform
-      pos: 67.5,41.5
-      parent: 1
-  - uid: 2060
-    components:
-    - type: Transform
-      pos: 66.5,39.5
-      parent: 1
-  - uid: 2162
-    components:
-    - type: Transform
-      pos: 74.5,39.5
-      parent: 1
-  - uid: 2636
-    components:
-    - type: Transform
-      pos: 56.5,43.5
-      parent: 1
-  - uid: 2639
-    components:
-    - type: Transform
-      pos: 37.5,14.5
-      parent: 1
-  - uid: 2640
-    components:
-    - type: Transform
-      pos: 37.5,15.5
-      parent: 1
-  - uid: 2657
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 70.5,37.5
-      parent: 1
-  - uid: 2679
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 70.5,38.5
-      parent: 1
-  - uid: 2680
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 70.5,40.5
-      parent: 1
-  - uid: 2681
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 70.5,41.5
-      parent: 1
-  - uid: 2801
-    components:
-    - type: Transform
-      pos: -1.5,-1.5
-      parent: 2709
-  - uid: 2855
-    components:
-    - type: Transform
-      pos: 52.5,43.5
-      parent: 1
-- proto: TableWood
-  entities:
-  - uid: 910
-    components:
-    - type: Transform
-      pos: 36.5,38.5
-      parent: 1
-  - uid: 911
-    components:
-    - type: Transform
-      pos: 37.5,38.5
-      parent: 1
-  - uid: 912
-    components:
-    - type: Transform
-      pos: 36.5,41.5
-      parent: 1
-  - uid: 913
-    components:
-    - type: Transform
-      pos: 37.5,41.5
-      parent: 1
-  - uid: 929
-    components:
-    - type: Transform
-      pos: 35.5,38.5
-      parent: 1
-  - uid: 3151
-    components:
-    - type: Transform
-      pos: 81.5,6.5
       parent: 1
 - proto: TargetClown
   entities:
