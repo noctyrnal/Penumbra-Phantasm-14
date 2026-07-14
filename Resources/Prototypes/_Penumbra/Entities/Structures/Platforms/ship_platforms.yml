@@ -1,0 +1,139 @@
+- type: entity
+  parent: PenumbraPlatform
+  id: PenumbraPlatformShip
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/ship.rsi
+
+- type: entity
+  parent: PenumbraPlatformCorner
+  id: PenumbraPlatformCornerShip
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/ship.rsi
+
+- type: entity
+  parent: PenumbraPlatformCornerSmall
+  id: PenumbraPlatformCornerSmallShip
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/ship.rsi
+
+- type: entity
+  parent: PenumbraPlatformStairLeft
+  id: PenumbraPlatformStairLeftShip
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/ship.rsi
+
+- type: entity
+  parent: PenumbraPlatformStairRight
+  id: PenumbraPlatformStairRightShip
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/ship.rsi
+
+- type: entity
+  parent: PenumbraPlatform
+  id: PenumbraPlatformShip2
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/ship_2.rsi
+
+- type: entity
+  parent: PenumbraPlatformCorner
+  id: PenumbraPlatformCornerShip2
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/ship_2.rsi
+
+- type: entity
+  parent: PenumbraPlatformCornerSmall
+  id: PenumbraPlatformCornerSmallShip2
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/ship_2.rsi
+
+- type: entity
+  parent: PenumbraPlatformStairRight
+  id: PenumbraPlatformStairRightShip2
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/ship_2.rsi
+
+- type: entity
+  parent: PenumbraPlatformStairLeft
+  id: PenumbraPlatformStairLeftShip2
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/ship_2.rsi
+
+- type: entity
+  parent: PenumbraPlatform
+  id: PenumbraPlatformShip3
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/ship_3.rsi
+
+- type: entity
+  parent: PenumbraPlatformCorner
+  id: PenumbraPlatformCornerShip3
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/ship_3.rsi
+
+- type: entity
+  parent: PenumbraPlatformCornerSmall
+  id: PenumbraPlatformCornerSmallShip3
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/ship_3.rsi
+
+- type: entity
+  parent: PenumbraPlatformStairLeft
+  id: PenumbraPlatformStairLeftShip3
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/ship_3.rsi
+
+- type: entity
+  parent: PenumbraPlatformStairRight
+  id: PenumbraPlatformStairRightShip3
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/ship_3.rsi
+
+- type: entity
+  parent: PenumbraPlatform
+  id: PenumbraPlatformShip4
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/ship_4.rsi
+
+- type: entity
+  parent: PenumbraPlatformCorner
+  id: PenumbraPlatformCornerShip4
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/ship_4.rsi
+
+- type: entity
+  parent: PenumbraPlatformCornerSmall
+  id: PenumbraPlatformCornerSmallShip4
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/ship_4.rsi
+
+- type: entity
+  parent: PenumbraPlatformStairLeft
+  id: PenumbraPlatformStairLeftShip4
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/ship_4.rsi
+
+- type: entity
+  parent: PenumbraPlatformStairRight
+  id: PenumbraPlatformStairRightShip4
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/ship_4.rsi

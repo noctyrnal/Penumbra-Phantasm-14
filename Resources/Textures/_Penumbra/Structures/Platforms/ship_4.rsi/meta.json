@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/305cf1b30536c018af5361c53818c71e1da7f1f7/icons/obj/platform.dmi, modified by github noctyrnal",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "platform",
+      "directions": 4
+    },
+    {
+      "name": "platform_round",
+      "directions": 4
+    },
+    {
+      "name": "platform_corners",
+      "directions": 4
+    },
+    {
+      "name": "platform_stair",
+      "directions": 4
+    },
+    {
+      "name": "platform_stair_alt",
+      "directions": 4
+    }
+  ]
+}

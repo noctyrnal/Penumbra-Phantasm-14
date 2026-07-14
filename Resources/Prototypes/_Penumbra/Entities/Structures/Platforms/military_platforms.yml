@@ -1,0 +1,34 @@
+- type: entity
+  parent: PenumbraPlatform
+  id: PenumbraPlatformMilitary
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/military.rsi
+
+- type: entity
+  parent: PenumbraPlatformCorner
+  id: PenumbraPlatformCornerMilitary
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/military.rsi
+
+- type: entity
+  parent: PenumbraPlatformCornerSmall
+  id: PenumbraPlatformCornerSmallMilitary
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/military.rsi
+
+- type: entity
+  parent: PenumbraPlatformStairLeft
+  id: PenumbraPlatformStairLeftMilitary
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/military.rsi
+
+- type: entity
+  parent: PenumbraPlatformStairRight
+  id: PenumbraPlatformStairRightMilitary
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/military.rsi

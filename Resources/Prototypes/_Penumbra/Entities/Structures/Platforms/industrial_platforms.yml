@@ -1,0 +1,69 @@
+- type: entity
+  parent: PenumbraPlatform
+  id: PenumbraPlatformIndustrial
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/industrial.rsi
+
+- type: entity
+  parent: PenumbraPlatformCorner
+  id: PenumbraPlatformCornerIndustrial
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/industrial.rsi
+
+- type: entity
+  parent: PenumbraPlatformCornerSmall
+  id: PenumbraPlatformCornerSmallIndustrial
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/industrial.rsi
+
+- type: entity
+  parent: PenumbraPlatformStairLeft
+  id: PenumbraPlatformStairLeftIndustrial
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/industrial.rsi
+
+- type: entity
+  parent: PenumbraPlatformStairRight
+  id: PenumbraPlatformStairRightIndustrial
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/industrial.rsi
+
+- type: entity
+  parent: PenumbraPlatform
+  id: PenumbraPlatformIndustrial2
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/industrial_2.rsi
+
+- type: entity
+  parent: PenumbraPlatformCorner
+  id: PenumbraPlatformCornerIndustrial2
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/industrial_2.rsi
+
+- type: entity
+  parent: PenumbraPlatformCornerSmall
+  id: PenumbraPlatformCornerSmallIndustrial2
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/industrial_2.rsi
+
+- type: entity
+  parent: PenumbraPlatformStairLeft
+  id: PenumbraPlatformStairLeftIndustrial2
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/industrial_2.rsi
+
+- type: entity
+  parent: PenumbraPlatformStairRight
+  id: PenumbraPlatformStairRightIndustrial2
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/industrial_2.rsi
