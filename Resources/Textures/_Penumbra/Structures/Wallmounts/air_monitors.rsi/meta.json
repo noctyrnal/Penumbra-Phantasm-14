@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/c8cdc0bb44cdb96cc1562666bc6df2fbdd71c42d/icons/obj/wallmounts/airalarm.dmi",
+    "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/c8cdc0bb44cdb96cc1562666bc6df2fbdd71c42d/icons/obj/wallmounts/airalarm.dmi, https://github.com/shiptest-ss13/Shiptest/blob/c8cdc0bb44cdb96cc1562666bc6df2fbdd71c42d/icons/obj/wallmounts/firealarm.dmi, https://github.com/shiptest-ss13/Shiptest/blob/c8cdc0bb44cdb96cc1562666bc6df2fbdd71c42d/icons/obj/wallmounts/wallframe_items.dmi",
     "license": "CC-BY-SA-3.0",
     "size": {
         "x": 32,
@@ -72,6 +72,9 @@
             "directions": 4
         },
         {
+            "name": "alarm_bitem"
+        },
+        {
             "name": "auth_off"
         },
         {
@@ -93,54 +96,6 @@
             "directions": 4
         },
         {
-            "name": "fire_1",
-            "directions": 4
-        },
-        {
-            "name": "fire_2",
-            "directions": 4,
-            "delays": [
-                [
-                    0.5,
-                    0.5
-                ],
-                [
-                    0.5,
-                    0.5
-                ],
-                [
-                    0.5,
-                    0.5
-                ],
-                [
-                    0.5,
-                    0.5
-                ]
-            ]
-        },
-        {
-            "name": "fire_3",
-            "directions": 4,
-            "delays": [
-                [
-                    0.5,
-                    0.5
-                ],
-                [
-                    0.5,
-                    0.5
-                ],
-                [
-                    0.5,
-                    0.5
-                ],
-                [
-                    0.5,
-                    0.5
-                ]
-            ]
-        },
-        {
             "name": "fire_b0",
             "directions": 4
         },
@@ -154,28 +109,6 @@
         },
         {
             "name": "fire_bitem"
-        },
-        {
-            "name": "fire_detected",
-            "directions": 4,
-            "delays": [
-                [
-                    0.4,
-                    0.4
-                ],
-                [
-                    0.4,
-                    0.4
-                ],
-                [
-                    0.4,
-                    0.4
-                ],
-                [
-                    0.4,
-                    0.4
-                ]
-            ]
         },
         {
             "name": "fire_emagged",
@@ -240,10 +173,6 @@
                     0.5
                 ]
             ]
-        },
-        {
-            "name": "fire_overlay",
-            "directions": 4
         },
         {
             "name": "firex",
