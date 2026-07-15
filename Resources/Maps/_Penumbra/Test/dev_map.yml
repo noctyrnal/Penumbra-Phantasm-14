@@ -7969,14 +7969,14 @@ entities:
     - type: Transform
       pos: 59.70333,41.59572
       parent: 1
-- proto: Chair
+- proto: PenumbraChair
   entities:
   - uid: 2710
     components:
     - type: Transform
       pos: 31.5,19.5
       parent: 1
-- proto: ChairPilotSeat
+- proto: PenumbraChairPilotSeat
   entities:
   - uid: 2750
     components:
@@ -7984,7 +7984,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 0.5,2.5
       parent: 2709
-- proto: ChairWood
+- proto: PenumbraChairWood
   entities:
   - uid: 3152
     components:
@@ -18621,7 +18621,7 @@ entities:
           - Toggle
         - - Pressed
           - Trigger
-- proto: SignalButtonDirectional
+- proto: PenumbraSignalButtonDirectional
   entities:
   - uid: 2642
     components:

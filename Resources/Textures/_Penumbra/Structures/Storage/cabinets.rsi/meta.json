@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/41e9e43d15baf9896ebadd277b027ef61b2a2cda/icons/obj/bureaucracy.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "filingcabinet",
+      "directions": 4
+    },
+    {
+      "name": "filingcabinet-open",
+      "directions": 4
+    },
+    {
+      "name": "doublefilingcabinet",
+      "directions": 4
+    },
+    {
+      "name": "doublefilingcabinet-open",
+      "directions": 4
+    },
+    {
+      "name": "chestdrawer",
+      "directions": 4
+    },
+    {
+      "name": "chestdrawer-open",
+      "directions": 4
+    },
+    {
+      "name": "tallcabinet",
+      "directions": 4
+    },
+    {
+      "name": "tallcabinet-open",
+      "directions": 4
+    },
+    {
+      "name": "doubletallcabinet",
+      "directions": 4
+    },
+    {
+      "name": "doubletallcabinet-open",
+      "directions": 4
+    },
+    {
+      "name": "widecabinet",
+      "directions": 4
+    },
+    {
+      "name": "widecabinet-open",
+      "directions": 4
+    },
+    {
+      "name": "doublewidecabinet",
+      "directions": 4
+    },
+    {
+      "name": "doublewidecabinet-open",
+      "directions": 4
+    }
+  ]
+}

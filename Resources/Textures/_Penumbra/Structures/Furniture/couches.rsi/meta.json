@@ -1,0 +1,371 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/f0ae5d97ca08f3921f755f2740380382014238e4/icons/obj/structures/chairs/sofa.dmi, https://github.com/shiptest-ss13/Shiptest/blob/41e9e43d15baf9896ebadd277b027ef61b2a2cda/icons/obj/sofa.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "brown_sofa_corner",
+      "directions": 4
+    },
+    {
+      "name": "brown_sofa_end_left",
+      "directions": 4
+    },
+    {
+      "name": "brown_sofa_end_right",
+      "directions": 4
+    },
+    {
+      "name": "brown_sofa_middle",
+      "directions": 4
+    },
+    {
+      "name": "brown_sofa_internalcorner",
+      "directions": 4
+    },
+    {
+      "name": "brown_oldsofa_corner",
+      "directions": 4
+    },
+    {
+      "name": "brown_oldsofa_end_left",
+      "directions": 4
+    },
+    {
+      "name": "brown_oldsofa_end_right",
+      "directions": 4
+    },
+    {
+      "name": "brown_oldsofa_middle",
+      "directions": 4
+    },
+    {
+      "name": "brown_oldsofa_internalcorner",
+      "directions": 4
+    },
+    {
+      "name": "brown_corpsofa_corner",
+      "directions": 4
+    },
+    {
+      "name": "brown_corpsofa_end_left",
+      "directions": 4
+    },
+    {
+      "name": "brown_corpsofa_end_right",
+      "directions": 4
+    },
+    {
+      "name": "brown_corpsofa_middle",
+      "directions": 4
+    },
+    {
+      "name": "brown_corpsofa_internalcorner",
+      "directions": 4
+    },
+    {
+      "name": "purple_sofa_corner",
+      "directions": 4
+    },
+    {
+      "name": "purple_sofa_end_left",
+      "directions": 4
+    },
+    {
+      "name": "purple_sofa_end_right",
+      "directions": 4
+    },
+    {
+      "name": "purple_sofa_middle",
+      "directions": 4
+    },
+    {
+      "name": "purple_sofa_internalcorner",
+      "directions": 4
+    },
+    {
+      "name": "purple_oldsofa_corner",
+      "directions": 4
+    },
+    {
+      "name": "purple_oldsofa_end_left",
+      "directions": 4
+    },
+    {
+      "name": "purple_oldsofa_end_right",
+      "directions": 4
+    },
+    {
+      "name": "purple_oldsofa_middle",
+      "directions": 4
+    },
+    {
+      "name": "purple_oldsofa_internalcorner",
+      "directions": 4
+    },
+    {
+      "name": "purple_corpsofa_corner",
+      "directions": 4
+    },
+    {
+      "name": "purple_corpsofa_end_left",
+      "directions": 4
+    },
+    {
+      "name": "purple_corpsofa_end_right",
+      "directions": 4
+    },
+    {
+      "name": "purple_corpsofa_middle",
+      "directions": 4
+    },
+    {
+      "name": "purple_corpsofa_internalcorner",
+      "directions": 4
+    },
+    {
+      "name": "blue_sofa_corner",
+      "directions": 4
+    },
+    {
+      "name": "blue_sofa_end_right",
+      "directions": 4
+    },
+    {
+      "name": "blue_sofa_middle",
+      "directions": 4
+    },
+    {
+      "name": "blue_sofa_internalcorner",
+      "directions": 4
+    },
+    {
+      "name": "blue_oldsofa_corner",
+      "directions": 4
+    },
+    {
+      "name": "blue_oldsofa_end_left",
+      "directions": 4
+    },
+    {
+      "name": "blue_oldsofa_end_right",
+      "directions": 4
+    },
+    {
+      "name": "blue_oldsofa_middle",
+      "directions": 4
+    },
+    {
+      "name": "blue_sofa_end_left",
+      "directions": 4
+    },
+    {
+      "name": "blue_oldsofa_internalcorner",
+      "directions": 4
+    },
+    {
+      "name": "blue_corpsofa_corner",
+      "directions": 4
+    },
+    {
+      "name": "blue_corpsofa_end_left",
+      "directions": 4
+    },
+    {
+      "name": "blue_corpsofa_end_right",
+      "directions": 4
+    },
+    {
+      "name": "blue_corpsofa_middle",
+      "directions": 4
+    },
+    {
+      "name": "blue_corpsofa_internalcorner",
+      "directions": 4
+    },
+    {
+      "name": "red_sofa_corner",
+      "directions": 4
+    },
+    {
+      "name": "red_sofa_end_left",
+      "directions": 4
+    },
+    {
+      "name": "red_sofa_end_right",
+      "directions": 4
+    },
+    {
+      "name": "red_sofa_middle",
+      "directions": 4
+    },
+    {
+      "name": "red_sofa_internalcorner",
+      "directions": 4
+    },
+    {
+      "name": "red_oldsofa_corner",
+      "directions": 4
+    },
+    {
+      "name": "red_oldsofa_end_left",
+      "directions": 4
+    },
+    {
+      "name": "red_oldsofa_end_right",
+      "directions": 4
+    },
+    {
+      "name": "red_oldsofa_middle",
+      "directions": 4
+    },
+    {
+      "name": "red_oldsofa_internalcorner",
+      "directions": 4
+    },
+    {
+      "name": "red_corpsofa_corner",
+      "directions": 4
+    },
+    {
+      "name": "red_corpsofa_end_left",
+      "directions": 4
+    },
+    {
+      "name": "red_corpsofa_end_right",
+      "directions": 4
+    },
+    {
+      "name": "red_corpsofa_middle",
+      "directions": 4
+    },
+    {
+      "name": "red_corpsofa_internalcorner",
+      "directions": 4
+    },
+    {
+      "name": "grey_sofa_corner",
+      "directions": 4
+    },
+    {
+      "name": "grey_sofa_end_left",
+      "directions": 4
+    },
+    {
+      "name": "grey_sofa_end_right",
+      "directions": 4
+    },
+    {
+      "name": "grey_sofa_middle",
+      "directions": 4
+    },
+    {
+      "name": "grey_sofa_internalcorner",
+      "directions": 4
+    },
+    {
+      "name": "grey_oldsofa_corner",
+      "directions": 4
+    },
+    {
+      "name": "grey_oldsofa_end_left",
+      "directions": 4
+    },
+    {
+      "name": "grey_oldsofa_end_right",
+      "directions": 4
+    },
+    {
+      "name": "grey_oldsofa_middle",
+      "directions": 4
+    },
+    {
+      "name": "grey_oldsofa_internalcorner",
+      "directions": 4
+    },
+    {
+      "name": "grey_corpsofa_corner",
+      "directions": 4
+    },
+    {
+      "name": "grey_corpsofa_end_left",
+      "directions": 4
+    },
+    {
+      "name": "grey_corpsofa_end_right",
+      "directions": 4
+    },
+    {
+      "name": "grey_corpsofa_middle",
+      "directions": 4
+    },
+    {
+      "name": "grey_corpsofa_internalcorner",
+      "directions": 4
+    },
+    {
+      "name": "olive_sofa_corner",
+      "directions": 4
+    },
+    {
+      "name": "olive_sofa_end_left",
+      "directions": 4
+    },
+    {
+      "name": "olive_sofa_end_right",
+      "directions": 4
+    },
+    {
+      "name": "olive_sofa_middle",
+      "directions": 4
+    },
+    {
+      "name": "olive_sofa_internalcorner",
+      "directions": 4
+    },
+    {
+      "name": "olive_oldsofa_corner",
+      "directions": 4
+    },
+    {
+      "name": "olive_oldsofa_end_left",
+      "directions": 4
+    },
+    {
+      "name": "olive_oldsofa_end_right",
+      "directions": 4
+    },
+    {
+      "name": "olive_oldsofa_middle",
+      "directions": 4
+    },
+    {
+      "name": "olive_oldsofa_internalcorner",
+      "directions": 4
+    },
+    {
+      "name": "olive_corpsofa_corner",
+      "directions": 4
+    },
+    {
+      "name": "olive_corpsofa_end_left",
+      "directions": 4
+    },
+    {
+      "name": "olive_corpsofa_end_right",
+      "directions": 4
+    },
+    {
+      "name": "olive_corpsofa_middle",
+      "directions": 4
+    },
+    {
+      "name": "olive_corpsofa_internalcorner",
+      "directions": 4
+    }
+  ]
+}

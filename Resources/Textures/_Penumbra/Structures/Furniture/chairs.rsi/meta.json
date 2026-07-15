@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/master/icons/obj/structures/handrail.dmi, https://github.com/shiptest-ss13/Shiptest/blob/db9f0907b18add2f9db0509b0de28097f1c2955d/icons/obj/chairs.dmi, https://github.com/shiptest-ss13/Shiptest/blob/3878aa0218fedf4dc9dbdaac558a0f990b439c2c/icons/obj/chairs.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "chair",
+      "directions": 4
+    },
+    {
+      "name": "officechair_gray",
+      "directions": 4
+    },
+    {
+      "name": "officechair_dark",
+      "directions": 4
+    },
+    {
+      "name": "officechair_purple",
+      "directions": 4
+    },
+    {
+      "name": "wooden_chair",
+      "directions": 4
+    },
+    {
+      "name": "stool",
+      "directions": 4
+    },
+    {
+      "name": "bar",
+      "directions": 4
+    },
+    {
+      "name": "shuttle_chair",
+      "directions": 4
+    },
+    {
+      "name": "handrail",
+      "directions": 4
+    }
+  ]
+}

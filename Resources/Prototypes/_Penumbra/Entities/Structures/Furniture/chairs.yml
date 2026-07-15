@@ -1,0 +1,200 @@
+- type: entity
+  parent: SeatBase
+  id: PenumbraSeatBase
+  description: You sit in this. It stops you from getting hurled around during an Anti-Space Jump.
+  suffix: Penumbra
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Furniture/chairs.rsi
+
+#Starts unanchored, cannot be rotated while anchored
+- type: entity
+  parent: PenumbraSeatBase
+  id: PenumbraUnanchoredChairBase
+  name: chair
+  abstract: true
+  components:
+  - type: Anchorable
+  - type: Rotatable
+
+#Start anchored, cannot be rotated while anchored
+- type: entity
+  parent: PenumbraUnanchoredChairBase
+  id: PenumbraChairBase
+  name: chair
+  abstract: true
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Physics
+    bodyType: Static
+  - type: Transform
+    anchored: true
+
+#Starts unanchored, can be rotated while anchored
+- type: entity
+  parent: PenumbraUnanchoredChairBase
+  id: PenumbraOfficeChairBase
+  name: chair
+  abstract: true
+  components:
+  - type: Rotatable
+    rotateWhileAnchored: true
+
+#Starts anchored, can be rotated while anchored
+- type: entity
+  parent: PenumbraOfficeChairBase
+  id: PenumbraStoolBase
+  name: stool
+  abstract: true
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Physics
+    bodyType: Static
+  - type: Transform
+    anchored: true
+
+- type: entity
+  parent: PenumbraSeatBase
+  id: PenumbraHandrail
+  name: handrail
+  description: A safety railing with buckles to secure yourself to when the floor isn't stable enough.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    state: handrail
+    drawdepth: OverMobs
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Seat
+  #   node: chair
+
+- type: entity
+  parent: PenumbraChairBase
+  id: PenumbraChair
+  components:
+  - type: Sprite
+    state: chair
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Seat
+  #   node: chair
+
+- type: entity
+  parent: PenumbraUnanchoredChairBase
+  id: PenumbraStool
+  name: stool
+  components:
+  - type: Sprite
+    state: stool
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Seat
+  #   node: stool
+
+- type: entity
+  parent: PenumbraStoolBase
+  id: PenumbraStoolBar
+  name: bar stool
+  components:
+  - type: Sprite
+    state: bar
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Seat
+  #   node: stoolBar
+
+- type: entity
+  parent: PenumbraOfficeChairBase
+  id: PenumbraChairOfficeLight
+  name: grey office chair
+  components:
+  - type: Sprite
+    state: officechair_gray
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Seat
+  #   node: chairOffice
+
+- type: entity
+  parent: PenumbraChairOfficeLight
+  id: PenumbraChairOfficeDark
+  name: dark office chair
+  components:
+  - type: Sprite
+    state: officechair_dark
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Seat
+  #   node: chairOfficeDark
+
+- type: entity
+  parent: PenumbraChairOfficeLight
+  id: PenumbraChairOfficePurple
+  name: purple office chair
+  components:
+  - type: Sprite
+    state: officechair_purple
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Seat
+  #   node: chairOfficeDark
+
+- type: entity
+  parent: PenumbraChairBase
+  id: PenumbraChairPilotSeat
+  name: flight seat
+  components:
+  - type: Sprite
+    state: shuttle_chair
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Seat
+  #   node: chairPilotSeat
+
+- type: entity
+  parent: PenumbraUnanchoredChairBase
+  id: PenumbraChairWood
+  name: wooden chair
+  components:
+  - type: Sprite
+    state: wooden_chair
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Seat
+  #   node: chairWood
+  - type: Damageable
+    damageModifierSet: Wood
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 25
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WoodDestroy
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          MaterialWoodPlank:
+            min: 1
+            max: 1
+  - type: Tag
+    tags:
+    - Wooden
+  - type: StaticPrice
+    price: 75
+
+- type: entity
+  parent: ChairFolding
+  id: PenumbraChairFolding
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Furniture/folding_chair.rsi
+
+- type: entity
+  parent: PenumbraChairFolding
+  id: PenumbraChairFoldingSpawnFolded
+  suffix: Penumbra, Folded
+  components:
+  - type: Foldable
+    folded: true
+  - type: Strap
+    enabled: False

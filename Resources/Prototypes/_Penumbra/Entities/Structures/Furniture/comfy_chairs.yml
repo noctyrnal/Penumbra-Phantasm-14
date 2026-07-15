@@ -1,0 +1,327 @@
+- type: entity
+  parent: PenumbraChairBase
+  id: PenumbraChairComfyBase
+  name: comfy chair
+  description: It looks comfy.
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Furniture/comfy_chairs.rsi
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Seat
+  #   node: chair
+
+# Red
+
+- type: entity
+  parent: PenumbraChairComfyBase
+  id: PenumbraChairComfyRed
+  suffix: Penumbra, Red
+  components:
+  - type: Sprite
+    state: imaginos_red
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Seat
+  #   node: chair
+
+- type: entity
+  parent: PenumbraChairComfyRed
+  id: PenumbraChairComfyRedOld
+  suffix: Penumbra, Old, Red
+  components:
+  - type: Sprite
+    state: old_red
+
+- type: entity
+  parent: PenumbraChairComfyRed
+  id: PenumbraChairComfyRedOldAlt
+  suffix: Penumbra, Old Alt, Red
+  components:
+  - type: Sprite
+    state: old_red_alt
+
+- type: entity
+  parent: PenumbraChairComfyRed
+  id: PenumbraChairComfyRedCorp
+  suffix: Penumbra, Corpo, Red
+  components:
+  - type: Sprite
+    state: corp_red
+
+- type: entity
+  parent: PenumbraChairComfyRed
+  id: PenumbraChairComfyRedBench
+  suffix: Penumbra, Bench, Red
+  components:
+  - type: Sprite
+    state: bench_red
+
+# Beige
+
+- type: entity
+  parent: PenumbraChairComfyBase
+  id: PenumbraChairComfyBeige
+  suffix: Penumbra, Beige
+  components:
+  - type: Sprite
+    state: imaginos_beige
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Seat
+  #   node: chair
+
+- type: entity
+  parent: PenumbraChairComfyBeige
+  id: PenumbraChairComfyBeigeOld
+  suffix: Penumbra, Old, Beige
+  components:
+  - type: Sprite
+    state: old_beige
+
+- type: entity
+  parent: PenumbraChairComfyBeige
+  id: PenumbraChairComfyBeigeOldAlt
+  suffix: Penumbra, Old Alt, Beige
+  components:
+  - type: Sprite
+    state: old_beige_alt
+
+- type: entity
+  parent: PenumbraChairComfyBeige
+  id: PenumbraChairComfyBeigeCorp
+  suffix: Penumbra, Corpo, Beige
+  components:
+  - type: Sprite
+    state: corp_beige
+
+- type: entity
+  parent: PenumbraChairComfyBeige
+  id: PenumbraChairComfyBeigeBench
+  suffix: Penumbra, Bench, Beige
+  components:
+  - type: Sprite
+    state: bench_beige
+
+# Blue
+
+- type: entity
+  parent: PenumbraChairComfyBase
+  id: PenumbraChairComfyBlue
+  suffix: Penumbra, Blue
+  components:
+  - type: Sprite
+    state: imaginos_blue
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Seat
+  #   node: chair
+
+- type: entity
+  parent: PenumbraChairComfyBlue
+  id: PenumbraChairComfyBlueOld
+  suffix: Penumbra, Old, Blue
+  components:
+  - type: Sprite
+    state: old_blue
+
+- type: entity
+  parent: PenumbraChairComfyBlue
+  id: PenumbraChairComfyBlueOldAlt
+  suffix: Penumbra, Old Alt, Blue
+  components:
+  - type: Sprite
+    state: old_blue_alt
+
+- type: entity
+  parent: PenumbraChairComfyBlue
+  id: PenumbraChairComfyBlueCorp
+  suffix: Penumbra, Corpo, Blue
+  components:
+  - type: Sprite
+    state: corp_blue
+
+- type: entity
+  parent: PenumbraChairComfyBlue
+  id: PenumbraChairComfyBlueBench
+  suffix: Penumbra, Bench, Blue
+  components:
+  - type: Sprite
+    state: bench_blue
+
+# Grey
+
+- type: entity
+  parent: PenumbraChairComfyBase
+  id: PenumbraChairComfyGrey
+  suffix: Penumbra, Grey
+  components:
+  - type: Sprite
+    state: imaginos_grey
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Seat
+  #   node: chair
+
+- type: entity
+  parent: PenumbraChairComfyGrey
+  id: PenumbraChairComfyGreyOld
+  suffix: Penumbra, Old, Grey
+  components:
+  - type: Sprite
+    state: old_grey
+
+- type: entity
+  parent: PenumbraChairComfyGrey
+  id: PenumbraChairComfyGreyOldAlt
+  suffix: Penumbra, Old Alt, Grey
+  components:
+  - type: Sprite
+    state: old_grey_alt
+
+- type: entity
+  parent: PenumbraChairComfyGrey
+  id: PenumbraChairComfyGreyCorp
+  suffix: Penumbra, Corpo, Grey
+  components:
+  - type: Sprite
+    state: corp_grey
+
+- type: entity
+  parent: PenumbraChairComfyGrey
+  id: PenumbraChairComfyGreyBench
+  suffix: Penumbra, Bench, Grey
+  components:
+  - type: Sprite
+    state: bench_grey
+
+# Olive
+
+- type: entity
+  parent: PenumbraChairComfyBase
+  id: PenumbraChairComfyOlive
+  suffix: Penumbra, Olive
+  components:
+  - type: Sprite
+    state: imaginos_olive
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Seat
+  #   node: chair
+
+- type: entity
+  parent: PenumbraChairComfyOlive
+  id: PenumbraChairComfyOliveOld
+  suffix: Penumbra, Old, Olive
+  components:
+  - type: Sprite
+    state: old_olive
+
+- type: entity
+  parent: PenumbraChairComfyOlive
+  id: PenumbraChairComfyOliveOldAlt
+  suffix: Penumbra, Old Alt, Olive
+  components:
+  - type: Sprite
+    state: old_olive_alt
+
+- type: entity
+  parent: PenumbraChairComfyOlive
+  id: PenumbraChairComfyOliveCorp
+  suffix: Penumbra, Corpo, Olive
+  components:
+  - type: Sprite
+    state: corp_olive
+
+- type: entity
+  parent: PenumbraChairComfyOlive
+  id: PenumbraChairComfyOliveBench
+  suffix: Penumbra, Bench, Olive
+  components:
+  - type: Sprite
+    state: bench_olive
+
+# Orange
+
+- type: entity
+  parent: PenumbraChairComfyBase
+  id: PenumbraChairComfyOrange
+  suffix: Penumbra, Orange
+  components:
+  - type: Sprite
+    state: imaginos_orange
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Seat
+  #   node: chair
+
+- type: entity
+  parent: PenumbraChairComfyOrange
+  id: PenumbraChairComfyOrangeOld
+  suffix: Penumbra, Old, Orange
+  components:
+  - type: Sprite
+    state: old_orange
+
+- type: entity
+  parent: PenumbraChairComfyOrange
+  id: PenumbraChairComfyOrangeOldAlt
+  suffix: Penumbra, Old Alt, Orange
+  components:
+  - type: Sprite
+    state: old_orange_alt
+
+- type: entity
+  parent: PenumbraChairComfyOrange
+  id: PenumbraChairComfyOrangeCorp
+  suffix: Penumbra, Corpo, Orange
+  components:
+  - type: Sprite
+    state: corp_orange
+
+- type: entity
+  parent: PenumbraChairComfyOrange
+  id: PenumbraChairComfyOrangeBench
+  suffix: Penumbra, Bench, Orange
+  components:
+  - type: Sprite
+    state: bench_orange
+
+# Purple
+
+- type: entity
+  parent: PenumbraChairComfyBase
+  id: PenumbraChairComfyPurple
+  suffix: Penumbra, Purple
+  components:
+  - type: Sprite
+    state: imaginos_purple
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Seat
+  #   node: chair
+
+- type: entity
+  parent: PenumbraChairComfyPurple
+  id: PenumbraChairComfyPurpleOld
+  suffix: Penumbra, Old, Purple
+  components:
+  - type: Sprite
+    state: old_purple
+
+- type: entity
+  parent: PenumbraChairComfyPurple
+  id: PenumbraChairComfyPurpleOldAlt
+  suffix: Penumbra, Old Alt, Purple
+  components:
+  - type: Sprite
+    state: old_purple_alt
+
+- type: entity
+  parent: PenumbraChairComfyPurple
+  id: PenumbraChairComfyPurpleCorp
+  suffix: Penumbra, Corpo, Purple
+  components:
+  - type: Sprite
+    state: corp_purple
+
+- type: entity
+  parent: PenumbraChairComfyPurple
+  id: PenumbraChairComfyPurpleBench
+  suffix: Penumbra, Bench, Purple
+  components:
+  - type: Sprite
+    state: bench_purple
