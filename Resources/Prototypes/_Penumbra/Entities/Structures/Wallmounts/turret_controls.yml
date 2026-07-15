@@ -1,0 +1,70 @@
+- type: entity
+  abstract: true
+  parent: WeaponEnergyTurretStationControlPanelBase
+  id: PenumbraWeaponEnergyTurretStationControlPanelBase
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Wallmounts/turret_controls.rsi
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: WeaponEnergyTurretControlPanel
+  #   node: finish
+
+- type: entity
+  parent: PenumbraWeaponEnergyTurretStationControlPanelBase
+  id: PenumbraWeaponEnergyTurretAIControlPanel
+  suffix: Penumbra, AI, Silicon
+  components:
+  - type: AccessReader
+    access: [["StationAi"], ["ResearchDirector"]]
+  - type: ContainerFill
+    containers:
+      board:
+      - WeaponEnergyTurretAIControlPanelElectronics
+  - type: DeviceNetwork
+    receiveFrequencyId: TurretAI
+    transmitFrequencyId: TurretControlAI
+  - type: TurretTargetSettings
+    exemptAccessLevels:
+    - BasicSilicon
+    - Borg
+  - type: DeployableTurretController
+    accessGroups:
+    - Silicon
+    accessLevels:
+    - BasicSilicon
+    - Borg
+
+- type: entity
+  parent: PenumbraWeaponEnergyTurretStationControlPanelBase
+  id: PenumbraWeaponEnergyTurretSecurityControlPanel
+  suffix: Penumbra, Security
+  components:
+  - type: AccessReader
+    access: [["StationAi"], ["Security"]]
+  - type: ContainerFill
+    containers:
+      board:
+      - WeaponEnergyTurretSecurityControlPanelElectronics
+  - type: TurretTargetSettings
+    exemptAccessLevels:
+    - Security
+    - BasicSilicon
+    - Borg
+
+- type: entity
+  parent: PenumbraWeaponEnergyTurretStationControlPanelBase
+  id: PenumbraWeaponEnergyTurretCommandControlPanel
+  suffix: Penumbra, Command
+  components:
+  - type: AccessReader
+    access: [["StationAi"], ["Command"]]
+  - type: ContainerFill
+    containers:
+      board:
+      - WeaponEnergyTurretCommandControlPanelElectronics
+  - type: TurretTargetSettings
+    exemptAccessLevels:
+    - Command
+    - BasicSilicon
+    - Borg

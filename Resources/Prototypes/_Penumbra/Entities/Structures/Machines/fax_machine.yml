@@ -6,6 +6,7 @@
   components:
   - type: Sprite
     sprite: _Penumbra/Structures/Machines/fax_machine.rsi
+    offset: 0, 0.15
   - type: Icon
     sprite: _Penumbra/Structures/Machines/fax_machine.rsi
   - type: GenericVisualizer

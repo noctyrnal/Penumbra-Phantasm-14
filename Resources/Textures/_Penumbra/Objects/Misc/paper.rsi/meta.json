@@ -9,6 +9,9 @@
   "states": [
     {
       "name": "paper"
+    },
+    {
+      "name": "paper_words"
     }
   ]
 }

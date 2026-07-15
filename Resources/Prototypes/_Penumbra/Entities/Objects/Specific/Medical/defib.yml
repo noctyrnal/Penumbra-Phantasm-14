@@ -1,0 +1,17 @@
+- type: entity
+  parent: BaseDefibrillator
+  id: PenumbraBaseDefibrillator
+  description: A device that delivers powerful shocks via detachable paddles that resuscitate incapacitated patients.
+  suffix: Penumbra
+  abstract: true
+  components:
+    - type: Sprite
+      sprite: _Penumbra/Objects/Specific/Medical/defib.rsi
+- type: entity
+  parent: [ PenumbraBaseDefibrillator, PowerCellSlotMediumItem ]
+  id: PenumbraDefibrillator
+  components:
+  - type: MultiHandedItem
+  - type: ToggleCellDraw
+  - type: PowerCellDraw
+    useCharge: 100
