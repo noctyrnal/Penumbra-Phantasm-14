@@ -1,0 +1,365 @@
+- type: entity
+  parent: SignalSwitch
+  id: PenumbraSignalSwitch
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Wallmounts/switch.rsi
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: SignalSwitchGraph
+  #   node: SignalSwitchNode
+
+- type: entity
+  parent: SignalButton
+  id: PenumbraSignalButton
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Wallmounts/switch.rsi
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: SignalButtonGraph
+  #   node: SignalButtonNode
+
+- type: entity
+  parent: ApcNetSwitch
+  id: PenumbraApcNetSwitch
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Wallmounts/switch.rsi
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: LightSwitchGraph
+  #   node: LightSwitchNode
+
+#directional
+
+- type: entity
+  parent: PenumbraSignalSwitch
+  id: PenumbraSignalSwitchDirectional
+  name: signal switch
+  suffix: Penumbra, Directional
+  components:
+  - type: WallMount
+    arc: 175
+  - type: Construction
+    graph: SignalSwitchDirectionalGraph
+    node: SignalSwitchDirectionalNode
+
+- type: entity
+  parent: PenumbraSignalButton
+  id: PenumbraSignalButtonDirectional
+  name: signal button
+  suffix: Penumbra, Directional
+  components:
+  - type: WallMount
+    arc: 175
+  - type: Construction
+    graph: SignalButtonDirectionalGraph
+    node: SignalButtonDirectionalNode
+
+- type: entity
+  parent: PenumbraApcNetSwitch
+  id: PenumbraApcNetSwitchDirectional
+  name: apc net switch
+  suffix: Penumbra, Directional
+  components:
+  - type: WallMount
+    arc: 175
+  - type: Construction
+    graph: LightSwitchDirectionalGraph
+    node: LightSwitchDirectionalNode
+
+# lockable buttons
+
+- type: entity
+  parent: PenumbraSignalButtonDirectional
+  id: PenumbraLockableButton
+  name: lockable button
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Appearance
+  - type: Lock
+  - type: LockVisuals
+  - type: AccessReader
+  - type: Sprite
+    drawdepth: WallMountedItems
+    sprite: _Penumbra/Structures/Wallmounts/locked_switch.rsi
+    layers:
+    - state: base
+    - state: locked
+      map: ["enum.LockVisualLayers.Lock"]
+      shader: unshaded
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonCaptain
+  suffix: Penumbra, Captain
+  components:
+  - type: AccessReader
+    access: [["Captain"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonAuxiliarySupportOfficer
+  suffix: Penumbra, Auxiliary Support Officer
+  components:
+  - type: AccessReader
+    access: [["HeadOfPersonnel"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonChiefEngineer
+  suffix: Penumbra, Chief Engineer
+  components:
+  - type: AccessReader
+    access: [["ChiefEngineer"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonChiefMedicalOfficer
+  suffix: Penumbra, Chief Medical Officer
+  components:
+  - type: AccessReader
+    access: [["ChiefMedicalOfficer"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonHeadOfSecurity
+  suffix: Penumbra, Head Of Security
+  components:
+  - type: AccessReader
+    access: [["HeadOfSecurity"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonResearchDirector
+  suffix: Penumbra, Research Director
+  components:
+  - type: AccessReader
+    access: [["ResearchDirector"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonCommand
+  suffix: Penumbra, Command
+  components:
+  - type: AccessReader
+    access: [["Command"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonCryogenics
+  suffix: Penumbra, Cryogenics
+  components:
+  - type: AccessReader
+    access: [["Cryogenics"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonSecurity
+  suffix: Penumbra, Security
+  components:
+  - type: AccessReader
+    access: [["Security"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonDetective
+  suffix: Penumbra, Detective
+  components:
+  - type: AccessReader
+    access: [["Detective"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonArmory
+  suffix: Penumbra, Armory
+  components:
+  - type: AccessReader
+    access: [["Armory"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonBrig
+  suffix: Penumbra, Brig
+  components:
+  - type: AccessReader
+    access: [["Brig"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonLawyer
+  suffix: Penumbra, Lawyer
+  components:
+  - type: AccessReader
+    access: [["Lawyer"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonEngineering
+  suffix: Penumbra, Engineering
+  components:
+  - type: AccessReader
+    access: [["Engineering"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonMedical
+  suffix: Penumbra, Medical
+  components:
+  - type: AccessReader
+    access: [["Medical"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonLogisticsOfficer
+  suffix: Penumbra, Logistics Officer
+  components:
+  - type: AccessReader
+    access: [["Quartermaster"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonSalvage
+  suffix: Penumbra, Salvage
+  components:
+  - type: AccessReader
+    access: [["Salvage"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonLogistics
+  suffix: Penumbra, Logistics
+  components:
+  - type: AccessReader
+    access: [["Cargo"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonResearch
+  suffix: Penumbra, Research
+  components:
+  - type: AccessReader
+    access: [["Research"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonService
+  suffix: Penumbra, Service
+  components:
+  - type: AccessReader
+    access: [["Service"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonMaintenance
+  suffix: Penumbra, Maintenance
+  components:
+  - type: AccessReader
+    access: [["Maintenance"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonExternal
+  suffix: Penumbra, External
+  components:
+  - type: AccessReader
+    access: [["External"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonJanitor
+  suffix: Penumbra, Janitor
+  components:
+  - type: AccessReader
+    access: [["Janitor"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonBar
+  suffix: Penumbra, Bar
+  components:
+  - type: AccessReader
+    access: [["Bar"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonChemistry
+  suffix: Penumbra, Chemistry
+  components:
+  - type: AccessReader
+    access: [["Chemistry"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonKitchen
+  suffix: Penumbra, Kitchen
+  components:
+  - type: AccessReader
+    access: [["Kitchen"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonChapel
+  suffix: Penumbra, Chapel
+  components:
+  - type: AccessReader
+    access: [["Chapel"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonHydroponics
+  suffix: Penumbra, Hydroponics
+  components:
+  - type: AccessReader
+    access: [["Hydroponics"]]
+
+- type: entity
+  parent: PenumbraLockableButton
+  id: PenumbraLockableButtonAtmospherics
+  suffix: Penumbra, Atmospherics
+  components:
+  - type: AccessReader
+    access: [["Atmospherics"]]
+
+# button frames
+
+- type: entity
+  parent: ButtonFrameGrey
+  id: PenumbraButtonFrameGrey
+  suffix: Penumbra, Grey
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Wallmounts/switch_frame.rsi
+
+- type: entity
+  parent: ButtonFrameCaution
+  id: PenumbraButtonFrameCaution
+  suffix: Penumbra, Caution
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Wallmounts/switch_frame.rsi
+
+- type: entity
+  parent: ButtonFrameCautionSecurity
+  id: PenumbraButtonFrameCautionSecurity
+  suffix: Penumbra, Caution, Security
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Wallmounts/switch_frame.rsi
+
+- type: entity
+  parent: ButtonFrameExit
+  id: PenumbraButtonFrameExit
+  suffix: Penumbra, Exit
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Wallmounts/switch_frame.rsi
+
+- type: entity
+  parent: ButtonFrameJanitor
+  id: PenumbraButtonFrameJanitor
+  suffix: Penumbra, Janitor
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Wallmounts/switch_frame.rsi

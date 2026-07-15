@@ -1,0 +1,18 @@
+- type: entity
+  parent: FireAlarm
+  id: PenumbraFireAlarm
+  suffix: Penumbra
+  components:
+  - type: AlertLevelDisplay
+    alertVisuals:
+      green: fire_0
+      blue: fire_0
+      red: fire_0
+      violet: fire_0
+      yellow: fire_0
+      delta: fire_0
+  - type: Sprite
+    sprite: _Penumbra/Structures/Wallmounts/air_monitors.rsi
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: FireAlarm
+  #   node: fire_alarm

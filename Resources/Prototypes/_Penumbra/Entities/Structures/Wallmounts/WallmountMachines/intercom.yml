@@ -1,0 +1,195 @@
+- type: entity
+  parent: BaseIntercom
+  id: PenumbraBaseIntercom
+  suffix: Penumbra
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Wallmounts/intercom.rsi
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Intercom
+  #   node: intercom
+  #   containers:
+  #   - board
+  #   - key_slots
+
+# this weird inheritance BS exists for construction shitcode
+- type: entity
+  parent: PenumbraBaseIntercom
+  id: PenumbraIntercomConstructed
+  suffix: Penumbra, Empty, Panel Open
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+    - state: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+      shader: unshaded
+    - state: broadcasting
+      map: ["enum.RadioDeviceVisualLayers.Broadcasting"]
+      shader: unshaded
+      visible: false
+    - state: speaker
+      map: ["enum.RadioDeviceVisualLayers.Speaker"]
+      shader: unshaded
+      visible: false
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      visible: true
+  - type: WiresPanel
+    open: true
+
+- type: entity
+  parent: PenumbraIntercomConstructed
+  id: PenumbraIntercom
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+    - state: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+      shader: unshaded
+    - state: broadcasting
+      map: ["enum.RadioDeviceVisualLayers.Broadcasting"]
+      shader: unshaded
+      visible: false
+    - state: speaker
+      map: ["enum.RadioDeviceVisualLayers.Speaker"]
+      shader: unshaded
+      visible: false
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: WiresPanel
+    open: false
+
+- type: entity
+  parent: PenumbraIntercom
+  id: PenumbraBaseIntercomSecure
+  abstract: true
+  components:
+  - type: WiresPanel
+    openDelay: 5
+  - type: WiresPanelSecurity
+    examine: wires-panel-component-on-examine-security-level2
+    wiresAccessible: false
+  - type: Construction
+    node: intercomReinforced
+
+- type: entity
+  parent: PenumbraIntercom
+  id: PenumbraIntercomCommon
+  suffix: Penumbra, Common
+  components:
+  - type: ContainerFill
+    containers:
+      board:
+      - IntercomElectronics
+      key_slots:
+      - EncryptionKeyCommon
+
+- type: entity
+  parent: PenumbraBaseIntercomSecure
+  id: PenumbraIntercomCommand
+  suffix: Penumbra, Command
+  description: An intercom. It's been reinforced with metal.
+  components:
+  - type: ContainerFill
+    containers:
+      board:
+      - IntercomElectronics
+      key_slots:
+      - EncryptionKeyCommon
+      - EncryptionKeyCommand
+
+- type: entity
+  parent: PenumbraIntercom
+  id: PenumbraIntercomEngineering
+  suffix: Penumbra, Engineering
+  components:
+  - type: ContainerFill
+    containers:
+      board:
+      - IntercomElectronics
+      key_slots:
+      - EncryptionKeyCommon
+      - EncryptionKeyEngineering
+
+- type: entity
+  parent: PenumbraIntercom
+  id: PenumbraIntercomMedical
+  suffix: Penumbra, Medical
+  components:
+  - type: ContainerFill
+    containers:
+      board:
+      - IntercomElectronics
+      key_slots:
+      - EncryptionKeyCommon
+      - EncryptionKeyMedical
+
+- type: entity
+  parent: PenumbraIntercom
+  id: PenumbraIntercomScience
+  suffix: Penumbra, Science
+  components:
+  - type: ContainerFill
+    containers:
+      board:
+      - IntercomElectronics
+      key_slots:
+      - EncryptionKeyCommon
+      - EncryptionKeyScience
+
+- type: entity
+  parent: PenumbraBaseIntercomSecure
+  id: PenumbraIntercomSecurity
+  suffix: Penumbra, Security
+  description: An intercom. It's been reinforced with metal from security helmets, making it a bitch-and-a-half to open.
+  components:
+  - type: ContainerFill
+    containers:
+      board:
+      - IntercomElectronics
+      key_slots:
+      - EncryptionKeyCommon
+      - EncryptionKeySecurity
+
+- type: entity
+  parent: PenumbraIntercom
+  id: PenumbraIntercomService
+  suffix: Penumbra, Service
+  components:
+  - type: ContainerFill
+    containers:
+      board:
+      - IntercomElectronics
+      key_slots:
+      - EncryptionKeyCommon
+      - EncryptionKeyService
+
+- type: entity
+  parent: PenumbraIntercom
+  id: PenumbraIntercomSupply
+  suffix: Penumbra, Supply
+  components:
+  - type: ContainerFill
+    containers:
+      board:
+      - IntercomElectronics
+      key_slots:
+      - EncryptionKeyCommon
+      - EncryptionKeyCargo
+
+- type: entity
+  parent: PenumbraIntercom
+  id: PenumbraIntercomAll
+  suffix: Penumbra, All
+  components:
+  - type: ContainerFill
+    containers:
+      board:
+      - IntercomElectronics
+      key_slots:
+      - EncryptionKeyCommon
+      - EncryptionKeyStationMaster

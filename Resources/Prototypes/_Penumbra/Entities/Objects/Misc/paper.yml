@@ -1,0 +1,7 @@
+- type: entity
+  parent: Paper
+  id: PenumbraPaper
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Objects/Misc/paper.rsi

@@ -1,0 +1,69 @@
+- type: entity
+  parent: PenumbraPlatform
+  id: PenumbraPlatformWood
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/wood.rsi
+
+- type: entity
+  parent: PenumbraPlatformCorner
+  id: PenumbraPlatformCornerWood
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/wood.rsi
+
+- type: entity
+  parent: PenumbraPlatformCornerSmall
+  id: PenumbraPlatformCornerSmallWood
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/wood.rsi
+
+- type: entity
+  parent: PenumbraPlatformStairLeft
+  id: PenumbraPlatformStairLeftWood
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/wood.rsi
+
+- type: entity
+  parent: PenumbraPlatformStairRight
+  id: PenumbraPlatformStairRightWood
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/wood.rsi
+
+- type: entity
+  parent: PenumbraPlatform
+  id: PenumbraPlatformWoodFancy
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/wood_fancy.rsi
+
+- type: entity
+  parent: PenumbraPlatformCorner
+  id: PenumbraPlatformCornerWoodFancy
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/wood_fancy.rsi
+
+- type: entity
+  parent: PenumbraPlatformCornerSmall
+  id: PenumbraPlatformCornerSmallWoodFancy
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/wood_fancy.rsi
+
+- type: entity
+  parent: PenumbraPlatformStairLeft
+  id: PenumbraPlatformStairLeftWoodFancy
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/wood_fancy.rsi
+
+- type: entity
+  parent: PenumbraPlatformStairRight
+  id: PenumbraPlatformStairRightWoodFancy
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/wood_fancy.rsi

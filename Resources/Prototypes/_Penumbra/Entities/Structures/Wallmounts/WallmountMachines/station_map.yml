@@ -1,0 +1,17 @@
+- type: entity
+  parent: StationMapBroken
+  id: PenumbraStationMapBroken
+  suffix: Penumbra, Wall, Broken
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/station_map.rsi
+
+- type: entity
+  parent: StationMap
+  id: PenumbraStationMap
+  suffix: Penumbra, Wall
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/station_map.rsi
+  - type: Icon
+    sprite: _Penumbra/Structures/Machines/station_map.rsi

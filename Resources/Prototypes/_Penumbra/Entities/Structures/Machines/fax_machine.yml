@@ -1,0 +1,21 @@
+- type: entity
+  parent: FaxMachineBase
+  id: PenumbraFaxMachine
+  name: fax machine
+  description: A long range fax machine utilised for multi-sector communication between encrypted parties - Because, even in the 22nd Century, paper is still the most reliable form of communication.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/fax_machine.rsi
+    offset: 0, 0.15
+  - type: Icon
+    sprite: _Penumbra/Structures/Machines/fax_machine.rsi
+  - type: GenericVisualizer
+    visuals:
+      enum.PowerDeviceVisuals.Powered:
+        enum.FaxMachineVisuals.VisualState:
+          True: { state: icon }
+          False: { state: icon }
+      enum.FaxMachineVisuals.VisualState:
+        enum.FaxMachineVisuals.VisualState:
+          Printing: { state: printing }
+          Normal: {state: icon}

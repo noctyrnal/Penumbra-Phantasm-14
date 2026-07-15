@@ -1,0 +1,31 @@
+- type: entity
+  parent: ExtinguisherCabinet
+  id: PenumbraExtinguisherCabinet
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Wallmounts/extinguisher_cabinet.rsi
+    snapCardinals: false
+
+- type: entity
+  parent: PenumbraExtinguisherCabinet
+  id: PenumbraExtinguisherCabinetOpen
+  suffix: Penumbra, Open
+  components:
+  - type: Openable
+    opened: true
+
+- type: entity
+  parent: PenumbraExtinguisherCabinet
+  id: PenumbraExtinguisherCabinetFilled
+  suffix: Penumbra, Filled
+  components:
+  - type: ContainerFill
+    containers:
+      ItemCabinet:
+      - FireExtinguisher
+
+- type: entity
+  parent: [PenumbraExtinguisherCabinetFilled, PenumbraExtinguisherCabinetOpen]
+  id: PenumbraExtinguisherCabinetFilledOpen
+  suffix: Penumbra, Filled, Open

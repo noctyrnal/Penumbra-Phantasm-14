@@ -1,0 +1,9 @@
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerAuxiliarySupportOfficer
+  name: auxiliary support officer's locker
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/auxiliary_support_officer.rsi
+  - type: AccessReader
+    access: [["HeadOfPersonnel"]] # TODO PENUMBRA - Access

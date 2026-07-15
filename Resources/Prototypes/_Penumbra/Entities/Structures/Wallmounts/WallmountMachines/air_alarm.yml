@@ -1,0 +1,10 @@
+- type: entity
+  parent: AirAlarm
+  id: PenumbraAirAlarm
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Wallmounts/air_monitors.rsi
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: AirAlarm
+  #   node: air_alarm

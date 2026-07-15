@@ -1,0 +1,23 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-4.0",
+    "copyright": "Sprites by github noctyrnal",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+		{
+			"name": "stairs_steel",
+            "directions": 4
+		},
+		{
+			"name": "stairs_white",
+            "directions": 4
+		},
+		{
+			"name": "stairs_dark",
+            "directions": 4
+		}
+    ]
+}

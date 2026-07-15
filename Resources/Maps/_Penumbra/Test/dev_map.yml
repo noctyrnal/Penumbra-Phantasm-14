@@ -1723,7 +1723,7 @@ entities:
     - type: ImplicitRoof
     - type: TileHistory
       chunkHistory: {}
-- proto: AirAlarm
+- proto: PenumbraAirAlarm
   entities:
   - uid: 1270
     components:
@@ -1838,7 +1838,7 @@ entities:
     - type: Transform
       pos: 56.5,28.499
       parent: 1
-- proto: APCBasic
+- proto: PenumbraAPCBasic
   entities:
   - uid: 3132
     components:
@@ -1846,7 +1846,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 77.5,8.5
       parent: 1
-- proto: APCHyperCapacity
+- proto: PenumbraAPCHyperCapacity
   entities:
   - uid: 456
     components:
@@ -2988,7 +2988,7 @@ entities:
     - type: Transform
       pos: 32.375,43.5
       parent: 1
-- proto: ButtonFrameCaution
+- proto: PenumbraButtonFrameCaution
   entities:
   - uid: 800
     components:
@@ -3002,7 +3002,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 1.5,2.5
       parent: 2709
-- proto: ButtonFrameCautionSecurity
+- proto: PenumbraButtonFrameCautionSecurity
   entities:
   - uid: 2714
     components:
@@ -18399,7 +18399,7 @@ entities:
     - type: Transform
       pos: -0.5,4.5
       parent: 2709
-- proto: SignalButton
+- proto: PenumbraSignalButton
   entities:
   - uid: 739
     components:

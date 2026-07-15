@@ -1,0 +1,149 @@
+- type: entity
+  abstract: true
+  id: PenumbraPlatformBase
+  name: raised metal edge
+  description: A raised level of metal, often used to elevate areas above others, or construct bridges. You could probably climb it.
+  components:
+  - type: Transform
+    anchored: true
+  - type: Sprite
+    state: platform
+  - type: InteractionOutline
+  - type: Clickable
+  - type: Climbable
+    delay: 0.25
+  - type: Tag
+    tags:
+    - Platform
+
+- type: entity
+  abstract: true
+  parent: PenumbraPlatformBase
+  id: PenumbraPlatformBaseDestructible
+  components:
+  - type: Damageable
+    damageModifierSet: Metallic
+  - type: Injurable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 90
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+
+- type: entity
+  parent: PenumbraPlatformBaseDestructible
+  id: PenumbraPlatform
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wall
+  components:
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.49,-0.49,0.49,-0.36"
+        density: 1500
+        mask:
+        - TableMask
+        layer:
+        - TableLayer
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/platform.rsi
+
+- type: entity
+  parent: PenumbraPlatformBaseDestructible
+  id: PenumbraPlatformCorner
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wall
+  components:
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.49,-0.49,0.49,-0.36"
+        density: 1500
+        mask:
+        - TableMask
+        layer:
+        - TableLayer
+      fix2:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "0.49,0.49,0.36,-0.49"
+        density: 1500
+        mask:
+        - TableMask
+        layer:
+        - TableLayer
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/platform.rsi
+    state: platform_round
+  - type: Climbable
+
+- type: entity
+  parent: PenumbraPlatformBase
+  id: PenumbraPlatformCornerSmall
+  name: raised metal corner
+  description: The corner of what appears to be raised piece of metal, often used to imply the illusion of elevation in non-Euclidean 2d spaces. But you don't know that, you're just a spessman.
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wall
+  components:
+  - type: Physics
+  - type: Damageable
+    damageModifierSet: Metallic
+  - type: Injurable
+    damageContainer: StructuralInorganic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 35
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.49,0.49,-0.36,0.36"
+        density: 1500
+        mask:
+        - TableMask
+        layer:
+        - TableLayer
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/platform.rsi
+    state: platform_corners
+  - type: Climbable
+
+- type: entity
+  parent: PenumbraPlatform
+  id: PenumbraPlatformStairRight
+  suffix: Stairs, Right
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/platform.rsi
+    state: platform_stair
+
+- type: entity
+  parent: PenumbraPlatform
+  id: PenumbraPlatformStairLeft
+  suffix: Stairs, Left
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Platforms/platform.rsi
+    state: platform_stair_alt

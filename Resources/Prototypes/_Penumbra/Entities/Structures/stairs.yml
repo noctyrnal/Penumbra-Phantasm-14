@@ -1,0 +1,25 @@
+- type: entity
+  parent: Stairs
+  id: PenumbraStairs
+  suffix: Penumbra, Steel
+  description: Allows you to traverse the totally real different elevations that exist.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/stairs.rsi
+    state: stairs_steel
+
+- type: entity
+  parent: PenumbraStairs
+  id: PenumbraStairWhite
+  suffix: Penumbra, White
+  components:
+  - type: Sprite
+    state: stairs_white
+
+- type: entity
+  parent: PenumbraStairs
+  id: PenumbraStairDark
+  suffix: Penumbra, Dark
+  components:
+  - type: Sprite
+    state: stairs_dark
