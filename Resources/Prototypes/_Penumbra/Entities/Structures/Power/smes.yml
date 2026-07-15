@@ -1,0 +1,58 @@
+# Base SMES
+- type: entity
+  parent: BaseSMES
+  id: PenumbraBaseSMES
+  suffix: Penumbra
+  abstract: true
+  components:
+    - type: Sprite
+      sprite: _Penumbra/Structures/Power/smes.rsi
+
+# SMES' in use
+
+- type: entity
+  parent: PenumbraBaseSMES
+  id: PenumbraSMESBasic
+  suffix: Penumbra, Basic, 8MJ
+  components:
+  - type: Battery
+    maxCharge: 8000000
+    startingCharge: 8000000
+
+- type: entity
+  parent: PenumbraSMESBasic
+  id: PenumbraSMESBasicEmpty
+  suffix: Penumbra, Empty
+  components:
+  - type: Battery
+    startingCharge: 0
+
+- type: entity
+  parent: SMESAdvanced
+  id: PenumbraSMESAdvanced
+  suffix: Penumbra, Advanced, 16MJ
+  components:
+    - type: Sprite
+      sprite: _Penumbra/Structures/Power/smes.rsi
+      layers:
+        - state: smes
+        - map: ["enum.SmesVisualLayers.Charge"]
+          state: "smes-og1" # -og0 does not exist
+          shader: unshaded
+          visible: false
+        - map: ["enum.SmesVisualLayers.Input"]
+          state: "smes-oc0"
+          shader: unshaded
+        - map: ["enum.SmesVisualLayers.Output"]
+          state: "smes-op1"
+          shader: unshaded
+        - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+          state: smes-open
+
+- type: entity
+  parent: PenumbraSMESAdvanced
+  id: PenumbraSMESAdvancedEmpty
+  suffix: Penumbra, Advanced, Empty
+  components:
+  - type: Battery
+    startingCharge: 0

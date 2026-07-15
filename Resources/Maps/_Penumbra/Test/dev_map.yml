@@ -17291,7 +17291,7 @@ entities:
     - type: Transform
       pos: 70.5,18.5
       parent: 1
-- proto: Rack
+- proto: PenumbraRack
   entities:
   - uid: 422
     components:
@@ -18673,14 +18673,14 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 60.5,38.5
       parent: 1
-- proto: SMESAdvancedEmpty
+- proto: PenumbraSMESAdvancedEmpty
   entities:
   - uid: 3093
     components:
     - type: Transform
       pos: 75.5,5.5
       parent: 1
-- proto: SMESBasicEmpty
+- proto: PenumbraSMESBasicEmpty
   entities:
   - uid: 3089
     components:

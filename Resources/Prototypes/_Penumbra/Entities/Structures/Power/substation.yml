@@ -1,0 +1,24 @@
+- type: entity
+  parent: BaseSubstation
+  id: PenumbraBaseSubstation
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Power/substation.rsi
+
+- type: entity
+  parent: PenumbraBaseSubstation
+  id: PenumbraSubstationBasic
+  suffix: Penumbra, Basic, 2.5MJ
+  components:
+  - type: Battery
+    maxCharge: 2500000
+    startingCharge: 2500000
+
+- type: entity
+  parent: PenumbraSubstationBasic
+  id: PenumbraSubstationBasicEmpty
+  suffix: Penumbra, Empty
+  components:
+  - type: Battery
+    startingCharge: 0
