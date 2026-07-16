@@ -183,3 +183,65 @@
       state: generic_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
       state: panel_open
+
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, StationAiUploadComputer ]
+  id: PenumbraStationAiUploadComputer
+  name: AI upload console
+  description: Used to update the laws of the ship AI.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: ai_upload
+    - map: ["computerLayerKeys"]
+      state: security_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraStationAiUploadComputer
+  id: PenumbraStationAiUploadComputerLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerScreen"]
+      state: ai_upload
+    - map: ["computerLayerKeys"]
+      state: security_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraStationAiUploadComputer
+  id: PenumbraStationAiUploadComputerRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerScreen"]
+      state: ai_upload
+    - map: ["computerLayerKeys"]
+      state: security_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraStationAiUploadComputer
+  id: PenumbraStationAiUploadComputerMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerScreen"]
+      state: ai_upload
+    - map: ["computerLayerKeys"]
+      state: security_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open

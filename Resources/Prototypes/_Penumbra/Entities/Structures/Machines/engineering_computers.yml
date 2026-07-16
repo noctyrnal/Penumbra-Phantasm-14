@@ -59,3 +59,251 @@
       state: generic_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
       state: panel_open
+
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerSolarControl]
+  id: PenumbraComputerSolarControl
+  name: solar control computer
+  description: A controller for solar panel arrays.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: power
+    - map: ["computerLayerKeys"]
+      state: power_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerSolarControl
+  id: PenumbraComputerSolarControlLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerScreen"]
+      state: power
+    - map: ["computerLayerKeys"]
+      state: power_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerSolarControl
+  id: PenumbraComputerSolarControlRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerScreen"]
+      state: power
+    - map: ["computerLayerKeys"]
+      state: power_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerSolarControl
+  id: PenumbraComputerSolarControlMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerScreen"]
+      state: power
+    - map: ["computerLayerKeys"]
+      state: power_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerPowerMonitoring]
+  id: PenumbraComputerPowerMonitoring
+  name: power monitoring computer
+  description: It monitors power levels across the station.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: power
+    - map: ["computerLayerKeys"]
+      state: power_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerPowerMonitoring
+  id: PenumbraComputerPowerMonitoringLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerScreen"]
+      state: power
+    - map: ["computerLayerKeys"]
+      state: power_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerPowerMonitoring
+  id: PenumbraComputerPowerMonitoringRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerScreen"]
+      state: power
+    - map: ["computerLayerKeys"]
+      state: power_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerPowerMonitoring
+  id: PenumbraComputerPowerMonitoringMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerScreen"]
+      state: power
+    - map: ["computerLayerKeys"]
+      state: power_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerAlert]
+  id: PenumbraComputerAlert
+  name: atmospheric alerts computer
+  description: Used to access the station's atmospheric automated alert system.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: area_atmos
+    - map: ["computerLayerKeys"]
+      state: atmos_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerAlert
+  id: PenumbraComputerAlertLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerScreen"]
+      state: area_atmos
+    - map: ["computerLayerKeys"]
+      state: atmos_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerAlert
+  id: PenumbraComputerAlertRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerScreen"]
+      state: area_atmos
+    - map: ["computerLayerKeys"]
+      state: atmos_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerAlert
+  id: PenumbraComputerAlertMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerScreen"]
+      state: area_atmos
+    - map: ["computerLayerKeys"]
+      state: atmos_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerAtmosMonitoring]
+  id: PenumbraComputerAtmosMonitoring
+  name: atmospheric network monitor
+  description: Used to monitor the station's atmospheric networks.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: area_atmos
+    - map: ["computerLayerKeys"]
+      state: atmos_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerAtmosMonitoring
+  id: PenumbraComputerAtmosMonitoringLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerScreen"]
+      state: area_atmos
+    - map: ["computerLayerKeys"]
+      state: atmos_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerAtmosMonitoring
+  id: PenumbraComputerAtmosMonitoringRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerScreen"]
+      state: area_atmos
+    - map: ["computerLayerKeys"]
+      state: atmos_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerAtmosMonitoring
+  id: PenumbraComputerAtmosMonitoringMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerScreen"]
+      state: area_atmos
+    - map: ["computerLayerKeys"]
+      state: atmos_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open

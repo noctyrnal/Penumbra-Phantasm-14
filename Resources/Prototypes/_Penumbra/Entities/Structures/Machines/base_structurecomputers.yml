@@ -17,6 +17,51 @@
 
 - type: entity
   parent: PenumbraBaseComputer
+  id: PenumbraBaseComputerLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerKeyboard"]
+      state: generic_key
+    - map: ["computerLayerScreen"]
+      state: generic
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraBaseComputer
+  id: PenumbraBaseComputerRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerKeyboard"]
+      state: generic_key
+    - map: ["computerLayerScreen"]
+      state: generic
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraBaseComputer
+  id: PenumbraBaseComputerMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerKeyboard"]
+      state: generic_key
+    - map: ["computerLayerScreen"]
+      state: generic
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraBaseComputer
   id: PenumbraBaseComputerAiAccess
   suffix: Penumbra, AI Access
   components:
@@ -24,3 +69,162 @@
   - type: Wires
     boardName: wires-board-name-computer
     layoutId: ComputerAi
+
+- type: entity
+  parent: PenumbraBaseComputerAiAccess
+  id: PenumbraBaseComputerAiAccessLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerKeyboard"]
+      state: generic_key
+    - map: ["computerLayerScreen"]
+      state: generic
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraBaseComputerAiAccess
+  id: PenumbraBaseComputerAiAccessRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerKeyboard"]
+      state: generic_key
+    - map: ["computerLayerScreen"]
+      state: generic
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraBaseComputerAiAccess
+  id: PenumbraBaseComputerAiAccessMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerKeyboard"]
+      state: generic_key
+    - map: ["computerLayerScreen"]
+      state: generic
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+# Frame
+
+- type: entity
+  parent: ComputerFrame
+  id: PenumbraComputerFrame
+  name: computer frame
+  description: A computer under construction.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/computers.rsi
+    layers:
+    - state: computer
+      map: [ "enum.ConstructionVisuals.Layer" ]
+  - type: GenericVisualizer # TODO PENUMBRA
+    visuals:
+      enum.ConstructionVisuals.Key:
+        enum.ConstructionVisuals.Layer:
+          frameUnsecured: { state: computer }
+          boardUnsecured: { state: computer }
+          missingWires: { state: computer }
+          monitorMissing: { state: computer }
+          monitorUnsecured: { state: computer }
+
+- type: entity
+  parent: PenumbraComputerFrame
+  id: PenumbraComputerFrameLeft
+  components:
+  - type: Sprite
+    layers:
+    - state: computer-left
+      map: [ "enum.ConstructionVisuals.Layer" ]
+  - type: GenericVisualizer # TODO PENUMBRA
+    visuals:
+      enum.ConstructionVisuals.Key:
+        enum.ConstructionVisuals.Layer:
+          frameUnsecured: { state: computer-left }
+          boardUnsecured: { state: computer-left }
+          missingWires: { state: computer-left }
+          monitorMissing: { state: computer-left }
+          monitorUnsecured: { state: computer-left }
+
+- type: entity
+  parent: PenumbraComputerFrame
+  id: PenumbraComputerFrameRight
+  components:
+  - type: Sprite
+    layers:
+    - state: computer-right
+      map: [ "enum.ConstructionVisuals.Layer" ]
+  - type: GenericVisualizer # TODO PENUMBRA
+    visuals:
+      enum.ConstructionVisuals.Key:
+        enum.ConstructionVisuals.Layer:
+          frameUnsecured: { state: computer-right }
+          boardUnsecured: { state: computer-right }
+          missingWires: { state: computer-right }
+          monitorMissing: { state: computer-right }
+          monitorUnsecured: { state: computer-right }
+
+- type: entity
+  parent: PenumbraComputerFrame
+  id: PenumbraComputerFrameMiddle
+  components:
+  - type: Sprite
+    layers:
+    - state: computer-middle
+      map: [ "enum.ConstructionVisuals.Layer" ]
+  - type: GenericVisualizer # TODO PENUMBRA
+    visuals:
+      enum.ConstructionVisuals.Key:
+        enum.ConstructionVisuals.Layer:
+          frameUnsecured: { state: computer-middle }
+          boardUnsecured: { state: computer-middle }
+          missingWires: { state: computer-middle }
+          monitorMissing: { state: computer-middle }
+          monitorUnsecured: { state: computer-middle }
+
+- type: entity
+  parent: ComputerBroken
+  id: PenumbraComputerBroken
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/computers.rsi
+    layers:
+    - state: computer
+    - state: broken_overlay
+
+- type: entity
+  parent: PenumbraComputerBroken
+  id: PenumbraComputerBrokenLeft
+  components:
+  - type: Sprite
+    layers:
+    - state: computer-left
+    - state: broken_overlay
+
+- type: entity
+  parent: PenumbraComputerBroken
+  id: PenumbraComputerBrokenRight
+  components:
+  - type: Sprite
+    layers:
+    - state: computer-right
+    - state: broken_overlay
+
+- type: entity
+  parent: PenumbraComputerBroken
+  id: PenumbraComputerBrokenMiddle
+  components:
+  - type: Sprite
+    layers:
+    - state: computer-middle
+    - state: broken_overlay

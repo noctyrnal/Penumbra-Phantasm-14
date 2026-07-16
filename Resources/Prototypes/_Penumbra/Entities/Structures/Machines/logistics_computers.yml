@@ -1,0 +1,433 @@
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerCargoOrders ]
+  id: PenumbraComputerCargoOrders
+  name: logistics request computer
+  description: Used to order supplies and approve logistics requests.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoOrders
+  id: PenumbraComputerCargoOrdersLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoOrders
+  id: PenumbraComputerCargoOrdersRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoOrders
+  id: PenumbraComputerCargoOrdersMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerCargoBounty ]
+  id: PenumbraComputerCargoBounty
+  name: cargo bounty computer
+  description: Used to manage currently active bounties.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: bounty
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoBounty
+  id: PenumbraComputerCargoBountyLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerScreen"]
+      state: bounty
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoBounty
+  id: PenumbraComputerCargoBountyRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerScreen"]
+      state: bounty
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoBounty
+  id: PenumbraComputerCargoBountyMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerScreen"]
+      state: bounty
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerCargoOrdersEngineering ]
+  id: PenumbraComputerCargoOrdersEngineering
+  name: engineering request computer
+  description: Used by the engineering department to order supplies.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoOrdersEngineering
+  id: PenumbraComputerCargoOrdersEngineeringLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoOrdersEngineering
+  id: PenumbraComputerCargoOrdersEngineeringRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoOrdersEngineering
+  id: PenumbraComputerCargoOrdersEngineeringMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerCargoOrdersMedical ]
+  id: PenumbraComputerCargoOrdersMedical
+  name: medical request computer
+  description: Used by the medical department to order supplies.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoOrdersMedical
+  id: PenumbraComputerCargoOrdersMedicalLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoOrdersMedical
+  id: PenumbraComputerCargoOrdersMedicalRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoOrdersMedical
+  id: PenumbraComputerCargoOrdersMedicalMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerCargoOrdersScience ]
+  id: PenumbraComputerCargoOrdersScience
+  name: research request computer
+  description: Used by the science department to order supplies.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoOrdersScience
+  id: PenumbraComputerCargoOrdersScienceLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoOrdersScience
+  id: PenumbraComputerCargoOrdersScienceRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoOrdersScience
+  id: PenumbraComputerCargoOrdersScienceMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerCargoOrdersSecurity ]
+  id: PenumbraComputerCargoOrdersSecurity
+  name: security request computer
+  description: Used by the security department to order supplies.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoOrdersSecurity
+  id: PenumbraComputerCargoOrdersSecurityLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoOrdersSecurity
+  id: PenumbraComputerCargoOrdersSecurityRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoOrdersSecurity
+  id: PenumbraComputerCargoOrdersSecurityMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerCargoOrdersService ]
+  id: PenumbraComputerCargoOrdersService
+  name: service request computer
+  description: Used by the service department to order supplies.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoOrdersService
+  id: PenumbraComputerCargoOrdersServiceLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoOrdersService
+  id: PenumbraComputerCargoOrdersServiceRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCargoOrdersService
+  id: PenumbraComputerCargoOrdersServiceMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerScreen"]
+      state: request
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
