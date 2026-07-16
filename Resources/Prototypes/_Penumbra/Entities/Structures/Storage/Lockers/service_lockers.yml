@@ -7,3 +7,11 @@
     sprite: _Penumbra/Structures/Storage/Closets/auxiliary_support_officer.rsi
   - type: AccessReader
     access: [["HeadOfPersonnel"]] # TODO PENUMBRA - Access
+
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerBotanist
+  name: botanist's locker
+  components:
+  - type: AccessReader
+    access: [["Hydroponics"]]

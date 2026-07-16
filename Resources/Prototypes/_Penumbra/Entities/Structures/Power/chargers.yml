@@ -1,0 +1,7 @@
+- type: entity
+  parent: BorgCharger
+  id: PenumbraBorgCharger
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Power/borg_charger.rsi

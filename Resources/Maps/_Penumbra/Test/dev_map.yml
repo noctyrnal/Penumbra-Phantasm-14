@@ -2801,7 +2801,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: 37.5,38.5
       parent: 1
-- proto: BorgCharger
+- proto: PenumbraBorgCharger
   entities:
   - uid: 789
     components:
