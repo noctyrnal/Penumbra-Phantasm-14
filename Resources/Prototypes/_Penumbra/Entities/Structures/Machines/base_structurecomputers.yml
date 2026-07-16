@@ -1,0 +1,34 @@
+- type: entity
+  parent: BaseComputer
+  id: PenumbraBaseComputer
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: __MASK__
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+  - type: GenericVisualizer
+    visuals:
+      enum.ComputerVisuals.Powered:
+        computerLayerScreen:
+          True: { visible: true, shader: unshaded }
+          False: { visible: false }
+      enum.WiresVisuals.MaintenancePanelState:
+        enum.WiresVisualLayers.MaintenancePanel:
+          True: { visible: false }
+          False: { visible: true }
+
+- type: entity
+  parent: PenumbraBaseComputer
+  id: PenumbraBaseComputerAiAccess
+  suffix: Penumbra, AI Access
+  components:
+  - type: StationAiWhitelist
+  - type: Wires
+    boardName: wires-board-name-computer
+    layoutId: ComputerAi

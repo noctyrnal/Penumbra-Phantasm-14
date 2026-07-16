@@ -1,0 +1,51 @@
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerComms]
+  id: PenumbraComputerComms
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: comm
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerComms]
+  id: PenumbraComputerCommsLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerScreen"]
+      state: comm
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerComms]
+  id: PenumbraComputerCommsRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerScreen"]
+      state: comm
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerComms]
+  id: PenumbraComputerCommsMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerScreen"]
+      state: comm
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
