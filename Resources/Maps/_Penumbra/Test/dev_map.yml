@@ -4,7 +4,7 @@ meta:
   engineVersion: 280.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/16/2026 08:46:25
+  time: 07/16/2026 15:50:49
   entityCount: 3147
 maps:
 - 23
@@ -2722,20 +2722,6 @@ entities:
     - type: Transform
       pos: 70.5,38
       parent: 1
-- proto: BaseComputer
-  entities:
-  - uid: 2629
-    components:
-    - type: Transform
-      pos: 45.5,63.5
-      parent: 1
-- proto: BaseComputerAiAccess
-  entities:
-  - uid: 2633
-    components:
-    - type: Transform
-      pos: 46.5,63.5
-      parent: 1
 - proto: BaseUplinkRadioDebug
   entities:
   - uid: 2687
@@ -2800,13 +2786,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 37.5,38.5
-      parent: 1
-- proto: PenumbraBorgCharger
-  entities:
-  - uid: 789
-    components:
-    - type: Transform
-      pos: 49.5,25.5
       parent: 1
 - proto: BoxMagazineShotgun
   entities:
@@ -7928,13 +7907,6 @@ entities:
     - type: Transform
       pos: 46.5,40.5
       parent: 1
-- proto: ClosetRadiationSuitFilled
-  entities:
-  - uid: 754
-    components:
-    - type: Transform
-      pos: 57.75,28.5
-      parent: 1
 - proto: ClosetWallEmergencyFilledRandom
   entities:
   - uid: 2751
@@ -8097,40 +8069,12 @@ entities:
     - type: Transform
       pos: 47.5,59.5
       parent: 1
-- proto: ComputerComms
-  entities:
-  - uid: 2613
-    components:
-    - type: Transform
-      pos: 46.5,57.5
-      parent: 1
-- proto: ComputerCrewMonitoring
-  entities:
-  - uid: 2614
-    components:
-    - type: Transform
-      pos: 46.5,59.5
-      parent: 1
-- proto: ComputerCriminalRecords
-  entities:
-  - uid: 2611
-    components:
-    - type: Transform
-      pos: 49.5,57.5
-      parent: 1
 - proto: ComputerEmergencyShuttle
   entities:
   - uid: 2624
     components:
     - type: Transform
       pos: 47.5,57.5
-      parent: 1
-- proto: ComputerId
-  entities:
-  - uid: 2625
-    components:
-    - type: Transform
-      pos: 45.5,57.5
       parent: 1
 - proto: ComputerIFF
   entities:
@@ -8146,13 +8090,6 @@ entities:
     components:
     - type: Transform
       pos: 46.5,61.5
-      parent: 1
-- proto: ComputerMedicalRecords
-  entities:
-  - uid: 2617
-    components:
-    - type: Transform
-      pos: 45.5,59.5
       parent: 1
 - proto: ComputerPalletConsole
   entities:
@@ -8179,13 +8116,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 77.5,9.5
-      parent: 1
-- proto: ComputerRadar
-  entities:
-  - uid: 1136
-    components:
-    - type: Transform
-      pos: 47.5,53.5
       parent: 1
 - proto: ComputerResearchAndDevelopment
   entities:
@@ -8263,20 +8193,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 77.5,10.5
-      parent: 1
-- proto: ComputerStationRecords
-  entities:
-  - uid: 2610
-    components:
-    - type: Transform
-      pos: 50.5,57.5
-      parent: 1
-- proto: ComputerSurveillanceCameraMonitor
-  entities:
-  - uid: 2612
-    components:
-    - type: Transform
-      pos: 48.5,57.5
       parent: 1
 - proto: ComputerSurveillanceWirelessCameraMonitor
   entities:
@@ -10327,23 +10243,6 @@ entities:
       parent: 1
     - type: Lock
       locked: False
-- proto: LockerChemistryFilled
-  entities:
-  - uid: 1134
-    components:
-    - type: Transform
-      pos: 53.375,41.5
-      parent: 1
-    - type: Lock
-      locked: False
-    - type: EntityStorage
-      air:
-        volume: 200
-        immutable: False
-        temperature: 293.14673
-        moles:
-          Oxygen: 1.7459903
-          Nitrogen: 6.568249
 - proto: LockerChiefEngineerFilledHardsuit
   entities:
   - uid: 1332
@@ -10353,30 +10252,12 @@ entities:
       parent: 1
     - type: Lock
       locked: False
-- proto: LockerChiefMedicalOfficerFilledHardsuit
-  entities:
-  - uid: 1231
-    components:
-    - type: Transform
-      pos: 59.5,37.5
-      parent: 1
-    - type: Lock
-      locked: False
 - proto: LockerEngineerFilledHardsuit
   entities:
   - uid: 1289
     components:
     - type: Transform
       pos: 73.75,19.5
-      parent: 1
-    - type: Lock
-      locked: False
-- proto: LockerResearchDirectorFilledHardsuit
-  entities:
-  - uid: 755
-    components:
-    - type: Transform
-      pos: 57.25,28.5
       parent: 1
     - type: Lock
       locked: False
@@ -11415,6 +11296,27 @@ entities:
       rot: 3.141592653589793 rad
       pos: 43.5,48.5
       parent: 1
+- proto: PenumbraBaseComputer
+  entities:
+  - uid: 755
+    components:
+    - type: Transform
+      pos: 45.5,63.5
+      parent: 1
+- proto: PenumbraBaseComputerAiAccess
+  entities:
+  - uid: 754
+    components:
+    - type: Transform
+      pos: 46.5,63.5
+      parent: 1
+- proto: PenumbraBorgCharger
+  entities:
+  - uid: 789
+    components:
+    - type: Transform
+      pos: 49.5,25.5
+      parent: 1
 - proto: PenumbraButtonFrameCaution
   entities:
   - uid: 800
@@ -12185,12 +12087,96 @@ entities:
     - type: Transform
       pos: 81.494804,7.3994207
       parent: 1
+- proto: PenumbraClosetRadiation
+  entities:
+  - uid: 2625
+    components:
+    - type: Transform
+      pos: 57.75,28.5
+      parent: 1
 - proto: PenumbraClosetWardrobeBlack
   entities:
   - uid: 233
     components:
     - type: Transform
       pos: 29.5,41.5
+      parent: 1
+- proto: PenumbraClosetWardrobeWhite
+  entities:
+  - uid: 2617
+    components:
+    - type: Transform
+      pos: 55.625,41.5
+      parent: 1
+- proto: PenumbraComputerCommsMiddle
+  entities:
+  - uid: 1134
+    components:
+    - type: Transform
+      pos: 46.5,57.5
+      parent: 1
+- proto: PenumbraComputerCrewMonitoringMiddle
+  entities:
+  - uid: 1136
+    components:
+    - type: Transform
+      pos: 46.5,59.5
+      parent: 1
+- proto: PenumbraComputerCriminalRecordsMiddle
+  entities:
+  - uid: 1231
+    components:
+    - type: Transform
+      pos: 49.5,57.5
+      parent: 1
+- proto: PenumbraComputerIdLeft
+  entities:
+  - uid: 2610
+    components:
+    - type: Transform
+      pos: 45.5,57.5
+      parent: 1
+    - type: ContainerContainer
+      containers:
+        board: !type:Container
+          showEnts: False
+          occludes: True
+          ents: []
+        IdCardConsole-privilegedId: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+        IdCardConsole-targetId: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
+- proto: PenumbraComputerMedicalRecordsLeft
+  entities:
+  - uid: 2611
+    components:
+    - type: Transform
+      pos: 45.5,59.5
+      parent: 1
+- proto: PenumbraComputerRadarMiddle
+  entities:
+  - uid: 2612
+    components:
+    - type: Transform
+      pos: 47.5,53.5
+      parent: 1
+- proto: PenumbraComputerStationRecordsRight
+  entities:
+  - uid: 2613
+    components:
+    - type: Transform
+      pos: 50.5,57.5
+      parent: 1
+- proto: PenumbraComputerSurveillanceCameraMonitorMiddle
+  entities:
+  - uid: 2614
+    components:
+    - type: Transform
+      pos: 48.5,57.5
       parent: 1
 - proto: PenumbraExtinguisherCabinetFilled
   entities:
@@ -12453,12 +12439,33 @@ entities:
       parent: 1
     - type: Lock
       locked: False
+- proto: PenumbraLockerChemistry
+  entities:
+  - uid: 2629
+    components:
+    - type: Transform
+      pos: 53.375,41.5
+      parent: 1
+- proto: PenumbraLockerChiefMedicalOfficer
+  entities:
+  - uid: 1132
+    components:
+    - type: Transform
+      pos: 59.5,37.5
+      parent: 1
 - proto: PenumbraLockerMetal
   entities:
   - uid: 592
     components:
     - type: Transform
       pos: 34.5,43.5
+      parent: 1
+- proto: PenumbraLockerResearchDirector
+  entities:
+  - uid: 2633
+    components:
+    - type: Transform
+      pos: 57.25,28.5
       parent: 1
 - proto: PenumbraPoweredlight
   entities:
@@ -19977,13 +19984,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 3.5,0.5
       parent: 2709
-- proto: WardrobeChemistryFilled
-  entities:
-  - uid: 1132
-    components:
-    - type: Transform
-      pos: 55.625,41.5
-      parent: 1
 - proto: WardrobeRoboticsFilled
   entities:
   - uid: 813

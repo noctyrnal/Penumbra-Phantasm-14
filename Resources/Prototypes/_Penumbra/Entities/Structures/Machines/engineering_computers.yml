@@ -1,0 +1,61 @@
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerRadar]
+  id: PenumbraComputerRadar
+  name: mass scanner computer
+  description: A computer for detecting nearby bodies, displaying them by position and mass.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: radar
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerRadar
+  id: PenumbraComputerRadarLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerScreen"]
+      state: radar
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerRadar
+  id: PenumbraComputerRadarRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerScreen"]
+      state: radar
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerRadar
+  id: PenumbraComputerRadarMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerScreen"]
+      state: radar
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open

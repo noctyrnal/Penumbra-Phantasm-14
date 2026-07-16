@@ -12,8 +12,6 @@
       state: generic_key
     - map: ["computerLayerScreen"]
       state: generic
-    - map: ["computerLayerKeys"]
-      state: generic_keys
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
       state: panel_open
 

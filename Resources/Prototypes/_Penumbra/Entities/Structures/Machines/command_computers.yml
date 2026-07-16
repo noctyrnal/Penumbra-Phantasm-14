@@ -1,0 +1,185 @@
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerComms ]
+  id: PenumbraComputerComms
+  name: communications computer
+  description: A computer used to make station wide announcements via keyboard, set the appropriate alert level, and authorize evacuation.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: comm
+    - map: ["computerLayerKeys"]
+      state: security_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerComms
+  id: PenumbraComputerCommsLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerScreen"]
+      state: comm
+    - map: ["computerLayerKeys"]
+      state: security_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerComms
+  id: PenumbraComputerCommsRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerScreen"]
+      state: comm
+    - map: ["computerLayerKeys"]
+      state: security_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerComms
+  id: PenumbraComputerCommsMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerScreen"]
+      state: comm
+    - map: ["computerLayerKeys"]
+      state: security_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerId ]
+  id: PenumbraComputerId
+  name: ID card computer
+  description: Terminal for programming ID cards to access parts of the ship.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: id
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerId
+  id: PenumbraComputerIdLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerScreen"]
+      state: id
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerId
+  id: PenumbraComputerIdRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerScreen"]
+      state: id
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerId
+  id: PenumbraComputerIdMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerScreen"]
+      state: id
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerStationRecords ]
+  id: PenumbraComputerStationRecords
+  name: station records computer
+  description: This can be used to check station records.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: crew
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerStationRecords
+  id: PenumbraComputerStationRecordsLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerScreen"]
+      state: crew
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerStationRecords
+  id: PenumbraComputerStationRecordsRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerScreen"]
+      state: crew
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerStationRecords
+  id: PenumbraComputerStationRecordsMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerScreen"]
+      state: crew
+    - map: ["computerLayerKeys"]
+      state: generic_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open

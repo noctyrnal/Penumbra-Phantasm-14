@@ -1,0 +1,123 @@
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerSurveillanceCameraMonitor ]
+  id: PenumbraComputerSurveillanceCameraMonitor
+  name: camera monitor
+  description: A surveillance camera monitor. You're watching them. Maybe.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: cameras
+    - map: ["computerLayerKeys"]
+      state: security_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerSurveillanceCameraMonitor
+  id: PenumbraComputerSurveillanceCameraMonitorLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerScreen"]
+      state: cameras
+    - map: ["computerLayerKeys"]
+      state: security_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerSurveillanceCameraMonitor
+  id: PenumbraComputerSurveillanceCameraMonitorRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerScreen"]
+      state: cameras
+    - map: ["computerLayerKeys"]
+      state: security_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerSurveillanceCameraMonitor
+  id: PenumbraComputerSurveillanceCameraMonitorMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerScreen"]
+      state: cameras
+    - map: ["computerLayerKeys"]
+      state: security_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: [ PenumbraBaseComputerAiAccess, ComputerCriminalRecords ]
+  id: PenumbraComputerCriminalRecords
+  name: criminal records computer
+  description: This can be used to check criminal records. Only security can modify them.
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer
+    - map: ["computerLayerScreen"]
+      state: sec_records
+    - map: ["computerLayerKeys"]
+      state: security_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCriminalRecords
+  id: PenumbraComputerCriminalRecordsLeft
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-left
+    - map: ["computerLayerScreen"]
+      state: sec_records
+    - map: ["computerLayerKeys"]
+      state: security_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCriminalRecords
+  id: PenumbraComputerCriminalRecordsRight
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-right
+    - map: ["computerLayerScreen"]
+      state: sec_records
+    - map: ["computerLayerKeys"]
+      state: security_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
+
+- type: entity
+  parent: PenumbraComputerCriminalRecords
+  id: PenumbraComputerCriminalRecordsMiddle
+  components:
+  - type: Sprite
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer-middle
+    - map: ["computerLayerScreen"]
+      state: sec_records
+    - map: ["computerLayerKeys"]
+      state: security_key
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      state: panel_open
