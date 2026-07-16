@@ -1,0 +1,116 @@
+{
+  "version": 1,
+  "license": "CC.BY.SA.3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/c8cdc0bb44cdb96cc1562666bc6df2fbdd71c42d/icons/obj/structures/signs/sign.dmi, cargo modified by github noctyrnal",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "evac"
+    },
+    {
+      "name": "drop"
+    },
+    {
+      "name": "custodian"
+    },
+    {
+      "name": "engie"
+    },
+    {
+      "name": "cargo"
+    },
+    {
+      "name": "security"
+    },
+    {
+      "name": "restroom"
+    },
+    {
+      "name": "pharmacy"
+    },
+    {
+      "name": "cold"
+    },
+    {
+      "name": "heat"
+    },
+    {
+      "name": "gasmask"
+    },
+    {
+      "name": "space"
+    },
+    {
+      "name": "examroom"
+    },
+    {
+      "name": "science"
+    },
+    {
+      "name": "chemistry"
+    },
+    {
+      "name": "hydro"
+    },
+    {
+      "name": "xenobio"
+    },
+    {
+      "name": "doors"
+    },
+    {
+      "name": "radiation"
+    },
+    {
+      "name": "bio"
+    },
+    {
+      "name": "fire"
+    },
+    {
+      "name": "nosmoking2"
+    },
+    {
+      "name": "nosmoking2_b"
+    },
+    {
+      "name": "nosmoking"
+    },
+    {
+      "name": "smoking"
+    },
+    {
+      "name": "securearea"
+    },
+    {
+      "name": "shock"
+    },
+    {
+      "name": "falling"
+    },
+    {
+      "name": "deathsposal"
+    },
+    {
+      "name": "explosives"
+    },
+    {
+      "name": "explosives2"
+    },
+    {
+      "name": "chemdiamond"
+    },
+    {
+      "name": "bluecross"
+    },
+    {
+      "name": "bluecross2"
+    },
+    {
+      "name": "incident"
+    }
+  ]
+}
