@@ -1,0 +1,125 @@
+﻿# TODO PENUMBRA - Port RMC14 style vending
+# TODO PENUMBRA - Inventories
+
+- type: entity
+  parent: VendingMachineCigs
+  id: PenumbraVendingMachineCigs
+  name: Glasgow Cigs
+  description: A staple of any merchant or civilian class vessel, this is a vending machine which vends cigarettes. You havent heard of Glasgow before though, ain't that one of those Old-Earth locations?
+  components:
+  - type: Transform
+    noRot: false
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/VendingMachines/cigs.rsi
+    snapCardinals: false
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+
+- type: entity
+  parent: VendingMachineBooze
+  id: PenumbraVendingMachineBooze
+  name: Hyperion Booze Closet
+  description: Sophontkind's newest best friend, a refrigerated machine which stores a multitude of alcohol beverages.
+  components:
+  - type: Transform
+    noRot: false
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/VendingMachines/booze.rsi
+    snapCardinals: false
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+
+- type: entity
+  parent: VendingMachineCoffee
+  id: PenumbraVendingMachineCoffee
+  name: Solstice Hot Drinks
+  description: A vending machine which serves fresh, hot drinks at the press of a button. The best friend of every bureaucrat across the frontier.
+  components:
+  - type: Transform
+    noRot: false
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/VendingMachines/coffee.rsi
+    snapCardinals: false
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+
+- type: entity
+  parent: VendingMachineCola
+  id: PenumbraVendingMachineCola
+  name: Hyperion Softdrinks
+  description: A softdrink vendor provided by Hyperion Industries, LLC, a commonplace in civilian social spaces . . and many, many other spaces.
+  components:
+  - type: Transform
+    noRot: false
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/VendingMachines/cola.rsi
+    snapCardinals: false
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+
+- type: entity
+  parent: PenumbraVendingMachineCola
+  id: PenumbraVendingMachineColaBlue
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/VendingMachines/cola_blue.rsi
+
+- type: entity
+  parent: VendingMachine
+  id: PenumbraVendingMachineFood
+  name: Arakawa Packaged Meals
+  description: A vendor from Arakawa Corp, which provides small packaged ready-to-eat meals of dubious quality, prepared on the fly through hot water pumped into the package upon vending.
+  components:
+  - type: VendingMachine
+    pack: ChangInventory
+    dispenseOnHitChance: 0.25
+    dispenseOnHitThreshold: 2
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    initialStockQuality: 0.33
+  - type: DatasetVocalizer
+    dataset: ChangAds
+  - type: SpeakOnUIClosed
+    pack: ChangGoodbyes
+  - type: Transform
+    noRot: false
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/VendingMachines/food.rsi
+    snapCardinals: false
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 3.0
+    color: "#ffe599"

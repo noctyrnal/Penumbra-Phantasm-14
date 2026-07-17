@@ -19651,7 +19651,7 @@ entities:
     - type: Transform
       pos: 39.5,40.5
       parent: 1
-- proto: VendingMachineBooze
+- proto: PenumbraVendingMachineBooze
   entities:
   - uid: 924
     components:

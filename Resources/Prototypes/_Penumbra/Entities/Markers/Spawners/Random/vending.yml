@@ -1,0 +1,47 @@
+- type: entity
+  parent: RandomVending
+  id: PenumbraRandomVending
+  name: random vending machine spawner
+  suffix: Penumbra, Any
+  components:
+  - type: Transform
+    noRot: false
+  - type: Sprite
+    snapCardinals: false
+  - type: EntityTableSpawner
+    table: !type:GroupSelector
+      children:
+      - id: PenumbraVendingMachineCoffee
+      - id: PenumbraVendingMachineCigs
+
+- type: entity
+  parent: RandomVendingDrinks
+  id: PenumbraRandomVendingDrinks
+  name: random drinks vending machine spawner
+  suffix: Penumbra, Drinks
+  components:
+  - type: Transform
+    noRot: false
+  - type: Sprite
+    snapCardinals: false
+  - type: EntityTableSpawner
+    table: !type:GroupSelector
+      children:
+      - id: PenumbraVendingMachineCoffee
+      - id: PenumbraVendingMachineCola
+      - id: PenumbraVendingMachineColaBlue
+
+- type: entity
+  parent: RandomVendingSnacks
+  id: PenumbraRandomVendingSnacks
+  name: random food vending machine spawner
+  suffix: Penumbra, Snacks
+  components:
+  - type: Transform
+    noRot: false
+  - type: Sprite
+    snapCardinals: false
+  - type: EntityTableSpawner
+    table: !type:GroupSelector
+      children:
+      - id: PenumbraVendingMachineFood
