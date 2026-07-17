@@ -70,3 +70,29 @@
 - type: tileAlias
   id: FloorSteelBurnt
   target: FloorSteelDamaged
+
+## Penumbra 2026-07-17
+
+- type: tileAlias
+  id: PenumbraFloorMetalDirty
+  target: PenumbraFloorMetal
+
+- type: tileAlias
+  id: PenumbraFloorMetalLines
+  target: PenumbraFloorMetal
+
+- type: tileAlias
+  id: PenumbraFloorDarkMetalLines
+  target: PenumbraFloorDarkMetal
+
+- type: tileAlias
+  id: PenumbraFloorDarkMetalBricks
+  target: PenumbraFloorDarkMetal
+
+- type: tileAlias
+  id: PenumbraFloorWhiteMetalLines
+  target: PenumbraFloorWhiteMetal
+
+- type: tileAlias
+  id: PenumbraFloorWhiteMetalBricks
+  target: PenumbraFloorWhiteMetal

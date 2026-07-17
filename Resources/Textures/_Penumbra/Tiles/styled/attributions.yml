@@ -1,10 +1,10 @@
 - files: ["freezer.png, showroomfloor.png"]
   license: "CC-BY-SA-3.0"
-  copyright: "Sprites taken from shiptest-ss13"
+  copyright: "Taken from shiptest-ss13"
   source: "https://github.com/shiptest-ss13/Shiptest/blob/0e6f7fa64649dfbf52b8e4b71756e6625e50fdd0/icons/turf/floors.dmi"
 
 
 - files: ["bar.png, kitchen.png, laundry.png"]
   license: "CC-BY-SA-4.0"
-  copyright: "Sprites by github noctyrnal"
+  copyright: "Taken from shiptest-ss13, modified by github noctyrnal"
   source: "https://github.com/Penumbra-Phantasm/Penumbra-Phantasm-14"

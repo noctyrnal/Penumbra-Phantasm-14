@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "license": "CC-BY-SA-4.0",
-  "copyright": "Sprites by github noctyrnal",
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/70eb53d73a24dcd98f6b6bae19e8df365860eb77/icons/obj/atmospherics/components/unary_devices.dmi, vent_lockout by github noctyrnal",
   "size": {
     "x": 32,
     "y": 32
@@ -24,28 +24,28 @@
       "directions": 4,
       "delays": [
         [
-          0.08,
-          0.08,
-          0.08,
-          0.08
+          0.05,
+          0.05,
+          0.05,
+          0.05
         ],
         [
-          0.08,
-          0.08,
-          0.08,
-          0.08
+          0.05,
+          0.05,
+          0.05,
+          0.05
         ],
         [
-          0.08,
-          0.08,
-          0.08,
-          0.08
+          0.05,
+          0.05,
+          0.05,
+          0.05
         ],
         [
-          0.08,
-          0.08,
-          0.08,
-          0.08
+          0.05,
+          0.05,
+          0.05,
+          0.05
         ]
       ]
     },
@@ -54,28 +54,28 @@
       "directions": 4,
       "delays": [
         [
-          0.08,
-          0.08,
-          0.08,
-          0.08
+          0.05,
+          0.05,
+          0.05,
+          0.05
         ],
         [
-          0.08,
-          0.08,
-          0.08,
-          0.08
+          0.05,
+          0.05,
+          0.05,
+          0.05
         ],
         [
-          0.08,
-          0.08,
-          0.08,
-          0.08
+          0.05,
+          0.05,
+          0.05,
+          0.05
         ],
         [
-          0.08,
-          0.08,
-          0.08,
-          0.08
+          0.05,
+          0.05,
+          0.05,
+          0.05
         ]
       ]
     },
