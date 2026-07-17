@@ -2,6 +2,6 @@
   id: Human
   name: species-name-human
   roundStart: true
-  prototype: MobHuman
+  prototype: PenumbraMobHuman # Penumbra Phantasm 14 - Custom Species
   dollPrototype: AppearanceHuman
   skinColoration: HumanToned

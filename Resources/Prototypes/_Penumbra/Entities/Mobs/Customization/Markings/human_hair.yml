@@ -1,0 +1,1119 @@
+- type: marking
+  id: PenumbraHumanHairBald
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: bald
+
+- type: marking
+  id: PenumbraHumanHair80s
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_80s
+
+- type: marking
+  id: PenumbraHumanHairAfro
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_afro
+
+- type: marking
+  id: PenumbraHumanHairBalding
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_balding
+
+- type: marking
+  id: PenumbraHumanHairBedhead
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_bedhead
+
+- type: marking
+  id: PenumbraHumanHairBeehive
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_beehive
+
+- type: marking
+  id: PenumbraHumanHairBeehiveV2
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_beehivev2
+
+- type: marking
+  id: PenumbraHumanHairBigAfro
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_bigafro
+
+- type: marking
+  id: PenumbraHumanHairBobCurl
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_bobcurl
+
+- type: marking
+  id: PenumbraHumanHairBobWavy
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_bobwavy
+
+- type: marking
+  id: PenumbraHumanHairBoddicker
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_boddicker
+
+- type: marking
+  id: PenumbraHumanHairBowlcut
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_bowlcut
+
+- type: marking
+  id: PenumbraHumanHairBun
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_bun
+
+- type: marking
+  id: PenumbraHumanHairBunHalf
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_bunhalf
+
+- type: marking
+  id: PenumbraHumanHairBunLong
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_bunlong
+
+- type: marking
+  id: PenumbraHumanHairBusiness
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_business
+
+- type: marking
+  id: PenumbraHumanHairCoffeehouse
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_coffeehouse
+
+- type: marking
+  id: PenumbraHumanHairCombover
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_combover
+
+- type: marking
+  id: PenumbraHumanHairCornrows
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_cornrows
+
+- type: marking
+  id: PenumbraHumanHairCornrowsBraid
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_cornrowsbraid
+
+- type: marking
+  id: PenumbraHumanHairCornrowsBun
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_cornrowsbun
+
+- type: marking
+  id: PenumbraHumanHairCornrowsLong
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_cornrowslong
+
+- type: marking
+  id: PenumbraHumanHairCornrowsPigtails
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_cornrowspigtails
+
+- type: marking
+  id: PenumbraHumanHairCrewcut
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_crewcut
+
+- type: marking
+  id: PenumbraHumanHairDandyPompadour
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_dandypompadour
+
+- type: marking
+  id: PenumbraHumanHairDolorosa
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_dolorosa
+
+- type: marking
+  id: PenumbraHumanHairDouble
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_double
+
+- type: marking
+  id: PenumbraHumanHairDoubleBun
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_doublebun
+
+- type: marking
+  id: PenumbraHumanHairDoubleBunMessy
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_doublebunmessy
+
+- type: marking
+  id: PenumbraHumanHairDreads
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_dreads
+
+- type: marking
+  id: PenumbraHumanHairDrillHairExtended
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_drillhairextended
+
+- type: marking
+  id: PenumbraHumanHairDrillruru
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_drillruru
+
+- type: marking
+  id: PenumbraHumanHairEgg
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_egg
+
+- type: marking
+  id: PenumbraHumanHairEmo
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_emo
+
+- type: marking
+  id: PenumbraHumanHairEmoBangs
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_emobangs
+
+- type: marking
+  id: PenumbraHumanHairEmoFringe
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_emofringe
+
+- type: marking
+  id: PenumbraHumanHairEmoLong
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_emolong
+
+- type: marking
+  id: PenumbraHumanHairFather
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_father
+
+- type: marking
+  id: PenumbraHumanHairFeather
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_feather
+
+- type: marking
+  id: PenumbraHumanHairFeatherBang
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_featherbang
+
+- type: marking
+  id: PenumbraHumanHairGentle
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_gentle
+
+- type: marking
+  id: PenumbraHumanHairGloomy
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_gloomy
+
+- type: marking
+  id: PenumbraHumanHairGloomyLong
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_gloomylong
+
+- type: marking
+  id: PenumbraHumanHairGloomyLonger
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_gloomylonger
+
+- type: marking
+  id: PenumbraHumanHairHalfBang
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_halfbang
+
+- type: marking
+  id: PenumbraHumanHairHalfShave
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_halfshave
+
+- type: marking
+  id: PenumbraHumanHairHalfShort
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_halfshort
+
+- type: marking
+  id: PenumbraHumanHairHalfShortAlt
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_halfshortalt
+
+- type: marking
+  id: PenumbraHumanHairHalfUp
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_halfup
+
+- type: marking
+  id: PenumbraHumanHairHarley
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_harley
+
+- type: marking
+  id: PenumbraHumanHairHighFade
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_highfade
+
+- type: marking
+  id: PenumbraHumanHairHimeCut
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_himecut
+
+- type: marking
+  id: PenumbraHumanHairHimeUp
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_himeup
+
+- type: marking
+  id: PenumbraHumanHairHitop
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_hitop
+
+- type: marking
+  id: PenumbraHumanHairJensen
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_jensen
+
+- type: marking
+  id: PenumbraHumanHairJoestar
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_joestar
+
+- type: marking
+  id: PenumbraHumanHairJustice
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_justice
+
+- type: marking
+  id: PenumbraHumanHairKeanu
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_keanu
+
+- type: marking
+  id: PenumbraHumanHairKusanagi
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_kusanagi
+
+- type: marking
+  id: PenumbraHumanHairKusanagiPony
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_kusanagipony
+
+- type: marking
+  id: PenumbraHumanHairLBangs
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_lbangs
+
+- type: marking
+  id: PenumbraHumanHairLBangsOverEye
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_lbangsovereye
+
+- type: marking
+  id: PenumbraHumanHairLong
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_long
+
+- type: marking
+  id: PenumbraHumanHairLongest
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_longest
+
+- type: marking
+  id: PenumbraHumanHairLongest2
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_longest2
+
+- type: marking
+  id: PenumbraHumanHairLongFringe
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_longfringe
+
+- type: marking
+  id: PenumbraHumanHairLongHalf
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_longhalf
+
+- type: marking
+  id: PenumbraHumanHairLongOverEye
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_longovereye
+
+- type: marking
+  id: PenumbraHumanHairLongSidePart
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_longsidepart
+
+- type: marking
+  id: PenumbraHumanHairLowFade
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_lowfade
+
+- type: marking
+  id: PenumbraHumanHairMAnime
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_manime
+
+- type: marking
+  id: PenumbraHumanHairMedFade
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_medfade
+
+- type: marking
+  id: PenumbraHumanHairMeow
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_meow
+
+- type: marking
+  id: PenumbraHumanHairMessy
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_messy
+
+- type: marking
+  id: PenumbraHumanHairMessyChop
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_messychop
+
+- type: marking
+  id: PenumbraHumanHairMiracles
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_miracles
+
+- type: marking
+  id: PenumbraHumanHairModern
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_modern
+
+- type: marking
+  id: PenumbraHumanHairMulder
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_mulder
+
+- type: marking
+  id: PenumbraHumanHairOxton
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_oxton
+
+- type: marking
+  id: PenumbraHumanHairParted
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_parted
+
+- type: marking
+  id: PenumbraHumanHairPigtails
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_pigtails
+
+- type: marking
+  id: PenumbraHumanHairPigtailsLong
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_pigtailslong
+
+- type: marking
+  id: PenumbraHumanHairPixie
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_pixie
+
+- type: marking
+  id: PenumbraHumanHairPonytail
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_ponytail
+
+- type: marking
+  id: PenumbraHumanHairPonytailBraided
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_ponytailbraided
+
+- type: marking
+  id: PenumbraHumanHairPonytailBraidedLong
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_ponytailbraidedlong
+
+- type: marking
+  id: PenumbraHumanHairPonytailEye
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_ponytaileye
+
+- type: marking
+  id: PenumbraHumanHairPonytailFuzzy
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_ponytailfuzzy
+
+- type: marking
+  id: PenumbraHumanHairPonytailGrace
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_ponytailgrace
+
+- type: marking
+  id: PenumbraHumanHairPonytailRat
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_ponytailrat
+
+- type: marking
+  id: PenumbraHumanHairPonytailShort
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_ponytailshort
+
+- type: marking
+  id: PenumbraHumanHairPonytailSide
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_ponytailside
+
+- type: marking
+  id: PenumbraHumanHairPonytailSimple
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_ponytailsimple
+
+- type: marking
+  id: PenumbraHumanHairPonytailSimpleLong
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_ponytailsimplelong
+
+- type: marking
+  id: PenumbraHumanHairPonytailSpiky
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_ponytailspiky
+
+- type: marking
+  id: PenumbraHumanHairPonytailStraight
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_ponytailstraight
+
+- type: marking
+  id: PenumbraHumanHairPonytailStraightLong
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_ponytailstraightlong
+
+- type: marking
+  id: PenumbraHumanHairPonytailWisp
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_ponytailwisp
+
+- type: marking
+  id: PenumbraHumanHairPoofy
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_poofy
+
+- type: marking
+  id: PenumbraHumanHairPrince
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_prince
+
+- type: marking
+  id: PenumbraHumanHairPupa
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_pupa
+
+- type: marking
+  id: PenumbraHumanHairQuiff
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_quiff
+
+- type: marking
+  id: PenumbraHumanHairReverseMohawk
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_reversemohawk
+
+- type: marking
+  id: PenumbraHumanHairRonin
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_ronin
+
+- type: marking
+  id: PenumbraHumanHairRosemary
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_rosemary
+
+- type: marking
+  id: PenumbraHumanHairRuby
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_ruby
+
+- type: marking
+  id: PenumbraHumanHairRubyLong
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_rubylong
+
+- type: marking
+  id: PenumbraHumanHairRubyPony
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_rubypony
+
+- type: marking
+  id: PenumbraHumanHairShagcut
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_shagcut
+
+- type: marking
+  id: PenumbraHumanHairShaved
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_shaved
+
+- type: marking
+  id: PenumbraHumanHairShavedMohawk
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_shavedmohawk
+
+- type: marking
+  id: PenumbraHumanHairShortHair
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_shorthair
+
+- type: marking
+  id: PenumbraHumanHairShortHairMessy
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_shorthairmessy
+
+- type: marking
+  id: PenumbraHumanHairShortHime
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_shorthime
+
+- type: marking
+  id: PenumbraHumanHairShortOvereye
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_shortovereye
+
+- type: marking
+  id: PenumbraHumanHairSidecut
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_sidecut
+
+- type: marking
+  id: PenumbraHumanHairSideTail
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_sidetail
+
+- type: marking
+  id: PenumbraHumanHairSideTailBraid
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_sidetailbraid
+
+- type: marking
+  id: PenumbraHumanHairSideTailCountry
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_sidetailcountry
+
+- type: marking
+  id: PenumbraHumanHairSideTailFlip
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_sidetailflip
+
+- type: marking
+  id: PenumbraHumanHairSideTailShort
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_sidetailshort
+
+- type: marking
+  id: PenumbraHumanHairStride
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_stride
+
+- type: marking
+  id: PenumbraHumanHairSweptBack
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_sweptback
+
+- type: marking
+  id: PenumbraHumanHairThinning
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_thinning
+
+- type: marking
+  id: PenumbraHumanHairThrest
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_thresh
+
+- type: marking
+  id: PenumbraHumanHairTriBun
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_tribun
+
+- type: marking
+  id: PenumbraHumanHairTrimFlat
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_trimflat
+
+- type: marking
+  id: PenumbraHumanHairTwinTail
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_twintail
+
+- type: marking
+  id: PenumbraHumanHairTwinTailBangs
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_twintailbangs
+
+- type: marking
+  id: PenumbraHumanHairTwinTailBLong
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_twintailblong
+
+- type: marking
+  id: PenumbraHumanHairTrimTailLong
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_twintaillong
+
+- type: marking
+  id: PenumbraHumanHairUnkept
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_unkept
+
+- type: marking
+  id: PenumbraHumanHairUnshavenMohawk
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_unshaven_mohawk
+
+- type: marking
+  id: PenumbraHumanHairVeryShortOverEyeAlternate
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_veryshortovereyealternate
+
+- type: marking
+  id: PenumbraHumanHairVLong
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_vlong
+
+- type: marking
+  id: PenumbraHumanHairVLongBangs
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_vlongbangs
+
+- type: marking
+  id: PenumbraHumanHairVLongFringe
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_vlongfringe
+
+- type: marking
+  id: PenumbraHumanHairWavy
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_wavy
+
+- type: marking
+  id: PenumbraHumanHairWavyAlt
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_wavyalt
+
+- type: marking
+  id: PenumbraHumanHairWavyShort
+  bodyPart: Hair
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+    - sprite: _Penumbra/Mobs/Customization/human_hair.rsi
+      state: hair_wavyshort

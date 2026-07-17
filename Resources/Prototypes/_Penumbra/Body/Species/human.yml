@@ -1,0 +1,198 @@
+- type: markingsGroup
+  parent: Undergarments
+  id: PenumbraHuman
+  limits:
+    enum.HumanoidVisualLayers.HeadTop:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.Hair:
+      limit: 1
+      onlyGroupWhitelisted: true
+      required: false
+      default: [ PenumbraHumanHairBald ]
+    enum.HumanoidVisualLayers.FacialHair:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.Chest:
+      limit: 2
+      required: false
+    enum.HumanoidVisualLayers.Snout:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.LArm:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.RArm:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.LHand:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.RHand:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.LLeg:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.RLeg:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.LFoot:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.RFoot:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.Tail:
+      limit: 0
+      required: false
+    enum.HumanoidVisualLayers.Special:
+      limit: 0
+      required: false
+
+- type: entity
+  parent: AppearanceHuman
+  id: PenumbraAppearanceHuman
+  categories: [ HideSpawnMenu ]
+  name: penumbra human appearance
+  components:
+  - type: InitialBody
+    organs:
+      Torso: PenumbraOrganHumanTorso
+      Head: PenumbraOrganHumanHead
+      ArmLeft: PenumbraOrganHumanArmLeft
+      ArmRight: PenumbraOrganHumanArmRight
+      HandRight: PenumbraOrganHumanHandRight
+      HandLeft: PenumbraOrganHumanHandLeft
+      LegLeft: PenumbraOrganHumanLegLeft
+      LegRight: PenumbraOrganHumanLegRight
+      FootLeft: PenumbraOrganHumanFootLeft
+      FootRight: PenumbraOrganHumanFootRight
+      Brain: PenumbraOrganHumanBrain
+      Eyes: PenumbraOrganHumanEyes
+      Tongue: PenumbraOrganHumanTongue
+      Appendix: PenumbraOrganHumanAppendix
+      Ears: PenumbraOrganHumanEars
+      Lungs: PenumbraOrganHumanLungs
+      Heart: PenumbraOrganHumanHeart
+      Stomach: PenumbraOrganHumanStomach
+      Liver: PenumbraOrganHumanLiver
+      Kidneys: PenumbraOrganHumanKidneys
+  - type: HumanoidProfile
+    species: PenumbraHuman
+
+- type: entity
+  parent:
+  - PenumbraAppearanceHuman
+  - BaseSpeciesMobOrganic
+  id: PenumbraMobHuman
+  name: Urist Penumbra McHands
+  suffix: Penumbra
+  components:
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+
+- type: entity
+  parent: OrganHumanExternal
+  id: PenumbraOrganHumanExternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Mobs/Species/Human/parts.rsi
+  - type: VisualOrgan
+    data:
+      sprite: _Penumbra/Mobs/Species/Human/parts.rsi
+  - type: VisualOrganMarkings
+    markingData:
+      group: PenumbraHuman
+
+- type: entity
+  parent: [ OrganBaseTorsoSexed, OrganBaseTorso, PenumbraOrganHumanExternal ]
+  id: PenumbraOrganHumanTorso
+
+- type: entity
+  parent: [ OrganBaseHeadSexed, OrganBaseHead, PenumbraOrganHumanExternal ]
+  id: PenumbraOrganHumanHead
+  components:
+  - type: VisualOrganMarkings
+    hideableLayers:
+    - enum.HumanoidVisualLayers.Hair
+    - enum.HumanoidVisualLayers.Snout
+
+- type: entity
+  parent: [ OrganBaseArmLeft, PenumbraOrganHumanExternal ]
+  id: PenumbraOrganHumanArmLeft
+
+- type: entity
+  parent: [ OrganBaseArmRight, PenumbraOrganHumanExternal ]
+  id: PenumbraOrganHumanArmRight
+
+- type: entity
+  parent: [ OrganBaseHandLeft, PenumbraOrganHumanExternal ]
+  id: PenumbraOrganHumanHandLeft
+
+- type: entity
+  parent: [ OrganBaseHandRight, PenumbraOrganHumanExternal ]
+  id: PenumbraOrganHumanHandRight
+
+- type: entity
+  parent: [ OrganBaseLegLeft, PenumbraOrganHumanExternal ]
+  id: PenumbraOrganHumanLegLeft
+
+- type: entity
+  parent: [ OrganBaseLegRight, PenumbraOrganHumanExternal ]
+  id: PenumbraOrganHumanLegRight
+
+- type: entity
+  parent: [ OrganBaseFootLeft, PenumbraOrganHumanExternal ]
+  id: PenumbraOrganHumanFootLeft
+
+- type: entity
+  parent: [ OrganBaseFootRight, PenumbraOrganHumanExternal ]
+  id: PenumbraOrganHumanFootRight
+
+- type: entity
+  parent: [ OrganBaseBrain, OrganHumanInternal ]
+  id: PenumbraOrganHumanBrain
+
+- type: entity
+  parent: [ OrganBaseEyes, OrganHumanInternal, PenumbraOrganHumanExternal ]
+  id: PenumbraOrganHumanEyes
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: Mobs/Customization/eyes.rsi
+
+- type: entity
+  parent: [ OrganBaseTongue, OrganHumanInternal ]
+  id: PenumbraOrganHumanTongue
+
+- type: entity
+  parent: [ OrganBaseAppendix, OrganHumanInternal ]
+  id: PenumbraOrganHumanAppendix
+
+- type: entity
+  parent: [ OrganBaseEars, OrganHumanInternal ]
+  id: PenumbraOrganHumanEars
+
+- type: entity
+  parent: [ OrganBaseLungs, OrganHumanInternal, OrganHumanMetabolizer ]
+  id: PenumbraOrganHumanLungs
+
+- type: entity
+  parent: [ OrganBaseHeart, OrganHumanInternal, OrganHumanMetabolizer ]
+  id: PenumbraOrganHumanHeart
+
+- type: entity
+  parent: [ OrganBaseStomach, OrganHumanInternal, OrganHumanMetabolizer ]
+  id: PenumbraOrganHumanStomach
+
+- type: entity
+  parent: [ OrganBaseLiver, OrganHumanInternal, OrganHumanMetabolizer ]
+  id: PenumbraOrganHumanLiver
+
+- type: entity
+  parent: [ OrganBaseKidneys, OrganHumanInternal, OrganHumanMetabolizer ]
+  id: PenumbraOrganHumanKidneys
