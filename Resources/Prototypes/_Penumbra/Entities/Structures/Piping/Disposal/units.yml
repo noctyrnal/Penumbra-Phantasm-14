@@ -1,0 +1,32 @@
+- type: entity
+  parent: DisposalUnitBase
+  id: PenumbraDisposalUnitBase
+  description: A pneumatic waste disposal unit.
+  suffix: Penumbra
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Piping/disposal.rsi
+
+- type: entity
+  parent: PenumbraDisposalUnitBase
+  id: PenumbraDisposalUnit
+  name: disposal unit
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Piping/disposal.rsi
+    snapCardinals: true
+  - type: Construction
+    graph: DisposalMachine
+    node: disposal_unit
+  - type: ThrowInsertContainer
+    containerId: DisposalUnitComponent
+    probability: 0.67
+  - type: UserInterface
+    interfaces:
+      enum.DisposalUnitUiKey.Key:
+        type: DisposalUnitBoundUserInterface
+  - type: Rummageable
+    table: !type:NestedSelector
+      tableId: RatKingLoot
+  - type: RequireProjectileTarget

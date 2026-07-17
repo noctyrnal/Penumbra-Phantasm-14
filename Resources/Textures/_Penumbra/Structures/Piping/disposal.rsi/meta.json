@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "license": null,
+  "copyright": null,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "disposal"
+    },
+    {
+      "name": "disposal-flush",
+      "delays": [
+        [
+          0.1,
+          0.05,
+          0.05,
+          0.030000001,
+          0.01,
+          0.030000001,
+          0.07,
+          0.1,
+          0.6,
+          0.05,
+          0.05,
+          2
+        ]
+      ]
+    },
+    {
+      "name": "dispover-charge",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "dispover-ready"
+    },
+    {
+      "name": "dispover-handle"
+    },
+    {
+      "name": "dispover-full"
+    },
+    {
+      "name": "condisposal"
+    },
+    {
+      "name": "disposal-charging"
+    },
+    {
+      "name": "dispover-charging"
+    },
+    {
+      "name": "disposal-charge",
+      "delays": [
+        [
+          0.3,
+          0.3,
+          0.3,
+          0.5
+        ]
+      ]
+    }
+  ]
+}

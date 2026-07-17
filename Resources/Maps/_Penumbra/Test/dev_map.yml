@@ -17559,7 +17559,7 @@ entities:
     - type: Transform
       pos: 70.5,18.5
       parent: 1
-- proto: Railing
+- proto: PenumbraRailing
   entities:
   - uid: 217
     components:
@@ -18002,7 +18002,7 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 71.5,11.5
       parent: 1
-- proto: RailingCorner
+- proto: PenumbraRailingCorner
   entities:
   - uid: 226
     components:
@@ -18033,7 +18033,7 @@ entities:
     - type: Transform
       pos: 16.5,10.5
       parent: 1
-- proto: RailingCornerSmall
+- proto: PenumbraRailingCornerSmall
   entities:
   - uid: 232
     components:

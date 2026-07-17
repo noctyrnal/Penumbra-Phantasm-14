@@ -1,0 +1,138 @@
+# Welding
+
+- type: entity
+  parent: [StorageTank, StructureWheeled]
+  id: PenumbraWeldingFuelTank
+  name: fuel tank
+  description: A fuel tank. It's used to store high amounts of fuel.
+  suffix: Penumbra, Empty
+  components:
+  - type: StaticPrice
+    price: 750
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/tanks.rsi
+    state: fueltank
+  - type: Appearance
+  - type: ExaminableSolution
+    solution: tank
+  - type: ReagentTank
+    tankType: Fuel
+  - type: DamageOnToolInteract
+    tools: Welding
+    weldingDamage:
+      types:
+        Heat: 10
+  - type: PacifismDangerousAttack
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 60
+
+- type: entity
+  parent: PenumbraWeldingFuelTank
+  id: PenumbraWeldingFuelTankFull
+  suffix: Penumbra, Full
+  components:
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: WeldingFuel
+        Quantity: 960
+
+- type: entity
+  parent: [StorageTankBig, PenumbraWeldingFuelTank]
+  id: PenumbraWeldingFuelTankHighCapacity
+  name: high-capacity fuel tank
+  description: A highly pressurized fuel tank made to hold gargantuan amounts of welding fuel.
+  suffix: Full
+  components:
+  - type: StaticPrice
+    price: 2500
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/tanks.rsi
+    state: fueltank
+  - type: SolutionContainerVisuals
+    maxFillLevels: 7
+    fillBaseName: highfueltank-2-
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: WeldingFuel
+        Quantity: 3840
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 120
+
+# Water
+
+- type: entity
+  parent: [StorageTank, StructureWheeled]
+  id: PenumbraWaterTank
+  name: water tank
+  description: A water tank. It's used to store high amounts of water.
+  suffix: Penumbra, Empty
+  components:
+  - type: StaticPrice
+    price: 500
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/tanks.rsi
+    state: watertank
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 5
+    fillBaseName: watertank-2-
+  - type: ExaminableSolution
+    solution: tank
+
+- type: entity
+  parent: PenumbraWaterTank
+  id: PenumbraWaterTankFull
+  suffix: Penumbra, Full
+  components:
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Water
+        Quantity: 960
+
+- type: entity
+  parent: [StorageTankBig, PenumbraWaterTank]
+  id: PenumbraWaterTankHighCapacity
+  name: high-capacity water tank
+  description: A highly pressurized water tank made to hold gargantuan amounts of water.
+  suffix: Penumbra, Full
+  components:
+  - type: StaticPrice
+    price: 2500
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/tanks.rsi
+    state: watertank
+  - type: Appearance
+  - type: SolutionContainerVisuals
+    maxFillLevels: 7
+    fillBaseName: highwatertank-2-
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Water
+        Quantity: 3840 # This is *100, 000* on /tg/
+  - type: ExaminableSolution
+    solution: tank
+  - type: ReagentTank
+    transferAmount: 100
+
+- type: entity
+  parent: [StorageTank, StructureWheeled]
+  id: PenumbraGenericTank
+  suffix: Penumbra, Empty
+  components:
+    - type: StaticPrice
+      price: 500
+    - type: Sprite
+      sprite: _Penumbra/Structures/Storage/tanks.rsi
+      state: generictank
+    - type: Appearance
+    - type: SolutionContainerVisuals
+      maxFillLevels: 5
+      fillBaseName: watertank-2-
+    - type: ExaminableSolution
+      solution: tank
