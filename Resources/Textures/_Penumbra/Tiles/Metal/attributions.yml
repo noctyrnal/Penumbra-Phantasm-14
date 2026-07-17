@@ -1,14 +1,29 @@
-- files: ["metal.png, metal_mono.png, metal_lines.png, metal_mini.png, metal_bricks.png, metal_tech.png, metal_tech_alt.png, metal_surrogate.png, metal_dirty.png"]
-  license: "CC-BY-SA-4.0"
-  copyright: "Sprites by github noctyrnal"
-  source: "https://github.com/Penumbra-Phantasm/Penumbra-Phantasm-14"
+- files: ["metal.png, metal_mono.png, metal_tech.png, metal_tech_alt.png, metal_surrogate.png"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Taken from shiptest-ss13"
+  source: "https://github.com/shiptest-ss13/Shiptest/blob/0e6f7fa64649dfbf52b8e4b71756e6625e50fdd0/icons/turf/floors/tiles.dmi"
 
-- files: ["dark.png, dark_mono.png, dark_lines.png, dark_mini.png, dark_bricks.png"]
-  license: "CC-BY-SA-4.0"
-  copyright: "Sprites by github noctyrnal"
-  source: "https://github.com/Penumbra-Phantasm/Penumbra-Phantasm-14"
+- files: ["dark.png, dark_mono.png"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Taken from shiptest-ss13"
+  source: "https://github.com/shiptest-ss13/Shiptest/blob/0e6f7fa64649dfbf52b8e4b71756e6625e50fdd0/icons/turf/floors/tiles.dmi"
 
-- files: ["white.png, white_mono.png, white_lines.png, white_mini.png, white_bricks.png"]
-  license: "CC-BY-SA-4.0"
-  copyright: "Sprites by github noctyrnal"
-  source: "https://github.com/Penumbra-Phantasm/Penumbra-Phantasm-14"
+- files: ["dark_surrogate.png"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Taken from shiptest-ss13, modified by github noctyrnal"
+  source: "https://github.com/shiptest-ss13/Shiptest/blob/0e6f7fa64649dfbf52b8e4b71756e6625e50fdd0/icons/turf/floors/tiles.dmi"
+
+- files: ["white.png, white_mono.png"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Taken from shiptest-ss13"
+  source: "https://github.com/shiptest-ss13/Shiptest/blob/0e6f7fa64649dfbf52b8e4b71756e6625e50fdd0/icons/turf/floors/tiles.dmi"
+
+- files: ["metal_mini.png, white_mini.png"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Taken from shiptest-ss13"
+  source: "https://github.com/shiptest-ss13/Shiptest/blob/0e6f7fa64649dfbf52b8e4b71756e6625e50fdd0/icons/turf/floors/shuttle_floors.dmi"
+
+- files: ["dark_mini.png"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Taken from shiptest-ss13, modified by github noctyrnal"
+  source: "https://github.com/shiptest-ss13/Shiptest/blob/0e6f7fa64649dfbf52b8e4b71756e6625e50fdd0/icons/turf/floors/shuttle_floors.dmi"

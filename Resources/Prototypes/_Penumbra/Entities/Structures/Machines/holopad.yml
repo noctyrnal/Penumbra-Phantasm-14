@@ -1,0 +1,801 @@
+- type: entity
+  parent: Holopad
+  id: PenumbraHolopad
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/holopad.rsi
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadLongRange
+  name: long-range holopad
+  description: A floor-mounted device for projecting holographic images to similar devices that are far away.
+  components:
+  - type: Telephone
+    transmissionRange: Map
+    compatibleRanges:
+    - Map
+    - Unlimited
+    ignoreTelephonesOnSameGrid: true
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadUnlimitedRange
+  name: hyper-range holopad
+  description: An floor-mounted device for projecting holographic images to similar devices at extreme distances.
+  components:
+  - type: Telephone
+    transmissionRange: Unlimited
+    compatibleRanges:
+    - Map
+    - Unlimited
+    ignoreTelephonesOnSameGrid: true
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadAntiSpace
+  name: anti-space holopad
+  description: An experimental floor-mounted device for projecting holographic images through Anti-Space.
+  s.uffix: Penumbra, Admin
+  components:
+  - type: Telephone
+    unlistedNumber: true
+    transmissionRange: Unlimited
+    compatibleRanges:
+    - Grid
+    - Map
+    - Unlimited
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadGeneralTools
+  suffix: Penumbra, Tools
+  components:
+  - type: Label
+    currentLabel: holopad-general-tools
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadGeneralCryosleep
+  suffix: Penumbra, Cryosleep
+  components:
+  - type: Label
+    currentLabel: holopad-general-cryosleep
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadGeneralTheater
+  suffix: Penumbra, Theater
+  components:
+  - type: Label
+    currentLabel: holopad-general-theater
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadGeneralDisposals
+  suffix: Penumbra, Disposals
+  components:
+  - type: Label
+    currentLabel: holopad-general-disposals
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadGeneralEVAStorage
+  suffix: Penumbra, EVA Storage
+  components:
+  - type: Label
+    currentLabel: holopad-general-eva
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadGeneralLounge
+  suffix: Penumbra, Lounge
+  components:
+  - type: Label
+    currentLabel: holopad-general-lounge
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadGeneralArcade
+  suffix: Penumbra, Arcade
+  components:
+  - type: Label
+    currentLabel: holopad-general-arcade
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadGeneralEvac
+  suffix: Penumbra, Evac
+  components:
+  - type: Label
+    currentLabel: holopad-general-evac
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadGeneralArrivals
+  suffix: Penumbra, Arrivals
+  components:
+  - type: Label
+    currentLabel: holopad-general-arrivals
+
+# Command
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadCommandBridge
+  suffix: Penumbra, Bridge
+  components:
+  - type: Label
+    currentLabel: holopad-command-bridge
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadCommandVault
+  suffix: Penumbra, Vault
+  components:
+  - type: Label
+    currentLabel: holopad-command-vault
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadCommandBridgeHallway
+  suffix: Penumbra, Bridge Hallway
+  components:
+  - type: Label
+    currentLabel: holopad-command-bridge-hallway
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadCommandMeetingRoom
+  suffix: Penumbra, Command Meeting
+  components:
+  - type: Label
+    currentLabel: holopad-command-meeting-room
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadCommandLounge
+  suffix: Penumbra, Command Lounge
+  components:
+  - type: Label
+    currentLabel: holopad-command-lounge
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadCommandCaptain
+  suffix: Penumbra, Captain
+  components:
+  - type: Label
+    currentLabel: holopad-command-captain
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadCommandHop
+  suffix: Penumbra, HoP
+  components:
+  - type: Label
+    currentLabel: holopad-command-hop
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadCommandCmo
+  suffix: Penumbra, CMO
+  components:
+  - type: Label
+    currentLabel: holopad-command-cmo
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadCommandQm
+  suffix: Penumbra, QM
+  components:
+  - type: Label
+    currentLabel: holopad-command-qm
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadCommandCe
+  suffix: Penumbra, CE
+  components:
+  - type: Label
+    currentLabel: holopad-command-ce
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadCommandRd
+  suffix: Penumbra, RD
+  components:
+  - type: Label
+    currentLabel: holopad-command-rd
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadCommandHos
+  suffix: Penumbra, HoS
+  components:
+  - type: Label
+    currentLabel: holopad-command-hos
+
+# Science
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadScienceAnomaly
+  suffix: Penumbra, Anomaly
+  components:
+  - type: Label
+    currentLabel: holopad-science-anomaly
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadScienceArtifact
+  suffix: Penumbra, Artifact
+  components:
+  - type: Label
+    currentLabel: holopad-science-artifact
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadScienceArtifactNorth
+  suffix: Penumbra, Artifact North
+  components:
+  - type: Label
+    currentLabel: holopad-science-artifact-north
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadScienceArtifactSouth
+  suffix: Penumbra, Artifact South
+  components:
+  - type: Label
+    currentLabel: holopad-science-artifact-south
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadScienceRobotics
+  suffix: Penumbra, Robotics
+  components:
+  - type: Label
+    currentLabel: holopad-science-robotics
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadScienceRnd
+  suffix: Penumbra, R&D
+  components:
+  - type: Label
+    currentLabel: holopad-science-rnd
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadScienceFront
+  suffix: Penumbra, Sci Front
+  components:
+  - type: Label
+    currentLabel: holopad-science-front
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadScienceBreakroom
+  suffix: Penumbra, Sci Breakroom
+  components:
+  - type: Label
+    currentLabel: holopad-science-breakroom
+
+# Medical
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadMedicalMedbay
+  suffix: Penumbra, Medbay
+  components:
+  - type: Label
+    currentLabel: holopad-medical-medbay
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadMedicalChemistry
+  suffix: Penumbra, Chemistry
+  components:
+  - type: Label
+    currentLabel: holopad-medical-chemistry
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadMedicalCryopods
+  suffix: Penumbra, Cryopods
+  components:
+  - type: Label
+    currentLabel: holopad-medical-cryopods
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadMedicalMorgue
+  suffix: Penumbra, Morgue
+  components:
+  - type: Label
+    currentLabel: holopad-medical-morgue
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadMedicalSurgery
+  suffix: Penumbra, Surgery
+  components:
+  - type: Label
+    currentLabel: holopad-medical-surgery
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadMedicalParamed
+  suffix: Penumbra, Paramedic
+  components:
+  - type: Label
+    currentLabel: holopad-medical-paramedic
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadMedicalVirology
+  suffix: Penumbra, Virology
+  components:
+  - type: Label
+    currentLabel: holopad-medical-virology
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadMedicalFront
+  suffix: Penumbra, Med Front
+  components:
+  - type: Label
+    currentLabel: holopad-medical-front
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadMedicalBreakroom
+  suffix: Penumbra, Med Breakroom
+  components:
+  - type: Label
+    currentLabel: holopad-medical-breakroom
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadMedicalClinic
+  suffix: Penumbra, Med Clinic
+  components:
+  - type: Label
+    currentLabel: holopad-medical-clinic
+
+# Cargo
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadCargoFront
+  suffix: Penumbra, Cargo Front
+  components:
+  - type: Label
+    currentLabel: holopad-cargo-front
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadCargoBay
+  suffix: Penumbra, Cargo Bay
+  components:
+  - type: Label
+    currentLabel: holopad-cargo-bay
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadCargoSalvageBay
+  suffix: Penumbra, Salvage Bay
+  components:
+  - type: Label
+    currentLabel: holopad-cargo-salvage-bay
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadCargoBreakroom
+  suffix: Penumbra, Cargo Breakroom
+  components:
+  - type: Label
+    currentLabel: holopad-cargo-breakroom
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadCargoMailroom
+  suffix: Penumbra, Cargo Mailroom
+  components:
+  - type: Label
+    currentLabel: holopad-cargo-mailroom
+
+# Engineering
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadEngineeringAtmosFront
+  suffix: Penumbra, Atmos Front
+  components:
+  - type: Label
+    currentLabel: holopad-engineering-atmos-front
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadEngineeringAtmosMain
+  suffix: Penumbra, Atmos Main
+  components:
+  - type: Label
+    currentLabel: holopad-engineering-atmos-main
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadEngineeringAtmosTeg
+  suffix: Penumbra, TEG
+  components:
+  - type: Label
+    currentLabel: holopad-engineering-atmos-teg
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadEngineeringStorage
+  suffix: Penumbra, Engi Storage
+  components:
+  - type: Label
+    currentLabel: holopad-engineering-storage
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadEngineeringBreakroom
+  suffix: Penumbra, Engi Breakroom
+  components:
+  - type: Label
+    currentLabel: holopad-engineering-breakroom
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadEngineeringFront
+  suffix: Penumbra, Engi Front
+  components:
+  - type: Label
+    currentLabel: holopad-engineering-front
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadEngineeringTelecoms
+  suffix: Penumbra, Telecoms
+  components:
+  - type: Label
+    currentLabel: holopad-engineering-telecoms
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadEngineeringTechVault
+  suffix: Penumbra, Tech Vault
+  components:
+  - type: Label
+    currentLabel: holopad-engineering-tech-vault
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadEngineeringAME
+  suffix: Penumbra, AME
+  components:
+  - type: Label
+    currentLabel: holopad-engineering-ame
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadEngineeringPower
+  suffix: Penumbra, Power
+  components:
+  - type: Label
+    currentLabel: holopad-engineering-power
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadEngineeringMain
+  suffix: Penumbra, Engi Main
+  components:
+  - type: Label
+    currentLabel: holopad-engineering-main
+
+# Security
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadSecurityFront
+  suffix: Penumbra, Sec Front
+  components:
+  - type: Label
+    currentLabel: holopad-security-front
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadSecurityBrig
+  suffix: Penumbra, Brig
+  components:
+  - type: Label
+    currentLabel: holopad-security-brig
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadSecurityWarden
+  suffix: Penumbra, Warden
+  components:
+  - type: Label
+    currentLabel: holopad-security-warden
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadSecurityInterrogation
+  suffix: Penumbra, Interrogation
+  components:
+  - type: Label
+    currentLabel: holopad-security-interrogation
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadSecurityBreakroom
+  suffix: Penumbra, Sec Breakroom
+  components:
+  - type: Label
+    currentLabel: holopad-security-breakroom
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadSecurityDetective
+  suffix: Penumbra, Detective
+  components:
+  - type: Label
+    currentLabel: holopad-security-detective
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadSecurityPerma
+  suffix: Penumbra, Perma
+  components:
+  - type: Label
+    currentLabel: holopad-security-perma
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadSecurityCourtroom
+  suffix: Penumbra, Courtroom
+  components:
+  - type: Label
+    currentLabel: holopad-security-courtroom
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadSecurityLawyer
+  suffix: Penumbra, Lawyer
+  components:
+  - type: Label
+    currentLabel: holopad-security-lawyer
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadSecurityArmory
+  suffix: Penumbra, Armory
+  components:
+  - type: Label
+    currentLabel: holopad-security-armory
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadSecurityLockerRoom
+  suffix: Penumbra, Sec Locker Room
+  components:
+  - type: Label
+    currentLabel: holopad-security-locker-room
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadSecurityBrigMed
+  suffix: Penumbra, Brig Med
+  components:
+  - type: Label
+    currentLabel: holopad-security-brig-med
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadSecurityEvacCheckpoint
+  suffix: Penumbra, Sec Evac Checkpoint
+  components:
+  - type: Label
+    currentLabel: holopad-security-evac-checkpoint
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadSecurityArrivalsCheckpoint
+  suffix: Penumbra, Sec Arrivals Checkpoint
+  components:
+  - type: Label
+    currentLabel: holopad-security-arrivals-checkpoint
+
+# Service
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadServiceJanitor
+  suffix: Penumbra, Janitor
+  components:
+  - type: Label
+    currentLabel: holopad-service-janitor
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadServiceBar
+  suffix: Penumbra, Bar
+  components:
+  - type: Label
+    currentLabel: holopad-service-bar
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadServiceKitchen
+  suffix: Penumbra, Kitchen
+  components:
+  - type: Label
+    currentLabel: holopad-service-kitchen
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadServiceBotany
+  suffix: Penumbra, Botany
+  components:
+  - type: Label
+    currentLabel: holopad-service-botany
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadServiceChapel
+  suffix: Penumbra, Chapel
+  components:
+  - type: Label
+    currentLabel: holopad-service-chapel
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadServiceLibrary
+  suffix: Penumbra, Library
+  components:
+  - type: Label
+    currentLabel: holopad-service-library
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadServiceGameRoom
+  suffix: Penumbra, Game Room
+  components:
+  - type: Label
+    currentLabel: holopad-service-gameroom
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadServiceNewsroom
+  suffix: Penumbra, Newsroom
+  components:
+  - type: Label
+    currentLabel: holopad-service-newsroom
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadServiceZookeeper
+  suffix: Penumbra, Zookeeper
+  components:
+  - type: Label
+    currentLabel: holopad-service-zookeeper
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadServiceBoxer
+  suffix: Penumbra, Boxer
+  components:
+  - type: Label
+    currentLabel: holopad-service-boxer
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadServiceClown
+  suffix: Penumbra, Clown
+  components:
+  - type: Label
+    currentLabel: holopad-service-clown
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadServiceMusician
+  suffix: Penumbra, Musician
+  components:
+  - type: Label
+    currentLabel: holopad-service-musician
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadServiceMime
+  suffix: Penumbra, Mime
+  components:
+  - type: Label
+    currentLabel: holopad-service-mime
+
+# AI
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadAiCore
+  suffix: Penumbra, AI Core
+  components:
+  - type: Label
+    currentLabel: holopad-ai-core
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadAiMain
+  suffix: Penumbra, AI Main
+  components:
+  - type: Label
+    currentLabel: holopad-ai-main
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadAiUpload
+  suffix: Penumbra, AI Upload
+  components:
+  - type: Label
+    currentLabel: holopad-ai-upload
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadAiBackupPower
+  suffix: Penumbra, AI Backup Power
+  components:
+  - type: Label
+    currentLabel: holopad-ai-backup-power
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadAiEntrance
+  suffix: Penumbra, AI Entrance
+  components:
+  - type: Label
+    currentLabel: holopad-ai-entrance
+
+- type: entity
+  parent: PenumbraHolopad
+  id: PenumbraHolopadAiChute
+  suffix: Penumbra, AI Chute
+  components:
+  - type: Label
+    currentLabel: holopad-ai-chute
+
+# Long Range
+- type: entity
+  parent: PenumbraHolopadLongRange
+  id: PenumbraHolopadCargoAts
+  suffix: Penumbra, ATS
+  components:
+  - type: Label
+    currentLabel: holopad-cargo-ats
+
+- type: entity
+  parent: PenumbraHolopadLongRange
+  id: PenumbraHolopadCommandBridgeLongRange
+  suffix: Penumbra, Station Bridge
+  components:
+  - type: Label
+    currentLabel: holopad-station-bridge
+
+- type: entity
+  parent: PenumbraHolopadLongRange
+  id: PenumbraHolopadCargoBayLongRange
+  suffix: Penumbra, Station Cargo Bay
+  components:
+  - type: Label
+    currentLabel: holopad-station-cargo-bay
+
+- type: entity
+  parent: PenumbraHolopadLongRange
+  id: PenumbraHolopadCargoShuttle
+  suffix: Penumbra, Cargo Shuttle
+  components:
+  - type: Label
+    currentLabel: holopad-cargo-shuttle
+
+- type: entity
+  parent: PenumbraHolopadLongRange
+  id: PenumbraHolopadCentCommEvacShuttle
+  suffix: Penumbra, Evac Shuttle
+  components:
+  - type: Label
+    currentLabel: holopad-centcomm-evac

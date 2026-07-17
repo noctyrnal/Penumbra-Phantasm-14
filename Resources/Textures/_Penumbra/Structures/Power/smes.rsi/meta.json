@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/952cda3d68553e854dee3e0ceb744b203ba53c7a/icons/obj/machines/smes.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "smes"
+    },
+    {
+      "name": "static"
+    },
+    {
+      "name": "smes-open"
+    },
+    {
+      "name": "smes-oc0"
+    },
+    {
+      "name": "smes-oc1"
+    },
+    {
+      "name": "smes-oc2"
+    },
+    {
+      "name": "smes-og1",
+      "delays": [
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "name": "smes-og2",
+      "delays": [
+        [
+          0.6,
+          0.6
+        ]
+      ]
+    },
+    {
+      "name": "smes-og3",
+      "delays": [
+        [
+          0.6,
+          0.6
+        ]
+      ]
+    },
+    {
+      "name": "smes-og4",
+      "delays": [
+        [
+          0.6,
+          0.6
+        ]
+      ]
+    },
+    {
+      "name": "smes-og5"
+    },
+    {
+      "name": "smes-op0"
+    },
+    {
+      "name": "smes-op1",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "smes-op2",
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "emp",
+      "delays": [
+        [
+          0.2,
+          0.2
+        ]
+      ]
+    },
+    {
+      "name": "failing",
+      "delays": [
+        [
+          0.2,
+          0.2
+        ]
+      ]
+    }
+  ]
+}

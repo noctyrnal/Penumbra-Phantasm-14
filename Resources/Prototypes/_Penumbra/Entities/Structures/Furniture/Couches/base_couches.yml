@@ -1,0 +1,12 @@
+- type: entity
+  parent: PenumbraSeatBase
+  id: PenumbraCouchBase
+  name: couch
+  description: You sit in this, comfortably.
+  suffix: Penumbra
+  abstract: true
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Furniture/couches.rsi

@@ -1,0 +1,125 @@
+# Regular
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchRedCorner
+  suffix: Penumbra, Red, Corner
+  components:
+  - type: Sprite
+    state: red_sofa_corner
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchRedEndLeft
+  suffix: Penumbra, Red, End Left
+  components:
+  - type: Sprite
+    state: red_sofa_end_left
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchRedEndRight
+  suffix: Penumbra, Red, End Right
+  components:
+  - type: Sprite
+    state: red_sofa_end_right
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchRedCornerIn
+  suffix: Penumbra, Red, Inner Corner
+  components:
+  - type: Sprite
+    state: red_sofa_internalcorner
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchRedMiddle
+  suffix: Penumbra, Red, Middle
+  components:
+  - type: Sprite
+    state: red_sofa_middle
+
+# Corpo
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchRedCorpCorner
+  suffix: Penumbra, Corpo, Red, Corner
+  components:
+  - type: Sprite
+    state: red_corpsofa_corner
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchRedCorpEndLeft
+  suffix: Penumbra, Corpo, Red, End Left
+  components:
+  - type: Sprite
+    state: red_corpsofa_end_left
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchRedCorpEndRight
+  suffix: Penumbra, Corpo, Red, End Right
+  components:
+  - type: Sprite
+    state: red_corpsofa_end_right
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchRedCorpCornerIn
+  suffix: Penumbra, Corpo, Red, Inner Corner
+  components:
+  - type: Sprite
+    state: red_corpsofa_internalcorner
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchRedCorpMiddle
+  suffix: Penumbra, Corpo, Red, Middle
+  components:
+  - type: Sprite
+    state: red_corpsofa_middle
+
+# Old
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchRedOldCorner
+  suffix: Penumbra, Old, Red, Corner
+  components:
+  - type: Sprite
+    state: red_oldsofa_corner
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchRedOldEndLeft
+  suffix: Penumbra, Old, Red, End Left
+  components:
+  - type: Sprite
+    state: red_oldsofa_end_left
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchRedOldEndRight
+  suffix: Penumbra, Old, Red, End Right
+  components:
+  - type: Sprite
+    state: red_oldsofa_end_right
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchRedOldCornerIn
+  suffix: Penumbra, Old, Red, Inner Corner
+  components:
+  - type: Sprite
+    state: red_oldsofa_internalcorner
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchRedOldMiddle
+  suffix: Penumbra, Old, Red, Middle
+  components:
+  - type: Sprite
+    state: red_oldsofa_middle

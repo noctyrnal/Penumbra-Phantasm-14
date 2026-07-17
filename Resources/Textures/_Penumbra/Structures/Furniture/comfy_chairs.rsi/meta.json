@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/f0ae5d97ca08f3921f755f2740380382014238e4/icons/obj/structures/chairs/comfychair.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "old_purple",
+      "directions": 4
+    },
+    {
+      "name": "old_beige",
+      "directions": 4
+    },
+    {
+      "name": "old_grey",
+      "directions": 4
+    },
+    {
+      "name": "old_orange",
+      "directions": 4
+    },
+    {
+      "name": "old_blue",
+      "directions": 4
+    },
+    {
+      "name": "old_red",
+      "directions": 4
+    },
+    {
+      "name": "old_olive",
+      "directions": 4
+    },
+    {
+      "name": "corp_purple",
+      "directions": 4
+    },
+    {
+      "name": "corp_beige",
+      "directions": 4
+    },
+    {
+      "name": "corp_grey",
+      "directions": 4
+    },
+    {
+      "name": "corp_orange",
+      "directions": 4
+    },
+    {
+      "name": "corp_blue",
+      "directions": 4
+    },
+    {
+      "name": "corp_red",
+      "directions": 4
+    },
+    {
+      "name": "corp_olive",
+      "directions": 4
+    },
+    {
+      "name": "imaginos_purple",
+      "directions": 4
+    },
+    {
+      "name": "imaginos_beige",
+      "directions": 4
+    },
+    {
+      "name": "imaginos_grey",
+      "directions": 4
+    },
+    {
+      "name": "imaginos_orange",
+      "directions": 4
+    },
+    {
+      "name": "imaginos_blue",
+      "directions": 4
+    },
+    {
+      "name": "imaginos_red",
+      "directions": 4
+    },
+    {
+      "name": "imaginos_olive",
+      "directions": 4
+    },
+    {
+      "name": "old_purple_alt",
+      "directions": 4
+    },
+    {
+      "name": "old_beige_alt",
+      "directions": 4
+    },
+    {
+      "name": "old_grey_alt",
+      "directions": 4
+    },
+    {
+      "name": "old_orange_alt",
+      "directions": 4
+    },
+    {
+      "name": "old_blue_alt",
+      "directions": 4
+    },
+    {
+      "name": "old_red_alt",
+      "directions": 4
+    },
+    {
+      "name": "old_olive_alt",
+      "directions": 4
+    },
+    {
+      "name": "bench_purple",
+      "directions": 4
+    },
+    {
+      "name": "bench_beige",
+      "directions": 4
+    },
+    {
+      "name": "bench_grey",
+      "directions": 4
+    },
+    {
+      "name": "bench_orange",
+      "directions": 4
+    },
+    {
+      "name": "bench_blue",
+      "directions": 4
+    },
+    {
+      "name": "bench_red",
+      "directions": 4
+    },
+    {
+      "name": "bench_olive",
+      "directions": 4
+    }
+  ]
+}

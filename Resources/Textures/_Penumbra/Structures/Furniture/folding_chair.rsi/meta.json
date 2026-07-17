@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/db9f0907b18add2f9db0509b0de28097f1c2955d/icons/obj/chairs.dmi, https://github.com/shiptest-ss13/Shiptest/blob/3878aa0218fedf4dc9dbdaac558a0f990b439c2c/icons/obj/chairs.dmi, inhands by github noctyrnal",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "folding",
+      "directions": 4
+    },
+    {
+      "name": "folding_folded"
+    },
+    {
+      "name": "inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "inhand-right",
+      "directions": 4
+    }
+  ]
+}

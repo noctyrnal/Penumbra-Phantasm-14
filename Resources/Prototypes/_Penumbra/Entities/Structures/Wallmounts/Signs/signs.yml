@@ -1,0 +1,310 @@
+- type: entity
+  parent: BaseSignDirectional
+  id: PenumbraBaseSign
+  abstract: true
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Wallmounts/signs.rsi
+
+# Signs
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignEvac
+  name: evac sign
+  description: A sign depicting this area as an evacuation point.
+  components:
+  - type: Sprite
+    state: evac
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignHangar
+  name: hangar sign
+  description: A sign depicting this area as a hangar.
+  components:
+  - type: Sprite
+    state: drop
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignJanitor
+  name: janitor sign
+  description: A sign depicting this area as a custodian closet.
+  components:
+  - type: Sprite
+    state: custodian
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignEngineering
+  name: engineering sign
+  description: A sign depicting this area as engineering.
+  components:
+  - type: Sprite
+    state: engie
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignLogistics
+  name: logistics sign
+  description: A sign depicting this area as logistics.
+  components:
+  - type: Sprite
+    state: cargo
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignSecurity
+  name: security sign
+  description: A sign depicting this area as security.
+  components:
+  - type: Sprite
+    state: security
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignRestroom
+  name: restroom sign
+  description: A sign depicting this area as a restroom.
+  components:
+  - type: Sprite
+    state: restroom
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignPharmacy
+  name: pharmacy sign
+  description: A sign depicting this area as a pharmacy.
+  components:
+  - type: Sprite
+    state: pharmacy
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignCold
+  name: cold temperature sign
+  description: A sign depicting this area as having cold temperatures.
+  components:
+  - type: Sprite
+    state: cold
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignHot
+  name: hot temperature sign
+  description: A sign depicting this area as having hot temperatures.
+  components:
+  - type: Sprite
+    state: heat
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignGasmask
+  name: gasmask sign
+  description: A sign depicting this area as requiring a gasmask.
+  components:
+  - type: Sprite
+    state: gasmask
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignSpace
+  name: space sign
+  description: A sign depicting this area as space.
+  components:
+  - type: Sprite
+    state: space
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignExamRoom
+  name: exam room sign
+  description: A sign depicting this area as an exam room.
+  components:
+  - type: Sprite
+    state: examroom
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignSci
+  name: research sign
+  description: A sign depicting this area as a research lab.
+  components:
+  - type: Sprite
+    state: science
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignChemistry
+  name: chemistry sign
+  description: A sign depicting this area as a chemistry lab.
+  components:
+  - type: Sprite
+    state: chemistry
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignHydro
+  name: hydroponics sign
+  description: A sign depicting this area as a hydroponics lab.
+  components:
+  - type: Sprite
+    state: hydro
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignDoor
+  name: blastdoor sign
+  description: A sign depicting this area as having blastdoors.
+  components:
+  - type: Sprite
+    state: doors
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignIncident
+  name: DAYS SINCE LAST INCIDENT sign
+  description: A sign marking time passed since the last safety incident. It's a new record!
+  components:
+  - type: Sprite
+    state: incident
+
+# Semiotics
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignRadiation
+  name: radiation sign
+  description: A sign depicting this area as having radiation.
+  components:
+  - type: Sprite
+    state: radiation
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignBiohazard
+  name: biohazard sign
+  description: A sign depicting this area as having a biohazard.
+  components:
+  - type: Sprite
+    state: bio
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignFire
+  name: fire sign
+  description: A sign depicting this area as having a fire hazard.
+  components:
+  - type: Sprite
+    state: fire
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignNoSmoking
+  name: no smoking sign
+  description: A sign depicting this area as having no smoking permitted.
+  components:
+  - type: Sprite
+    state: nosmoking
+
+- type: entity
+  parent: PenumbraSignNoSmoking
+  id: PenumbraSignNoSmokingAlt
+  components:
+  - type: Sprite
+    state: nosmoking2
+
+- type: entity
+  parent: PenumbraSignNoSmoking
+  id: PenumbraSignNoSmokingAltOld
+  components:
+  - type: Sprite
+    state: nosmoking2_b
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignSmoking
+  name: smoking sign
+  description: A sign depicting this area as having smoking permitted.
+  components:
+  - type: Sprite
+    state: smoking
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignSecureArea
+  name: secure area sign
+  description: A sign depicting this area as being a secure area.
+  components:
+  - type: Sprite
+    state: securearea
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignElectrical
+  name: electrical sign
+  description: A sign depicting this area as having high voltages.
+  components:
+  - type: Sprite
+    state: shock
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignFalling
+  name: falling hazard sign
+  description: A sign depicting this area as having a falling hazard.
+  components:
+  - type: Sprite
+    state: falling
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignDisposals
+  name: disposals sign
+  description: A sign depicting this area as being disposals.
+  components:
+  - type: Sprite
+    state: deathsposal
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignExplosives
+  name: explovies sign
+  description: A sign depicting this area as having explosives.
+  components:
+  - type: Sprite
+    state: explosives
+
+- type: entity
+  parent: PenumbraSignExplosives
+  id: PenumbraSignExplosivesAlt
+  components:
+  - type: Sprite
+    state: explosives2
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignChemDiamond
+  name: REACTIVE CHEMICALS
+  description: A sign that warns of potentially reactive chemicals nearby, be they explosive, flamable, or acidic.
+  components:
+  - type: Sprite
+    state: chemdiamond
+
+- type: entity
+  parent: PenumbraBaseSign
+  id: PenumbraSignMedical
+  name: medical sign
+  description: A sign depicting this area as being medical.
+  components:
+  - type: Sprite
+    state: bluecross
+
+- type: entity
+  parent: PenumbraSignMedical
+  id: PenumbraSignMedicalAlt
+  components:
+  - type: Sprite
+    state: bluecross2

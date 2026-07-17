@@ -63,3 +63,21 @@
     - doors
     - walls
     base: window
+
+- type: entity
+  parent: PlastitaniumWindow
+  id: PenumbraWindowPlastitanium
+  name: plastitanium window
+  description: A durable looking window made of an alloy of of plasma and titanium.
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Windows/plastitanium.rsi
+  - type: Icon
+    sprite: _Penumbra/Structures/Windows/plastitanium.rsi
+  - type: IconSmooth
+    key: windows
+    additionalKeys:
+    - doors
+    - walls
+    base: window

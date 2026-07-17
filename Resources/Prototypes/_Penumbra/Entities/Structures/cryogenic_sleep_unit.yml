@@ -1,0 +1,29 @@
+- type: entity
+  parent: CryogenicSleepUnit
+  id: PenumbraCryogenicSleepUnit
+  name: cryogenic stasis unit
+  description: A super-cooled unit that keeps crew in stasis until they are needed in order to cut down on supply usage.
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    noRot: false
+    sprite: _Penumbra/Structures/cryostorage.rsi
+
+# This one handles all spawns, latejoin and roundstart.
+- type: entity
+  parent: PenumbraCryogenicSleepUnit
+  id: PenumbraCryogenicSleepUnitSpawner
+  suffix: Penumbra, Spawner, Roundstart AllJobs
+  components:
+  - type: ContainerSpawnPoint
+    containerId: storage
+
+# This one only handles latejoin spawns.
+- type: entity
+  parent: PenumbraCryogenicSleepUnit
+  id: PenumbraCryogenicSleepUnitSpawnerLateJoin
+  suffix: Penumbra, Spawner, LateJoin
+  components:
+    - type: ContainerSpawnPoint
+      containerId: storage
+      spawnType: LateJoin

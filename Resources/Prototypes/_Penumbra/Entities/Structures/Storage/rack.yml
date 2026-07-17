@@ -1,0 +1,10 @@
+- type: entity
+  parent: Rack
+  id: PenumbraRack
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Furniture/rack.rsi
+  # - type: Construction TODO PENUMBRA - Construction
+  #   graph: Rack
+  #   node: Rack

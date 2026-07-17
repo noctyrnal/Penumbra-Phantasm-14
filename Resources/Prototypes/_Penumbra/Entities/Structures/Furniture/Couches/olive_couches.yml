@@ -1,0 +1,125 @@
+# Regular
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchOliveCorner
+  suffix: Penumbra, Olive, Corner
+  components:
+  - type: Sprite
+    state: olive_sofa_corner
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchOliveEndLeft
+  suffix: Penumbra, Olive, End Left
+  components:
+  - type: Sprite
+    state: olive_sofa_end_left
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchOliveEndRight
+  suffix: Penumbra, Olive, End Right
+  components:
+  - type: Sprite
+    state: olive_sofa_end_right
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchOliveCornerIn
+  suffix: Penumbra, Olive, Inner Corner
+  components:
+  - type: Sprite
+    state: olive_sofa_internalcorner
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchOliveMiddle
+  suffix: Penumbra, Olive, Middle
+  components:
+  - type: Sprite
+    state: olive_sofa_middle
+
+# Corpo
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchOliveCorpCorner
+  suffix: Penumbra, Corpo, Olive, Corner
+  components:
+  - type: Sprite
+    state: olive_corpsofa_corner
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchOliveCorpEndLeft
+  suffix: Penumbra, Corpo, Olive, End Left
+  components:
+  - type: Sprite
+    state: olive_corpsofa_end_left
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchOliveCorpEndRight
+  suffix: Penumbra, Corpo, Olive, End Right
+  components:
+  - type: Sprite
+    state: olive_corpsofa_end_right
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchOliveCorpCornerIn
+  suffix: Penumbra, Corpo, Olive, Inner Corner
+  components:
+  - type: Sprite
+    state: olive_corpsofa_internalcorner
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchOliveCorpMiddle
+  suffix: Penumbra, Corpo, Olive, Middle
+  components:
+  - type: Sprite
+    state: olive_corpsofa_middle
+
+# Old
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchOliveOldCorner
+  suffix: Penumbra, Old, Olive, Corner
+  components:
+  - type: Sprite
+    state: olive_oldsofa_corner
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchOliveOldEndLeft
+  suffix: Penumbra, Old, Olive, End Left
+  components:
+  - type: Sprite
+    state: olive_oldsofa_end_left
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchOliveOldEndRight
+  suffix: Penumbra, Old, Olive, End Right
+  components:
+  - type: Sprite
+    state: olive_oldsofa_end_right
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchOliveOldCornerIn
+  suffix: Penumbra, Old, Olive, Inner Corner
+  components:
+  - type: Sprite
+    state: olive_oldsofa_internalcorner
+
+- type: entity
+  parent: PenumbraCouchBase
+  id: PenumbraCouchOliveOldMiddle
+  suffix: Penumbra, Old, Olive, Middle
+  components:
+  - type: Sprite
+    state: olive_oldsofa_middle

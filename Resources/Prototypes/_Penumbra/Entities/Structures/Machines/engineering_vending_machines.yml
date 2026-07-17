@@ -1,0 +1,62 @@
+﻿# TODO PENUMBRA - Port RMC14 style vending
+# TODO PENUMBRA - Inventories
+
+- type: entity
+  parent: VendingMachineYouTool
+  id: PenumbraVendingMachineTools
+  name: Surplus Tools Vendor
+  description: A vendor for surplus tools, perfect for any wanna-be engineers, or people with less than admirable kleptomania.
+  components:
+  - type: Transform
+    noRot: false
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/VendingMachines/tools.rsi
+    snapCardinals: false
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+
+- type: entity
+  parent: VendingMachineEngivend
+  id: PenumbraVendingMachineEngiTools
+  name: Engineering Tools Vendor
+  description: A vendor for tools for engineering personnel.
+  components:
+  - type: Transform
+    noRot: false
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/VendingMachines/engi_tools.rsi
+    snapCardinals: false
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+
+- type: entity
+  parent: VendingMachineEngiDrobe
+  id: PenumbraVendingMachineEngiGear
+  name: Engineering Equipment Rack
+  description: An automated gear rack hooked up directly to the cargo holds below, bringing up requested equipment at a buttons press.
+  components:
+  - type: Transform
+    noRot: false
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/VendingMachines/engi_gear.rsi
+    snapCardinals: false
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]

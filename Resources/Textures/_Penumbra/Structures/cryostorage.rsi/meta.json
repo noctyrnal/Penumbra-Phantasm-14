@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/bb653638e87a2ca96f156d8bb3fd62ab164dca7a/icons/obj/cryogenic2.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "sleeper_0",
+      "directions": 4
+    },
+    {
+      "name": "sleeper_1",
+      "directions": 4
+    }
+  ]
+}
