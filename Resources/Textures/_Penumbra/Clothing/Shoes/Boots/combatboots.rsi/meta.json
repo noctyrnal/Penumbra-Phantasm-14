@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/179407f3f68679331a0ecbf48f77cc344dee4420/icons/obj/clothing/shoes.dmi, https://github.com/shiptest-ss13/Shiptest/blob/179407f3f68679331a0ecbf48f77cc344dee4420/icons/mob/clothing/feet.dmi, https://github.com/shiptest-ss13/Shiptest/blob/179407f3f68679331a0ecbf48f77cc344dee4420/icons/mob/inhands/clothing/shoes_lefthand.dmi, https://github.com/shiptest-ss13/Shiptest/blob/179407f3f68679331a0ecbf48f77cc344dee4420/icons/mob/inhands/clothing/shoes_righthand.dmi, https://github.com/shiptest-ss13/Shiptest/blob/179407f3f68679331a0ecbf48f77cc344dee4420/icons/mob/species/misc/digitigrade_shoes.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon"
+    },
+    {
+      "name": "equipped-FEET",
+      "directions": 4
+    },
+    {
+      "name": "equipped-FEET-moth",
+      "directions": 4
+    },
+    {
+      "name": "equipped-FEET-reptilian",
+      "directions": 4
+    },
+    {
+      "name": "equipped-FEET-vulpakin",
+      "directions": 4
+    },
+    {
+      "name": "inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "inhand-right",
+      "directions": 4
+    }
+  ]
+}

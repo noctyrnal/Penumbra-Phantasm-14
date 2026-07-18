@@ -1,0 +1,37 @@
+- type: entity
+  parent: PenumbraClothingShoesMilitaryBase
+  id: PenumbraClothingShoesBootsJack
+  name: jackboots
+  description: Standard-issue Security combat boots for combat scenarios or combat situations. All combat, all the time.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Boots/jackboots.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Boots/jackboots.rsi
+  - type: ClothingSlowOnDamageModifier
+    modifier: 0.5
+
+- type: entity
+  parent: PenumbraClothingShoesMilitaryBase
+  id: PenumbraClothingShoesBootsCombat
+  name: combat boots
+  description: Robust combat boots for combat scenarios or combat situations. All combat, all the time.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Boots/combatboots.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Boots/combatboots.rsi
+  - type: ClothingSlowOnDamageModifier
+    modifier: 0.5
+
+- type: entity
+  parent: PenumbraClothingShoesBaseButcherable
+  id: PenumbraClothingShoesBootsWork
+  name: workboots
+  description: Engineering lace-up work boots for the especially blue-collar.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Boots/workboots.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Boots/workboots.rsi
+  - type: Matchbox

@@ -1,0 +1,10 @@
+- type: entity
+  parent: PenumbraClothingShoesBaseButcherable
+  id: PenumbraClothingShoesBootsLaceup
+  name: laceup shoes
+  description: The height of fashion, and they're pre-polished!
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Boots/laceups.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Boots/laceups.rsi

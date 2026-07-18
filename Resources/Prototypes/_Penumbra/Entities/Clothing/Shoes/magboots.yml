@@ -1,0 +1,59 @@
+- type: entity
+  parent: ClothingShoesBootsMag
+  id: PenumbraClothingShoesBootsMag
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Boots/magboots.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Boots/magboots.rsi
+
+- type: entity
+  parent: ClothingShoesBootsMagBase
+  id: PenumbraClothingShoesBootsMagAdvanced
+  name: advanced magboots
+  description: Advanced magnetic boots that do not slow down their wearer.
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Boots/advanced_magboots.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Boots/advanced_magboots.rsi
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: StaticPrice
+    price: 750
+
+- type: entity
+  parent: [ClothingShoesBootsMagBase, BaseJetpack]
+  id: PenumbraClothingShoesBootsMagSyndicate
+  name: syndicate advanced magboots
+  description: Advanced syndicate magnetic boots reverse-engineered with thrusters installed, providing omni-directional, exceptional mobility to the wearer.
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Boots/syndicate_magboots.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Boots/syndicate_magboots.rsi
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: GasTank
+    releasePressure: 42.6
+    air:
+      # 2 minutes of thrust
+      volume: 0.75
+      temperature: 293.15
+      moles:
+        Oxygen: 0.153853429 # oxygen
+        Nitrogen: 0.153853429 # nitrogen
+  - type: Item
+    size: Normal
+  - type: StaticPrice
+    price: 1500

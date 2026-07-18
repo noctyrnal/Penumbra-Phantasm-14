@@ -11,6 +11,12 @@
   abstract: true
 
 - type: entity
+  parent: ClothingShoesMilitaryBase
+  id: PenumbraClothingShoesMilitaryBase
+  suffix: Penumbra
+  abstract: true
+
+- type: entity
   parent: ClothingUniformBase
   id: PenumbraClothingUniformBase
   suffix: Penumbra

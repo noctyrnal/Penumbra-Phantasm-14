@@ -8,3 +8,169 @@
     sprite: _Penumbra/Clothing/Shoes/Shoes/black.rsi
   - type: Clothing
     sprite: _Penumbra/Clothing/Shoes/Shoes/black.rsi
+
+- type: entity
+  parent: PenumbraClothingShoesBaseButcherable
+  id: PenumbraClothingShoesColorBlue
+  name: blue shoes
+  description: Stylish blue shoes.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Shoes/blue.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Shoes/blue.rsi
+
+- type: entity
+  parent: PenumbraClothingShoesBaseButcherable
+  id: PenumbraClothingShoesColorBrown
+  name: brown shoes
+  description: Stylish brown shoes.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Shoes/brown.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Shoes/brown.rsi
+
+- type: entity
+  parent: PenumbraClothingShoesBaseButcherable
+  id: PenumbraClothingShoesColorDarkBlue
+  name: dark blue shoes
+  description: Stylish dark blue shoes.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Shoes/dark_blue.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Shoes/dark_blue.rsi
+
+- type: entity
+  parent: PenumbraClothingShoesBaseButcherable
+  id: PenumbraClothingShoesColorDarkGreen
+  name: dark green shoes
+  description: Stylish dark green shoes.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Shoes/dark_green.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Shoes/dark_green.rsi
+
+- type: entity
+  parent: PenumbraClothingShoesBaseButcherable
+  id: PenumbraClothingShoesColorGreen
+  name: green shoes
+  description: Stylish green shoes.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Shoes/green.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Shoes/green.rsi
+
+- type: entity
+  parent: PenumbraClothingShoesBaseButcherable
+  id: PenumbraClothingShoesColorGrey
+  name: grey shoes
+  description: Stylish grey shoes.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Shoes/grey.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Shoes/grey.rsi
+
+- type: entity
+  parent: PenumbraClothingShoesBaseButcherable
+  id: PenumbraClothingShoesColorLightBrown
+  name: light brown shoes
+  description: Stylish light brown shoes.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Shoes/light_brown.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Shoes/light_brown.rsi
+
+- type: entity
+  parent: PenumbraClothingShoesBaseButcherable
+  id: PenumbraClothingShoesColorMaroon
+  name: maroon shoes
+  description: Stylish maroon shoes.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Shoes/maroon.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Shoes/maroon.rsi
+
+- type: entity
+  parent: PenumbraClothingShoesBaseButcherable
+  id: PenumbraClothingShoesColorOrange
+  name: orange shoes
+  description: Stylish orange shoes.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Shoes/orange.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Shoes/orange.rsi
+
+- type: entity
+  parent: PenumbraClothingShoesBaseButcherable
+  id: PenumbraClothingShoesColorPink
+  name: pink shoes
+  description: Stylish pink shoes.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Shoes/pink.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Shoes/pink.rsi
+
+- type: entity
+  parent: PenumbraClothingShoesBaseButcherable
+  id: PenumbraClothingShoesColorPurple
+  name: purple shoes
+  description: Stylish purple shoes.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Shoes/purple.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Shoes/purple.rsi
+
+- type: entity
+  parent: PenumbraClothingShoesBaseButcherable
+  id: PenumbraClothingShoesColorRed
+  name: red shoes
+  description: Stylish red shoes.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Shoes/red.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Shoes/red.rsi
+
+- type: entity
+  parent: PenumbraClothingShoesBaseButcherable
+  id: PenumbraClothingShoesColorTeal
+  name: teal shoes
+  description: Stylish teal shoes.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Shoes/teal.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Shoes/teal.rsi
+
+- type: entity
+  parent: PenumbraClothingShoesBaseButcherable
+  id: PenumbraClothingShoesColorWhite
+  name: white shoes
+  description: Stylish white shoes.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Shoes/white.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Shoes/white.rsi
+
+- type: entity
+  parent: PenumbraClothingShoesBaseButcherable
+  id: PenumbraClothingShoesColorYellow
+  name: yellow shoes
+  description: Stylish yellow shoes.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Shoes/yellow.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Shoes/yellow.rsi
+
