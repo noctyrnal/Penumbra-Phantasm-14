@@ -1,0 +1,135 @@
+- type: marking
+  id: PenumbraUndergarmentBottomBoxers
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/bottoms.rsi
+    state: boxers
+
+- type: marking
+  id: PenumbraUndergarmentBottomBoxersDigi
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [PenumbraReptilian, PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/bottoms.rsi
+    state: boxers_d
+
+- type: marking
+  id: PenumbraUndergarmentBottomBoyShorts
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/bottoms.rsi
+    state: boyshorts
+
+- type: marking
+  id: PenumbraUndergarmentBottomBoyShortsDigi
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [PenumbraReptilian, PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/bottoms.rsi
+    state: boyshorts_d
+
+- type: marking
+  id: PenumbraUndergarmentBottomBriefs
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/bottoms.rsi
+    state: briefs
+
+- type: marking
+  id: PenumbraUndergarmentBottomBriefsDigi
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [PenumbraReptilian, PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/bottoms.rsi
+    state: briefs_d
+
+- type: marking
+  id: PenumbraUndergarmentBottomHeart
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/bottoms.rsi
+    state: heart
+
+- type: marking
+  id: PenumbraUndergarmentBottomHeartDigi
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [PenumbraReptilian, PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/bottoms.rsi
+    state: heart_d
+
+- type: marking
+  id: PenumbraUndergarmentBottomLongJohns
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/bottoms.rsi
+    state: longjohns
+
+- type: marking
+  id: PenumbraUndergarmentBottomLongJohnsDigi
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [PenumbraReptilian, PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/bottoms.rsi
+    state: longjohns_d
+
+- type: marking
+  id: PenumbraUndergarmentBottomMidway
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/bottoms.rsi
+    state: midway
+
+- type: marking
+  id: PenumbraUndergarmentBottomMidwayDigi
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [PenumbraReptilian, PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/bottoms.rsi
+    state: midway_d
+
+- type: marking
+  id: PenumbraUndergarmentBottomPanties
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/bottoms.rsi
+    state: panties
+
+- type: marking
+  id: PenumbraUndergarmentBottomPantiesAlt
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/bottoms.rsi
+    state: panties_alt
+
+- type: marking
+  id: PenumbraUndergarmentBottomStripe
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/bottoms.rsi
+    state: stripe
+
+- type: marking
+  id: PenumbraUndergarmentBottomStripeDigi
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [PenumbraReptilian, PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/bottoms.rsi
+    state: stripe_d
+
+- type: marking
+  id: PenumbraUndergarmentBottomSwimming
+  bodyPart: UndergarmentBottom
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/bottoms.rsi
+    state: swimming

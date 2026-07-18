@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "license": "CC.BY.SA.3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/b9d483d1c0d85e5251693878a56d0a6b682f0e90/icons/mob/clothing/underwear/underwear_legs.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "briefs",
+      "directions": 4
+    },
+    {
+      "name": "briefs_d",
+      "directions": 4
+    },
+    {
+      "name": "boxers",
+      "directions": 4
+    },
+    {
+      "name": "boxers_d",
+      "directions": 4
+    },
+    {
+      "name": "stripe",
+      "directions": 4
+    },
+    {
+      "name": "stripe_d",
+      "directions": 4
+    },
+    {
+      "name": "midway",
+      "directions": 4
+    },
+    {
+      "name": "midway_d",
+      "directions": 4
+    },
+    {
+      "name": "longjohns",
+      "directions": 4
+    },
+    {
+      "name": "longjohns_d",
+      "directions": 4
+    },
+    {
+      "name": "heart",
+      "directions": 4
+    },
+    {
+      "name": "heart_d",
+      "directions": 4
+    },
+    {
+      "name": "boyshorts",
+      "directions": 4
+    },
+    {
+      "name": "boyshorts_d",
+      "directions": 4
+    },
+    {
+      "name": "panties",
+      "directions": 4
+    },
+    {
+      "name": "panties_alt",
+      "directions": 4
+    },
+    {
+      "name": "swimming",
+      "directions": 4
+    }
+  ]
+}

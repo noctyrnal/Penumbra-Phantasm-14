@@ -1,0 +1,475 @@
+- type: marking
+  id: PenumbraUndergarmentTopShirtless
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: shirtless
+
+- type: marking
+  id: PenumbraUndergarmentTopBra
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: bra
+
+- type: marking
+  id: PenumbraUndergarmentTopBraAlt
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: bra_alt
+
+- type: marking
+  id: PenumbraUndergarmentTopBraSports
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: bra_sports
+
+- type: marking
+  id: PenumbraUndergarmentTopBraSportsAlt
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: bra_sports_alt
+
+- type: marking
+  id: PenumbraUndergarmentTopBraStrapless
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: bra_strapless
+
+- type: marking
+  id: PenumbraUndergarmentTopBraStraplessAlt
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: bra_strapless_alt
+
+- type: marking
+  id: PenumbraUndergarmentTopButton
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: button
+
+- type: marking
+  id: PenumbraUndergarmentTopButtonShort
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: button_short
+
+- type: marking
+  id: PenumbraUndergarmentTopCamiSleeve
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: camisleeve
+
+- type: marking
+  id: PenumbraUndergarmentTopCamiSole
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: camisole
+
+- type: marking
+  id: PenumbraUndergarmentTopCompCropped
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: compcropped
+
+- type: marking
+  id: PenumbraUndergarmentTopCompCroppedLong
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: compcroppedlong
+
+- type: marking
+  id: PenumbraUndergarmentTopCompCroppedShort
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: compcroppedshort
+
+- type: marking
+  id: PenumbraUndergarmentTopCompShort
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: compshort
+
+- type: marking
+  id: PenumbraUndergarmentTopCompSleeve
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: compsleeve
+
+- type: marking
+  id: PenumbraUndergarmentTopCompTank
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: comptank
+
+- type: marking
+  id: PenumbraUndergarmentTopCropShortSleeve
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: cropshortsleeve
+
+- type: marking
+  id: PenumbraUndergarmentTopCropTank
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: croptank
+
+- type: marking
+  id: PenumbraUndergarmentTopCropTShirt
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: croptshirt
+
+- type: marking
+  id: PenumbraUndergarmentTopLongPolo
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: longpolo
+
+- type: marking
+  id: PenumbraUndergarmentTopLongShoulder
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: longshoulder
+
+- type: marking
+  id: PenumbraUndergarmentTopLongShoulderShort
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: longshouldershort
+
+- type: marking
+  id: PenumbraUndergarmentTopLongSleeve
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: longsleeve
+
+- type: marking
+  id: PenumbraUndergarmentTopOneShoulder
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: oneshoulder
+
+- type: marking
+  id: PenumbraUndergarmentTopPolo
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: polo
+
+- type: marking
+  id: PenumbraUndergarmentTopShortSleeve
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: shortsleeve
+
+- type: marking
+  id: PenumbraUndergarmentTopShoulderless
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: shoulderless
+
+- type: marking
+  id: PenumbraUndergarmentTopShoulderlessShort
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: shoulderlessshort
+
+- type: marking
+  id: PenumbraUndergarmentTopSpaghettiTop
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: spaghettitop
+
+- type: marking
+  id: PenumbraUndergarmentTopSwimming
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: swimming
+
+- type: marking
+  id: PenumbraUndergarmentTopTank
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: tank
+
+- type: marking
+  id: PenumbraUndergarmentTopTShirt
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: tshirt
+
+- type: marking
+  id: PenumbraUndergarmentTopTubeTop
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: tubetop
+
+- type: marking
+  id: PenumbraUndergarmentTopTubeTopLong
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: tubetop_long
+
+- type: marking
+  id: PenumbraUndergarmentTopTurtle
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: turtle
+
+- type: marking
+  id: PenumbraUndergarmentTopTurtleCrop
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: turtle_crop
+
+- type: marking
+  id: PenumbraUndergarmentTopTurtleSleeveCrop
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: turtle_sleevecrop
+
+- type: marking
+  id: PenumbraUndergarmentTopTurtleSleeveless
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: turtle_sleeveless
+
+- type: marking
+  id: PenumbraUndergarmentTopTurtleSmooth
+  bodyPart: UndergarmentTop
+  groupWhitelist: [PenumbraHuman, PenumbraReptilian, PenumbraMoth]
+  coloring:
+    default:
+      type: null
+      fallbackColor: '#FFFFFF'
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Undergarments/tops.rsi
+    state: turtle_smooth

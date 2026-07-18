@@ -16,6 +16,16 @@
     enum.HumanoidVisualLayers.Chest:
       limit: 3
       required: false
+    enum.HumanoidVisualLayers.UndergarmentTop:
+      limit: 1
+      onlyGroupWhitelisted: true
+      required: true
+      default: [ PenumbraUndergarmentTopTShirt ]
+    enum.HumanoidVisualLayers.UndergarmentBottom:
+      limit: 1
+      onlyGroupWhitelisted: true
+      required: true
+      default: [ PenumbraUndergarmentBottomBoxersDigi ]
     enum.HumanoidVisualLayers.HeadTop:
       limit: 2
       required: false

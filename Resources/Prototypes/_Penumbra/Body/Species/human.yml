@@ -1,5 +1,4 @@
 - type: markingsGroup
-  parent: Undergarments
   id: PenumbraHuman
   limits:
     enum.HumanoidVisualLayers.HeadTop:
@@ -14,6 +13,16 @@
     enum.HumanoidVisualLayers.FacialHair:
       limit: 1
       required: false
+    enum.HumanoidVisualLayers.UndergarmentTop:
+      limit: 1
+      onlyGroupWhitelisted: true
+      required: true
+      default: [ PenumbraUndergarmentTopTShirt ]
+    enum.HumanoidVisualLayers.UndergarmentBottom:
+      limit: 1
+      onlyGroupWhitelisted: true
+      required: true
+      default: [ PenumbraUndergarmentBottomBoxers ]
     enum.HumanoidVisualLayers.Chest:
       limit: 2
       required: false
