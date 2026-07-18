@@ -1,0 +1,29 @@
+- type: entity
+  parent: [PenumbraClothingHandsGlovesSyntheticBase, BaseSlicingRefinable]
+  id: PenumbraClothingHandsGlovesColorBlack
+  name: black gloves
+  description: Regular black gloves that do not keep you from frying.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Hands/Gloves/black.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Hands/Gloves/black.rsi
+  - type: ToolRefinable
+    refineResult:
+    - id: ClothingHandsGlovesFingerless
+  - type: Fiber
+    fiberColor: fibers-black
+
+- type: entity
+  parent: PenumbraClothingHandsGlovesColorBlack
+  id: PenumbraClothingHandsGlovesCombat
+  name: combat gloves
+  description: These tactical gloves are fireproof and shock resistant.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Hands/Gloves/combat.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Hands/Gloves/combat.rsi
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-insulative

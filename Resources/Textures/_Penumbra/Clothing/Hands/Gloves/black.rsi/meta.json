@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/9b1985940136ca669773be2d5844907ee4e39fb4/icons/mob/clothing/hands.dmi, https://github.com/shiptest-ss13/Shiptest/blob/9b1985940136ca669773be2d5844907ee4e39fb4/icons/obj/clothing/gloves.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon"
+    },
+    {
+      "name": "equipped-HAND",
+      "directions": 4
+    }
+  ]
+}

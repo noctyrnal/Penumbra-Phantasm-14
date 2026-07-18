@@ -5,6 +5,6 @@
   description: The height of fashion, and they're pre-polished!
   components:
   - type: Sprite
-    sprite: _Penumbra/Clothing/Shoes/Shoes/laceups.rsi
+    sprite: _Penumbra/Clothing/Shoes/Shoes/laceup.rsi
   - type: Clothing
-    sprite: _Penumbra/Clothing/Shoes/Shoes/laceups.rsi
+    sprite: _Penumbra/Clothing/Shoes/Shoes/laceup.rsi

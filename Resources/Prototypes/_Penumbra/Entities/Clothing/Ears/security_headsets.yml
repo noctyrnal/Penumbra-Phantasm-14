@@ -1,0 +1,14 @@
+- type: entity
+  parent: PenumbraClothingHeadset
+  id: PenumbraClothingHeadsetSecurity
+  name: security headset
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeySecurity
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Ears/Headsets/security.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Ears/Headsets/security.rsi
