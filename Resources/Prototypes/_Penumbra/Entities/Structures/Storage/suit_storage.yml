@@ -10,9 +10,9 @@
     sprite: _Penumbra/Structures/Storage/suit_storage.rsi
   - type: EntityStorage
     closeSound:
-      path: /Audio/Machines/airlock_open.ogg
-    openSound:
       path: /Audio/Machines/airlock_close.ogg
+    openSound:
+      path: /Audio/Machines/airlock_open.ogg
 
 - type: entity
   parent: PenumbraSuitStorage
