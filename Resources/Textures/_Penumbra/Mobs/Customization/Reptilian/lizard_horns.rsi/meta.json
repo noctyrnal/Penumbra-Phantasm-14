@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "license": "CC.BY.SA.3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/c1d0b9520297dcf4c0fad4c9f69c40ffd8b31b0d/icons/mob/species/lizard/horns.dmi, modified by github noctyrnal",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "m_horns_short",
+      "directions": 4
+    },
+    {
+      "name": "m_horns_simple",
+      "directions": 4
+    },
+    {
+      "name": "m_horns_broken",
+      "directions": 4
+    },
+    {
+      "name": "m_horns_lightning",
+      "directions": 4
+    },
+    {
+      "name": "m_horns_brimstone",
+      "directions": 4
+    },
+    {
+      "name": "m_horns_curled",
+      "directions": 4
+    },
+    {
+      "name": "m_horns_ram",
+      "directions": 4
+    },
+    {
+      "name": "m_horns_angler",
+      "directions": 4
+    },
+    {
+      "name": "m_horns_short_synth",
+      "directions": 4
+    },
+    {
+      "name": "m_horns_curled_synth",
+      "directions": 4
+    },
+    {
+      "name": "m_horns_ram_synth",
+      "directions": 4
+    },
+    {
+      "name": "m_horns_simple_synth",
+      "directions": 4
+    }
+  ]
+}

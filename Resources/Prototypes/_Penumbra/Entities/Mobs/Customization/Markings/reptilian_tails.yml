@@ -1,0 +1,99 @@
+- type: marking
+  id: PenumbraLizardTailLarge
+  bodyPart: Tail
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_tails.rsi
+    state: m_tail_large
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_tails.rsi
+    state: m_tail_secondary_large
+
+- type: marking
+  id: PenumbraLizardTailLargeAnimated
+  bodyPart: Tail
+  groupWhitelist: []
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_tails.rsi
+    state: m_waggingtail_large
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_tails.rsi
+    state: m_waggingtail_secondary_large
+
+- type: marking
+  id: PenumbraLizardTailSmall
+  bodyPart: Tail
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_tails.rsi
+    state: m_tail_small
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_tails.rsi
+    state: m_tail_secondary_small
+
+- type: marking
+  id: PenumbraLizardTailSmallAnimated
+  bodyPart: Tail
+  groupWhitelist: []
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_tails.rsi
+    state: m_waggingtail_small
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_tails.rsi
+    state: m_waggingtail_secondary_small
+
+- type: marking
+  id: PenumbraLizardTailSmooth
+  bodyPart: Tail
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_tails.rsi
+    state: m_tail_smooth
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_tails.rsi
+    state: m_tail_secondary_smooth
+
+- type: marking
+  id: PenumbraLizardTailSmoothAnimated
+  bodyPart: Tail
+  groupWhitelist: []
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_tails.rsi
+    state: m_waggingtail_smooth
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_tails.rsi
+    state: m_waggingtail_secondary_smooth
+
+- type: marking
+  id: PenumbraLizardTailSmooth2
+  bodyPart: Tail
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_tails.rsi
+    state: m_tail_smooth2
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_tails.rsi
+    state: m_tail_secondary_smooth
+
+- type: marking
+  id: PenumbraLizardTailSmooth2Animated
+  bodyPart: Tail
+  groupWhitelist: []
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_tails.rsi
+    state: m_waggingtail_smooth2
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_tails.rsi
+    state: m_waggingtail_secondary_smooth2
+
+- type: marking
+  id: PenumbraLizardTailSynth
+  bodyPart: Tail
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_tails.rsi
+    state: m_tail_synth
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_tails.rsi
+    state: m_tail_secondary_synth
+
+- type: marking
+  id: PenumbraLizardTailSynthAnimated
+  bodyPart: Tail
+  groupWhitelist: []
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_tails.rsi
+    state: m_waggingtail_synth
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_tails.rsi
+    state: m_waggingtail_secondary_synth

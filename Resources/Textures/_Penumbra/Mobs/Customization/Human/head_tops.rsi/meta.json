@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "license": "CC.BY.SA.3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/5c8d1da1cbd7d868084ac284e9d142f77572bab8/icons/mob/species/human/cat.dmi, https://github.com/shiptest-ss13/Shiptest/blob/5c8d1da1cbd7d868084ac284e9d142f77572bab8/icons/mob/species/human/fox.dmi, https://github.com/shiptest-ss13/Shiptest/blob/5c8d1da1cbd7d868084ac284e9d142f77572bab8/icons/mob/species/human/dog.dmi, https://github.com/shiptest-ss13/Shiptest/blob/5c8d1da1cbd7d868084ac284e9d142f77572bab8/icons/mob/species/human/elf.dmi, https://github.com/shiptest-ss13/Shiptest/blob/5c8d1da1cbd7d868084ac284e9d142f77572bab8/icons/mob/species/human/goat.dmi, https://github.com/shiptest-ss13/Shiptest/blob/5c8d1da1cbd7d868084ac284e9d142f77572bab8/icons/mob/species/human/horse.dmi, https://github.com/shiptest-ss13/Shiptest/blob/5c8d1da1cbd7d868084ac284e9d142f77572bab8/icons/mob/species/human/rabbit.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "m_ears_cat",
+      "directions": 4
+    },
+    {
+      "name": "m_ears_secondary_cat",
+      "directions": 4
+    },
+    {
+      "name": "m_ears_dog",
+      "directions": 4
+    },
+    {
+      "name": "m_ears_elf",
+      "directions": 4
+    },
+    {
+      "name": "m_ears_goat",
+      "directions": 4
+    },
+    {
+      "name": "m_ears_fox",
+      "directions": 4
+    },
+    {
+      "name": "m_ears_secondary_fox",
+      "directions": 4
+    },
+    {
+      "name": "m_ears_horse",
+      "directions": 4
+    },
+    {
+      "name": "m_ears_secondary_horse",
+      "directions": 4
+    },
+    {
+      "name": "m_ears_bunny_bent",
+      "directions": 4
+    },
+    {
+      "name": "m_ears_secondary_bunny_bent",
+      "directions": 4
+    },
+    {
+      "name": "m_ears_bunny_floppy",
+      "directions": 4
+    },
+    {
+      "name": "m_ears_secondary_bunny_floppy",
+      "directions": 4
+    }
+  ]
+}

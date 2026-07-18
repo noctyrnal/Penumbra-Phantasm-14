@@ -1,0 +1,7 @@
+- type: species
+  id: PenumbraHuman
+  name: species-name-human
+  roundStart: true
+  prototype: PenumbraMobHuman
+  dollPrototype: PenumbraAppearanceHuman
+  skinColoration: HumanToned

@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/839c3b776bb2ea351cdef47a57bd185602e91e4e/icons/mob/clothing/underwear/underwear_torso.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "tshirt",
+      "directions": 4
+    },
+    {
+      "name": "polo",
+      "directions": 4
+    },
+    {
+      "name": "shortsleeve",
+      "directions": 4
+    },
+    {
+      "name": "tank",
+      "directions": 4
+    },
+    {
+      "name": "oneshoulder",
+      "directions": 4
+    },
+    {
+      "name": "turtle",
+      "directions": 4
+    },
+    {
+      "name": "turtle_crop",
+      "directions": 4
+    },
+    {
+      "name": "turtle_sleeveless",
+      "directions": 4
+    },
+    {
+      "name": "turtle_smooth",
+      "directions": 4
+    },
+    {
+      "name": "button",
+      "directions": 4
+    },
+    {
+      "name": "button_short",
+      "directions": 4
+    },
+    {
+      "name": "bra",
+      "directions": 4
+    },
+    {
+      "name": "bra_alt",
+      "directions": 4
+    },
+    {
+      "name": "bra_strapless_alt",
+      "directions": 4
+    },
+    {
+      "name": "bra_sports",
+      "directions": 4
+    },
+    {
+      "name": "bra_sports_alt",
+      "directions": 4
+    },
+    {
+      "name": "swimming",
+      "directions": 4
+    },
+    {
+      "name": "bra_strapless",
+      "directions": 4
+    },
+    {
+      "name": "croptank",
+      "directions": 4
+    },
+    {
+      "name": "cropshortsleeve",
+      "directions": 4
+    },
+    {
+      "name": "croptshirt",
+      "directions": 4
+    },
+    {
+      "name": "tubetop",
+      "directions": 4
+    },
+    {
+      "name": "tubetop_long",
+      "directions": 4
+    },
+    {
+      "name": "turtle_sleevecrop",
+      "directions": 4
+    },
+    {
+      "name": "camisole",
+      "directions": 4
+    },
+    {
+      "name": "camisleeve",
+      "directions": 4
+    },
+    {
+      "name": "spaghettitop",
+      "directions": 4
+    },
+    {
+      "name": "comptank",
+      "directions": 4
+    },
+    {
+      "name": "compshort",
+      "directions": 4
+    },
+    {
+      "name": "compsleeve",
+      "directions": 4
+    },
+    {
+      "name": "compcropped",
+      "directions": 4
+    },
+    {
+      "name": "compcroppedshort",
+      "directions": 4
+    },
+    {
+      "name": "compcroppedlong",
+      "directions": 4
+    },
+    {
+      "name": "longsleeve",
+      "directions": 4
+    },
+    {
+      "name": "longpolo",
+      "directions": 4
+    },
+    {
+      "name": "shoulderless",
+      "directions": 4
+    },
+    {
+      "name": "shoulderlessshort",
+      "directions": 4
+    },
+    {
+      "name": "longshoulder",
+      "directions": 4
+    },
+    {
+      "name": "longshouldershort",
+      "directions": 4
+    },
+    {
+      "name": "shirtless",
+      "directions": 4
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+- type: entity
+  parent: MarkerBase
+  id: PenumbraSpawnMobHuman
+  name: Urist Spawner
+  suffix: Penumbra, DEBUG
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+    - sprite: _Penumbra/Mobs/Species/Human/parts.rsi
+      state: full
+  - type: ConditionalSpawner
+    prototypes:
+    - PenumbraMobHuman

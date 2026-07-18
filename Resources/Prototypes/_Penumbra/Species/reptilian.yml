@@ -1,0 +1,18 @@
+- type: species
+  id: PenumbraReptilian
+  name: species-name-reptilian
+  roundStart: true
+  prototype: PenumbraMobReptilian
+  defaultSkinTone: "#34a223"
+  dollPrototype: PenumbraAppearanceReptilian
+  skinColoration: Hues
+  maleFirstNames: NamesReptilianMale
+  femaleFirstNames: NamesReptilianFemale
+  naming: FirstDashFirst
+  defaultSoundsBySex:
+  - MaleReptilian
+  - FemaleReptilian
+  - MaleReptilian
+  voices:
+  - MaleReptilian
+  - FemaleReptilian

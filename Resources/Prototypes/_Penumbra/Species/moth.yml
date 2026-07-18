@@ -1,0 +1,17 @@
+- type: species
+  id: PenumbraMoth
+  name: species-name-moth
+  roundStart: true
+  prototype: PenumbraMobMoth
+  defaultSkinTone: "#ffda93"
+  dollPrototype: PenumbraAppearanceMoth
+  skinColoration: Hues
+  maleFirstNames: NamesMothFirstMale
+  femaleFirstNames: NamesMothFirstFemale
+  lastNames: NamesMothLast
+  defaultSoundsBySex:
+  - UnisexMoth
+  - UnisexMoth
+  - UnisexMoth
+  voices:
+  - UnisexMoth
