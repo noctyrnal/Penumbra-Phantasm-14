@@ -1,0 +1,18 @@
+# Undersuit
+
+- type: loadout
+  id: PenumbraGreyJumpsuit
+  equipment:
+    jumpsuit: PenumbraClothingUndersuitGreyJumpsuit
+
+- type: loadout
+  id: PenumbraGreyJumpskirt
+  equipment:
+    jumpsuit: PenumbraClothingUndersuitGreyJumpskirt
+
+# Shoes
+
+- type: loadout
+  id: PenumbraBlackShoes
+  equipment:
+    shoes: PenumbraClothingShoesColorBlack

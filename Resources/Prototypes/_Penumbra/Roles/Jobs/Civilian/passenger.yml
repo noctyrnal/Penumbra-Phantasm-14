@@ -1,0 +1,32 @@
+- type: job
+  id: PenumbraPassenger
+  name: penumbra-job-name-passenger
+  description: penumbra-job-description-passenger
+  playTimeTracker: PenumbraJobPassenger
+  startingGear: PenumbraPassengerGear
+  icon: "JobIconPassenger"
+  supervisors: job-supervisors-everyone
+  access:
+  - Maintenance
+
+- type: startingGear
+  id: PenumbraPassengerGear
+  equipment:
+    id: PassengerPDA
+    ears: PenumbraClothingHeadsetPassenger
+
+- type: playTimeTracker
+  id: PenumbraJobPassenger
+
+- type: entity
+  parent: SpawnPointJobBase
+  id: PenumbraSpawnPointPassenger
+  name: passenger spawn point
+  suffix: Penumbra
+  components:
+  - type: SpawnPoint
+    job_id: PenumbraPassenger
+  - type: Sprite
+    layers:
+      - state: green
+      - state: passenger

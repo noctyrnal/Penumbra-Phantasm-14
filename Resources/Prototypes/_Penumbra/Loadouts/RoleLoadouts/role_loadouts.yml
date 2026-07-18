@@ -1,0 +1,6 @@
+# Civilian
+- type: roleLoadout
+  id: JobPenumbraPassenger
+  groups:
+  - PenumbraPassengerJumpsuit
+  - PenumbraPassengerShoes

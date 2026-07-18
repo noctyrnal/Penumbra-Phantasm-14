@@ -1,0 +1,10 @@
+- type: entity
+  parent: PenumbraClothingShoesBaseButcherable
+  id: PenumbraClothingShoesColorBlack
+  name: black shoes
+  description: Stylish black shoes.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Shoes/Shoes/black.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Shoes/Shoes/black.rsi

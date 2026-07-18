@@ -7,6 +7,7 @@
   - CargoTechnician
   - Quartermaster
   - SalvageSpecialist
+  editorHidden: true # Penumbra Phantasm 14 - Custom Jobs
 
 - type: department
   id: Civilian
@@ -30,6 +31,7 @@
   - Reporter
   - Visitor
   - ServiceWorker
+  editorHidden: true # Penumbra Phantasm 14 - Custom Jobs
 
 - type: department
   id: CentralCommand
@@ -71,6 +73,7 @@
   - ERTSecurity
   - ERTEngineer
   - DeathSquad
+  editorHidden: true # Penumbra Phantasm 14 - Custom Jobs
   primary: false
   weight: 100
 
@@ -84,6 +87,7 @@
   - ChiefEngineer
   - StationEngineer
   - TechnicalAssistant
+  editorHidden: true # Penumbra Phantasm 14 - Custom Jobs
 
 - type: department
   id: Medical
@@ -97,6 +101,7 @@
   - MedicalIntern
   - Psychologist
   - Paramedic
+  editorHidden: true # Penumbra Phantasm 14 - Custom Jobs
 
 - type: department
   id: Security
@@ -110,6 +115,7 @@
   - SecurityOfficer
   - Detective
   - Warden
+  editorHidden: true # Penumbra Phantasm 14 - Custom Jobs
 
 - type: department
   id: Science
@@ -120,6 +126,7 @@
   - ResearchDirector
   - Scientist
   - ResearchAssistant
+  editorHidden: true # Penumbra Phantasm 14 - Custom Jobs
 
 - type: department
   id: Silicon
@@ -129,6 +136,7 @@
   roles:
   - Borg
   - StationAi
+  editorHidden: true # Penumbra Phantasm 14 - Custom Jobs
 
 - type: department
   id: Specific
@@ -139,4 +147,5 @@
   roles:
   - Reporter
   - Psychologist
+  editorHidden: true # Penumbra Phantasm 14 - Custom Jobs
   primary: false

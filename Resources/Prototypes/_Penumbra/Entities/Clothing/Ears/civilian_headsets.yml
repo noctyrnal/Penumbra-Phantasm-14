@@ -1,0 +1,9 @@
+- type: entity
+  parent: PenumbraClothingHeadset
+  id: PenumbraClothingHeadsetPassenger
+  name: passenger headset
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Ears/Headsets/passenger.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Ears/Headsets/passenger.rsi

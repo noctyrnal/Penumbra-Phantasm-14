@@ -1,0 +1,12 @@
+- type: loadoutGroup
+  id: PenumbraPassengerJumpsuit
+  name: penumbra-loadout-group-passenger-jumpsuit
+  loadouts:
+  - PenumbraGreyJumpsuit
+  - PenumbraGreyJumpskirt
+
+- type: loadoutGroup
+  id: PenumbraPassengerShoes
+  name: penumbra-loadout-group-civilian-shoes
+  loadouts:
+  - PenumbraBlackShoes

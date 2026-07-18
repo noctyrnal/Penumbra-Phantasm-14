@@ -1,0 +1,25 @@
+- type: entity
+  parent: ClothingShoesBase
+  id: PenumbraClothingShoesBase
+  suffix: Penumbra
+  abstract: true
+
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: PenumbraClothingShoesBaseButcherable
+  suffix: Penumbra
+  abstract: true
+
+- type: entity
+  parent: ClothingUniformBase
+  id: PenumbraClothingUniformBase
+  suffix: Penumbra
+  abstract: true
+
+- type: entity
+  parent: ClothingHeadset
+  id: PenumbraClothingHeadset
+  suffix: Penumbra
+  abstract: true
+  components:
+  - type: ShowJobIcons
