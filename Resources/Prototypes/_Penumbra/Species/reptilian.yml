@@ -1,10 +1,10 @@
 - type: species
-  id: Reptilian
+  id: PenumbraReptilian
   name: species-name-reptilian
-  roundStart: false # Penumbra Phantasm 14 - Custom Species
-  prototype: MobReptilian
+  roundStart: true
+  prototype: PenumbraMobReptilian
   defaultSkinTone: "#34a223"
-  dollPrototype: AppearanceReptilian
+  dollPrototype: PenumbraAppearanceReptilian
   skinColoration: Hues
   maleFirstNames: NamesReptilianMale
   femaleFirstNames: NamesReptilianFemale

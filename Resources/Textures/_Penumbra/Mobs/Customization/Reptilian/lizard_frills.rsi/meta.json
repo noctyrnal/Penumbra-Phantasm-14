@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "license": "CC.BY.SA.3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/c1d0b9520297dcf4c0fad4c9f69c40ffd8b31b0d/icons/mob/species/lizard/frills.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "m_frills_simple",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_secondary_simple",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_short",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_secondary_short",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_aqua",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_secondary_aqua",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_frillhawk",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_secondary_frillhawk",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_droopy",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_secondary_droopy",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_neck",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_secondary_neck",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_neckbig",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_secondary_neckbig",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_ears",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_secondary_ears",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_long",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_secondary_long",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_curved",
+      "directions": 4
+    },
+    {
+      "name": "m_frills_secondary_curved",
+      "directions": 4
+    }
+  ]
+}

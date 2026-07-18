@@ -58,6 +58,14 @@
   categories: [ HideSpawnMenu ]
   name: penumbra moth appearance
   components:
+  - type: Inventory
+    speciesId: moth
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
   - type: InitialBody
     organs:
       Torso: PenumbraOrganMothTorso

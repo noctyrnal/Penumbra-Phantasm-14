@@ -1,0 +1,95 @@
+- type: marking
+  id: PenumbraLizardHornAngler
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_horns.rsi
+    state: m_horns_angler
+
+- type: marking
+  id: PenumbraLizardHornBrimstone
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_horns.rsi
+    state: m_horns_brimstone
+
+- type: marking
+  id: PenumbraLizardHornBroken
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_horns.rsi
+    state: m_horns_broken
+
+- type: marking
+  id: PenumbraLizardHornCurled
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_horns.rsi
+    state: m_horns_curled
+
+- type: marking
+  id: PenumbraLizardHornCurledSynth
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_horns.rsi
+    state: m_horns_curled_synth
+
+- type: marking
+  id: PenumbraLizardHornLightning
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_horns.rsi
+    state: m_horns_lightning
+
+- type: marking
+  id: PenumbraLizardHornRam
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_horns.rsi
+    state: m_horns_ram
+
+- type: marking
+  id: PenumbraLizardHornRamSynth
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_horns.rsi
+    state: m_horns_ram_synth
+
+- type: marking
+  id: PenumbraLizardHornShort
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_horns.rsi
+    state: m_horns_short
+
+- type: marking
+  id: PenumbraLizardHornShortSynth
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_horns.rsi
+    state: m_horns_short_synth
+
+- type: marking
+  id: PenumbraLizardHornSimple
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_horns.rsi
+    state: m_horns_simple
+
+- type: marking
+  id: PenumbraLizardHornSimpleSynth
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_horns.rsi
+    state: m_horns_simple_synth

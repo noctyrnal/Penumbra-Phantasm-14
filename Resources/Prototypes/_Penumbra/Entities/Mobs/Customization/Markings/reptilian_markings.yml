@@ -1,0 +1,79 @@
+- type: marking
+  id: PenumbraLizardBellyFemale
+  bodyPart: Chest
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_markings.rsi
+    state: f_body_markings_lbelly
+
+- type: marking
+  id: PenumbraLizardCracks
+  bodyPart: Chest
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_markings.rsi
+    state: m_body_markings_cracks
+
+- type: marking
+  id: PenumbraLizardBellyMale
+  bodyPart: Chest
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_markings.rsi
+    state: m_body_markings_lbelly
+
+- type: marking
+  id: PenumbraLizardTiger
+  bodyPart: Chest
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_markings.rsi
+    state: m_body_markings_tiger
+
+- type: marking
+  id: PenumbraLizardDome
+  bodyPart: Head
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_markings.rsi
+    state: m_face_markings_dome
+
+- type: marking
+  id: PenumbraLizardEyeMarks
+  bodyPart: Head
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_markings.rsi
+    state: m_face_markings_eye
+
+- type: marking
+  id: PenumbraLizardJaw
+  bodyPart: Head
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_markings.rsi
+    state: m_face_markings_jaw
+
+- type: marking
+  id: PenumbraLizardNose
+  bodyPart: Head
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_markings.rsi
+    state: m_face_markings_nose
+
+- type: marking
+  id: PenumbraLizardRhinoHorn
+  bodyPart: Head
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_markings.rsi
+    state: m_face_markings_rhinohorn
+
+- type: marking
+  id: PenumbraLizardTopMark
+  bodyPart: Head
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_markings.rsi
+    state: m_face_markings_top

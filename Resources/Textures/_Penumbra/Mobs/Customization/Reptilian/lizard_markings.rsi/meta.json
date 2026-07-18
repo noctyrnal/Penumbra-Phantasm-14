@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "license": "CC.BY.SA.3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/c1d0b9520297dcf4c0fad4c9f69c40ffd8b31b0d/icons/mob/species/lizard/markings.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "m_face_markings_jaw",
+      "directions": 4
+    },
+    {
+      "name": "m_face_markings_rhinohorn",
+      "directions": 4
+    },
+    {
+      "name": "m_face_markings_top",
+      "directions": 4
+    },
+    {
+      "name": "m_face_markings_eye",
+      "directions": 4
+    },
+    {
+      "name": "m_face_markings_dome",
+      "directions": 4
+    },
+    {
+      "name": "m_face_markings_nose",
+      "directions": 4
+    },
+    {
+      "name": "m_body_markings_tiger",
+      "directions": 4
+    },
+    {
+      "name": "m_body_markings_lbelly",
+      "directions": 4
+    },
+    {
+      "name": "f_body_markings_lbelly",
+      "directions": 4
+    },
+    {
+      "name": "m_body_markings_cracks",
+      "directions": 4
+    }
+  ]
+}

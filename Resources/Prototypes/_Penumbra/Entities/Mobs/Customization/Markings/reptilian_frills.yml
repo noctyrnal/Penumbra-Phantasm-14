@@ -1,0 +1,99 @@
+- type: marking
+  id: PenumbraLizardFrillsAqua
+  bodyPart: HeadSide
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_frills.rsi
+    state: m_frills_aqua
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_frills.rsi
+    state: m_frills_secondary_aqua
+
+- type: marking
+  id: PenumbraLizardFrillsCurved
+  bodyPart: HeadSide
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_frills.rsi
+    state: m_frills_curved
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_frills.rsi
+    state: m_frills_secondary_curved
+
+- type: marking
+  id: PenumbraLizardFrillsDroopy
+  bodyPart: HeadSide
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_frills.rsi
+    state: m_frills_droopy
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_frills.rsi
+    state: m_frills_secondary_droopy
+
+- type: marking
+  id: PenumbraLizardFrillsEars
+  bodyPart: HeadSide
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_frills.rsi
+    state: m_frills_ears
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_frills.rsi
+    state: m_frills_secondary_ears
+
+- type: marking
+  id: PenumbraLizardFrillsFrillhawk
+  bodyPart: HeadSide
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_frills.rsi
+    state: m_frills_frillhawk
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_frills.rsi
+    state: m_frills_secondary_frillhawk
+
+- type: marking
+  id: PenumbraLizardFrillsLong
+  bodyPart: HeadSide
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_frills.rsi
+    state: m_frills_long
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_frills.rsi
+    state: m_frills_secondary_long
+
+- type: marking
+  id: PenumbraLizardFrillsNeckBig
+  bodyPart: HeadSide
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_frills.rsi
+    state: m_frills_neck
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_frills.rsi
+    state: m_frills_secondary_neck
+
+- type: marking
+  id: PenumbraLizardFrillsNeck
+  bodyPart: HeadSide
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_frills.rsi
+    state: m_frills_neckbig
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_frills.rsi
+    state: m_frills_secondary_neckbig
+
+- type: marking
+  id: PenumbraLizardFrillsShort
+  bodyPart: HeadSide
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_frills.rsi
+    state: m_frills_short
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_frills.rsi
+    state: m_frills_secondary_short
+
+- type: marking
+  id: PenumbraLizardFrillsSimple
+  bodyPart: HeadSide
+  groupWhitelist: [PenumbraReptilian]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_frills.rsi
+    state: m_frills_simple
+  - sprite: _Penumbra/Mobs/Customization/Reptilian/lizard_frills.rsi
+    state: m_frills_secondary_simple
