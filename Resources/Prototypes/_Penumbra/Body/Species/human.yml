@@ -4,6 +4,7 @@
   limits:
     enum.HumanoidVisualLayers.HeadTop:
       limit: 1
+      onlyGroupWhitelisted: true
       required: false
     enum.HumanoidVisualLayers.Hair:
       limit: 1
@@ -44,7 +45,8 @@
       limit: 1
       required: false
     enum.HumanoidVisualLayers.Tail:
-      limit: 0
+      limit: 1
+      onlyGroupWhitelisted: true
       required: false
     enum.HumanoidVisualLayers.Special:
       limit: 0
@@ -93,6 +95,7 @@
     spawned:
     - id: FoodMeatHuman
       amount: 5
+  - type: Wagging
 
 - type: entity
   parent: OrganHumanExternal

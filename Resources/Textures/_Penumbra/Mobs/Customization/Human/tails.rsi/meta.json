@@ -1,0 +1,247 @@
+{
+  "version": 1,
+  "license": "CC.BY.SA.3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/5c8d1da1cbd7d868084ac284e9d142f77572bab8/icons/mob/species/human/cat.dmi, https://github.com/shiptest-ss13/Shiptest/blob/5c8d1da1cbd7d868084ac284e9d142f77572bab8/icons/mob/species/human/fox.dmi, https://github.com/shiptest-ss13/Shiptest/blob/5c8d1da1cbd7d868084ac284e9d142f77572bab8/icons/mob/species/human/dog.dmi, https://github.com/shiptest-ss13/Shiptest/blob/5c8d1da1cbd7d868084ac284e9d142f77572bab8/icons/mob/species/human/elf.dmi, https://github.com/shiptest-ss13/Shiptest/blob/5c8d1da1cbd7d868084ac284e9d142f77572bab8/icons/mob/species/human/goat.dmi, https://github.com/shiptest-ss13/Shiptest/blob/5c8d1da1cbd7d868084ac284e9d142f77572bab8/icons/mob/species/human/horse.dmi, https://github.com/shiptest-ss13/Shiptest/blob/5c8d1da1cbd7d868084ac284e9d142f77572bab8/icons/mob/species/human/rabbit.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "m_tail_cat",
+      "directions": 4
+    },
+    {
+      "name": "m_waggingtail_cat",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "m_tail_dog",
+      "directions": 4
+    },
+    {
+      "name": "m_waggingtail_dog",
+      "directions": 4,
+      "delays": [
+        [
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05
+        ],
+        [
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05
+        ],
+        [
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05
+        ],
+        [
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05
+        ]
+      ]
+    },
+    {
+      "name": "m_tail_fox",
+      "directions": 4
+    },
+    {
+      "name": "m_tail_fox2",
+      "directions": 4
+    },
+    {
+      "name": "m_waggingtail_fox",
+      "directions": 4,
+      "delays": [
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1,
+          0.1
+        ]
+      ]
+    },
+    {
+      "name": "m_tail_horse",
+      "directions": 4
+    },
+    {
+      "name": "m_tail_bunny",
+      "directions": 4
+    },
+    {
+      "name": "m_waggingtail_bunny",
+      "directions": 4,
+      "delays": [
+        [
+          0.06,
+          0.06,
+          0.06,
+          0.06
+        ],
+        [
+          0.06,
+          0.06,
+          0.06,
+          0.06
+        ],
+        [
+          0.06,
+          0.06,
+          0.06,
+          0.06
+        ],
+        [
+          0.06,
+          0.06,
+          0.06,
+          0.06
+        ]
+      ]
+    }
+  ]
+}

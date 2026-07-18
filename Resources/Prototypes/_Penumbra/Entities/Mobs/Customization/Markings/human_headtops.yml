@@ -1,0 +1,69 @@
+- type: marking
+  id: PenumbraHumanCatEars
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Human/head_tops.rsi
+    state: m_ears_cat
+  - sprite: _Penumbra/Mobs/Customization/Human/head_tops.rsi
+    state: m_ears_secondary_cat
+
+- type: marking
+  id: PenumbraHumanDogEars
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Human/head_tops.rsi
+    state: m_ears_dog
+
+- type: marking
+  id: PenumbraHumanElfEars
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Human/head_tops.rsi
+    state: m_ears_elf
+
+- type: marking
+  id: PenumbraHumanGoatHorns
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Human/head_tops.rsi
+    state: m_ears_goat
+
+- type: marking
+  id: PenumbraHumanFoxEars
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Human/head_tops.rsi
+    state: m_ears_fox
+
+- type: marking
+  id: PenumbraHumanHorseEars
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Human/head_tops.rsi
+    state: m_ears_horse
+
+- type: marking
+  id: PenumbraHumanBunnyEarsBent
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Human/head_tops.rsi
+    state: m_ears_bunny_bent
+  - sprite: _Penumbra/Mobs/Customization/Human/head_tops.rsi
+    state: m_ears_secondary_bunny_bent
+
+- type: marking
+  id: PenumbraHumanBunnyEarsFloppy
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Human/head_tops.rsi
+    state: m_ears_bunny_floppy
+  - sprite: _Penumbra/Mobs/Customization/Human/head_tops.rsi
+    state: m_ears_secondary_bunny_floppy

@@ -49,10 +49,7 @@
     sprite: _Penumbra/Structures/Walls/asteroid.rsi
     color: "#a2a4ab"
   - type: IconSmooth
-    key: walls
-    additionalKeys:
-    - windows
-    - doors
+    key: asteroidwalls
     base: rock
 
 - type: entity

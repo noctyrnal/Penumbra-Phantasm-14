@@ -1,0 +1,79 @@
+- type: marking
+  id: PenumbraHumanCatTail
+  bodyPart: Tail
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Human/tails.rsi
+    state: m_tail_cat
+
+- type: marking
+  id: PenumbraHumanCatTailAnimated
+  bodyPart: Tail
+  groupWhitelist: []
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Human/tails.rsi
+    state: m_waggingtail_cat
+
+- type: marking
+  id: PenumbraHumanDogTail
+  bodyPart: Tail
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Human/tails.rsi
+    state: m_tail_dog
+
+- type: marking
+  id: PenumbraHumanDogTailAnimated
+  bodyPart: Tail
+  groupWhitelist: []
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Human/tails.rsi
+    state: m_waggingtail_dog
+
+- type: marking
+  id: PenumbraHumanFoxTail
+  bodyPart: Tail
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Human/tails.rsi
+    state: m_tail_fox
+
+- type: marking
+  id: PenumbraHumanFoxTailAnimated
+  bodyPart: Tail
+  groupWhitelist: []
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Human/tails.rsi
+    state: m_waggingtail_fox
+
+- type: marking
+  id: PenumbraHumanFoxTail2
+  bodyPart: Tail
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Human/tails.rsi
+    state: m_tail_fox2
+
+- type: marking
+  id: PenumbraHumanHorseTail
+  bodyPart: Tail
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Human/tails.rsi
+    state: m_tail_horse
+
+- type: marking
+  id: PenumbraHumanBunnyTail
+  bodyPart: Tail
+  groupWhitelist: [PenumbraHuman]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Human/tails.rsi
+    state: m_tail_bunny
+
+- type: marking
+  id: PenumbraHumanBunnyTailAnimated
+  bodyPart: Tail
+  groupWhitelist: []
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Human/tails.rsi
+    state: m_waggingtail_bunny
