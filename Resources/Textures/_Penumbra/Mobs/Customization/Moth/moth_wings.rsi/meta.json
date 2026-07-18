@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "license": null,
+  "copyright": null,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "m_moth_wings_plain",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_wings_atlas",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_wings_luna",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_wings_burnt",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_wings_deathhead",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_wings_ragged",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_wings_oakworm",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_wings_jungle",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_wings_plasmafire",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_wings_feathery",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_wings_brown",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_wings_rosy",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_wings_small",
+      "directions": 4
+    }
+  ]
+}

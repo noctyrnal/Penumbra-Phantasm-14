@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "license": "CC.BY.SA.3.0",
+  "copyright": "Taken from shiptest ss13 at https://github.com/shiptest-ss13/Shiptest/blob/806b15793c5ce2471dfea7f3597b9266d8385aec/icons/mob/species/moth/moth_antennae.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "m_moth_antennae_plain",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_antennae_bent",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_antennae_droopy",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_antennae_burnt",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_antennae_deathhead",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_antennae_oakworm",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_antennae_jungle",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_antennae_plasmafire",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_antennae_feathery",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_antennae_brown",
+      "directions": 4
+    },
+    {
+      "name": "m_moth_antennae_rosy",
+      "directions": 4
+    }
+  ]
+}

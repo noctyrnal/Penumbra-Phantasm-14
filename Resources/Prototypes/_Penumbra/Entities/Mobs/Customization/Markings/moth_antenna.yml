@@ -1,0 +1,87 @@
+- type: marking
+  id: PenumbraMothAntennaBent
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_antennas.rsi
+    state: m_moth_antennae_bent
+
+- type: marking
+  id: PenumbraMothAntennaBrown
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_antennas.rsi
+    state: m_moth_antennae_brown
+
+- type: marking
+  id: PenumbraMothAntennaBurnt
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_antennas.rsi
+    state: m_moth_antennae_burnt
+
+- type: marking
+  id: PenumbraMothAntennaDeathhead
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_antennas.rsi
+    state: m_moth_antennae_deathhead
+
+- type: marking
+  id: PenumbraMothAntennaDroopy
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_antennas.rsi
+    state: m_moth_antennae_droopy
+
+- type: marking
+  id: PenumbraMothAntennaFeathery
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_antennas.rsi
+    state: m_moth_antennae_feathery
+
+- type: marking
+  id: PenumbraMothAntennaJungle
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_antennas.rsi
+    state: m_moth_antennae_jungle
+
+- type: marking
+  id: PenumbraMothAntennaOakworm
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_antennas.rsi
+    state: m_moth_antennae_oakworm
+
+- type: marking
+  id: PenumbraMothAntennaPlain
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_antennas.rsi
+    state: m_moth_antennae_plain
+
+- type: marking
+  id: PenumbraMothAntennaPlasmafire
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_antennas.rsi
+    state: m_moth_antennae_plasmafire
+
+- type: marking
+  id: PenumbraMothAntennaRosy
+  bodyPart: HeadTop
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_antennas.rsi
+    state: m_moth_antennae_rosy

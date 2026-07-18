@@ -1,0 +1,103 @@
+- type: marking
+  id: PenumbraMothWingsAtlas
+  bodyPart: Tail
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_wings.rsi
+    state: m_moth_wings_atlas
+
+- type: marking
+  id: PenumbraMothWingsBrown
+  bodyPart: Tail
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_wings.rsi
+    state: m_moth_wings_brown
+
+- type: marking
+  id: PenumbraMothWingsBurnt
+  bodyPart: Tail
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_wings.rsi
+    state: m_moth_wings_burnt
+
+- type: marking
+  id: PenumbraMothWingsDeathhead
+  bodyPart: Tail
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_wings.rsi
+    state: m_moth_wings_deathhead
+
+- type: marking
+  id: PenumbraMothWingsFeathery
+  bodyPart: Tail
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_wings.rsi
+    state: m_moth_wings_feathery
+
+- type: marking
+  id: PenumbraMothWingsJungle
+  bodyPart: Tail
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_wings.rsi
+    state: m_moth_wings_jungle
+
+- type: marking
+  id: PenumbraMothWingsLuna
+  bodyPart: Tail
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_wings.rsi
+    state: m_moth_wings_luna
+
+- type: marking
+  id: PenumbraMothWingsOakworm
+  bodyPart: Tail
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_wings.rsi
+    state: m_moth_wings_oakworm
+
+- type: marking
+  id: PenumbraMothWingsPlain
+  bodyPart: Tail
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_wings.rsi
+    state: m_moth_wings_plain
+
+- type: marking
+  id: PenumbraMothWingsPlasmafire
+  bodyPart: Tail
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_wings.rsi
+    state: m_moth_wings_plasmafire
+
+- type: marking
+  id: PenumbraMothWingsRagged
+  bodyPart: Tail
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_wings.rsi
+    state: m_moth_wings_ragged
+
+- type: marking
+  id: PenumbraMothWingsRosy
+  bodyPart: Tail
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_wings.rsi
+    state: m_moth_wings_rosy
+
+- type: marking
+  id: PenumbraMothWingsSmall
+  bodyPart: Tail
+  groupWhitelist: [PenumbraMoth]
+  sprites:
+  - sprite: _Penumbra/Mobs/Customization/Moth/moth_wings.rsi
+    state: m_moth_wings_small
