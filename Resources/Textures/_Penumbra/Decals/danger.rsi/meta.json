@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "license": "CC.BY.SA.3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/eff9cfcc45b352fe6f36826794cf1d4cde0a7d1e/icons/turf/decals/decals.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "danger_1"
+    },
+    {
+      "name": "danger_2"
+    },
+    {
+      "name": "danger_3"
+    },
+    {
+      "name": "danger_4"
+    },
+    {
+      "name": "danger_5"
+    },
+    {
+      "name": "danger_6"
+    },
+    {
+      "name": "danger_7"
+    },
+    {
+      "name": "danger_8"
+    },
+    {
+      "name": "danger_full"
+    },
+    {
+      "name": "danger_round_1"
+    },
+    {
+      "name": "danger_round_2"
+    },
+    {
+      "name": "danger_round_3"
+    },
+    {
+      "name": "danger_round_4"
+    },
+    {
+      "name": "danger_corner_1"
+    },
+    {
+      "name": "danger_corner_2"
+    },
+    {
+      "name": "danger_corner_3"
+    },
+    {
+      "name": "danger_corner_4"
+    }
+  ]
+}

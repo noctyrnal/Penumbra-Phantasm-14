@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "license": "CC.BY.SA.3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/eff9cfcc45b352fe6f36826794cf1d4cde0a7d1e/icons/turf/decals/decals.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "rust"
+    },
+    {
+      "name": "delivery"
+    },
+    {
+      "name": "box_corner_1"
+    },
+    {
+      "name": "box_corner_2"
+    },
+    {
+      "name": "box_corner_3"
+    },
+    {
+      "name": "box_corner_4"
+    }
+  ]
+}
