@@ -4,7 +4,7 @@
   description: penumbra-job-description-passenger
   playTimeTracker: PenumbraJobPassenger
   startingGear: PenumbraPassengerGear
-  icon: "JobIconPassenger"
+  icon: "PenumbraJobIconPassenger"
   supervisors: job-supervisors-everyone
   access:
   - Maintenance
@@ -12,7 +12,7 @@
 - type: startingGear
   id: PenumbraPassengerGear
   equipment:
-    id: PassengerPDA
+    id: PenumbraIDCardPassenger
     ears: PenumbraClothingHeadsetPassenger
 
 - type: playTimeTracker
@@ -30,3 +30,10 @@
     layers:
       - state: green
       - state: passenger
+
+- type: jobIcon
+  parent: PenumbraJobIcon
+  id: PenumbraJobIconPassenger
+  icon:
+    sprite: /Textures/_Penumbra/Interface/job_icons.rsi
+    state: passenger

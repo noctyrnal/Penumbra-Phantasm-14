@@ -1,0 +1,24 @@
+- type: entity
+  parent: [PenumbraClothingEyesBase, PenumbraShowSecurityIcons]
+  id: PenumbraClothingEyesGlassesSecurity
+  name: security hud glasses
+  description: Standard-issue glasses for security personnel hooked up directly to the station's databases for quick profiling of potential suspects, while also providing protection from flashes.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Eyes/Glasses/sec_glasses.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Eyes/Glasses/sec_glasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+  - type: Tag
+    tags:
+    - HamsterWearable
+    - PetWearable
+    - WhitelistChameleon
+  - type: GuideHelp
+    guides:
+    - Security
+    - Antagonists
+  - type: IdentityBlocker
+    coverage: EYES

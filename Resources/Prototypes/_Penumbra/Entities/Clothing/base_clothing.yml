@@ -77,3 +77,16 @@
     interfaces:
       enum.StorageUiKey.Key:
         type: StorageBoundUserInterface
+
+- type: entity
+  parent: ClothingEyesBase
+  id: PenumbraClothingEyesBase
+  suffix: Penumbra
+  abstract: true
+
+- type: entity
+  id: PenumbraShowSecurityIcons
+  abstract: true
+  components:
+  - type: ShowCriminalRecordIcons
+  - type: ShowContrabandDetails

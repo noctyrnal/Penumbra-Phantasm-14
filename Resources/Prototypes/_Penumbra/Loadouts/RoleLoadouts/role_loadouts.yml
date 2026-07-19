@@ -4,3 +4,9 @@
   groups:
   - PenumbraPassengerJumpsuit
   - PenumbraPassengerShoes
+
+# Security
+- type: roleLoadout
+  id: JobPenumbraSecurityOFficer
+  groups:
+  - PenumbraSecurityJumpsuit

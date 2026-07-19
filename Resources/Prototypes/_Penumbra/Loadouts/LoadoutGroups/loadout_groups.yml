@@ -1,3 +1,4 @@
+# Civilian
 - type: loadoutGroup
   id: PenumbraPassengerJumpsuit
   name: penumbra-loadout-group-passenger-jumpsuit
@@ -25,3 +26,11 @@
   - PenumbraTealShoes
   - PenumbraWhiteShoes
   - PenumbraYellowShoes
+
+# Security
+- type: loadoutGroup
+  id: PenumbraSecurityJumpsuit
+  name: penumbra-loadout-group-security-uniform
+  loadouts:
+  - PenumbraSecurityUniform
+  - PenumbraSecurityUniformSkirt

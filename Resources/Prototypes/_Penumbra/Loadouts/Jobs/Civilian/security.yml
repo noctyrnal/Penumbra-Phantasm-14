@@ -1,0 +1,11 @@
+# Undersuit
+
+- type: loadout
+  id: PenumbraSecurityUniform
+  equipment:
+    jumpsuit: PenumbraClothingUniformSecurity
+
+- type: loadout
+  id: PenumbraSecurityUniformSkirt
+  equipment:
+    jumpsuit: PenumbraClothingUniformSecuritySkirt
