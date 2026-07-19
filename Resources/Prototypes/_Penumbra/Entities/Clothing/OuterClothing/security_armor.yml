@@ -1,0 +1,19 @@
+- type: entity
+  parent: PenumbraClothingOuterArmorStorageBase
+  id: PenumbraClothingOuterArmorSecurityWebbing
+  name: security armored webbing
+  description: A tactical armored webbing rig worn by security personnel.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/OuterClothing/Armor/military_webbing.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/OuterClothing/Armor/military_webbing.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.4
+        Heat: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.80

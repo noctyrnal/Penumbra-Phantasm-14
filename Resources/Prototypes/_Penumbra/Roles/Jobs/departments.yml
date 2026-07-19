@@ -1,0 +1,8 @@
+- type: department
+  id: PenumbraCivilian
+  name: penumbra-department-civilian
+  description: penumbra-department-civilian-description
+  color: "#9FED58"
+  weight: -10
+  roles:
+  - PenumbraPassenger

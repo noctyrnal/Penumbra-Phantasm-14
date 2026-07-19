@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/9759ebf588b7fa418c4eaadccc0ef62090b16482/icons/mob/clothing/under/color.dmi, https://github.com/shiptest-ss13/Shiptest/blob/9759ebf588b7fa418c4eaadccc0ef62090b16482/icons/mob/species/misc/digitigrade.dmi, https://github.com/shiptest-ss13/Shiptest/blob/9759ebf588b7fa418c4eaadccc0ef62090b16482/icons/obj/clothing/under/color.dmi, https://github.com/shiptest-ss13/Shiptest/blob/9759ebf588b7fa418c4eaadccc0ef62090b16482/icons/mob/inhands/clothing/suits_lefthand.dmi, https://github.com/shiptest-ss13/Shiptest/blob/9759ebf588b7fa418c4eaadccc0ef62090b16482/icons/mob/inhands/clothing/suits_righthand.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon"
+    },
+    {
+      "name": "equipped-INNERCLOTHING",
+      "directions": 4
+    },
+    {
+      "name": "equipped-INNERCLOTHING-reptilian",
+      "directions": 4
+    },
+    {
+      "name": "equipped-INNERCLOTHING-moth",
+      "directions": 4
+    },
+    {
+      "name": "equipped-INNERCLOTHING-vulpakin",
+      "directions": 4
+    },
+    {
+      "name": "inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "inhand-right",
+      "directions": 4
+    }
+  ]
+}

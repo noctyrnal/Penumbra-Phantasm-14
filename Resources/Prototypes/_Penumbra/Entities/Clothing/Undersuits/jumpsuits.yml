@@ -1,0 +1,21 @@
+- type: entity
+  parent: PenumbraClothingUniformBase
+  id: PenumbraClothingUndersuitGreyJumpsuit
+  name: grey jumpsuit
+  description: A generic grey jumpsuit with no rank markings.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Undersuits/Jumpsuits/grey.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Undersuits/Jumpsuits/grey.rsi
+
+- type: entity
+  parent: PenumbraClothingUniformBase
+  id: PenumbraClothingUndersuitGreyJumpskirt
+  name: grey jumpskirt
+  description: A generic grey jumpskirt with no rank markings.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Undersuits/Jumpsuits/grey_skirt.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Undersuits/Jumpsuits/grey_skirt.rsi

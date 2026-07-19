@@ -1,0 +1,94 @@
+# Undersuit
+
+- type: loadout
+  id: PenumbraGreyJumpsuit
+  equipment:
+    jumpsuit: PenumbraClothingUndersuitGreyJumpsuit
+
+- type: loadout
+  id: PenumbraGreyJumpskirt
+  equipment:
+    jumpsuit: PenumbraClothingUndersuitGreyJumpskirt
+
+# Shoes
+
+- type: loadout
+  id: PenumbraBlackShoes
+  equipment:
+    shoes: PenumbraClothingShoesColorBlack
+
+- type: loadout
+  id: PenumbraBlueShoes
+  equipment:
+    shoes: PenumbraClothingShoesColorBlue
+
+- type: loadout
+  id: PenumbraBrownShoes
+  equipment:
+    shoes: PenumbraClothingShoesColorBrown
+
+- type: loadout
+  id: PenumbraDarkBlueShoes
+  equipment:
+    shoes: PenumbraClothingShoesColorDarkBlue
+
+- type: loadout
+  id: PenumbraDarkGreenShoes
+  equipment:
+    shoes: PenumbraClothingShoesColorDarkGreen
+
+- type: loadout
+  id: PenumbraGreenShoes
+  equipment:
+    shoes: PenumbraClothingShoesColorGreen
+
+- type: loadout
+  id: PenumbraGreyShoes
+  equipment:
+    shoes: PenumbraClothingShoesColorGrey
+
+- type: loadout
+  id: PenumbraLightBrownShoes
+  equipment:
+    shoes: PenumbraClothingShoesColorLightBrown
+
+- type: loadout
+  id: PenumbraMaroonShoes
+  equipment:
+    shoes: PenumbraClothingShoesColorMaroon
+
+- type: loadout
+  id: PenumbraOrangeShoes
+  equipment:
+    shoes: PenumbraClothingShoesColorOrange
+
+- type: loadout
+  id: PenumbraPinkShoes
+  equipment:
+    shoes: PenumbraClothingShoesColorPink
+
+- type: loadout
+  id: PenumbraPurpleShoes
+  equipment:
+    shoes: PenumbraClothingShoesColorPurple
+
+- type: loadout
+  id: PenumbraRedShoes
+  equipment:
+    shoes: PenumbraClothingShoesColorRed
+
+- type: loadout
+  id: PenumbraTealShoes
+  equipment:
+    shoes: PenumbraClothingShoesColorTeal
+
+- type: loadout
+  id: PenumbraWhiteShoes
+  equipment:
+    shoes: PenumbraClothingShoesColorWhite
+
+- type: loadout
+  id: PenumbraYellowShoes
+  equipment:
+    shoes: PenumbraClothingShoesColorYellow
+

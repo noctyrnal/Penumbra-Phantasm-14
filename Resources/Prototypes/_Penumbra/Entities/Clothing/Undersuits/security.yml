@@ -1,0 +1,20 @@
+- type: entity
+  parent: PenumbraClothingUniformBase
+  id: PenumbraClothingUniformSecurity
+  name: security uniform
+  description: The uniform for the Memento Mori's PMC Security Force, fiercely loyal to upholding the peace of the ship in the name of whatever faction contracts their vessel.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Undersuits/Security/uniform.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Undersuits/Security/uniform.rsi
+
+- type: entity
+  parent: PenumbraClothingUniformSecurity
+  id: PenumbraClothingUniformSecuritySkirt
+  name: security uniform skirt
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Undersuits/Security/uniform_skirt.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Undersuits/Security/uniform_skirt.rsi

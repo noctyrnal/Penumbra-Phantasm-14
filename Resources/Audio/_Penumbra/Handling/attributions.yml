@@ -1,0 +1,24 @@
+- files: ["clothing_on_zip1.ogg, clothing_on_zip2.ogg, clothing_on_zip3.ogg"]
+  license: Custom
+  copyright: "Sourced from JakeEaton on Pixabay"
+  source: https://pixabay.com/sound-effects/film-special-effects-quick-zip-37466/
+
+- files: ["clothing_off.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Taken from cmss13"
+  source: "https://github.com/cmss13-devs/cmss13/blob/df78049c7a0490ba67af7112c8d7624049712b71/sound/handling/clothing_off.ogg"
+
+- files: ["clothing_off.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Taken from cmss13"
+  source: "https://github.com/cmss13-devs/cmss13/blob/df78049c7a0490ba67af7112c8d7624049712b71/sound/handling/clothing_on.ogg"
+
+- files: ["armorequip_1.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Taken from cmss13"
+  source: "https://github.com/cmss13-devs/cmss13/blob/20829c1ee1c4718f6a3413555921b4f6c760d4bf/sound/handling/armorequip_1.ogg"
+
+- files: ["armorequip_2.ogg"]
+  license: "CC-BY-SA-3.0"
+  copyright: "Taken from cmss13"
+  source: "https://github.com/cmss13-devs/cmss13/blob/20829c1ee1c4718f6a3413555921b4f6c760d4bf/sound/handling/armorequip_2.ogg

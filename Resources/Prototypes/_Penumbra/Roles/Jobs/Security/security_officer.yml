@@ -1,0 +1,55 @@
+- type: job
+  id: PenumbraSecurityOFficer
+  name: penumbra-job-name-security-officer
+  description: penumbra-job-description-security-officer
+  playTimeTracker: PenumbraJobSecurityOfficer
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 4h
+  startingGear: PenumbraSecurityOfficerGear
+  icon: "PenumbraJobIconSecurityOfficer"
+  supervisors: job-supervisors-hos
+  access:
+  - Security
+  - Brig
+  - Maintenance
+  - External
+  - Cryogenics
+
+- type: startingGear
+  id: PenumbraSecurityOfficerGear
+  equipment:
+    id: PenumbraIDCardSecurityOfficer
+    eyes: PenumbraClothingEyesGlassesSecurity
+    ears: PenumbraClothingHeadsetSecurity
+    gloves: PenumbraClothingHandsGlovesCombat
+    shoes: PenumbraClothingShoesBootsCombat
+  #   pocket1: WeaponPistolMk58
+  # storage:
+  #   back:
+  #   - Flash
+  #   - MagazinePistol
+
+- type: playTimeTracker
+  id: PenumbraJobSecurityOfficer
+
+- type: entity
+  parent: SpawnPointJobBase
+  id: PenumbraSpawnPointSecurityOfficer
+  name: security officer spawn point
+  suffix: Penumbra
+  components:
+  - type: SpawnPoint
+    job_id: PenumbraSecurityOfficer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security_officer
+
+- type: jobIcon
+  parent: PenumbraJobIcon
+  id: PenumbraJobIconSecurityOfficer
+  icon:
+    sprite: /Textures/_Penumbra/Interface/job_icons.rsi
+    state: security_officer

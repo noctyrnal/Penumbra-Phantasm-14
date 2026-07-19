@@ -1,0 +1,36 @@
+# Civilian
+- type: loadoutGroup
+  id: PenumbraPassengerJumpsuit
+  name: penumbra-loadout-group-passenger-jumpsuit
+  loadouts:
+  - PenumbraGreyJumpsuit
+  - PenumbraGreyJumpskirt
+
+- type: loadoutGroup
+  id: PenumbraPassengerShoes
+  name: penumbra-loadout-group-civilian-shoes
+  loadouts:
+  - PenumbraBlackShoes
+  - PenumbraBlueShoes
+  - PenumbraBrownShoes
+  - PenumbraDarkBlueShoes
+  - PenumbraDarkGreenShoes
+  - PenumbraGreenShoes
+  - PenumbraGreyShoes
+  - PenumbraLightBrownShoes
+  - PenumbraMaroonShoes
+  - PenumbraOrangeShoes
+  - PenumbraPinkShoes
+  - PenumbraPurpleShoes
+  - PenumbraRedShoes
+  - PenumbraTealShoes
+  - PenumbraWhiteShoes
+  - PenumbraYellowShoes
+
+# Security
+- type: loadoutGroup
+  id: PenumbraSecurityJumpsuit
+  name: penumbra-loadout-group-security-uniform
+  loadouts:
+  - PenumbraSecurityUniform
+  - PenumbraSecurityUniformSkirt

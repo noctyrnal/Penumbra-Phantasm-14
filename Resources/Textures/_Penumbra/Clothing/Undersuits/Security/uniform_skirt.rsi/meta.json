@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/9759ebf588b7fa418c4eaadccc0ef62090b16482/icons/mob/clothing/faction/inteq/uniforms.dmi, https://github.com/shiptest-ss13/Shiptest/blob/9759ebf588b7fa418c4eaadccc0ef62090b16482/icons/mob/species/misc/digitigrade.dmi, https://github.com/shiptest-ss13/Shiptest/blob/9759ebf588b7fa418c4eaadccc0ef62090b16482/icons/obj/clothing/factions/inteq/uniforms.dmi, https://github.com/shiptest-ss13/Shiptest/blob/9759ebf588b7fa418c4eaadccc0ef62090b16482/icons/mob/inhands/clothing/suits_lefthand.dmi, https://github.com/shiptest-ss13/Shiptest/blob/9759ebf588b7fa418c4eaadccc0ef62090b16482/icons/mob/inhands/clothing/suits_righthand.dmi, modified by github noctyrnal",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon"
+    },
+    {
+      "name": "equipped-INNERCLOTHING",
+      "directions": 4
+    },
+    {
+      "name": "inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "inhand-right",
+      "directions": 4
+    }
+  ]
+}

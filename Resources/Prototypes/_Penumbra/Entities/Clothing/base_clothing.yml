@@ -1,0 +1,122 @@
+- type: entity
+  id: PenumbraClothingHandlingSFXBase
+  abstract: true
+  components:
+  - type: Clothing
+    equipSound:
+      path: /Audio/_Penumbra/Handling/clothing_on.ogg
+    unequipSound:
+      path: /Audio/_Penumbra/Handling/clothing_off.ogg
+
+- type: entity
+  id: PenumbraClothingHandlingSFXZipBase
+  abstract: true
+  components:
+  - type: Clothing
+    equipSound:
+      collection: PenumbraClothingHandlingZip
+    unequipSound:
+      path: /Audio/_Penumbra/Handling/clothing_off.ogg
+
+- type: entity
+  id: PenumbraClothingHandlingSFXArmorBase
+  abstract: true
+  components:
+  - type: Clothing
+    equipSound:
+      path: /Audio/_Penumbra/Handling/armorequip_1.ogg
+    unequipSound:
+      path: /Audio/_Penumbra/Handling/armorequip_2.ogg
+
+- type: entity
+  parent: [PenumbraClothingHandlingSFXBase, ClothingShoesBase]
+  id: PenumbraClothingShoesBase
+  suffix: Penumbra
+  abstract: true
+
+- type: entity
+  parent: [PenumbraClothingHandlingSFXBase, ClothingShoesBaseButcherable]
+  id: PenumbraClothingShoesBaseButcherable
+  suffix: Penumbra
+  abstract: true
+
+- type: entity
+  parent: [PenumbraClothingHandlingSFXBase, ClothingShoesMilitaryBase]
+  id: PenumbraClothingShoesMilitaryBase
+  suffix: Penumbra
+  abstract: true
+
+- type: entity
+  parent: [PenumbraClothingHandlingSFXZipBase, ClothingUniformBase]
+  id: PenumbraClothingUniformBase
+  suffix: Penumbra
+  abstract: true
+
+- type: entity
+  parent: ClothingHeadset
+  id: PenumbraClothingHeadset
+  suffix: Penumbra
+  abstract: true
+  components:
+  - type: ShowJobIcons
+
+- type: entity
+  parent: [PenumbraClothingHandlingSFXBase, ClothingHandsButcherable]
+  id: PenumbraClothingHandsButcherable
+  suffix: Penumbra
+  abstract: true
+
+- type: entity
+  parent: PenumbraClothingHandsButcherable
+  id: PenumbraClothingHandsGlovesSyntheticBase
+  abstract: true
+  components:
+  - type: Fiber
+    fiberMaterial: fibers-synthetic
+  - type: FingerprintMask
+
+- type: entity
+  parent: [PenumbraClothingHandlingSFXBase, ClothingBeltStorageBase]
+  id: PenumbraClothingBeltStorageBase
+  suffix: Penumbra
+  abstract: true
+
+- type: entity
+  parent: [PenumbraClothingHandlingSFXArmorBase, ClothingOuterArmorBase]
+  id: PenumbraClothingOuterArmorBase
+  suffix: Penumbra
+  abstract: true
+
+- type: entity
+  parent: PenumbraClothingOuterArmorBase
+  id: PenumbraClothingOuterArmorStorageBase
+  abstract: true
+  components:
+  - type: Storage
+    maxItemSize: Normal
+    defaultStorageOrientation: Vertical
+    grid:
+    - 0,0,7,1
+  - type: Item
+    size: Ginormous
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+
+- type: entity
+  parent: ClothingEyesBase
+  id: PenumbraClothingEyesBase
+  suffix: Penumbra
+  abstract: true
+
+- type: entity
+  id: PenumbraShowSecurityIcons
+  abstract: true
+  components:
+  - type: ShowCriminalRecordIcons
+  - type: ShowContrabandDetails

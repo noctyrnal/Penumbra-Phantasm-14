@@ -1,0 +1,54 @@
+- type: entity
+  parent: Clothing
+  id: PenumbraIDCardBase
+  name: identification card
+  description: A card necessary to access various areas aboard the ship.
+  abstract: true
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Objects/Misc/id_cards.rsi
+  - type: Clothing
+    slots:
+    - idcard
+    - Belt
+    sprite: _Penumbra/Objects/Misc/id_cards.rsi
+  - type: Item
+    size: Small
+    storedRotation: -90
+  - type: Access
+  - type: IdCard
+  - type: StationRecordKeyStorage
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - WhitelistChameleon
+    - WhitelistChameleonIdCard
+
+- type: entity
+  parent: PenumbraIDCardBase
+  id: PenumbraIDCardPassenger
+  name: passenger ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: default_card
+    - state: passenger_icon
+  - type: PresetIdCard
+    job: PenumbraPassenger
+  - type: IdCard
+    jobIcon: PenumbraJobIconPassenger
+
+- type: entity
+  parent: PenumbraIDCardBase
+  id: PenumbraIDCardSecurityOfficer
+  name: security officer ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: security_card
+    - state: security_icon
+  - type: PresetIdCard
+    job: PenumbraSecurityOfficer
+  - type: IdCard
+    jobIcon: PenumbraJobIconSecurityOfficer

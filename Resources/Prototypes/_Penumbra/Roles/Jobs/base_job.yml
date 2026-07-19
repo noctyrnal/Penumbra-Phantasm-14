@@ -1,0 +1,7 @@
+- type: jobIcon
+  id: PenumbraJobIcon
+  abstract: true
+  isShaded: true
+  locationPreference: Right
+  offset: 3
+  priority: 1
