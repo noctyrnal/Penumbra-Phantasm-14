@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/63b80211ba497c844503d5cc66f4711be776597e/icons/obj/clothing/masks.dmi, https://github.com/shiptest-ss13/Shiptest/blob/63b80211ba497c844503d5cc66f4711be776597e/icons/mob/clothing/mask.dmi, modified by github noctyrnal",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon"
+    },
+    {
+      "name": "equipped-MASK",
+      "directions": 4
+    },
+    {
+      "name": "equipped-MASK-reptilian",
+      "directions": 4
+    }
+  ]
+}

@@ -1,23 +1,53 @@
 - type: entity
-  parent: ClothingShoesBase
+  id: PenumbraClothingHandlingSFXBase
+  abstract: true
+  components:
+  - type: Clothing
+    equipSound:
+      path: /Audio/_Penumbra/Handling/clothing_on.ogg
+    unequipSound:
+      path: /Audio/_Penumbra/Handling/clothing_off.ogg
+
+- type: entity
+  id: PenumbraClothingHandlingSFXZipBase
+  abstract: true
+  components:
+  - type: Clothing
+    equipSound:
+      collection: PenumbraClothingHandlingZip
+    unequipSound:
+      path: /Audio/_Penumbra/Handling/clothing_off.ogg
+
+- type: entity
+  id: PenumbraClothingHandlingSFXArmorBase
+  abstract: true
+  components:
+  - type: Clothing
+    equipSound:
+      path: /Audio/_Penumbra/Handling/armorequip_1.ogg
+    unequipSound:
+      path: /Audio/_Penumbra/Handling/armorequip_2.ogg
+
+- type: entity
+  parent: [PenumbraClothingHandlingSFXBase, ClothingShoesBase]
   id: PenumbraClothingShoesBase
   suffix: Penumbra
   abstract: true
 
 - type: entity
-  parent: ClothingShoesBaseButcherable
+  parent: [PenumbraClothingHandlingSFXBase, ClothingShoesBaseButcherable]
   id: PenumbraClothingShoesBaseButcherable
   suffix: Penumbra
   abstract: true
 
 - type: entity
-  parent: ClothingShoesMilitaryBase
+  parent: [PenumbraClothingHandlingSFXBase, ClothingShoesMilitaryBase]
   id: PenumbraClothingShoesMilitaryBase
   suffix: Penumbra
   abstract: true
 
 - type: entity
-  parent: ClothingUniformBase
+  parent: [PenumbraClothingHandlingSFXZipBase, ClothingUniformBase]
   id: PenumbraClothingUniformBase
   suffix: Penumbra
   abstract: true
@@ -31,7 +61,7 @@
   - type: ShowJobIcons
 
 - type: entity
-  parent: ClothingHandsButcherable
+  parent: [PenumbraClothingHandlingSFXBase, ClothingHandsButcherable]
   id: PenumbraClothingHandsButcherable
   suffix: Penumbra
   abstract: true
@@ -46,13 +76,13 @@
   - type: FingerprintMask
 
 - type: entity
-  parent: ClothingBeltStorageBase
+  parent: [PenumbraClothingHandlingSFXBase, ClothingBeltStorageBase]
   id: PenumbraClothingBeltStorageBase
   suffix: Penumbra
   abstract: true
 
 - type: entity
-  parent: ClothingOuterArmorBase
+  parent: [PenumbraClothingHandlingSFXArmorBase, ClothingOuterArmorBase]
   id: PenumbraClothingOuterArmorBase
   suffix: Penumbra
   abstract: true
