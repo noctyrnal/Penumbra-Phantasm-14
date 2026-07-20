@@ -68,3 +68,17 @@
   sprite:
     sprite: _Penumbra/Decals/misc.rsi
     state: loadingarea_stripe_4
+
+- type: decal
+  id: PenumbraMiscWhiteDiagonal
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/misc.rsi
+    state: white_diagonal
+
+- type: decal
+  id: PenumbraMiscWhiteDiagonal2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/misc.rsi
+    state: white_diagonal2

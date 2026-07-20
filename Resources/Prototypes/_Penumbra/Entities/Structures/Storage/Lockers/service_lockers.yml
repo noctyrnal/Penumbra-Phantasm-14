@@ -15,3 +15,23 @@
   components:
   - type: AccessReader
     access: [["Hydroponics"]]
+
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerFreezer
+  name: freezer
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/freezer.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.50
+  - type: AntiRottingContainer
+
+- type: entity
+  parent: PenumbraLockerFreezer
+  id: PenumbraLockerFreezerKitchen
+  name: freezer
+  suffix: Penumbra, Kitchen
+  components:
+  - type: AccessReader
+    access: [ [ "Kitchen" ] ]

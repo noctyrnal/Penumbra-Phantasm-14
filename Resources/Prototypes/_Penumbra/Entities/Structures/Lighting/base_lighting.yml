@@ -171,3 +171,13 @@
       types:
         Heat: 2
     popupText: powered-light-component-burn-hand
+
+- type: entity
+  parent: PenumbraPoweredSmallLight
+  id: PenumbraPoweredSmallLightRed
+  suffix: Penumbra, Red
+  components:
+  - type: Sprite
+    color: "#eb4034"
+  - type: PoweredLight
+    hasLampOnSpawn: PenumbraLightBulbRed

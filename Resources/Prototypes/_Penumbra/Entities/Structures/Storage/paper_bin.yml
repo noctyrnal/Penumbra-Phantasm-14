@@ -1,0 +1,80 @@
+- type: entity
+  parent: PaperBin
+  id: PenumbraPaperBin
+  suffix: Penumbra, Empty
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Objects/Misc/paper.rsi
+  - type: ItemMapper
+    sprite: _Penumbra/Objects/Misc/paper.rsi
+
+- type: entity
+  parent: PenumbraPaperBin
+  id: PenumbraPaperBin5
+  suffix: Penumbra, 5
+  components:
+  - type: Bin
+    initialContents:
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    whitelist:
+      tags:
+      - Document
+      - Write
+
+- type: entity
+  parent: PenumbraPaperBin
+  id: PenumbraPaperBin10
+  suffix: Penumbra, 10
+  components:
+  - type: Bin
+    initialContents:
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    whitelist:
+      tags:
+      - Document
+      - Write
+
+- type: entity
+  parent: PenumbraPaperBin
+  id: PenumbraPaperBin20
+  suffix: Penumbra, 20
+  components:
+  - type: Bin
+    initialContents:
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    - Paper
+    whitelist:
+      tags:
+      - Document
+      - Write

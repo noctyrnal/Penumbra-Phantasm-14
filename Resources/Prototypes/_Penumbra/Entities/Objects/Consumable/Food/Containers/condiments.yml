@@ -1,0 +1,73 @@
+- type: entity
+  parent: BaseFoodCondiment
+  id: PenumbraBaseFoodCondimentBottle
+  abstract: true
+  suffix: Penumbra
+  components:
+  - type: Edible
+    edible: Drink
+    solution: food
+    destroyOnEmpty: false
+    utensil: None
+  - type: Openable
+    sound:
+      collection: pop
+    closeable: true
+  - type: Solution
+    solution:
+      maxVol: 50 # ~ 400 to 450ml
+  - type: RefillableSolution
+    solution: food
+  - type: Spillable
+    solution: food
+  - type: SolutionTransfer
+    canChangeTransferAmount: true
+    minTransferAmount: 5
+    maxTransferAmount: 30
+  - type: Appearance
+  - type: PhysicalComposition
+    materialComposition:
+      Glass: 50
+
+- type: entity
+  parent: PenumbraBaseFoodCondimentBottle
+  id: PenumbraFoodCondimentBottleEnzyme
+  name: universal enzyme
+  description: Used in cooking various dishes.
+  components:
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Enzyme
+        Quantity: 50
+  - type: Sprite
+    sprite: _Penumbra/Objects/Consumable/Food/condiments.rsi
+    state: bottle-enzyme
+  - type: Icon
+    sprite: _Penumbra/Objects/Consumable/Food/condiments.rsi
+    state: bottle-enzyme
+  - type: Tag
+    tags:
+      - Enzyme
+
+- type: entity
+  parent: FoodShakerSalt
+  id: PenumbraFoodShakerSalt
+  description: A shaker full of salt. Make sure the cap is on tight!
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Objects/Consumable/Food/condiments.rsi
+  - type: Icon
+    sprite: _Penumbra/Objects/Consumable/Food/condiments.rsi
+
+- type: entity
+  parent: FoodShakerPepper
+  id: PenumbraFoodShakerPepper
+  description: A handheld mill to grind down peppercorn. Often used to flavor food... or make people sneeze.
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Objects/Consumable/Food/condiments.rsi
+  - type: Icon
+    sprite: _Penumbra/Objects/Consumable/Food/condiments.rsi
