@@ -12,11 +12,17 @@
     radius: 8
     softness: 1
     offset: "0, -0.5"
+  - type: DirectionalOffset
+    northOffset: "0,0.2"
+    eastOffset: "0, 0.2"
+    southOffset: "0, 0.3"
+    westOffset: "0, 0.2"
 
 - type: entity
   parent: PenumbraAlwaysPoweredWallLight
   id: PenumbraPoweredlightEmpty
   name: light fixture
+  description: "A light fixture. Draws power and produces light when equipped with a light tube."
   suffix: Penumbra, Empty
   components:
   - type: Sprite
@@ -88,16 +94,24 @@
   name: small light fixture
   suffix: Penumbra, Always Powered
   components:
-    - type: PointLight
-      energy: 0.8
-      radius: 4
-      softness: 1.1
-      enabled: true
+  - type: PointLight
+    energy: 0.8
+    radius: 4
+    softness: 1.1
+    enabled: true
+  - type: DirectionalOffset
+    northOffset: "0,0.2"
+    eastOffset: "0, 0.2"
+    southOffset: "0, 0.3"
+    westOffset: "0, 0.2"
+  - type: PlacementReplacement
+    key: smalllights
 
 - type: entity
   parent: PenumbraSmallLight
   id: PenumbraPoweredSmallLightEmpty
   name: small light fixture
+  description: A light fixture. Draws power and produces light when equipped with a light bulb.
   suffix: Penumbra, Empty
   components:
   - type: Sprite
