@@ -12,9 +12,6 @@
   - type: Clickable
   - type: Climbable
     delay: 0.25
-  - type: Tag
-    tags:
-    - Platform
 
 - type: entity
   abstract: true

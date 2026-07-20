@@ -6,6 +6,8 @@
   name: light fixture
   suffix: Penumbra, Always powered
   components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Wallmounts/Lighting/light_tube.rsi
   - type: PointLight
     color: "#FFE4CE" # 5000K color temp
     energy: 0.9
@@ -13,10 +15,10 @@
     softness: 1
     offset: "0, -0.5"
   - type: DirectionalOffset
-    northOffset: "0,0.2"
-    eastOffset: "0, 0.2"
-    southOffset: "0, 0.3"
-    westOffset: "0, 0.2"
+    northOffset: "0,-1"
+    eastOffset: "0, -1"
+    southOffset: "0, -1"
+    westOffset: "0, -1"
 
 - type: entity
   parent: PenumbraAlwaysPoweredWallLight
@@ -26,7 +28,6 @@
   suffix: Penumbra, Empty
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/Lighting/light_tube.rsi
     state: empty
   - type: PointLight
     enabled: false
@@ -94,16 +95,18 @@
   name: small light fixture
   suffix: Penumbra, Always Powered
   components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Wallmounts/Lighting/light_bulb.rsi
   - type: PointLight
     energy: 0.8
     radius: 4
     softness: 1.1
     enabled: true
   - type: DirectionalOffset
-    northOffset: "0,0.2"
-    eastOffset: "0, 0.2"
-    southOffset: "0, 0.3"
-    westOffset: "0, 0.2"
+    northOffset: "0,-1"
+    eastOffset: "0, -1"
+    southOffset: "0, -1"
+    westOffset: "0, -1"
   - type: PlacementReplacement
     key: smalllights
 
@@ -115,7 +118,6 @@
   suffix: Penumbra, Empty
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/Lighting/light_small.rsi
     state: empty
   - type: AmbientSound
     enabled: false
