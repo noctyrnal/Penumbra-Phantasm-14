@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "license": "CC.BY.SA.3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/eff9cfcc45b352fe6f36826794cf1d4cde0a7d1e/icons/turf/decals/decals.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "siding_1"
+    },
+    {
+      "name": "siding_2"
+    },
+    {
+      "name": "siding_3"
+    },
+    {
+      "name": "siding_4"
+    },
+    {
+      "name": "siding_5"
+    },
+    {
+      "name": "siding_6"
+    },
+    {
+      "name": "siding_7"
+    },
+    {
+      "name": "siding_8"
+    },
+    {
+      "name": "siding_round_1"
+    },
+    {
+      "name": "siding_round_2"
+    },
+    {
+      "name": "siding_round_3"
+    },
+    {
+      "name": "siding_round_4"
+    },
+    {
+      "name": "siding_corner_1"
+    },
+    {
+      "name": "siding_corner_2"
+    },
+    {
+      "name": "siding_corner_3"
+    },
+    {
+      "name": "siding_corner_4"
+    },
+    {
+      "name": "siding_full"
+    }
+  ]
+}

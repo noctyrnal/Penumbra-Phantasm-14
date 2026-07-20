@@ -1,0 +1,70 @@
+﻿- type: decal
+  id: PenumbraMiscRust
+  tags: ["station", "dirty"]
+  defaultCleanable: true
+  sprite:
+    sprite: _Penumbra/Decals/misc.rsi
+    state: rust
+
+- type: decal
+  id: PenumbraMiscBoxCorner1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/misc.rsi
+    state: box_corner_1
+
+- type: decal
+  id: PenumbraMiscBoxCorner2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/misc.rsi
+    state: box_corner_2
+
+- type: decal
+  id: PenumbraMiscBoxCorner3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/misc.rsi
+    state: box_corner_3
+
+- type: decal
+  id: PenumbraMiscBoxCorner4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/misc.rsi
+    state: box_corner_4
+
+- type: decal
+  id: PenumbraMiscDelivery
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/misc.rsi
+    state: delivery
+
+- type: decal
+  id: PenumbraMiscLoadingAreaStripe1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/misc.rsi
+    state: loadingarea_stripe_1
+
+- type: decal
+  id: PenumbraMiscLoadingAreaStripe2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/misc.rsi
+    state: loadingarea_stripe_2
+
+- type: decal
+  id: PenumbraMiscLoadingAreaStripe3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/misc.rsi
+    state: loadingarea_stripe_3
+
+- type: decal
+  id: PenumbraMiscLoadingAreaStripe4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/misc.rsi
+    state: loadingarea_stripe_4

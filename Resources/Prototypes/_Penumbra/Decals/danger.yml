@@ -1,0 +1,118 @@
+﻿- type: decal
+  id: PenumbraDangerLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/danger.rsi
+    state: danger_1
+
+- type: decal
+  id: PenumbraDangerLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/danger.rsi
+    state: danger_2
+
+- type: decal
+  id: PenumbraDangerLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/danger.rsi
+    state: danger_3
+
+- type: decal
+  id: PenumbraDangerLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/danger.rsi
+    state: danger_4
+
+- type: decal
+  id: PenumbraDangerLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/danger.rsi
+    state: danger_5
+
+- type: decal
+  id: PenumbraDangerLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/danger.rsi
+    state: danger_6
+
+- type: decal
+  id: PenumbraDangerLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/danger.rsi
+    state: danger_7
+
+- type: decal
+  id: PenumbraDangerLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/danger.rsi
+    state: danger_8
+
+- type: decal
+  id: PenumbraDangerCorner1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/danger.rsi
+    state: danger_corner_1
+
+- type: decal
+  id: PenumbraDangerCorner2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/danger.rsi
+    state: danger_corner_2
+
+- type: decal
+  id: PenumbraDangerCorner3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/danger.rsi
+    state: danger_corner_3
+
+- type: decal
+  id: PenumbraDangerCorner4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/danger.rsi
+    state: danger_corner_4
+
+- type: decal
+  id: PenumbraDangerRound1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/danger.rsi
+    state: danger_round_1
+
+- type: decal
+  id: PenumbraDangerRound2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/danger.rsi
+    state: danger_round_2
+
+- type: decal
+  id: PenumbraDangerRound3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/danger.rsi
+    state: danger_round_3
+
+- type: decal
+  id: PenumbraDangerRound4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/danger.rsi
+    state: danger_round_4
+
+- type: decal
+  id: PenumbraDangerFull
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/danger.rsi
+    state: danger_full

@@ -1,0 +1,630 @@
+
+- type: decal
+  id: PenumbraTrimlineLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline.rsi
+    state: siding_1
+
+- type: decal
+  id: PenumbraTrimlineLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline.rsi
+    state: siding_2
+
+- type: decal
+  id: PenumbraTrimlineLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline.rsi
+    state: siding_3
+
+- type: decal
+  id: PenumbraTrimlineLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline.rsi
+    state: siding_4
+
+- type: decal
+  id: PenumbraTrimlineLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline.rsi
+    state: siding_5
+
+- type: decal
+  id: PenumbraTrimlineLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline.rsi
+    state: siding_6
+
+- type: decal
+  id: PenumbraTrimlineLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline.rsi
+    state: siding_7
+
+- type: decal
+  id: PenumbraTrimlineLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline.rsi
+    state: siding_8
+
+- type: decal
+  id: PenumbraTrimlineCorner1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline.rsi
+    state: siding_corner_1
+
+- type: decal
+  id: PenumbraTrimlineCorner2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline.rsi
+    state: siding_corner_2
+
+- type: decal
+  id: PenumbraTrimlineCorner3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline.rsi
+    state: siding_corner_3
+
+- type: decal
+  id: PenumbraTrimlineCorner4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline.rsi
+    state: siding_corner_4
+
+- type: decal
+  id: PenumbraTrimlineFull
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline.rsi
+    state: siding_full
+
+- type: decal
+  id: PenumbraTrimlineRound1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline.rsi
+    state: siding_round_1
+
+- type: decal
+  id: PenumbraTrimlineRound2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline.rsi
+    state: siding_round_2
+
+- type: decal
+  id: PenumbraTrimlineRound3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline.rsi
+    state: siding_round_3
+
+- type: decal
+  id: PenumbraTrimlineRound4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline.rsi
+    state: siding_round_4
+
+- type: decal
+  id: PenumbraTrimlineArrowsLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_arrows.rsi
+    state: siding_1
+
+- type: decal
+  id: PenumbraTrimlineArrowsLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_arrows.rsi
+    state: siding_2
+
+- type: decal
+  id: PenumbraTrimlineArrowsLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_arrows.rsi
+    state: siding_3
+
+- type: decal
+  id: PenumbraTrimlineArrowsLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_arrows.rsi
+    state: siding_4
+
+- type: decal
+  id: PenumbraTrimlineArrowsLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_arrows.rsi
+    state: siding_5
+
+- type: decal
+  id: PenumbraTrimlineArrowsLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_arrows.rsi
+    state: siding_6
+
+- type: decal
+  id: PenumbraTrimlineArrowsLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_arrows.rsi
+    state: siding_7
+
+- type: decal
+  id: PenumbraTrimlineArrowsLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_arrows.rsi
+    state: siding_8
+
+- type: decal
+  id: PenumbraTrimlineArrowsAltLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_arrows_alt.rsi
+    state: siding_1
+
+- type: decal
+  id: PenumbraTrimlineArrowsAltLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_arrows_alt.rsi
+    state: siding_2
+
+- type: decal
+  id: PenumbraTrimlineArrowsAltLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_arrows_alt.rsi
+    state: siding_3
+
+- type: decal
+  id: PenumbraTrimlineArrowsAltLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_arrows_alt.rsi
+    state: siding_4
+
+- type: decal
+  id: PenumbraTrimlineArrowsAltLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_arrows_alt.rsi
+    state: siding_5
+
+- type: decal
+  id: PenumbraTrimlineArrowsAltLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_arrows_alt.rsi
+    state: siding_6
+
+- type: decal
+  id: PenumbraTrimlineArrowsAltLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_arrows_alt.rsi
+    state: siding_7
+
+- type: decal
+  id: PenumbraTrimlineArrowsAltLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_arrows_alt.rsi
+    state: siding_8
+
+- type: decal
+  id: PenumbraTrimlineFillLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill.rsi
+    state: siding_1
+
+- type: decal
+  id: PenumbraTrimlineFillLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill.rsi
+    state: siding_2
+
+- type: decal
+  id: PenumbraTrimlineFillLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill.rsi
+    state: siding_3
+
+- type: decal
+  id: PenumbraTrimlineFillLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill.rsi
+    state: siding_4
+
+- type: decal
+  id: PenumbraTrimlineFillLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill.rsi
+    state: siding_5
+
+- type: decal
+  id: PenumbraTrimlineFillLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill.rsi
+    state: siding_6
+
+- type: decal
+  id: PenumbraTrimlineFillLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill.rsi
+    state: siding_7
+
+- type: decal
+  id: PenumbraTrimlineFillLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill.rsi
+    state: siding_8
+
+- type: decal
+  id: PenumbraTrimlineFillCorner1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill.rsi
+    state: siding_corner_1
+
+- type: decal
+  id: PenumbraTrimlineFillCorner2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill.rsi
+    state: siding_corner_2
+
+- type: decal
+  id: PenumbraTrimlineFillCorner3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill.rsi
+    state: siding_corner_3
+
+- type: decal
+  id: PenumbraTrimlineFillCorner4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill.rsi
+    state: siding_corner_4
+
+- type: decal
+  id: PenumbraTrimlineFillFull
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill.rsi
+    state: siding_full
+
+- type: decal
+  id: PenumbraTrimlineFillRound1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill.rsi
+    state: siding_round_1
+
+- type: decal
+  id: PenumbraTrimlineFillRound2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill.rsi
+    state: siding_round_2
+
+- type: decal
+  id: PenumbraTrimlineFillRound3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill.rsi
+    state: siding_round_3
+
+- type: decal
+  id: PenumbraTrimlineFillRound4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill.rsi
+    state: siding_round_4
+
+- type: decal
+  id: PenumbraTrimlineFillArrowsLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_arrows.rsi
+    state: siding_1
+
+- type: decal
+  id: PenumbraTrimlineFillArrowsLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_arrows.rsi
+    state: siding_2
+
+- type: decal
+  id: PenumbraTrimlineFillArrowsLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_arrows.rsi
+    state: siding_3
+
+- type: decal
+  id: PenumbraTrimlineFillArrowsLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_arrows.rsi
+    state: siding_4
+
+- type: decal
+  id: PenumbraTrimlineFillArrowsLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_arrows.rsi
+    state: siding_5
+
+- type: decal
+  id: PenumbraTrimlineFillArrowsLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_arrows.rsi
+    state: siding_6
+
+- type: decal
+  id: PenumbraTrimlineFillArrowsLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_arrows.rsi
+    state: siding_7
+
+- type: decal
+  id: PenumbraTrimlineFillArrowsLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_arrows.rsi
+    state: siding_8
+
+- type: decal
+  id: PenumbraTrimlineFillArrowsAltLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_arrows_alt.rsi
+    state: siding_1
+
+- type: decal
+  id: PenumbraTrimlineFillArrowsAltLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_arrows_alt.rsi
+    state: siding_2
+
+- type: decal
+  id: PenumbraTrimlineFillArrowsAltLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_arrows_alt.rsi
+    state: siding_3
+
+- type: decal
+  id: PenumbraTrimlineFillArrowsAltLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_arrows_alt.rsi
+    state: siding_4
+
+- type: decal
+  id: PenumbraTrimlineFillArrowsAltLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_arrows_alt.rsi
+    state: siding_5
+
+- type: decal
+  id: PenumbraTrimlineFillArrowsAltLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_arrows_alt.rsi
+    state: siding_6
+
+- type: decal
+  id: PenumbraTrimlineFillArrowsAltLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_arrows_alt.rsi
+    state: siding_7
+
+- type: decal
+  id: PenumbraTrimlineFillArrowsAltLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_arrows_alt.rsi
+    state: siding_8
+
+- type: decal
+  id: PenumbraTrimlineFillShrinkLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_shrink.rsi
+    state: siding_1
+
+- type: decal
+  id: PenumbraTrimlineFillShrinkLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_shrink.rsi
+    state: siding_2
+
+- type: decal
+  id: PenumbraTrimlineFillShrinkLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_shrink.rsi
+    state: siding_3
+
+- type: decal
+  id: PenumbraTrimlineFillShrinkLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_shrink.rsi
+    state: siding_4
+
+- type: decal
+  id: PenumbraTrimlineFillShrinkLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_shrink.rsi
+    state: siding_5
+
+- type: decal
+  id: PenumbraTrimlineFillShrinkLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_shrink.rsi
+    state: siding_6
+
+- type: decal
+  id: PenumbraTrimlineFillShrinkLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_shrink.rsi
+    state: siding_7
+
+- type: decal
+  id: PenumbraTrimlineFillShrinkLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_fill_shrink.rsi
+    state: siding_8
+
+- type: decal
+  id: PenumbraTrimlineWarnLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_warn.rsi
+    state: siding_1
+
+- type: decal
+  id: PenumbraTrimlineWarnLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_warn.rsi
+    state: siding_2
+
+- type: decal
+  id: PenumbraTrimlineWarnLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_warn.rsi
+    state: siding_3
+
+- type: decal
+  id: PenumbraTrimlineWarnLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_warn.rsi
+    state: siding_4
+
+- type: decal
+  id: PenumbraTrimlineWarnLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_warn.rsi
+    state: siding_5
+
+- type: decal
+  id: PenumbraTrimlineWarnLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_warn.rsi
+    state: siding_6
+
+- type: decal
+  id: PenumbraTrimlineWarnLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_warn.rsi
+    state: siding_7
+
+- type: decal
+  id: PenumbraTrimlineWarnLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_warn.rsi
+    state: siding_8
+
+- type: decal
+  id: PenumbraTrimlineWarnFillLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_warn_fill.rsi
+    state: siding_1
+
+- type: decal
+  id: PenumbraTrimlineWarnFillLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_warn_fill.rsi
+    state: siding_2
+
+- type: decal
+  id: PenumbraTrimlineWarnFillLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_warn_fill.rsi
+    state: siding_3
+
+- type: decal
+  id: PenumbraTrimlineWarnFillLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_warn_fill.rsi
+    state: siding_4
+
+- type: decal
+  id: PenumbraTrimlineWarnFillLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_warn_fill.rsi
+    state: siding_5
+
+- type: decal
+  id: PenumbraTrimlineWarnFillLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_warn_fill.rsi
+    state: siding_6
+
+- type: decal
+  id: PenumbraTrimlineWarnFillLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_warn_fill.rsi
+    state: siding_7
+
+- type: decal
+  id: PenumbraTrimlineWarnFillLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/trimline_warn_fill.rsi
+    state: siding_8

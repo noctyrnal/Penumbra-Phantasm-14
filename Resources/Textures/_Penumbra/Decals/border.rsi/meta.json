@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "license": "CC.BY.SA.3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/eff9cfcc45b352fe6f36826794cf1d4cde0a7d1e/icons/turf/decals/decals.dmi",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "border_1"
+    },
+    {
+      "name": "border_2"
+    },
+    {
+      "name": "border_3"
+    },
+    {
+      "name": "border_4"
+    },
+    {
+      "name": "border_5"
+    },
+    {
+      "name": "border_6"
+    },
+    {
+      "name": "border_7"
+    },
+    {
+      "name": "border_8"
+    },
+    {
+      "name": "border_full"
+    },
+    {
+      "name": "border_round_1"
+    },
+    {
+      "name": "border_round_2"
+    },
+    {
+      "name": "border_round_3"
+    },
+    {
+      "name": "border_round_4"
+    },
+    {
+      "name": "border_corner_1"
+    },
+    {
+      "name": "border_corner_2"
+    },
+    {
+      "name": "border_corner_3"
+    },
+    {
+      "name": "border_corner_4"
+    },
+    {
+      "name": "border_half_1"
+    },
+    {
+      "name": "border_half_2"
+    },
+    {
+      "name": "border_half_3"
+    },
+    {
+      "name": "border_half_4"
+    },
+    {
+      "name": "border_mono_full"
+    }
+  ]
+}

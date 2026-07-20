@@ -1,0 +1,153 @@
+﻿- type: decal
+  id: PenumbraBorderLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_1
+
+- type: decal
+  id: PenumbraBorderLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_2
+
+- type: decal
+  id: PenumbraBorderLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_3
+
+- type: decal
+  id: PenumbraBorderLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_4
+
+- type: decal
+  id: PenumbraBorderLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_5
+
+- type: decal
+  id: PenumbraBorderLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_6
+
+- type: decal
+  id: PenumbraBorderLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_7
+
+- type: decal
+  id: PenumbraBorderLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_8
+
+- type: decal
+  id: PenumbraBorderCorner1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_corner_1
+
+- type: decal
+  id: PenumbraBorderCorner2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_corner_2
+
+- type: decal
+  id: PenumbraBorderCorner3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_corner_3
+
+- type: decal
+  id: PenumbraBorderCorner4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_corner_4
+
+- type: decal
+  id: PenumbraBorderRound1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_round_1
+
+- type: decal
+  id: PenumbraBorderRound2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_round_2
+
+- type: decal
+  id: PenumbraBorderRound3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_round_3
+
+- type: decal
+  id: PenumbraBorderRound4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_round_4
+
+- type: decal
+  id: PenumbraBorderFull
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_full
+
+- type: decal
+  id: PenumbraBorderHalf1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_half_1
+
+- type: decal
+  id: PenumbraBorderHalf2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_half_2
+
+- type: decal
+  id: PenumbraBorderHalf3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_half_3
+
+- type: decal
+  id: PenumbraBorderHalf4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_half_4
+
+- type: decal
+  id: PenumbraBorderMonoFull
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border.rsi
+    state: border_mono_full

@@ -1,0 +1,671 @@
+﻿- type: decal
+  id: PenumbraSidingLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding.rsi
+    state: siding_1
+
+- type: decal
+  id: PenumbraSidingLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding.rsi
+    state: siding_2
+
+- type: decal
+  id: PenumbraSidingLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding.rsi
+    state: siding_3
+
+- type: decal
+  id: PenumbraSidingLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding.rsi
+    state: siding_4
+
+- type: decal
+  id: PenumbraSidingLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding.rsi
+    state: siding_5
+
+- type: decal
+  id: PenumbraSidingLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding.rsi
+    state: siding_6
+
+- type: decal
+  id: PenumbraSidingLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding.rsi
+    state: siding_7
+
+- type: decal
+  id: PenumbraSidingLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding.rsi
+    state: siding_8
+
+- type: decal
+  id: PenumbraSidingCorner1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding.rsi
+    state: siding_corner_1
+
+- type: decal
+  id: PenumbraSidingCorner2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding.rsi
+    state: siding_corner_2
+
+- type: decal
+  id: PenumbraSidingCorner3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding.rsi
+    state: siding_corner_3
+
+- type: decal
+  id: PenumbraSidingCorner4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding.rsi
+    state: siding_corner_4
+
+- type: decal
+  id: PenumbraSidingRound1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding.rsi
+    state: siding_round_1
+
+- type: decal
+  id: PenumbraSidingRound2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding.rsi
+    state: siding_round_2
+
+- type: decal
+  id: PenumbraSidingRound3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding.rsi
+    state: siding_round_3
+
+- type: decal
+  id: PenumbraSidingRound4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding.rsi
+    state: siding_round_4
+
+- type: decal
+  id: PenumbraSidingPlatingLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating.rsi
+    state: siding_1
+
+- type: decal
+  id: PenumbraSidingPlatingLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating.rsi
+    state: siding_2
+
+- type: decal
+  id: PenumbraSidingPlatingLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating.rsi
+    state: siding_3
+
+- type: decal
+  id: PenumbraSidingPlatingLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating.rsi
+    state: siding_4
+
+- type: decal
+  id: PenumbraSidingPlatingLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating.rsi
+    state: siding_5
+
+- type: decal
+  id: PenumbraSidingPlatingLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating.rsi
+    state: siding_6
+
+- type: decal
+  id: PenumbraSidingPlatingLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating.rsi
+    state: siding_7
+
+- type: decal
+  id: PenumbraSidingPlatingLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating.rsi
+    state: siding_8
+
+- type: decal
+  id: PenumbraSidingPlatingCorner1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating.rsi
+    state: siding_corner_1
+
+- type: decal
+  id: PenumbraSidingPlatingCorner2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating.rsi
+    state: siding_corner_2
+
+- type: decal
+  id: PenumbraSidingPlatingCorner3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating.rsi
+    state: siding_corner_3
+
+- type: decal
+  id: PenumbraSidingPlatingCorner4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating.rsi
+    state: siding_corner_4
+
+- type: decal
+  id: PenumbraSidingPlatingRound1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating.rsi
+    state: siding_round_1
+
+- type: decal
+  id: PenumbraSidingPlatingRound2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating.rsi
+    state: siding_round_2
+
+- type: decal
+  id: PenumbraSidingPlatingRound3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating.rsi
+    state: siding_round_3
+
+- type: decal
+  id: PenumbraSidingPlatingRound4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating.rsi
+    state: siding_round_4
+
+- type: decal
+  id: PenumbraSidingPlatingWideLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating_wide.rsi
+    state: siding_1
+
+- type: decal
+  id: PenumbraSidingPlatingWideLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating_wide.rsi
+    state: siding_2
+
+- type: decal
+  id: PenumbraSidingPlatingWideLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating_wide.rsi
+    state: siding_3
+
+- type: decal
+  id: PenumbraSidingPlatingWideLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating_wide.rsi
+    state: siding_4
+
+- type: decal
+  id: PenumbraSidingPlatingWideLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating_wide.rsi
+    state: siding_5
+
+- type: decal
+  id: PenumbraSidingPlatingWideLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating_wide.rsi
+    state: siding_6
+
+- type: decal
+  id: PenumbraSidingPlatingWideLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating_wide.rsi
+    state: siding_7
+
+- type: decal
+  id: PenumbraSidingPlatingWideLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating_wide.rsi
+    state: siding_8
+
+- type: decal
+  id: PenumbraSidingPlatingWideCorner1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating_wide.rsi
+    state: siding_corner_1
+
+- type: decal
+  id: PenumbraSidingPlatingWideCorner2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating_wide.rsi
+    state: siding_corner_2
+
+- type: decal
+  id: PenumbraSidingPlatingWideCorner3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating_wide.rsi
+    state: siding_corner_3
+
+- type: decal
+  id: PenumbraSidingPlatingWideCorner4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating_wide.rsi
+    state: siding_corner_4
+
+- type: decal
+  id: PenumbraSidingPlatingWideRound1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating_wide.rsi
+    state: siding_round_1
+
+- type: decal
+  id: PenumbraSidingPlatingWideRound2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating_wide.rsi
+    state: siding_round_2
+
+- type: decal
+  id: PenumbraSidingPlatingWideRound3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating_wide.rsi
+    state: siding_round_3
+
+- type: decal
+  id: PenumbraSidingPlatingWideRound4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_plating_wide.rsi
+    state: siding_round_4
+
+- type: decal
+  id: PenumbraSidingWoodWhiteLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_white_1
+
+- type: decal
+  id: PenumbraSidingWoodWhiteLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_white_2
+
+- type: decal
+  id: PenumbraSidingWoodWhiteLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_white_3
+
+- type: decal
+  id: PenumbraSidingWoodWhiteLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_white_4
+
+- type: decal
+  id: PenumbraSidingWoodWhiteLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_white_5
+
+- type: decal
+  id: PenumbraSidingWoodWhiteLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_white_6
+
+- type: decal
+  id: PenumbraSidingWoodWhiteLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_white_7
+
+- type: decal
+  id: PenumbraSidingWoodWhiteLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_white_8
+
+- type: decal
+  id: PenumbraSidingWoodWhiteCorner1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_white_corner_1
+
+- type: decal
+  id: PenumbraSidingWoodWhiteCorner2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_white_corner_2
+
+- type: decal
+  id: PenumbraSidingWoodWhiteCorner3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_white_corner_3
+
+- type: decal
+  id: PenumbraSidingWoodWhiteCorner4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_white_corner_4
+
+- type: decal
+  id: PenumbraSidingWoodWhiteRound1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_white_round_1
+
+- type: decal
+  id: PenumbraSidingWoodWhiteRound2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_white_round_2
+
+- type: decal
+  id: PenumbraSidingWoodWhiteRound3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_white_round_3
+
+- type: decal
+  id: PenumbraSidingWoodWhiteRound4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_white_round_4
+
+- type: decal
+  id: PenumbraSidingWoodLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_1
+
+- type: decal
+  id: PenumbraSidingWoodLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_2
+
+- type: decal
+  id: PenumbraSidingWoodLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_3
+
+- type: decal
+  id: PenumbraSidingWoodLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_4
+
+- type: decal
+  id: PenumbraSidingWoodLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_5
+
+- type: decal
+  id: PenumbraSidingWoodLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_6
+
+- type: decal
+  id: PenumbraSidingWoodLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_7
+
+- type: decal
+  id: PenumbraSidingWoodLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_8
+
+- type: decal
+  id: PenumbraSidingWoodCorner1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_corner_1
+
+- type: decal
+  id: PenumbraSidingWoodCorner2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_corner_2
+
+- type: decal
+  id: PenumbraSidingWoodCorner3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_corner_3
+
+- type: decal
+  id: PenumbraSidingWoodCorner4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_corner_4
+
+- type: decal
+  id: PenumbraSidingWoodRound1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_round_1
+
+- type: decal
+  id: PenumbraSidingWoodRound2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_round_2
+
+- type: decal
+  id: PenumbraSidingWoodRound3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_round_3
+
+- type: decal
+  id: PenumbraSidingWoodRound4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_round_4
+
+- type: decal
+  id: PenumbraSidingWoodMapleLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_maple_1
+
+- type: decal
+  id: PenumbraSidingWoodMapleLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_maple_2
+
+- type: decal
+  id: PenumbraSidingWoodMapleLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_maple_3
+
+- type: decal
+  id: PenumbraSidingWoodMapleLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_maple_4
+
+- type: decal
+  id: PenumbraSidingWoodMapleLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_maple_5
+
+- type: decal
+  id: PenumbraSidingWoodMapleLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_maple_6
+
+- type: decal
+  id: PenumbraSidingWoodMapleLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_maple_7
+
+- type: decal
+  id: PenumbraSidingWoodMapleLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_maple_8
+
+- type: decal
+  id: PenumbraSidingWoodMapleCorner1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_maple_corner_1
+
+- type: decal
+  id: PenumbraSidingWoodMapleCorner2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_maple_corner_2
+
+- type: decal
+  id: PenumbraSidingWoodMapleCorner3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_maple_corner_3
+
+- type: decal
+  id: PenumbraSidingWoodMapleCorner4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_maple_corner_4
+
+- type: decal
+  id: PenumbraSidingWoodMapleRound1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_maple_round_1
+
+- type: decal
+  id: PenumbraSidingWoodMapleRound2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_maple_round_2
+
+- type: decal
+  id: PenumbraSidingWoodMapleRound3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_maple_round_3
+
+- type: decal
+  id: PenumbraSidingWoodMapleRound4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/siding_wood.rsi
+    state: siding_wood_maple_round_4
