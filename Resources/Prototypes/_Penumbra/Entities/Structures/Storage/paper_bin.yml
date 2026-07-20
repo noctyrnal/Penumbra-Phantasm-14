@@ -5,6 +5,7 @@
   components:
   - type: Sprite
     sprite: _Penumbra/Objects/Misc/paper.rsi
+    offset: 0,0.2
   - type: ItemMapper
     sprite: _Penumbra/Objects/Misc/paper.rsi
 

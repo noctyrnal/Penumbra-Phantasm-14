@@ -1,0 +1,52 @@
+- type: entity
+  parent: SinkEmpty
+  id: PenumbraSinkEmpty
+  description: A sink used for washing one's hands and face.
+  suffix: Penumbra, Empty
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Furniture/sink.rsi
+    layers:
+    - state: sink
+    - map: [ "enum.SolutionContainerLayers.Fill" ]
+      state: sink-fill-1
+      visible: false
+  - type: DirectionalOffset
+    northOffset: "0, 0.1"
+    eastOffset: "0, 0.5"
+    southOffset: "0, 0.5"
+    westOffset: "0, 0.5"
+
+- type: entity
+  parent: PenumbraSinkEmpty
+  id: PenumbraSink
+  suffix: Penumbra
+  components:
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Water
+        Quantity: 480
+
+- type: entity
+  parent: PenumbraSink
+  id: PenumbraSinkKitchen
+  name: kitchen sink
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Furniture/sink.rsi
+    layers:
+      - state: sink_wide
+      - map: [ "enum.SolutionContainerLayers.Fill" ]
+        state: sink_wide-fill-1
+        visible: false
+  - type: SolutionContainerVisuals
+    maxFillLevels: 1
+    fillBaseName: sink_wide-fill-
+    solutionName: drainBuffer
+  - type: DirectionalOffset
+    northOffset: "0, 0.1"
+    eastOffset: "0, 0"
+    southOffset: "0, 0.7"
+    westOffset: "0, 0"
+

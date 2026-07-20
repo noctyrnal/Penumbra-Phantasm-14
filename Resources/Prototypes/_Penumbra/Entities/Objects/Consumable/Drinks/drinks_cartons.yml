@@ -1,0 +1,21 @@
+- type: entity
+  parent: DrinkCartonMilk
+  id: PenumbraDrinkCartonMilk
+  description: A carton full of milk. Freshly supplied from a mammal, a biogenerator, or chemically reproduced in a lab.
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Objects/Consumable/Drinks/Basic/milk.rsi
+
+- type: entity
+  parent: PenumbraDrinkCartonMilk
+  id: PenumbraDrinkCartonMilkFull
+  suffix: Penumbra, Full
+  components:
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Milk
+        Quantity: 120
+  - type: Tag
+    tags: [ ]

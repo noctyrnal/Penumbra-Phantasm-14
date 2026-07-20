@@ -1,0 +1,39 @@
+- type: job
+  id: PenumbraChef
+  name: penumbra-job-name-passenger
+  description: penumbra-job-description-passenger
+  playTimeTracker: PenumbraJobChef
+  startingGear: PenumbraSpawnPointChef
+  icon: "PenumbraJobIconChef"
+  supervisors: job-supervisors-everyone
+  access:
+  - Maintenance
+
+- type: startingGear
+  id: PenumbraChefGear
+  equipment:
+    id: PenumbraIDCardPassenger
+    ears: PenumbraClothingHeadsetPassenger
+
+- type: playTimeTracker
+  id: PenumbraJobChef
+
+- type: entity
+  parent: SpawnPointJobBase
+  id: PenumbraSpawnPointChef
+  name: chef spawn point
+  suffix: Penumbra
+  components:
+  - type: SpawnPoint
+    job_id: PenumbraChef
+  - type: Sprite
+    layers:
+      - state: green
+      - state: chef
+
+- type: jobIcon
+  parent: PenumbraJobIcon
+  id: PenumbraJobIconChef
+  icon:
+    sprite: /Textures/_Penumbra/Interface/job_icons.rsi
+    state: passenger
