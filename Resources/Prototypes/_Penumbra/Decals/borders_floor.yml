@@ -1,0 +1,587 @@
+﻿- type: decal
+  id: PenumbraBorderFloorLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor.rsi
+    state: siding_1
+
+- type: decal
+  id: PenumbraBorderFloorLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor.rsi
+    state: siding_2
+
+- type: decal
+  id: PenumbraBorderFloorLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor.rsi
+    state: siding_3
+
+- type: decal
+  id: PenumbraBorderFloorLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor.rsi
+    state: siding_4
+
+- type: decal
+  id: PenumbraBorderFloorLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor.rsi
+    state: siding_5
+
+- type: decal
+  id: PenumbraBorderFloorLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor.rsi
+    state: siding_6
+
+- type: decal
+  id: PenumbraBorderFloorLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor.rsi
+    state: siding_7
+
+- type: decal
+  id: PenumbraBorderFloorLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor.rsi
+    state: siding_8
+
+- type: decal
+  id: PenumbraBorderFloorCorner1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor.rsi
+    state: siding_corner_1
+
+- type: decal
+  id: PenumbraBorderFloorCorner2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor.rsi
+    state: siding_corner_2
+
+- type: decal
+  id: PenumbraBorderFloorCorner3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor.rsi
+    state: siding_corner_3
+
+- type: decal
+  id: PenumbraBorderFloorCorner4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor.rsi
+    state: siding_corner_4
+
+- type: decal
+  id: PenumbraBorderFloorBlackLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_black.rsi
+    state: siding_1
+
+- type: decal
+  id: PenumbraBorderFloorBlackLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_black.rsi
+    state: siding_2
+
+- type: decal
+  id: PenumbraBorderFloorBlackLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_black.rsi
+    state: siding_3
+
+- type: decal
+  id: PenumbraBorderFloorBlackLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_black.rsi
+    state: siding_4
+
+- type: decal
+  id: PenumbraBorderFloorBlackLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_black.rsi
+    state: siding_5
+
+- type: decal
+  id: PenumbraBorderFloorBlackLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_black.rsi
+    state: siding_6
+
+- type: decal
+  id: PenumbraBorderFloorBlackLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_black.rsi
+    state: siding_7
+
+- type: decal
+  id: PenumbraBorderFloorBlackLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_black.rsi
+    state: siding_8
+
+- type: decal
+  id: PenumbraBorderFloorBlackCorner1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_black.rsi
+    state: siding_corner_1
+
+- type: decal
+  id: PenumbraBorderFloorBlackCorner2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_black.rsi
+    state: siding_corner_2
+
+- type: decal
+  id: PenumbraBorderFloorBlackCorner3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_black.rsi
+    state: siding_corner_3
+
+- type: decal
+  id: PenumbraBorderFloorBlackCorner4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_black.rsi
+    state: siding_corner_4
+
+- type: decal
+  id: PenumbraBorderFloorBlackSurrogateLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_surrogate_black.rsi
+    state: siding_1
+
+- type: decal
+  id: PenumbraBorderFloorBlackSurrogateLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_surrogate_black.rsi
+    state: siding_2
+
+- type: decal
+  id: PenumbraBorderFloorBlackSurrogateLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_surrogate_black.rsi
+    state: siding_3
+
+- type: decal
+  id: PenumbraBorderFloorBlackSurrogateLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_surrogate_black.rsi
+    state: siding_4
+
+- type: decal
+  id: PenumbraBorderFloorBlackSurrogateLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_surrogate_black.rsi
+    state: siding_5
+
+- type: decal
+  id: PenumbraBorderFloorBlackSurrogateLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_surrogate_black.rsi
+    state: siding_6
+
+- type: decal
+  id: PenumbraBorderFloorBlackSurrogateLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_surrogate_black.rsi
+    state: siding_7
+
+- type: decal
+  id: PenumbraBorderFloorBlackSurrogateLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_surrogate_black.rsi
+    state: siding_8
+
+- type: decal
+  id: PenumbraBorderFloorBlackSurrogateCorner1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_surrogate_black.rsi
+    state: siding_corner_1
+
+- type: decal
+  id: PenumbraBorderFloorBlackSurrogateCorner2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_surrogate_black.rsi
+    state: siding_corner_2
+
+- type: decal
+  id: PenumbraBorderFloorBlackSurrogateCorner3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_surrogate_black.rsi
+    state: siding_corner_3
+
+- type: decal
+  id: PenumbraBorderFloorBlackSurrogateCorner4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_surrogate_black.rsi
+    state: siding_corner_4
+
+- type: decal
+  id: PenumbraBorderFloorTechLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech.rsi
+    state: siding_1
+
+- type: decal
+  id: PenumbraBorderFloorTechLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech.rsi
+    state: siding_2
+
+- type: decal
+  id: PenumbraBorderFloorTechLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech.rsi
+    state: siding_3
+
+- type: decal
+  id: PenumbraBorderFloorTechLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech.rsi
+    state: siding_4
+
+- type: decal
+  id: PenumbraBorderFloorTechLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech.rsi
+    state: siding_5
+
+- type: decal
+  id: PenumbraBorderFloorTechLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech.rsi
+    state: siding_6
+
+- type: decal
+  id: PenumbraBorderFloorTechLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech.rsi
+    state: siding_7
+
+- type: decal
+  id: PenumbraBorderFloorTechLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech.rsi
+    state: siding_8
+
+- type: decal
+  id: PenumbraBorderFloorTechCorner1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech.rsi
+    state: siding_corner_1
+
+- type: decal
+  id: PenumbraBorderFloorTechCorner2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech.rsi
+    state: siding_corner_2
+
+- type: decal
+  id: PenumbraBorderFloorTechCorner3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech.rsi
+    state: siding_corner_3
+
+- type: decal
+  id: PenumbraBorderFloorTechCorner4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech.rsi
+    state: siding_corner_4
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black.rsi
+    state: siding_1
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black.rsi
+    state: siding_2
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black.rsi
+    state: siding_3
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black.rsi
+    state: siding_4
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black.rsi
+    state: siding_5
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black.rsi
+    state: siding_6
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black.rsi
+    state: siding_7
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black.rsi
+    state: siding_8
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackCorner1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black.rsi
+    state: siding_corner_1
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackCorner2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black.rsi
+    state: siding_corner_2
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackCorner3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black.rsi
+    state: siding_corner_3
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackCorner4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black.rsi
+    state: siding_corner_4
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackAltLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black_alt.rsi
+    state: siding_1
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackAltLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black_alt.rsi
+    state: siding_2
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackAltLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black_alt.rsi
+    state: siding_3
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackAltLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black_alt.rsi
+    state: siding_4
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackAltLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black_alt.rsi
+    state: siding_5
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackAltLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black_alt.rsi
+    state: siding_6
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackAltLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black_alt.rsi
+    state: siding_7
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackAltLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black_alt.rsi
+    state: siding_8
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackAltCorner1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black_alt.rsi
+    state: siding_corner_1
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackAltCorner2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black_alt.rsi
+    state: siding_corner_2
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackAltCorner3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black_alt.rsi
+    state: siding_corner_3
+
+- type: decal
+  id: PenumbraBorderFloorTechBlackAltCorner4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_tech_black_alt.rsi
+    state: siding_corner_4
+
+- type: decal
+  id: PenumbraBorderFloorWhiteLine1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_white.rsi
+    state: siding_1
+
+- type: decal
+  id: PenumbraBorderFloorWhiteLine2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_white.rsi
+    state: siding_2
+
+- type: decal
+  id: PenumbraBorderFloorWhiteLine3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_white.rsi
+    state: siding_3
+
+- type: decal
+  id: PenumbraBorderFloorWhiteLine4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_white.rsi
+    state: siding_4
+
+- type: decal
+  id: PenumbraBorderFloorWhiteLine5
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_white.rsi
+    state: siding_5
+
+- type: decal
+  id: PenumbraBorderFloorWhiteLine6
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_white.rsi
+    state: siding_6
+
+- type: decal
+  id: PenumbraBorderFloorWhiteLine7
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_white.rsi
+    state: siding_7
+
+- type: decal
+  id: PenumbraBorderFloorWhiteLine8
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_white.rsi
+    state: siding_8
+
+- type: decal
+  id: PenumbraBorderFloorWhiteCorner1
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_white.rsi
+    state: siding_corner_1
+
+- type: decal
+  id: PenumbraBorderFloorWhiteCorner2
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_white.rsi
+    state: siding_corner_2
+
+- type: decal
+  id: PenumbraBorderFloorWhiteCorner3
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_white.rsi
+    state: siding_corner_3
+
+- type: decal
+  id: PenumbraBorderFloorWhiteCorner4
+  tags: ["station", "markings"]
+  sprite:
+    sprite: _Penumbra/Decals/border_floor_white.rsi
+    state: siding_corner_4

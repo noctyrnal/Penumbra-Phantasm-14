@@ -24,6 +24,18 @@
     },
     {
       "name": "box_corner_4"
+    },
+    {
+      "name": "loadingarea_stripe_1"
+    },
+    {
+      "name": "loadingarea_stripe_2"
+    },
+    {
+      "name": "loadingarea_stripe_3"
+    },
+    {
+      "name": "loadingarea_stripe_4"
     }
   ]
 }

@@ -23,3 +23,19 @@
   components:
   - type: Sprite
     state: stairs_dark
+
+- type: entity
+  parent: PenumbraStairs
+  id: PenumbraStairsHalf
+  suffix: Penumbra, Steel, Half
+  components:
+  - type: Sprite
+    state: stairs_steel_half
+
+- type: entity
+  parent: PenumbraStairs
+  id: PenumbraStairsHalfAlt
+  suffix: Penumbra, Steel, Half Alt
+  components:
+  - type: Sprite
+    state: stairs_steel_half_alt

@@ -1,7 +1,7 @@
 {
     "version": 1,
     "license": "CC-BY-SA-3.0",
-    "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/0e6f7fa64649dfbf52b8e4b71756e6625e50fdd0/icons/turf/floors/tiles.dmi, stairs_white and stairs_dark by github noctyrnal",
+    "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/0e6f7fa64649dfbf52b8e4b71756e6625e50fdd0/icons/turf/floors/tiles.dmi, https://github.com/shiptest-ss13/Shiptest/blob/eff9cfcc45b352fe6f36826794cf1d4cde0a7d1e/icons/turf/decals/decals.dmi, stairs_white and stairs_dark by github noctyrnal",
     "size": {
         "x": 32,
         "y": 32
@@ -17,6 +17,14 @@
 		},
 		{
 			"name": "stairs_dark",
+            "directions": 4
+		},
+		{
+			"name": "stairs_steel_half",
+            "directions": 4
+		},
+		{
+			"name": "stairs_steel_half_alt",
             "directions": 4
 		}
     ]

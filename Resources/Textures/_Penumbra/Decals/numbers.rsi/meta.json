@@ -8,34 +8,34 @@
   },
   "states": [
     {
-      "name": "0"
+      "name": "number_0"
     },
     {
-      "name": "1"
+      "name": "number_1"
     },
     {
-      "name": "2"
+      "name": "number_2"
     },
     {
-      "name": "3"
+      "name": "number_3"
     },
     {
-      "name": "4"
+      "name": "number_4"
     },
     {
-      "name": "5"
+      "name": "number_5"
     },
     {
-      "name": "6"
+      "name": "number_6"
     },
     {
-      "name": "7"
+      "name": "number_7"
     },
     {
-      "name": "8"
+      "name": "number_8"
     },
     {
-      "name": "9"
+      "name": "number_9"
     }
   ]
 }

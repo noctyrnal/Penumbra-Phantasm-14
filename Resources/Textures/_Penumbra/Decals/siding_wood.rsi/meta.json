@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "license": "CC.BY.SA.3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/eff9cfcc45b352fe6f36826794cf1d4cde0a7d1e/icons/turf/decals/decals.dmi, modified by github noctyrnal",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "siding_wood_white_1"
+    },
+    {
+      "name": "siding_wood_white_2"
+    },
+    {
+      "name": "siding_wood_white_3"
+    },
+    {
+      "name": "siding_wood_white_4"
+    },
+    {
+      "name": "siding_wood_white_5"
+    },
+    {
+      "name": "siding_wood_white_6"
+    },
+    {
+      "name": "siding_wood_white_7"
+    },
+    {
+      "name": "siding_wood_white_8"
+    },
+    {
+      "name": "siding_wood_white_round_1"
+    },
+    {
+      "name": "siding_wood_white_round_2"
+    },
+    {
+      "name": "siding_wood_white_round_3"
+    },
+    {
+      "name": "siding_wood_white_round_4"
+    },
+    {
+      "name": "siding_wood_white_corner_1"
+    },
+    {
+      "name": "siding_wood_white_corner_2"
+    },
+    {
+      "name": "siding_wood_white_corner_3"
+    },
+    {
+      "name": "siding_wood_white_corner_4"
+    },
+    {
+      "name": "siding_wood_maple_1"
+    },
+    {
+      "name": "siding_wood_maple_2"
+    },
+    {
+      "name": "siding_wood_maple_3"
+    },
+    {
+      "name": "siding_wood_maple_4"
+    },
+    {
+      "name": "siding_wood_maple_5"
+    },
+    {
+      "name": "siding_wood_maple_6"
+    },
+    {
+      "name": "siding_wood_maple_7"
+    },
+    {
+      "name": "siding_wood_maple_8"
+    },
+    {
+      "name": "siding_wood_maple_round_1"
+    },
+    {
+      "name": "siding_wood_maple_round_2"
+    },
+    {
+      "name": "siding_wood_maple_round_3"
+    },
+    {
+      "name": "siding_wood_maple_round_4"
+    },
+    {
+      "name": "siding_wood_maple_corner_1"
+    },
+    {
+      "name": "siding_wood_maple_corner_2"
+    },
+    {
+      "name": "siding_wood_maple_corner_3"
+    },
+    {
+      "name": "siding_wood_maple_corner_4"
+    },
+    {
+      "name": "siding_wood_1"
+    },
+    {
+      "name": "siding_wood_2"
+    },
+    {
+      "name": "siding_wood_3"
+    },
+    {
+      "name": "siding_wood_4"
+    },
+    {
+      "name": "siding_wood_5"
+    },
+    {
+      "name": "siding_wood_6"
+    },
+    {
+      "name": "siding_wood_7"
+    },
+    {
+      "name": "siding_wood_8"
+    },
+    {
+      "name": "siding_wood_round_1"
+    },
+    {
+      "name": "siding_wood_round_2"
+    },
+    {
+      "name": "siding_wood_round_3"
+    },
+    {
+      "name": "siding_wood_round_4"
+    },
+    {
+      "name": "siding_wood_corner_1"
+    },
+    {
+      "name": "siding_wood_corner_2"
+    },
+    {
+      "name": "siding_wood_corner_3"
+    },
+    {
+      "name": "siding_wood_corner_4"
+    }
+  ]
+}
