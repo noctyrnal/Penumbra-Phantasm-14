@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/ee363b32322011aa3c5e67f50d7644002d756e77/icons/obj/food/containers.dmi",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/ee363b32322011aa3c5e67f50d7644002d756e77/icons/obj/food/containers.dmi, bottle-vinegar by github noctyrnal",
   "size": {
     "x": 32,
     "y": 32
@@ -9,6 +9,24 @@
   "states": [
     {
       "name": "bottle-enzyme"
+    },
+    {
+      "name": "bottle-mayo"
+    },
+    {
+      "name": "bottle-ketchup"
+    },
+    {
+      "name": "bottle-bbq"
+    },
+    {
+      "name": "bottle-hotsauce"
+    },
+    {
+      "name": "bottle-olive"
+    },
+    {
+      "name": "bottle-vinegar"
     },
     {
       "name": "shaker-pepper"

@@ -1,19 +1,29 @@
 - type: job
   id: PenumbraChef
-  name: penumbra-job-name-passenger
-  description: penumbra-job-description-passenger
+  name: penumbra-job-name-chef
+  description: penumbra-job-description-chef
   playTimeTracker: PenumbraJobChef
   startingGear: PenumbraSpawnPointChef
   icon: "PenumbraJobIconChef"
-  supervisors: job-supervisors-everyone
+  supervisors: job-supervisors-hop
   access:
+  - Service
   - Maintenance
+  - Kitchen
+  extendedAccess:
+  - Hydroponics
+  - Bar
 
 - type: startingGear
   id: PenumbraChefGear
   equipment:
-    id: PenumbraIDCardPassenger
-    ears: PenumbraClothingHeadsetPassenger
+    id: PenumbraIDCardChef
+    ears: PenumbraClothingHeadsetService
+    jumpsuit: PenumbraClothingUniformService
+    outerClothing: ClothingOuterApronChef
+    head: ClothingHeadHatChef
+    gloves: PenumbraClothingHandsGlovesColorBlack
+    shoes: PenumbraClothingShoesColorBlack
 
 - type: playTimeTracker
   id: PenumbraJobChef
@@ -36,4 +46,4 @@
   id: PenumbraJobIconChef
   icon:
     sprite: /Textures/_Penumbra/Interface/job_icons.rsi
-    state: passenger
+    state: chef

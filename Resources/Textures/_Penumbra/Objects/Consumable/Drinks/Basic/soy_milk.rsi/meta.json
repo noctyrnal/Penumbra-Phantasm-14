@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Taken from shiptest-ss13 at https://github.com/spockye/Shiptest/blob/5bbdb59c5d7002a3457e0925268c104c36363b7e/icons/obj/food/containers.dmi, icon_open by github noctyrnal",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "icon"
+        },
+        {
+            "name": "icon_open"
+        }
+    ]
+}

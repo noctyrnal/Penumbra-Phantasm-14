@@ -32,7 +32,7 @@
 - type: entity
   parent: PenumbraBaseFoodCondimentBottle
   id: PenumbraFoodCondimentBottleEnzyme
-  name: universal enzyme
+  name: universal enzyme bottle
   description: Used in cooking various dishes.
   components:
   - type: Solution
@@ -49,6 +49,126 @@
   - type: Tag
     tags:
       - Enzyme
+
+- type: entity
+  parent: PenumbraBaseFoodCondimentBottle
+  id: PenumbraFoodCondimentBottleMayo
+  name: mayonnaise bottle
+  description: An oily condiment made from egg yolks.
+  components:
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Mayo
+        Quantity: 50
+  - type: Sprite
+    sprite: _Penumbra/Objects/Consumable/Food/condiments.rsi
+    state: bottle-mayo
+  - type: Icon
+    sprite: _Penumbra/Objects/Consumable/Food/condiments.rsi
+    state: bottle-mayo
+  - type: Tag
+    tags:
+      - Mayo
+
+- type: entity
+  parent: PenumbraBaseFoodCondimentBottle
+  id: PenumbraFoodCondimentBottleKetchup
+  name: ketchup bottle
+  description: Tomato ketchup, the old standby condiment.
+  components:
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Ketchup
+        Quantity: 50
+  - type: Sprite
+    sprite: _Penumbra/Objects/Consumable/Food/condiments.rsi
+    state: bottle-ketchup
+  - type: Icon
+    sprite: _Penumbra/Objects/Consumable/Food/condiments.rsi
+    state: bottle-ketchup
+  - type: Tag
+    tags:
+      - Ketchup
+
+- type: entity
+  parent: PenumbraBaseFoodCondimentBottle
+  id: PenumbraFoodCondimentBottleHotSauce
+  name: hot sauce bottle
+  description: A bottle of hot sauce, made from chili peppers. Good for spicing up food!
+  components:
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Hotsauce
+        Quantity: 50
+  - type: Sprite
+    sprite: _Penumbra/Objects/Consumable/Food/condiments.rsi
+    state: bottle-hotsauce
+  - type: Icon
+    sprite: _Penumbra/Objects/Consumable/Food/condiments.rsi
+    state: bottle-hotsauce
+  - type: Tag
+    tags:
+      - Hotsauce
+
+- type: entity
+  parent: PenumbraBaseFoodCondimentBottle
+  id: PenumbraFoodCondimentBottleBBQ
+  name: bbq sauce bottle
+  description: A bottle of sweet, savory barbeque sauce. It's sticky!
+  components:
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: BBQsauce
+        Quantity: 50
+  - type: Sprite
+    sprite: _Penumbra/Objects/Consumable/Food/condiments.rsi
+    state: bottle-bbq
+  - type: Icon
+    sprite: _Penumbra/Objects/Consumable/Food/condiments.rsi
+    state: bottle-bbq
+  - type: Tag
+    tags:
+      - BBQsauce
+
+- type: entity
+  parent: PenumbraBaseFoodCondimentBottle
+  id: PenumbraFoodCondimentBottleOliveoil
+  name: olive oil bottle
+  description: Oil made from pressed olives. Great for cooking.
+  components:
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: OilOlive
+        Quantity: 50
+  - type: Sprite
+    sprite: _Penumbra/Objects/Consumable/Food/condiments.rsi
+    state: bottle-olive
+  - type: Icon
+    sprite: _Penumbra/Objects/Consumable/Food/condiments.rsi
+    state: bottle-olive
+
+- type: entity
+  parent: PenumbraBaseFoodCondimentBottle
+  id: PenumbraFoodCondimentBottleVinegar
+  name: vinegar bottle
+  description: Used in cooking to enhance flavor.
+  components:
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Vinegar
+        Quantity: 50
+  - type: Sprite
+    sprite: _Penumbra/Objects/Consumable/Food/condiments.rsi
+    state: bottle-vinegar
+  - type: Icon
+    sprite: _Penumbra/Objects/Consumable/Food/condiments.rsi
+    state: bottle-vinegar
 
 - type: entity
   parent: FoodShakerSalt

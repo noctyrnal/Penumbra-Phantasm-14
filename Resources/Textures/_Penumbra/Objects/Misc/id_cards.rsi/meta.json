@@ -11,6 +11,9 @@
             "name": "default_card"
         },
         {
+            "name": "service_card"
+        },
+        {
             "name": "silver_card"
         },
         {
@@ -18,6 +21,9 @@
         },
         {
             "name": "passenger_icon"
+        },
+        {
+            "name": "chef_icon"
         },
         {
             "name": "security_icon"

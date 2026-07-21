@@ -1,0 +1,48 @@
+﻿# TODO PENUMBRA - Port RMC14 style vending
+# TODO PENUMBRA - Inventories
+
+- type: entity
+  parent: PenumbraBaseVendingMachine
+  id: PenumbraVendingMachineServiceGear
+  name: Service Equipment Rack
+  description: An automated gear rack hooked up directly to the cargo holds below, bringing up requested equipment at a buttons press.
+  components:
+  - type: VendingMachine
+    pack: PenumbraServiceGearInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  # - type: DatasetVocalizer TODO PENUMBRA
+  #   dataset: EngiDrobeAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/VendingMachines/service_gear.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 3.0
+    color: "#b89e2a"
+  - type: AccessReader
+    access: [["Service"]]
+  - type: ActivatableUIRequiresAccess
+
+- type: vendingMachineInventory
+  id: PenumbraServiceGearInventory
+  startingInventory:
+    PenumbraClothingHeadsetService: 2
+    ClothingOuterApronChef: 3
+    PenumbraClothingUniformService: 1
+    ClothingMaskItalianMoustache: 2
+    ClothingHeadHatChef: 2
+    PenumbraClothingShoesColorBlack: 2
+    ClothingBeltChef: 2
+  contrabandInventory:
+    ToyFigurineChef: 1
