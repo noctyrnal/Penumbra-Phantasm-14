@@ -82,6 +82,15 @@
 
 - type: entity
   parent: PenumbraAirlockMaint
+  id: PenumbraAirlockMaintCommandLocked
+  suffix: Penumbra, Solid, Maint, Command Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCommand ]
+
+- type: entity
+  parent: PenumbraAirlockMaint
   id: PenumbraAirlockMaintServiceLocked
   suffix: Penumbra, Solid, Maint, Service Access
   components:
