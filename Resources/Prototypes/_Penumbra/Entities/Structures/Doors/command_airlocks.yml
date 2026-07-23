@@ -143,6 +143,15 @@
 
 - type: entity
   parent: PenumbraAirlockGlassCommand
+  id: PenumbraAirlockGlassCommandASOLocked
+  suffix: Penumbra, Glass, Command, Auxiliary Support Officer Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsHeadOfPersonnel ]
+
+- type: entity
+  parent: PenumbraAirlockGlassCommand
   id: PenumbraAirlockGlassCommandRDLocked
   suffix: Penumbra, Glass, Command, Research Director Access
   components:

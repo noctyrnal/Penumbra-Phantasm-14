@@ -91,6 +91,16 @@
 
 - type: entity
   parent: PenumbraAirlockMaint
+  id: PenumbraAirlockMaintASOLocked
+  suffix: Penumbra, Solid, Maint, ASO Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsHeadOfPersonnel ]
+
+
+- type: entity
+  parent: PenumbraAirlockMaint
   id: PenumbraAirlockMaintServiceLocked
   suffix: Penumbra, Solid, Maint, Service Access
   components:

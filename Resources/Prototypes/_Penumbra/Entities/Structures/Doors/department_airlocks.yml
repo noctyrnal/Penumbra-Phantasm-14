@@ -41,6 +41,15 @@
 - type: entity
   parent: PenumbraAirlockSecurity
   id: PenumbraAirlockSecurityLawyerLocked
+  suffix: Penumbra, Solid, Security, Lawyer Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLawyer ]
+
+- type: entity
+  parent: PenumbraAirlockSecurity
+  id: PenumbraAirlockSecurityJointLawyerLocked
   suffix: Penumbra, Solid, Security, Security/Lawyer Access
   components:
   - type: ContainerFill

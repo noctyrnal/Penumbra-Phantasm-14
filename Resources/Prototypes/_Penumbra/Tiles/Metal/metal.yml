@@ -139,5 +139,25 @@
   footstepSounds:
     collection: FootstepHull
   itemDrop: FloorTileItemSteel
-  heatCapacity: 100000 #/tg/ has this set as "INFINITY." I don't know if that exists here so I've just added an extra 0
+  heatCapacity: 100000
   indestructible: true
+
+- type: tile
+  parent: PenumbraFloorHullReinforced
+  id: PenumbraFloorHullReinforcedDiagonal1
+  sprite: /Textures/_Penumbra/Tiles/Metal/hull_reinforced_diagonal_1.png
+
+- type: tile
+  parent: PenumbraFloorHullReinforced
+  id: PenumbraFloorHullReinforcedDiagonal2
+  sprite: /Textures/_Penumbra/Tiles/Metal/hull_reinforced_diagonal_2.png
+
+- type: tile
+  parent: PenumbraFloorHullReinforced
+  id: PenumbraFloorHullReinforcedDiagonal3
+  sprite: /Textures/_Penumbra/Tiles/Metal/hull_reinforced_diagonal_3.png
+
+- type: tile
+  parent: PenumbraFloorHullReinforced
+  id: PenumbraFloorHullReinforcedDiagonal4
+  sprite: /Textures/_Penumbra/Tiles/Metal/hull_reinforced_diagonal_4.png
