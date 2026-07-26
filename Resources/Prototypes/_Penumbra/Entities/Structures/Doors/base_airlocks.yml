@@ -81,6 +81,43 @@
       board: [ DoorElectronicsMaintenance ]
 
 - type: entity
+  parent: PenumbraAirlockMaint
+  id: PenumbraAirlockMaintCommandLocked
+  suffix: Penumbra, Solid, Maint, Command Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsCommand ]
+
+- type: entity
+  parent: PenumbraAirlockMaint
+  id: PenumbraAirlockMaintASOLocked
+  suffix: Penumbra, Solid, Maint, ASO Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsHeadOfPersonnel ]
+
+
+- type: entity
+  parent: PenumbraAirlockMaint
+  id: PenumbraAirlockMaintServiceLocked
+  suffix: Penumbra, Solid, Maint, Service Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsService ]
+
+- type: entity
+  parent: PenumbraAirlockMaint
+  id: PenumbraAirlockMaintKitchenLocked
+  suffix: Penumbra, Solid, Maint, Kitchen Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsKitchen ]
+
+- type: entity
   parent: PenumbraAirlockGlass
   id: PenumbraAirlockGlassMaint
   suffix: Penumbra, Glass, Maint, No Access

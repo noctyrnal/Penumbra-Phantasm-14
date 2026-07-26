@@ -1,0 +1,49 @@
+- type: job
+  id: PenumbraChef
+  name: penumbra-job-name-chef
+  description: penumbra-job-description-chef
+  playTimeTracker: PenumbraJobChef
+  startingGear: PenumbraSpawnPointChef
+  icon: "PenumbraJobIconChef"
+  supervisors: job-supervisors-hop
+  access:
+  - Service
+  - Maintenance
+  - Kitchen
+  extendedAccess:
+  - Hydroponics
+  - Bar
+
+- type: startingGear
+  id: PenumbraChefGear
+  equipment:
+    id: PenumbraIDCardChef
+    ears: PenumbraClothingHeadsetService
+    jumpsuit: PenumbraClothingUniformService
+    outerClothing: ClothingOuterApronChef
+    head: ClothingHeadHatChef
+    gloves: PenumbraClothingHandsGlovesColorBlack
+    shoes: PenumbraClothingShoesColorBlack
+
+- type: playTimeTracker
+  id: PenumbraJobChef
+
+- type: entity
+  parent: SpawnPointJobBase
+  id: PenumbraSpawnPointChef
+  name: chef spawn point
+  suffix: Penumbra
+  components:
+  - type: SpawnPoint
+    job_id: PenumbraChef
+  - type: Sprite
+    layers:
+      - state: green
+      - state: chef
+
+- type: jobIcon
+  parent: PenumbraJobIcon
+  id: PenumbraJobIconChef
+  icon:
+    sprite: /Textures/_Penumbra/Interface/job_icons.rsi
+    state: chef

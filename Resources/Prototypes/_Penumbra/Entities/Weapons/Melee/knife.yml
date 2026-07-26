@@ -1,0 +1,20 @@
+- type: entity
+  parent: KitchenKnife
+  id: PenumbraKitchenKnife
+  description: A general purpose Chef's Knife, guaranteed to stay sharp for years to come.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Objects/Weapons/Melee/kitchen_knife.rsi
+  - type: Item
+    sprite: _Penumbra/Objects/Weapons/Melee/kitchen_knife.rsi
+
+- type: entity
+  parent: ButchCleaver
+  id: PenumbraButchCleaver
+  description: A huge thing used for chopping and chopping up meat.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Objects/Weapons/Melee/cleaver.rsi
+    state: icon
+  - type: Item
+    sprite: _Penumbra/Objects/Weapons/Melee/cleaver.rsi

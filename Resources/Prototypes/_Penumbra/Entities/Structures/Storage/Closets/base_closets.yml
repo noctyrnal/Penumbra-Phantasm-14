@@ -50,6 +50,37 @@
   - type: Sprite
     sprite: _Penumbra/Structures/Storage/Closets/emergency.rsi
 
+- type: entityTable
+  id: PenumbraFillLockerEmergencyStandard
+  table: !type:AllSelector
+    children:
+    - id: ClothingMaskBreath
+    - id: ClothingOuterSuitEmergency
+    - !type:GroupSelector
+      children:
+      - id: EmergencyOxygenTankFilled
+      - id: OxygenTankFilled
+    - id: ToolboxEmergencyFilled
+      prob: 0.5
+    - id: MedkitOxygenFilled
+      prob: 0.2
+    - id: WeaponFlareGun
+      prob: 0.1
+    - id: BoxMRE
+      prob: 0.1
+    - !type:NestedSelector
+      tableId: FillEmergencyInflatables
+
+- type: entity
+  parent: PenumbraClosetEmergency
+  id: PenumbraClosetEmergencyFilledRandom
+  suffix: Penumbra, Filled, Random
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: PenumbraFillLockerEmergencyStandard
+
 - type: entity
   parent: PenumbraClosetBase
   id: PenumbraClosetFire
@@ -58,6 +89,35 @@
   components:
   - type: Sprite
     sprite: _Penumbra/Structures/Storage/Closets/fire.rsi
+
+- type: entityTable
+  id: PenumbraFillLockerFireStandard # TODO PENUMBRA - Contents
+  table: !type:AllSelector
+    children:
+    - id: ClothingOuterSuitFire
+    - id: ClothingHeadHelmetFire
+    - id: ClothingMaskGas
+    - !type:GroupSelector
+      children:
+      - id: EmergencyOxygenTankFilled
+      - id: OxygenTankFilled
+    - id: CrowbarRed
+    - !type:GroupSelector
+      children:
+      - id: FireExtinguisher
+        weight: 98
+      - id: SprayBottleWater #It's just budget cut after budget cut man
+        weight: 2
+
+- type: entity
+  parent: PenumbraClosetFire
+  id: PenumbraClosetFireFilled
+  suffix: Penumbra, Filled
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: PenumbraFillLockerFireStandard
 
 # Biohazard
 

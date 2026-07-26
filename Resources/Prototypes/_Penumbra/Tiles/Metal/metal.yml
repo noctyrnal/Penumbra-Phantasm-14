@@ -119,3 +119,45 @@
   id: PenumbraFloorWhiteMetalMini
   sprite: /Textures/_Penumbra/Tiles/Metal/white_mini.png
   itemDrop: FloorTileItemSteel
+
+# Hull
+
+- type: tile
+  parent: PenumbraBaseShipTile
+  id: PenumbraFloorHull
+  name: tiles-hull
+  sprite: /Textures/Tiles/hull.png
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: FloorTileItemSteel #probably should not be normally obtainable, but the game shits itself and dies when you try to put null here
+
+- type: tile
+  parent: PenumbraBaseShipTile
+  id: PenumbraFloorHullReinforced
+  name: tiles-hull-reinforced
+  sprite: /Textures/Tiles/hull_reinforced.png
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: FloorTileItemSteel
+  heatCapacity: 100000
+  indestructible: true
+
+- type: tile
+  parent: PenumbraFloorHullReinforced
+  id: PenumbraFloorHullReinforcedDiagonal1
+  sprite: /Textures/_Penumbra/Tiles/Metal/hull_reinforced_diagonal_1.png
+
+- type: tile
+  parent: PenumbraFloorHullReinforced
+  id: PenumbraFloorHullReinforcedDiagonal2
+  sprite: /Textures/_Penumbra/Tiles/Metal/hull_reinforced_diagonal_2.png
+
+- type: tile
+  parent: PenumbraFloorHullReinforced
+  id: PenumbraFloorHullReinforcedDiagonal3
+  sprite: /Textures/_Penumbra/Tiles/Metal/hull_reinforced_diagonal_3.png
+
+- type: tile
+  parent: PenumbraFloorHullReinforced
+  id: PenumbraFloorHullReinforcedDiagonal4
+  sprite: /Textures/_Penumbra/Tiles/Metal/hull_reinforced_diagonal_4.png

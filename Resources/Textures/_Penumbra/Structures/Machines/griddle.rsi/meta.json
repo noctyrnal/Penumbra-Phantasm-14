@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/65bddd27eb25289067a4bd797d817863e6ecf6e8/icons/obj/machines/kitchen.dmi, modifed by github noctyrnal",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon"
+    },
+    {
+      "name": "low"
+    },
+    {
+      "name": "medium"
+    },
+    {
+      "name": "high"
+    }
+  ]
+}

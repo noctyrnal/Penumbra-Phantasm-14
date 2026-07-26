@@ -25,6 +25,8 @@
     - WhitelistChameleon
     - WhitelistChameleonIdCard
 
+# Civilian
+
 - type: entity
   parent: PenumbraIDCardBase
   id: PenumbraIDCardPassenger
@@ -38,6 +40,24 @@
     job: PenumbraPassenger
   - type: IdCard
     jobIcon: PenumbraJobIconPassenger
+
+# Service
+
+- type: entity
+  parent: PenumbraIDCardBase
+  id: PenumbraIDCardChef
+  name: chef ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: service_card
+    - state: chef_icon
+  - type: PresetIdCard
+    job: PenumbraChef
+  - type: IdCard
+    jobIcon: PenumbraJobIconChef
+
+# Security
 
 - type: entity
   parent: PenumbraIDCardBase

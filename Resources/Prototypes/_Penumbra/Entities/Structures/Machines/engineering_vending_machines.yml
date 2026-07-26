@@ -42,16 +42,22 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
-  parent: VendingMachineEngiDrobe
+  parent: PenumbraBaseVendingMachine
   id: PenumbraVendingMachineEngiGear
   name: Engineering Equipment Rack
   description: An automated gear rack hooked up directly to the cargo holds below, bringing up requested equipment at a buttons press.
   components:
-  - type: Transform
-    noRot: false
+  - type: VendingMachine
+    pack: PenumbraEngiGearInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  - type: DatasetVocalizer
+    dataset: EngiDrobeAds
+  - type: SpeakOnUIClosed
+    pack: GenericVendGoodbyes
   - type: Sprite
     sprite: _Penumbra/Structures/Machines/VendingMachines/engi_gear.rsi
-    snapCardinals: false
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
@@ -60,3 +66,33 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 3.0
+    color: "#b89e2a"
+  - type: AccessReader
+    access: [["Engineering"]]
+  - type: ActivatableUIRequiresAccess
+  - type: AmbientMusicMarkerEngineering
+
+- type: vendingMachineInventory
+  id: PenumbraEngiGearInventory
+  startingInventory:
+    ClothingBackpackDuffelEngineering: 3
+    ClothingBackpackSatchelEngineering: 3
+    ClothingBackpackEngineering: 3
+    ClothingUniformJumpsuitEngineering: 3
+    ClothingUniformJumpskirtEngineering: 3
+    ClothingUniformJumpsuitEngineeringHazard: 3
+    ClothingShoesColorBlack: 3
+    ClothingOuterVestHazard: 3
+    ClothingShoesBootsWork: 3
+    ClothingHeadHatHardhatYellow: 3
+    ClothingHeadHatHardhatOrange: 3
+    ClothingHeadsetEngineering: 3
+    ClothingOuterWinterEngi: 2
+    ClothingNeckScarfStripedOrange: 3
+    ClothingShoesBootsWinterEngi: 2
+  contrabandInventory:
+    ToyFigurineEngineer: 1
+    ToyFigurineChiefEngineer: 1

@@ -12,6 +12,11 @@
     noRot: false
   - type: Transform
     noRot: false
+  - type: DirectionalOffset
+    northOffset: "0, 0"
+    eastOffset: "0, 0.2"
+    southOffset: "0, 0.1"
+    westOffset: "0, 0.2"
 
 - type: entity
   parent: PenumbraBaseFilingCabinet

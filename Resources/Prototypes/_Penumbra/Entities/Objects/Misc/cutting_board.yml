@@ -1,0 +1,11 @@
+- type: entity
+  parent: BaseItem
+  id: PenumbraCuttingBoard
+  name: cutting board
+  description: Processing food before electricity was cool, because you can just do your regular cutting on the table next to this right?
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Objects/Misc/cutting_board.rsi
+    drawDepth: SmallObjects
+    state: cutting_board

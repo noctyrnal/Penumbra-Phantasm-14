@@ -1,0 +1,7 @@
+- type: entity
+  parent: KitchenReagentGrinder
+  id: PenumbraKitchenReagentGrinder
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/grinder.rsi

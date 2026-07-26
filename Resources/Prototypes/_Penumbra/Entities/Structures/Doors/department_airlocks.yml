@@ -41,6 +41,15 @@
 - type: entity
   parent: PenumbraAirlockSecurity
   id: PenumbraAirlockSecurityLawyerLocked
+  suffix: Penumbra, Solid, Security, Lawyer Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsLawyer ]
+
+- type: entity
+  parent: PenumbraAirlockSecurity
+  id: PenumbraAirlockSecurityJointLawyerLocked
   suffix: Penumbra, Solid, Security, Security/Lawyer Access
   components:
   - type: ContainerFill
@@ -196,12 +205,30 @@
 
 - type: entity
   parent: PenumbraAirlock
+  id: PenumbraAirlockServiceLocked
+  suffix: Penumbra, Solid, Service, Service Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsService ]
+
+- type: entity
+  parent: PenumbraAirlock
   id: PenumbraAirlockServiceHydroLocked
   suffix: Penumbra, Solid, Service, Hydro Access
   components:
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsHydroponics ]
+
+- type: entity
+  parent: PenumbraAirlock
+  id: PenumbraAirlockServiceKitchenLocked
+  suffix: Penumbra, Solid, Service, Kitchen Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsKitchen ]
 
 - type: entity
   parent: PenumbraAirlockGlass
@@ -211,6 +238,15 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsHydroponics ]
+
+- type: entity
+  parent: PenumbraAirlockGlassFull
+  id: PenumbraAirlockGlassFullServiceLocked
+  suffix: Penumbra, Glass, Service, Service Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsService ]
 
 - type: entity
   parent: PenumbraAirlock

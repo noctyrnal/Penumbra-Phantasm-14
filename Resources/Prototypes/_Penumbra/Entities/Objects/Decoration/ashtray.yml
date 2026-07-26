@@ -1,0 +1,8 @@
+- type: entity
+  parent: Ashtray
+  id: PenumbraAshtray
+  description: A bowl. Put your cigarette butts in it.
+  suffix: Penumbra
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Objects/Decoration/ashtray.rsi

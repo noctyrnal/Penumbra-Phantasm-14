@@ -32,6 +32,15 @@
 
 - type: entity
   parent: PenumbraAirlockCommand
+  id: PenumbraAirlockCommandASOLocked
+  suffix: Penumbra, Solid, Command, ASO Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsHeadOfPersonnel ]
+
+- type: entity
+  parent: PenumbraAirlockCommand
   id: PenumbraAirlockCommandCMOLocked
   suffix: Penumbra, Solid, Command, Chief Medical Officer Access
   components:
@@ -131,6 +140,15 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsHeadOfSecurity ]
+
+- type: entity
+  parent: PenumbraAirlockGlassCommand
+  id: PenumbraAirlockGlassCommandASOLocked
+  suffix: Penumbra, Glass, Command, Auxiliary Support Officer Access
+  components:
+  - type: ContainerFill
+    containers:
+      board: [ DoorElectronicsHeadOfPersonnel ]
 
 - type: entity
   parent: PenumbraAirlockGlassCommand

@@ -170,11 +170,11 @@
 
 - type: entity
   parent: PenumbraHolopad
-  id: PenumbraHolopadCommandHop
-  suffix: Penumbra, HoP
+  id: PenumbraHolopadCommandAso
+  suffix: Penumbra, ASO
   components:
   - type: Label
-    currentLabel: holopad-command-hop
+    currentLabel: holopad-command-aso
 
 - type: entity
   parent: PenumbraHolopad

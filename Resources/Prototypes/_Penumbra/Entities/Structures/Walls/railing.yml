@@ -137,3 +137,27 @@
         acts: [ "Destruction" ]
   - type: Construction
     node: railingCornerSmall
+
+- type: entity
+  parent: PenumbraRailing
+  id: PenumbraRailingPlatform
+  suffix: Penumbra, Draws Over Platforms
+  components:
+  - type: Sprite
+    drawDepth: SmallObjects
+
+- type: entity
+  parent: PenumbraRailingCorner
+  id: PenumbraRailingCornerPlatform
+  suffix: Penumbra, Draws Over Platforms
+  components:
+  - type: Sprite
+    drawDepth: SmallObjects
+
+- type: entity
+  parent: PenumbraRailingCornerSmall
+  id: PenumbraRailingCornerSmallPlatform
+  suffix: Penumbra, Draws Over Platforms
+  components:
+  - type: Sprite
+    drawDepth: SmallObjects

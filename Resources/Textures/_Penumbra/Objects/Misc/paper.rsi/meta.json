@@ -12,6 +12,12 @@
     },
     {
       "name": "paper_words"
+    },
+    {
+      "name": "paper_bin0"
+    },
+    {
+      "name": "paper_bin1"
     }
   ]
 }

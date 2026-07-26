@@ -152,6 +152,10 @@
       "directions": 4
     },
     {
+      "name": "frame",
+      "directions": 4
+    },
+    {
       "name": "closed",
       "directions": 4
     },

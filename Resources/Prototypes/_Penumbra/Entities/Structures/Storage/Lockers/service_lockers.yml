@@ -15,3 +15,53 @@
   components:
   - type: AccessReader
     access: [["Hydroponics"]]
+
+- type: entity
+  parent: PenumbraLockerBase
+  id: PenumbraLockerFreezer
+  name: freezer
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Storage/Closets/freezer.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.50
+  - type: AntiRottingContainer
+
+- type: entity
+  parent: PenumbraLockerFreezer
+  id: PenumbraLockerFreezerKitchen
+  suffix: Penumbra, Kitchen
+  components:
+  - type: AccessReader
+    access: [ [ "Kitchen" ] ]
+
+- type: entity
+  parent: PenumbraLockerFreezerKitchen
+  id: PenumbraLockerFreezerKitchenFilled
+  suffix: Penumbra, Kitchen, Filled
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      entity_storage: !type:NestedSelector
+        tableId: PenumbraFillFreezer
+
+- type: entityTable
+  id: PenumbraFillFreezer
+  table: !type:AllSelector
+    children:
+    - id: FoodMeat
+      amount: 8
+    - id: FoodCabbage
+      amount: 6
+    - id: FoodPotato
+      amount: 6
+    - id: FoodTomato
+      amount: 4
+    - id: FoodMeatChicken
+      amount: 2
+    - id: FoodOnion
+      amount: 2
+    - id: PenumbraDrinkCartonMilkFull
+      amount: 2
+    - id: FoodContainerEgg
+      amount: 2

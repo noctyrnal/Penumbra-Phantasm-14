@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "license": null,
-  "copyright": null,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/70eb53d73a24dcd98f6b6bae19e8df365860eb77/icons/obj/atmospherics/pipes/disposal.dmi",
   "size": {
     "x": 32,
     "y": 32

@@ -21,3 +21,15 @@
     lightEnergy: 0.8
     lightRadius: 4
     lightSoftness: 1.1
+
+- type: entity
+  parent: LightBulb
+  id: PenumbraLightBulbRed
+  suffix: Penumbra
+  components:
+  - type: LightBulb
+    bulb: Bulb
+    color: "#eb4034" # red
+    lightEnergy: 0.8
+    lightRadius: 4
+    lightSoftness: 1.1

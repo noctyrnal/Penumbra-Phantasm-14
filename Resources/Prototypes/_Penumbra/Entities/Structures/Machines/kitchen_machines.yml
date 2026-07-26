@@ -1,0 +1,154 @@
+- type: entity
+  parent: BaseHeaterMachine
+  id: PenumbraKitchenGriddle
+  name: griddle
+  description: A heated flat cooktop for all your cooking needs.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/griddle.rsi
+    drawdepth: Objects
+    snapCardinals: true
+    layers:
+    - state: icon
+    - map: ["enum.EntityHeaterVisuals.Setting"]
+      shader: unshaded
+      visible: false
+  - type: ApcPowerReceiver
+    powerLoad: 0
+  - type: EntityHeater
+    settingSound:
+      path: /Audio/Weapons/click.ogg
+      params:
+        volume: -6
+  - type: ItemPlacer
+    maxEntities: 4
+    whitelist:
+      components:
+      - Temperature
+  - type: PlaceableSurface
+  - type: Machine
+    board: ElectricGrillMachineCircuitboard
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.EntityHeaterVisuals.Setting:
+        enum.EntityHeaterVisuals.Setting:
+          Off: { visible: false }
+          Low: { visible: true, state: low }
+          Medium: { visible: true, state: medium }
+          High: { visible: true, state: high }
+
+- type: entity
+  parent: KitchenMicrowave
+  id: PenumbraKitchenMicrowave
+  description: Cooks and boils stuff.
+  suffix: Penumbra
+  components:
+  - type: Microwave
+    capacity: 5
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/microwave.rsi
+
+- type: entity
+  parent: [ BaseMachinePowered, ConstructibleMachine ]
+  id: PenumbraKitchenOven # TODO PENUMBRA - Unique features?
+  name: oven
+  description: An industrial electric oven.
+  suffix: Penumbra
+  components:
+  - type: Microwave
+    capacity: 25
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.PowerDeviceVisuals.VisualState:
+        enum.MicrowaveVisualizerLayers.Base:
+          Idle: { state: "oven" }
+          Broken: { state: "oven_b" }
+          Cooking: { state: "oven" }
+        enum.MicrowaveVisualizerLayers.BaseUnlit:
+          Idle: { state: "oven_unlit" }
+          Broken: { state: "oven_unlit" }
+          Cooking: { state: "oven_running_unlit" }
+      enum.PowerDeviceVisuals.Powered:
+        enum.MicrowaveVisualizerLayers.BaseUnlit:
+          True: { visible: true }
+          False: { visible: false }
+  - type: ActivatableUI
+    key: enum.MicrowaveUiKey.Key
+  - type: DeviceLinkSink
+    ports:
+    - On
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: BasicDevice
+  - type: WirelessNetworkConnection
+    range: 200
+  - type: UserInterface
+    interfaces:
+      enum.MicrowaveUiKey.Key:
+        type: MicrowaveBoundUserInterface
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.3,-0.16,0.3,0.16"
+        density: 190
+        mask:
+        - TabletopMachineMask
+        layer:
+        - TabletopMachineLayer
+  - type: Sprite
+    sprite: _Penumbra/Structures/Machines/oven.rsi
+    drawdepth: Objects
+    snapCardinals: true
+    layers:
+    - state: oven
+      map: ["enum.MicrowaveVisualizerLayers.Base"]
+    - state: oven_unlit
+      shader: unshaded
+      map: ["enum.MicrowaveVisualizerLayers.BaseUnlit"]
+      visible: false
+  - type: Destructible
+    thresholds:
+    - trigger: # Excess damage, don't spawn entities
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Breakage"]
+  - type: Explosive
+    explosionType: Default
+    maxIntensity: 10
+    totalIntensity: 5
+    intensitySlope: 5
+    canCreateVacuum: false
+    deleteAfterExplosion: false
+  - type: ApcPowerReceiver
+    powerLoad: 5
+  - type: PowerState
+    idlePowerDraw: 5
+    workingPowerDraw: 1000
+  - type: Machine
+    board: MicrowaveMachineCircuitboard
+  - type: ContainerContainer
+    containers:
+      microwave_entity_container: !type:Container
+      machine_board: !type:Container
+      machine_parts: !type:Container
+  - type: EmptyOnMachineDeconstruct
+    containers:
+    - microwave_entity_container
+  - type: GuideHelp
+    guides:
+    - Chef
+    - FoodRecipes
+  - type: DamageExaminable

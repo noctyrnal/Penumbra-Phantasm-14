@@ -3,6 +3,7 @@
   id: PenumbraFaxMachine
   name: fax machine
   description: A long range fax machine utilised for multi-sector communication between encrypted parties - Because, even in the 22nd Century, paper is still the most reliable form of communication.
+  suffix: Penumbra
   components:
   - type: Sprite
     sprite: _Penumbra/Structures/Machines/fax_machine.rsi
@@ -19,3 +20,12 @@
         enum.FaxMachineVisuals.VisualState:
           Printing: { state: printing }
           Normal: {state: icon}
+
+- type: entity
+  parent: PenumbraFaxMachine
+  id: PenumbraFaxMachineCaptain
+  suffix: Penumbra, Captain
+  components:
+    - type: FaxMachine
+      name: "Captain's Office"
+      receiveNukeCodes: true

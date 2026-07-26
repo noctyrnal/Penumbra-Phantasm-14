@@ -1,0 +1,43 @@
+- type: entity
+  parent: BaseStructure
+  id: PenumbraHedge
+  name: hedge
+  description: A large bushy hedge.
+  suffix: Penumbra
+  components:
+  - type: Transform
+    noRot: true
+  - type: Sprite
+    drawdepth: Walls
+    sprite: _Penumbra/Structures/hedge.rsi
+    layers:
+    - state: full
+  - type: Icon
+    sprite: _Penumbra/Structures/hedge.rsi
+    state: full
+  - type: IconSmooth
+    key: hedge
+    base: hedge
+  - type: Damageable
+    damageModifierSet: Wood
+  - type: Injurable
+    damageContainer: Wood
+  - type: Physics
+    bodyType: Static
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 100
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]

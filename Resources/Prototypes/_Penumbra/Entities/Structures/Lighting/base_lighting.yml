@@ -6,21 +6,28 @@
   name: light fixture
   suffix: Penumbra, Always powered
   components:
+  - type: Sprite
+    sprite: _Penumbra/Structures/Wallmounts/Lighting/light_tube.rsi
   - type: PointLight
     color: "#FFE4CE" # 5000K color temp
     energy: 0.9
     radius: 8
     softness: 1
     offset: "0, -0.5"
+  - type: DirectionalOffset
+    northOffset: "0,-1"
+    eastOffset: "0, -1"
+    southOffset: "0, -1"
+    westOffset: "0, -1"
 
 - type: entity
   parent: PenumbraAlwaysPoweredWallLight
   id: PenumbraPoweredlightEmpty
   name: light fixture
+  description: "A light fixture. Draws power and produces light when equipped with a light tube."
   suffix: Penumbra, Empty
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/Lighting/light_tube.rsi
     state: empty
   - type: PointLight
     enabled: false
@@ -88,20 +95,29 @@
   name: small light fixture
   suffix: Penumbra, Always Powered
   components:
-    - type: PointLight
-      energy: 0.8
-      radius: 4
-      softness: 1.1
-      enabled: true
+  - type: Sprite
+    sprite: _Penumbra/Structures/Wallmounts/Lighting/light_bulb.rsi
+  - type: PointLight
+    energy: 0.8
+    radius: 4
+    softness: 1.1
+    enabled: true
+  - type: DirectionalOffset
+    northOffset: "0,-1"
+    eastOffset: "0, -1"
+    southOffset: "0, -1"
+    westOffset: "0, -1"
+  - type: PlacementReplacement
+    key: smalllights
 
 - type: entity
   parent: PenumbraSmallLight
   id: PenumbraPoweredSmallLightEmpty
   name: small light fixture
+  description: A light fixture. Draws power and produces light when equipped with a light bulb.
   suffix: Penumbra, Empty
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/Lighting/light_small.rsi
     state: empty
   - type: AmbientSound
     enabled: false
@@ -155,3 +171,13 @@
       types:
         Heat: 2
     popupText: powered-light-component-burn-hand
+
+- type: entity
+  parent: PenumbraPoweredSmallLight
+  id: PenumbraPoweredSmallLightRed
+  suffix: Penumbra, Red
+  components:
+  - type: Sprite
+    color: "#eb4034"
+  - type: PoweredLight
+    hasLampOnSpawn: PenumbraLightBulbRed

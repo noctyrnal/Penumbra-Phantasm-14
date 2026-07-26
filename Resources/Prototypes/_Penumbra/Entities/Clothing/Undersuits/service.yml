@@ -1,0 +1,10 @@
+- type: entity
+  parent: PenumbraClothingUniformBase
+  id: PenumbraClothingUniformService
+  name: service uniform
+  description: A dress shirt and slacks worn by the more culinary inclined members of the service department.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Clothing/Undersuits/Service/service.rsi
+  - type: Clothing
+    sprite: _Penumbra/Clothing/Undersuits/Service/service.rsi

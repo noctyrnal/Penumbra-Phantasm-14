@@ -1,0 +1,59 @@
+- type: entity
+  parent: [ReagentPacket, ItemHeftyBase]
+  id: PenumbraReagentContainerFlour
+  name: flour sack
+  description: A big bag of flour. Good for baking!
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Objects/Consumable/Food/ingredients.rsi
+    state: flour
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Flour
+        Quantity: 120
+
+- type: entity
+  parent: [ReagentPacket, ItemHeftyBase]
+  id: PenumbraReagentContainerCornmeal
+  name: cornmeal sack
+  description: A big bag of cornmeal. Good for cooking!
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Objects/Consumable/Food/ingredients.rsi
+    state: cornmeal
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Cornmeal
+        Quantity: 120
+
+- type: entity
+  parent: [ReagentPacket, ItemHeftyBase]
+  id: PenumbraReagentContainerSugar
+  name: sugar sack
+  description: A bag of sugar. Used for sweetening, typically. There's nothing stopping you from eating it straight...
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Objects/Consumable/Food/ingredients.rsi
+    state: sugar
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Sugar
+        Quantity: 120
+
+- type: entity
+  parent: [ReagentPacket, ItemHeftyBase]
+  id: PenumbraReagentContainerRice
+  name: rice sack
+  description: A bag of dried, bleached rice. Don't go feeding birds these.
+  components:
+  - type: Sprite
+    sprite: _Penumbra/Objects/Consumable/Food/ingredients.rsi
+    state: rice
+  - type: Solution
+    solution:
+      reagents:
+      - ReagentId: Rice
+        Quantity: 120

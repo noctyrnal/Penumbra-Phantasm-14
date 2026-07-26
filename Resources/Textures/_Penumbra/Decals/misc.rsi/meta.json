@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "license": "CC.BY.SA.3.0",
+  "license": "CC-BY-SA-3.0",
   "copyright": "Taken from shiptest-ss13 at https://github.com/shiptest-ss13/Shiptest/blob/eff9cfcc45b352fe6f36826794cf1d4cde0a7d1e/icons/turf/decals/decals.dmi",
   "size": {
     "x": 32,
@@ -36,6 +36,12 @@
     },
     {
       "name": "loadingarea_stripe_4"
+    },
+    {
+      "name": "white_diagonal"
+    },
+    {
+      "name": "white_diagonal2"
     }
   ]
 }
